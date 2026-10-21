@@ -330,15 +330,11 @@ with tabs[0]:
 
     # Customer metrics
     with col1:
-        if not filtered_customers.empty:
-            if "Customer_ID" in filtered_customers.columns:
-                total_customers = filtered_customers["Customer_ID"].nunique()
-            else:
-                total_customers = len(filtered_customers)
-
-            show_metric("Customers", f"{total_customers:,}")
-        else:
-            show_metric("Customers", "N/A")
+       if not filtered_customers.empty:
+    total_customers = len(filtered_customers)
+    show_metric("Customer Records", f"{total_customers:,}")
+else:
+    show_metric("Customer Records", "0")
 
     # Monthly recurring revenue
     with col2:
