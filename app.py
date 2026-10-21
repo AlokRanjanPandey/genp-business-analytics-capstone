@@ -330,14 +330,16 @@ with tabs[0]:
 
     # Customer metrics
     with col1:
-       if not filtered_customers.empty:
-    total_customers = len(filtered_customers)
-    show_metric("Customer Records", f"{total_customers:,}")
-else:
-    show_metric("Customer Records", "0")
+        if not filtered_customers.empty:
+            total_customers = len(filtered_customers)
+            show_metric("Customer Records", f"{total_customers:,}")
+        else:
+            show_metric("Customer Records", "0")
 
     # Monthly recurring revenue
     with col2:
+        # Keep your existing revenue metric code here
+
         if "MRR_USD" in filtered_customers.columns:
             mrr = numeric_series(filtered_customers, "MRR_USD").sum()
             show_metric("Customer MRR", money(mrr))
