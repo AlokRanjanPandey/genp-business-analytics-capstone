@@ -16,14 +16,13 @@ st.set_page_config(
 
 st.title("📊 GenP Technologies")
 st.subheader("Business Analytics Dashboard")
-
-st.write(
-    "Analyze sales, marketing, customer support, "
-    "financial performance, and customer retention."
+st.caption(
+    "Analyzing customer growth, sales performance, marketing efficiency, "
+    "support operations, and financial health."
 )
 
 # =====================================================
-# 2. LOAD THE FIVE CSV DATASETS
+# 2. DATASET FILES
 # =====================================================
 
 DATA_DIR = Path(__file__).parent
@@ -49,10 +48,7 @@ for dataset_name, filename in REQUIRED_FILES.items():
     file_path = DATA_DIR / filename
 
     if not file_path.is_file():
-        errors.append(
-            f"{filename} was not found beside app.py."
-        )
-        datasets[dataset_name] = pd.DataFrame()
+        errors.append(f"{filename} was not found in the GitHub repository.")
         continue
 
     try:
@@ -61,211 +57,255 @@ for dataset_name, filename in REQUIRED_FILES.items():
             file_path.stat().st_mtime
         )
     except Exception as error:
-        errors.append(
-            f"{filename}: {type(error).__name__}: {error}"
-        )
-        datasets[dataset_name] = pd.DataFrame()
+        errors.append(f"{filename}: {error}")
 
-if errors:
-    st.error("Some datasets could not be loaded.")
 
-    for error in errors:
-        st.write(f"- {error}")
+# Show dataset loading status
+with st.expander("Dataset loading status", expanded=bool(errors)):
+    for name, filename in REQUIRED_FILES.items():
+        if name in datasets:
+            st.success(
+                f"{filename}: loaded successfully "
+                f"({len(datasets[name]):,} rows)"
+            )
+        else:
+            st.error(f"{filename}: not loaded")
 
-    st.write("Files currently found in the app folder:")
+    if errors:
+        st.markdown("**Details**")
+        for error in errors:
+            st.write(f"- {error}")
 
-    try:
-        for file_path in sorted(DATA_DIR.iterdir()):
-            st.write(f"- {file_path.name}")
-    except Exception:
-        st.write("Unable to list the app folder.")
+        st.write("Files currently found in the app folder:")
+        try:
+            for file_path in sorted(DATA_DIR.iterdir()):
+                if file_path.is_file():
+                    st.write(f"- {file_path.name}")
+        except Exception as error:
+            st.write(f"Could not list files: {error}")
 
-    st.info(
-        "Check that all five CSV files are committed to the "
-        "same GitHub folder as app.py, and that their names "
-        "match the filenames listed in the code."
+
+if not datasets:
+    st.error(
+        "No datasets could be loaded. Check that your CSV files "
+        "are uploaded to the same GitHub folder as app.py."
     )
-
     st.stop()
 
-customers = datasets["Customers"]
-marketing = datasets["Marketing"]
-financials = datasets["Financials"]
-sales = datasets["Sales"]
-support = datasets["Support"]
-
-st.success("All five datasets loaded successfully.")
-
-with st.expander("Dataset loading details"):
-    for name, df in datasets.items():
-        st.write(
-            f"**{name}:** {len(df):,} rows and "
-            f"{len(df.columns):,} columns"
-        )
 
 # =====================================================
 # 3. HELPER FUNCTIONS
 # =====================================================
 
-def number_sum(df, column):
+def get_df(name):
+    return datasets.get(name, pd.DataFrame())
+
+
+def has_columns(df, columns):
+    return not df.empty and all(col in df.columns for col in columns)
+
+
+def numeric_series(df, column):
     if column not in df.columns:
-        return 0.0
+        return pd.Series(dtype="float64")
 
-    return pd.to_numeric(
-        df[column], errors="coerce"
-    ).sum()
-
-
-def number_mean(df, column):
-    if column not in df.columns:
-        return None
-
-    values = pd.to_numeric(
-        df[column], errors="coerce"
-    ).dropna()
-
-    if values.empty:
-        return None
-
-    return values.mean()
+    return pd.to_numeric(df[column], errors="coerce")
 
 
 def money(value):
-    if value is None or pd.isna(value):
+    if pd.isna(value):
         return "N/A"
 
     return f"${value:,.0f}"
 
 
-def display_number(value, suffix="", decimals=1):
-    if value is None or pd.isna(value):
+def percentage(value):
+    if pd.isna(value):
         return "N/A"
 
-    return f"{value:,.{decimals}f}{suffix}"
+    return f"{value:.1f}%"
 
 
-def show_kpis(items):
-    columns = st.columns(len(items))
-
-    for column, (label, value) in zip(columns, items):
-        column.metric(label, value)
+def show_empty(message="No data available for this section."):
+    st.info(message)
 
 
-def yes_no_percentage(series):
-    """Convert common Yes/No or True/False values to a percentage."""
-    normalized = series.astype(str).str.strip().str.lower()
+def show_bar_chart(df, category, value, title, top_n=10):
+    if not has_columns(df, [category, value]):
+        show_empty(f"Required columns for {title} are unavailable.")
+        return
 
-    mapping = {
-        "yes": 1,
-        "true": 1,
-        "1": 1,
-        "met": 1,
-        "no": 0,
-        "false": 0,
-        "0": 0,
-        "not met": 0,
-    }
+    chart_df = df[[category, value]].copy()
+    chart_df[value] = pd.to_numeric(chart_df[value], errors="coerce")
+    chart_df = chart_df.dropna(subset=[category, value])
 
-    converted = normalized.map(mapping).dropna()
+    if chart_df.empty:
+        show_empty(f"No usable data for {title}.")
+        return
 
-    if converted.empty:
-        numeric = pd.to_numeric(series, errors="coerce").dropna()
+    chart_df = (
+        chart_df.groupby(category, as_index=False)[value]
+        .sum()
+        .sort_values(value, ascending=False)
+        .head(top_n)
+        .set_index(category)
+    )
 
-        if numeric.empty:
-            return None
+    st.subheader(title)
+    st.bar_chart(chart_df)
 
-        if numeric.isin([0, 1]).all():
-            return numeric.mean() * 100
 
-        return None
-
-    return converted.mean() * 100
+def show_metric(label, value):
+    st.metric(label, value)
 
 
 # =====================================================
-# 4. SIDEBAR FILTERS
+# 4. DATA REFERENCES
 # =====================================================
 
-st.sidebar.title("Dashboard filters")
-st.sidebar.caption("Use these filters to explore the data.")
+customers = get_df("Customers")
+marketing = get_df("Marketing")
+financials = get_df("Financials")
+sales = get_df("Sales")
+support = get_df("Support")
 
-regions = (
-    sorted(customers["Region"].dropna().astype(str).unique())
-    if "Region" in customers.columns else []
-)
 
-tiers = (
-    sorted(
-        customers["Customer_Tier"]
-        .dropna().astype(str).unique()
+# =====================================================
+# 5. SIDEBAR FILTERS
+# =====================================================
+
+st.sidebar.header("Dashboard Filters")
+
+selected_region = "All"
+
+region_sources = []
+
+if "Region" in customers.columns:
+    region_sources.append(customers["Region"])
+
+if "Region" in sales.columns:
+    region_sources.append(sales["Region"])
+
+if "Target_Region" in marketing.columns:
+    region_sources.append(marketing["Target_Region"])
+
+if region_sources:
+    regions = pd.concat(region_sources).dropna().astype(str).unique().tolist()
+    regions = sorted(regions)
+
+    selected_region = st.sidebar.selectbox(
+        "Region",
+        ["All"] + regions
     )
-    if "Customer_Tier" in customers.columns else []
-)
 
-scenarios = (
-    sorted(
-        financials["Scenario"]
-        .dropna().astype(str).unique()
+selected_tier = "All"
+
+if "Customer_Tier" in customers.columns:
+    tiers = sorted(
+        customers["Customer_Tier"].dropna().astype(str).unique().tolist()
     )
-    if "Scenario" in financials.columns else []
-)
 
-selected_regions = st.sidebar.multiselect(
-    "Customer region",
-    regions,
-    default=regions
-)
+    selected_tier = st.sidebar.selectbox(
+        "Customer Tier",
+        ["All"] + tiers
+    )
 
-selected_tiers = st.sidebar.multiselect(
-    "Customer tier",
-    tiers,
-    default=tiers
-)
+selected_scenario = "All"
 
-selected_scenarios = st.sidebar.multiselect(
-    "Financial scenario",
-    scenarios,
-    default=scenarios
-)
+if "Scenario" in financials.columns:
+    scenarios = sorted(
+        financials["Scenario"].dropna().astype(str).unique().tolist()
+    )
 
-# Create filtered copies of the datasets.
-c = customers.copy()
-m = marketing.copy()
-f = financials.copy()
-s = sales.copy()
-t = support.copy()
+    selected_scenario = st.sidebar.selectbox(
+        "Financial Scenario",
+        ["All"] + scenarios
+    )
 
-if "Region" in c.columns:
-    c = c[c["Region"].astype(str).isin(selected_regions)]
 
-if "Customer_Tier" in c.columns:
-    c = c[
-        c["Customer_Tier"].astype(str).isin(selected_tiers)
+# Apply filters where relevant
+filtered_customers = customers.copy()
+filtered_sales = sales.copy()
+filtered_marketing = marketing.copy()
+filtered_financials = financials.copy()
+filtered_support = support.copy()
+
+if selected_region != "All":
+    if "Region" in filtered_customers.columns:
+        filtered_customers = filtered_customers[
+            filtered_customers["Region"].astype(str) == selected_region
+        ]
+
+    if "Region" in filtered_sales.columns:
+        filtered_sales = filtered_sales[
+            filtered_sales["Region"].astype(str) == selected_region
+        ]
+
+    if "Target_Region" in filtered_marketing.columns:
+        filtered_marketing = filtered_marketing[
+            filtered_marketing["Target_Region"].astype(str) == selected_region
+        ]
+
+    # Financial and support tables do not necessarily have a Region column.
+    # Filter them through matching customer IDs when possible.
+    if (
+        "Customer_ID" in filtered_financials.columns
+        and "Customer_ID" in filtered_customers.columns
+    ):
+        valid_ids = filtered_customers["Customer_ID"].dropna().unique()
+        filtered_financials = filtered_financials[
+            filtered_financials["Customer_ID"].isin(valid_ids)
+        ]
+
+    if (
+        "Customer_ID" in filtered_support.columns
+        and "Customer_ID" in filtered_customers.columns
+    ):
+        valid_ids = filtered_customers["Customer_ID"].dropna().unique()
+        filtered_support = filtered_support[
+            filtered_support["Customer_ID"].isin(valid_ids)
+        ]
+
+if selected_tier != "All" and "Customer_Tier" in filtered_customers.columns:
+    filtered_customers = filtered_customers[
+        filtered_customers["Customer_Tier"].astype(str) == selected_tier
     ]
 
-if "Scenario" in f.columns:
-    f = f[
-        f["Scenario"].astype(str).isin(selected_scenarios)
+    if (
+        "Customer_ID" in filtered_financials.columns
+        and "Customer_ID" in filtered_customers.columns
+    ):
+        valid_ids = filtered_customers["Customer_ID"].dropna().unique()
+        filtered_financials = filtered_financials[
+            filtered_financials["Customer_ID"].isin(valid_ids)
+        ]
+
+    if (
+        "Customer_ID" in filtered_sales.columns
+        and "Customer_ID" in filtered_customers.columns
+    ):
+        valid_ids = filtered_customers["Customer_ID"].dropna().unique()
+        filtered_sales = filtered_sales[
+            filtered_sales["Customer_ID"].isin(valid_ids)
+        ]
+
+    if (
+        "Customer_ID" in filtered_support.columns
+        and "Customer_ID" in filtered_customers.columns
+    ):
+        valid_ids = filtered_customers["Customer_ID"].dropna().unique()
+        filtered_support = filtered_support[
+            filtered_support["Customer_ID"].isin(valid_ids)
+        ]
+
+if selected_scenario != "All" and "Scenario" in filtered_financials.columns:
+    filtered_financials = filtered_financials[
+        filtered_financials["Scenario"].astype(str) == selected_scenario
     ]
 
-# Apply selected customer filters to related datasets.
-if "Customer_ID" in customers.columns:
-    allowed_ids = set(c["Customer_ID"].dropna())
-
-    if "Customer_ID" in s.columns:
-        s = s[s["Customer_ID"].isin(allowed_ids)]
-
-    if "Customer_ID" in t.columns:
-        t = t[t["Customer_ID"].isin(allowed_ids)]
-
-    if "Customer_ID" in f.columns:
-        f = f[f["Customer_ID"].isin(allowed_ids)]
-
-if "Region" in s.columns and selected_regions:
-    s = s[s["Region"].astype(str).isin(selected_regions)]
 
 # =====================================================
-# 5. DASHBOARD TABS
+# 6. DASHBOARD TABS
 # =====================================================
 
 tabs = st.tabs([
@@ -275,8 +315,9 @@ tabs = st.tabs([
     "Support",
     "Financial Health",
     "Customer Health",
-    "Data Quality",
+    "Data Quality"
 ])
+
 
 # =====================================================
 # TAB 1: EXECUTIVE OVERVIEW
@@ -285,56 +326,97 @@ tabs = st.tabs([
 with tabs[0]:
     st.header("Executive Overview")
 
-    st.write(
-        "A high-level view of customer activity, revenue, "
-        "sales pipeline, and support demand."
-    )
+    col1, col2, col3, col4 = st.columns(4)
 
-    show_kpis([
-        ("Customers", f"{len(c):,}"),
-        ("Customer MRR", money(number_sum(c, "MRR_USD"))),
-        ("Sales records", f"{len(s):,}"),
-        ("Support tickets", f"{len(t):,}"),
-        ("Marketing campaigns", f"{len(m):,}"),
-    ])
+    # Customer metrics
+    with col1:
+        if not filtered_customers.empty:
+            if "Customer_ID" in filtered_customers.columns:
+                total_customers = filtered_customers["Customer_ID"].nunique()
+            else:
+                total_customers = len(filtered_customers)
+
+            show_metric("Customers", f"{total_customers:,}")
+        else:
+            show_metric("Customers", "N/A")
+
+    # Monthly recurring revenue
+    with col2:
+        if "MRR_USD" in filtered_customers.columns:
+            mrr = numeric_series(filtered_customers, "MRR_USD").sum()
+            show_metric("Customer MRR", money(mrr))
+        else:
+            show_metric("Customer MRR", "N/A")
+
+    # Sales pipeline value
+    with col3:
+        if "Deal_Value_USD" in filtered_sales.columns:
+            pipeline_value = numeric_series(
+                filtered_sales, "Deal_Value_USD"
+            ).sum()
+            show_metric("Sales Deal Value", money(pipeline_value))
+        else:
+            show_metric("Sales Deal Value", "N/A")
+
+    # Support tickets
+    with col4:
+        if not filtered_support.empty:
+            show_metric("Support Tickets", f"{len(filtered_support):,}")
+        else:
+            show_metric("Support Tickets", "N/A")
+
+    st.divider()
 
     left, right = st.columns(2)
 
     with left:
-        st.subheader("Customers by renewal status")
-
-        if "Renewal_Status" in c.columns:
-            counts = (
-                c["Renewal_Status"]
-                .fillna("Unknown")
-                .value_counts()
-            )
-            st.bar_chart(counts)
-        else:
-            st.info("Renewal status is unavailable.")
+        show_bar_chart(
+            filtered_sales,
+            "Sales_Stage",
+            "Deal_Value_USD",
+            "Sales Deal Value by Stage"
+        )
 
     with right:
-        st.subheader("Customers by tier")
+        show_bar_chart(
+            filtered_customers,
+            "Industry",
+            "MRR_USD",
+            "Customer MRR by Industry"
+        )
 
-        if "Customer_Tier" in c.columns:
-            counts = (
-                c["Customer_Tier"]
-                .fillna("Unknown")
-                .value_counts()
-            )
-            st.bar_chart(counts)
+    st.subheader("Key Business Indicators")
+
+    indicator_col1, indicator_col2, indicator_col3 = st.columns(3)
+
+    with indicator_col1:
+        if "NPS_Score" in filtered_customers.columns:
+            nps = numeric_series(filtered_customers, "NPS_Score").mean()
+            show_metric("Average NPS Score", f"{nps:.1f}" if pd.notna(nps) else "N/A")
         else:
-            st.info("Customer tier is unavailable.")
+            show_metric("Average NPS Score", "N/A")
 
-    st.subheader("Business questions")
+    with indicator_col2:
+        if "Activation_Rate_Pct" in filtered_marketing.columns:
+            activation = numeric_series(
+                filtered_marketing, "Activation_Rate_Pct"
+            ).mean()
+            show_metric(
+                "Average Activation Rate",
+                percentage(activation) if pd.notna(activation) else "N/A"
+            )
+        else:
+            show_metric("Average Activation Rate", "N/A")
 
-    st.markdown("""
-    - Are sales activities generating valuable customers?
-    - Are marketing campaigns turning leads into activations?
-    - Is customer support meeting service expectations?
-    - Are customers renewing or showing signs of churn risk?
-    - Are customer acquisition costs justified by lifetime value?
-    """)
+    with indicator_col3:
+        if "SLA_Met" in filtered_support.columns:
+            sla = filtered_support["SLA_Met"].astype(str).str.lower().isin(
+                ["true", "1", "yes", "y"]
+            ).mean() * 100
+            show_metric("Tickets Meeting SLA", percentage(sla))
+        else:
+            show_metric("Tickets Meeting SLA", "N/A")
+
 
 # =====================================================
 # TAB 2: SALES
@@ -343,217 +425,266 @@ with tabs[0]:
 with tabs[1]:
     st.header("Sales Performance")
 
-    show_kpis([
-        ("Pipeline records", f"{len(s):,}"),
-        ("Total deal value", money(number_sum(s, "Deal_Value_USD"))),
-        ("Average deal value", money(number_mean(s, "Deal_Value_USD"))),
-        (
-            "Average discount",
-            display_number(number_mean(s, "Discount_Pct"), "%")
-        ),
-    ])
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        if "Deal_ID" in filtered_sales.columns:
+            show_metric(
+                "Total Deals",
+                f"{filtered_sales['Deal_ID'].nunique():,}"
+            )
+        else:
+            show_metric("Total Deals", f"{len(filtered_sales):,}")
+
+    with col2:
+        if "Deal_Value_USD" in filtered_sales.columns:
+            total_value = numeric_series(
+                filtered_sales, "Deal_Value_USD"
+            ).sum()
+            show_metric("Total Deal Value", money(total_value))
+        else:
+            show_metric("Total Deal Value", "N/A")
+
+    with col3:
+        if "Days_to_Close" in filtered_sales.columns:
+            avg_days = numeric_series(
+                filtered_sales, "Days_to_Close"
+            ).mean()
+            show_metric(
+                "Average Days to Close",
+                f"{avg_days:.1f}" if pd.notna(avg_days) else "N/A"
+            )
+        else:
+            show_metric("Average Days to Close", "N/A")
 
     left, right = st.columns(2)
 
     with left:
-        st.subheader("Deal value by sales stage")
-
-        if {"Sales_Stage", "Deal_Value_USD"}.issubset(s.columns):
-            chart_data = s.copy()
-            chart_data["Deal_Value_USD"] = pd.to_numeric(
-                chart_data["Deal_Value_USD"],
-                errors="coerce"
-            )
-
-            st.bar_chart(
-                chart_data.groupby("Sales_Stage")[
-                    "Deal_Value_USD"
-                ].sum()
-            )
-        else:
-            st.info("Sales stage or deal value is unavailable.")
+        show_bar_chart(
+            filtered_sales,
+            "Sales_Stage",
+            "Deal_Value_USD",
+            "Deal Value by Sales Stage"
+        )
 
     with right:
-        st.subheader("Deal value by source")
+        show_bar_chart(
+            filtered_sales,
+            "Deal_Source",
+            "Deal_Value_USD",
+            "Deal Value by Source"
+        )
 
-        if {"Deal_Source", "Deal_Value_USD"}.issubset(s.columns):
-            chart_data = s.copy()
-            chart_data["Deal_Value_USD"] = pd.to_numeric(
-                chart_data["Deal_Value_USD"],
-                errors="coerce"
+    show_bar_chart(
+        filtered_sales,
+        "Sales_Rep_Name",
+        "Deal_Value_USD",
+        "Deal Value by Sales Representative"
+    )
+
+    if not filtered_sales.empty:
+        display_columns = [
+            "Deal_ID", "Service_Line", "Sales_Stage",
+            "Deal_Value_USD", "Deal_Source", "Region"
+        ]
+        available_columns = [
+            col for col in display_columns if col in filtered_sales.columns
+        ]
+
+        if available_columns:
+            st.subheader("Sales Pipeline Records")
+            st.dataframe(
+                filtered_sales[available_columns],
+                use_container_width=True,
+                hide_index=True
             )
 
-            st.bar_chart(
-                chart_data.groupby("Deal_Source")[
-                    "Deal_Value_USD"
-                ].sum()
-            )
-        else:
-            st.info("Deal source or deal value is unavailable.")
-
-    st.subheader("Deal value by region")
-
-    if {"Region", "Deal_Value_USD"}.issubset(s.columns):
-        chart_data = s.copy()
-        chart_data["Deal_Value_USD"] = pd.to_numeric(
-            chart_data["Deal_Value_USD"],
-            errors="coerce"
-        )
-
-        st.bar_chart(
-            chart_data.groupby("Region")["Deal_Value_USD"].sum()
-        )
-
-    if "Upsell_Flag" in s.columns:
-        st.subheader("Upsell activity")
-        st.bar_chart(
-            s["Upsell_Flag"].fillna("Unknown").value_counts()
-        )
-
-    st.subheader("Sales records")
-    st.dataframe(s, use_container_width=True, hide_index=True)
 
 # =====================================================
 # TAB 3: MARKETING
 # =====================================================
 
 with tabs[2]:
-    st.header("Marketing Campaign Performance")
+    st.header("Marketing Performance")
 
-    show_kpis([
-        ("Campaigns", f"{len(m):,}"),
-        ("Actual spend", money(number_sum(m, "Actual_Spend_USD"))),
-        ("Leads generated", f"{number_sum(m, 'Leads_Generated'):,.0f}"),
-        ("Activations", f"{number_sum(m, 'Activations'):,.0f}"),
-        (
-            "Average activation rate",
-            display_number(
-                number_mean(m, "Activation_Rate_Pct"), "%"
-            ),
-        ),
-    ])
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        if "Actual_Spend_USD" in filtered_marketing.columns:
+            spend = numeric_series(
+                filtered_marketing, "Actual_Spend_USD"
+            ).sum()
+            show_metric("Actual Marketing Spend", money(spend))
+        else:
+            show_metric("Actual Marketing Spend", "N/A")
+
+    with col2:
+        if "Leads_Generated" in filtered_marketing.columns:
+            leads = numeric_series(
+                filtered_marketing, "Leads_Generated"
+            ).sum()
+            show_metric(
+                "Leads Generated",
+                f"{leads:,.0f}" if pd.notna(leads) else "N/A"
+            )
+        else:
+            show_metric("Leads Generated", "N/A")
+
+    with col3:
+        if "Activations" in filtered_marketing.columns:
+            activations = numeric_series(
+                filtered_marketing, "Activations"
+            ).sum()
+            show_metric(
+                "Activations",
+                f"{activations:,.0f}" if pd.notna(activations) else "N/A"
+            )
+        else:
+            show_metric("Activations", "N/A")
 
     left, right = st.columns(2)
 
     with left:
-        st.subheader("Marketing spend by channel")
-
-        if {"Channel", "Actual_Spend_USD"}.issubset(m.columns):
-            chart_data = m.copy()
-            chart_data["Actual_Spend_USD"] = pd.to_numeric(
-                chart_data["Actual_Spend_USD"],
-                errors="coerce"
-            )
-
-            st.bar_chart(
-                chart_data.groupby("Channel")[
-                    "Actual_Spend_USD"
-                ].sum()
-            )
-        else:
-            st.info("Channel or actual spend is unavailable.")
-
-    with right:
-        st.subheader("Activations by campaign type")
-
-        if {"Campaign_Type", "Activations"}.issubset(m.columns):
-            chart_data = m.copy()
-            chart_data["Activations"] = pd.to_numeric(
-                chart_data["Activations"],
-                errors="coerce"
-            )
-
-            st.bar_chart(
-                chart_data.groupby("Campaign_Type")[
-                    "Activations"
-                ].sum()
-            )
-        else:
-            st.info("Campaign type or activations is unavailable.")
-
-    st.subheader("Campaign comparison")
-
-    columns_to_show = [
-        "Campaign_Name",
-        "Campaign_Type",
-        "Channel",
-        "Budget_USD",
-        "Actual_Spend_USD",
-        "Leads_Generated",
-        "Qualified_Leads",
-        "Activations",
-        "Activation_Rate_Pct",
-        "Retention_7Day_Pct",
-    ]
-
-    available_columns = [
-        col for col in columns_to_show if col in m.columns
-    ]
-
-    if available_columns:
-        st.dataframe(
-            m[available_columns],
-            use_container_width=True,
-            hide_index=True
+        show_bar_chart(
+            filtered_marketing,
+            "Campaign_Type",
+            "Actual_Spend_USD",
+            "Marketing Spend by Campaign Type"
         )
 
+    with right:
+        show_bar_chart(
+            filtered_marketing,
+            "Channel",
+            "Leads_Generated",
+            "Leads Generated by Channel"
+        )
+
+    if (
+        "Actual_Spend_USD" in filtered_marketing.columns
+        and "Leads_Generated" in filtered_marketing.columns
+    ):
+        spend = numeric_series(filtered_marketing, "Actual_Spend_USD")
+        leads = numeric_series(filtered_marketing, "Leads_Generated")
+
+        total_spend = spend.sum()
+        total_leads = leads.sum()
+
+        if total_leads > 0:
+            st.metric(
+                "Average Cost per Lead",
+                money(total_spend / total_leads)
+            )
+        else:
+            st.metric("Average Cost per Lead", "N/A")
+
+    if not filtered_marketing.empty:
+        display_columns = [
+            "Campaign_Name", "Campaign_Type", "Channel",
+            "Actual_Spend_USD", "Leads_Generated",
+            "Qualified_Leads", "Activations", "Activation_Rate_Pct"
+        ]
+        available_columns = [
+            col for col in display_columns if col in filtered_marketing.columns
+        ]
+
+        if available_columns:
+            st.subheader("Campaign Details")
+            st.dataframe(
+                filtered_marketing[available_columns],
+                use_container_width=True,
+                hide_index=True
+            )
+
+
 # =====================================================
-# TAB 4: CUSTOMER SUPPORT
+# TAB 4: SUPPORT
 # =====================================================
 
 with tabs[3]:
     st.header("Customer Support Performance")
 
-    sla_rate = (
-        yes_no_percentage(t["SLA_Met"])
-        if "SLA_Met" in t.columns else None
-    )
+    col1, col2, col3 = st.columns(3)
 
-    show_kpis([
-        ("Tickets", f"{len(t):,}"),
-        (
-            "Average resolution time",
-            display_number(number_mean(t, "Resolution_Hours"), " hrs")
-        ),
-        ("Average CSAT", display_number(number_mean(t, "CSAT_Score"))),
-        ("SLA met rate", display_number(sla_rate, "%")),
-    ])
+    with col1:
+        show_metric("Total Tickets", f"{len(filtered_support):,}")
+
+    with col2:
+        if "Resolution_Hours" in filtered_support.columns:
+            avg_resolution = numeric_series(
+                filtered_support, "Resolution_Hours"
+            ).mean()
+            show_metric(
+                "Average Resolution Hours",
+                f"{avg_resolution:.1f}"
+                if pd.notna(avg_resolution) else "N/A"
+            )
+        else:
+            show_metric("Average Resolution Hours", "N/A")
+
+    with col3:
+        if "CSAT_Score" in filtered_support.columns:
+            csat = numeric_series(filtered_support, "CSAT_Score").mean()
+            show_metric(
+                "Average CSAT Score",
+                f"{csat:.2f}" if pd.notna(csat) else "N/A"
+            )
+        else:
+            show_metric("Average CSAT Score", "N/A")
 
     left, right = st.columns(2)
 
     with left:
-        st.subheader("Tickets by category")
+        if "Category" in filtered_support.columns:
+            st.subheader("Tickets by Category")
+            category_counts = filtered_support["Category"].value_counts()
+            st.bar_chart(category_counts)
 
-        if "Category" in t.columns:
-            st.bar_chart(
-                t["Category"].fillna("Unknown").value_counts()
-            )
+        elif "Priority" in filtered_support.columns:
+            st.subheader("Tickets by Priority")
+            st.bar_chart(filtered_support["Priority"].value_counts())
+        else:
+            show_empty("Ticket category data is unavailable.")
 
     with right:
-        st.subheader("Tickets by priority")
+        if "Priority" in filtered_support.columns:
+            st.subheader("Tickets by Priority")
+            st.bar_chart(filtered_support["Priority"].value_counts())
+        else:
+            show_empty("Ticket priority data is unavailable.")
 
-        if "Priority" in t.columns:
-            st.bar_chart(
-                t["Priority"].fillna("Unknown").value_counts()
+    if "SLA_Met" in filtered_support.columns:
+        st.subheader("Service Level Agreement Performance")
+
+        sla_values = filtered_support["SLA_Met"].astype(str).str.lower()
+        sla_counts = sla_values.map(
+            lambda value: (
+                "Met" if value in ["true", "1", "yes", "y"]
+                else "Not Met" if value in ["false", "0", "no", "n"]
+                else "Unknown"
+            )
+        ).value_counts()
+
+        st.bar_chart(sla_counts)
+
+    if not filtered_support.empty:
+        display_columns = [
+            "Ticket_ID", "Category", "Priority", "Status",
+            "Resolution_Hours", "SLA_Met", "CSAT_Score",
+            "Contact_Channel", "Automation_Flag"
+        ]
+        available_columns = [
+            col for col in display_columns if col in filtered_support.columns
+        ]
+
+        if available_columns:
+            st.subheader("Support Ticket Details")
+            st.dataframe(
+                filtered_support[available_columns],
+                use_container_width=True,
+                hide_index=True
             )
 
-    st.subheader("Average resolution time by category")
-
-    if {"Category", "Resolution_Hours"}.issubset(t.columns):
-        chart_data = t.copy()
-        chart_data["Resolution_Hours"] = pd.to_numeric(
-            chart_data["Resolution_Hours"],
-            errors="coerce"
-        )
-
-        st.bar_chart(
-            chart_data.groupby("Category")[
-                "Resolution_Hours"
-            ].mean()
-        )
-
-    st.subheader("Support records")
-    st.dataframe(t, use_container_width=True, hide_index=True)
 
 # =====================================================
 # TAB 5: FINANCIAL HEALTH
@@ -562,86 +693,117 @@ with tabs[3]:
 with tabs[4]:
     st.header("Financial Health")
 
-    show_kpis([
-        (
-            "ARR in selected records",
-            money(number_sum(f, "ARR_USD"))
-        ),
-        ("Average CAC", money(number_mean(f, "CAC_USD"))),
-        ("Average LTV", money(number_mean(f, "LTV_USD"))),
-        (
-            "Average LTV/CAC",
-            display_number(number_mean(f, "LTV_CAC_Ratio"), "x")
-        ),
-        (
-            "Average runway",
-            display_number(number_mean(f, "Runway_Months"), " months")
-        ),
-    ])
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        if "MRR_USD" in filtered_financials.columns:
+            mrr = numeric_series(filtered_financials, "MRR_USD").sum()
+            show_metric("Total MRR in Records", money(mrr))
+        else:
+            show_metric("Total MRR in Records", "N/A")
+
+    with col2:
+        if "ARR_USD" in filtered_financials.columns:
+            arr = numeric_series(filtered_financials, "ARR_USD").sum()
+            show_metric("Total ARR in Records", money(arr))
+        else:
+            show_metric("Total ARR in Records", "N/A")
+
+    with col3:
+        if "Burn_Rate_USD" in filtered_financials.columns:
+            burn = numeric_series(
+                filtered_financials, "Burn_Rate_USD"
+            ).mean()
+            show_metric(
+                "Average Burn Rate",
+                money(burn) if pd.notna(burn) else "N/A"
+            )
+        else:
+            show_metric("Average Burn Rate", "N/A")
+
+    col4, col5, col6 = st.columns(3)
+
+    with col4:
+        if "Cash_Balance_USD" in filtered_financials.columns:
+            cash = numeric_series(
+                filtered_financials, "Cash_Balance_USD"
+            ).mean()
+            show_metric(
+                "Average Cash Balance",
+                money(cash) if pd.notna(cash) else "N/A"
+            )
+        else:
+            show_metric("Average Cash Balance", "N/A")
+
+    with col5:
+        if "Runway_Months" in filtered_financials.columns:
+            runway = numeric_series(
+                filtered_financials, "Runway_Months"
+            ).mean()
+            show_metric(
+                "Average Runway (Months)",
+                f"{runway:.1f}" if pd.notna(runway) else "N/A"
+            )
+        else:
+            show_metric("Average Runway (Months)", "N/A")
+
+    with col6:
+        if "LTV_CAC_Ratio" in filtered_financials.columns:
+            ratio = numeric_series(
+                filtered_financials, "LTV_CAC_Ratio"
+            ).mean()
+            show_metric(
+                "Average LTV:CAC Ratio",
+                f"{ratio:.2f}" if pd.notna(ratio) else "N/A"
+            )
+        else:
+            show_metric("Average LTV:CAC Ratio", "N/A")
 
     left, right = st.columns(2)
 
     with left:
-        st.subheader("LTV/CAC by acquisition channel")
-
-        if {"Acquisition_Channel", "LTV_CAC_Ratio"}.issubset(f.columns):
-            chart_data = f.copy()
-            chart_data["LTV_CAC_Ratio"] = pd.to_numeric(
-                chart_data["LTV_CAC_Ratio"],
-                errors="coerce"
-            )
-
-            st.bar_chart(
-                chart_data.groupby("Acquisition_Channel")[
-                    "LTV_CAC_Ratio"
-                ].mean()
-            )
-
-    with right:
-        st.subheader("Monthly churn by service line")
-
-        if {"Service_Line", "Monthly_Churn_Rate_Pct"}.issubset(f.columns):
-            chart_data = f.copy()
-            chart_data["Monthly_Churn_Rate_Pct"] = pd.to_numeric(
-                chart_data["Monthly_Churn_Rate_Pct"],
-                errors="coerce"
-            )
-
-            st.bar_chart(
-                chart_data.groupby("Service_Line")[
-                    "Monthly_Churn_Rate_Pct"
-                ].mean()
-            )
-
-    st.subheader("Cash balance and runway")
-
-    financial_columns = [
-        "Cohort",
-        "Service_Line",
-        "Scenario",
-        "Cash_Balance_USD",
-        "Burn_Rate_USD",
-        "Runway_Months",
-        "Gross_Margin_Pct",
-        "Budget_Variance_Pct",
-    ]
-
-    available_columns = [
-        col for col in financial_columns if col in f.columns
-    ]
-
-    if available_columns:
-        st.dataframe(
-            f[available_columns],
-            use_container_width=True,
-            hide_index=True
+        show_bar_chart(
+            filtered_financials,
+            "Service_Line",
+            "MRR_USD",
+            "MRR by Service Line"
         )
 
-    st.caption(
-        "Financial data may contain repeated records across customers, "
-        "periods, or scenarios. Totals are not necessarily unique "
-        "company-wide figures."
+    with right:
+        show_bar_chart(
+            filtered_financials,
+            "Acquisition_Channel",
+            "CAC_USD",
+            "Customer Acquisition Cost by Channel"
+        )
+
+    show_bar_chart(
+        filtered_financials,
+        "Cohort",
+        "LTV_CAC_Ratio",
+        "LTV:CAC Ratio by Cohort"
     )
+
+    if not filtered_financials.empty:
+        display_columns = [
+            "Cohort", "Service_Line", "Acquisition_Channel",
+            "Scenario", "MRR_USD", "ARR_USD", "CAC_USD",
+            "LTV_USD", "LTV_CAC_Ratio", "Gross_Margin_Pct",
+            "Monthly_Churn_Rate_Pct", "Runway_Months"
+        ]
+        available_columns = [
+            col for col in display_columns
+            if col in filtered_financials.columns
+        ]
+
+        if available_columns:
+            st.subheader("Financial Records")
+            st.dataframe(
+                filtered_financials[available_columns],
+                use_container_width=True,
+                hide_index=True
+            )
+
 
 # =====================================================
 # TAB 6: CUSTOMER HEALTH
@@ -650,87 +812,100 @@ with tabs[4]:
 with tabs[5]:
     st.header("Customer Health and Retention")
 
-    if "Churn_Risk_Flag" in c.columns:
-        risk_values = (
-            c["Churn_Risk_Flag"]
-            .astype(str)
-            .str.strip()
-            .str.lower()
-        )
+    col1, col2, col3 = st.columns(3)
 
-        risk_count = risk_values.isin(
-            ["yes", "true", "1", "high", "at risk"]
-        ).sum()
-    else:
-        risk_count = 0
+    with col1:
+        if "Churn_Risk_Flag" in filtered_customers.columns:
+            risk = filtered_customers["Churn_Risk_Flag"].astype(str).str.lower()
+            high_risk = risk.isin(["true", "1", "yes", "y"]).sum()
+            show_metric("Customers Flagged for Churn Risk", f"{high_risk:,}")
+        else:
+            show_metric("Customers Flagged for Churn Risk", "N/A")
 
-    show_kpis([
-        ("Customers in selection", f"{len(c):,}"),
-        ("Average NPS score", display_number(number_mean(c, "NPS_Score"))),
-        ("Customers flagged at churn risk", f"{risk_count:,}"),
-        ("Customer MRR", money(number_sum(c, "MRR_USD"))),
-    ])
+    with col2:
+        if "NPS_Score" in filtered_customers.columns:
+            nps = numeric_series(filtered_customers, "NPS_Score").mean()
+            show_metric(
+                "Average NPS",
+                f"{nps:.1f}" if pd.notna(nps) else "N/A"
+            )
+        else:
+            show_metric("Average NPS", "N/A")
+
+    with col3:
+        if "Renewal_Status" in filtered_customers.columns:
+            renewed = filtered_customers["Renewal_Status"].astype(str).str.lower()
+            renewed_count = renewed.isin(
+                ["renewed", "active", "yes"]
+            ).sum()
+            show_metric("Renewed / Active Customers", f"{renewed_count:,}")
+        else:
+            show_metric("Renewed / Active Customers", "N/A")
 
     left, right = st.columns(2)
 
     with left:
-        st.subheader("NPS score distribution")
-
-        if "NPS_Score" in c.columns:
-            scores = pd.to_numeric(
-                c["NPS_Score"], errors="coerce"
-            ).dropna()
-
-            st.bar_chart(scores.value_counts().sort_index())
+        if "Customer_Tier" in filtered_customers.columns:
+            st.subheader("Customers by Tier")
+            st.bar_chart(filtered_customers["Customer_Tier"].value_counts())
+        else:
+            show_empty("Customer tier information is unavailable.")
 
     with right:
-        st.subheader("Customers by churn-risk flag")
-
-        if "Churn_Risk_Flag" in c.columns:
+        if "Renewal_Status" in filtered_customers.columns:
+            st.subheader("Customers by Renewal Status")
             st.bar_chart(
-                c["Churn_Risk_Flag"]
-                .fillna("Unknown")
-                .value_counts()
+                filtered_customers["Renewal_Status"].value_counts()
+            )
+        else:
+            show_empty("Renewal status information is unavailable.")
+
+    show_bar_chart(
+        filtered_customers,
+        "Industry",
+        "MRR_USD",
+        "Monthly Recurring Revenue by Industry"
+    )
+
+    if not filtered_customers.empty:
+        display_columns = [
+            "Company_Name", "Industry", "Company_Size",
+            "Customer_Tier", "Region", "Renewal_Status",
+            "MRR_USD", "NPS_Score", "Subscribed_Plan",
+            "Churn_Risk_Flag"
+        ]
+        available_columns = [
+            col for col in display_columns if col in filtered_customers.columns
+        ]
+
+        if available_columns:
+            st.subheader("Customer Records")
+            st.dataframe(
+                filtered_customers[available_columns],
+                use_container_width=True,
+                hide_index=True
             )
 
-    st.subheader("Customers by subscription plan")
-
-    if "Subscribed_Plan" in c.columns:
-        st.bar_chart(
-            c["Subscribed_Plan"].fillna("Unknown").value_counts()
-        )
-
-    st.subheader("Customer records")
-    st.dataframe(c, use_container_width=True, hide_index=True)
 
 # =====================================================
 # TAB 7: DATA QUALITY
 # =====================================================
 
 with tabs[6]:
-    st.header("Data Quality Checks")
-
-    st.write(
-        "Review dataset sizes, missing values, and duplicate records "
-        "before drawing business conclusions."
-    )
+    st.header("Data Quality Overview")
 
     quality_rows = []
 
     for name, df in datasets.items():
-        total_cells = df.size
-        missing_cells = int(df.isna().sum().sum())
-
         quality_rows.append({
             "Dataset": name,
             "Rows": len(df),
             "Columns": len(df.columns),
-            "Duplicate rows": int(df.duplicated().sum()),
-            "Missing cells": missing_cells,
-            "Missing cells (%)": round(
-                missing_cells / max(total_cells, 1) * 100,
-                2
-            ),
+            "Missing Cells": int(df.isna().sum().sum()),
+            "Duplicate Rows": int(df.duplicated().sum()),
+            "Memory Usage (KB)": round(
+                df.memory_usage(deep=True).sum() / 1024, 1
+            )
         })
 
     quality_df = pd.DataFrame(quality_rows)
@@ -741,58 +916,48 @@ with tabs[6]:
         hide_index=True
     )
 
-    st.subheader("Missing values by field")
+    st.subheader("Missing Values by Dataset")
 
-    dataset_choice = st.selectbox(
-        "Choose a dataset",
+    for name, df in datasets.items():
+        missing = df.isna().sum()
+        missing = missing[missing > 0].sort_values(ascending=False)
+
+        with st.expander(f"{name}: missing-value details"):
+            if missing.empty:
+                st.success("No missing values found.")
+            else:
+                missing_df = missing.rename("Missing Cells").reset_index()
+                missing_df.columns = ["Column", "Missing Cells"]
+                st.dataframe(
+                    missing_df,
+                    use_container_width=True,
+                    hide_index=True
+                )
+
+    st.subheader("Dataset Preview")
+
+    selected_dataset = st.selectbox(
+        "Choose a dataset to inspect",
         list(datasets.keys())
     )
 
-    selected_df = datasets[dataset_choice]
+    st.dataframe(
+        datasets[selected_dataset].head(20),
+        use_container_width=True,
+        hide_index=True
+    )
 
-    if not selected_df.empty:
-        missing_df = (
-            selected_df.isna()
-            .sum()
-            .rename("Missing values")
-            .reset_index()
-        )
+    st.caption(
+        "Data quality indicators describe the loaded CSV files. "
+        "They do not automatically correct missing or duplicate records."
+    )
 
-        missing_df.columns = ["Column", "Missing values"]
-
-        missing_df["Missing (%)"] = (
-            missing_df["Missing values"]
-            / max(len(selected_df), 1)
-            * 100
-        ).round(2)
-
-        st.dataframe(
-            missing_df.sort_values(
-                "Missing values",
-                ascending=False
-            ),
-            use_container_width=True,
-            hide_index=True
-        )
-
-        st.subheader("Dataset preview")
-        st.dataframe(
-            selected_df.head(100),
-            use_container_width=True,
-            hide_index=True
-        )
-    else:
-        st.info("This dataset has no rows to preview.")
 
 # =====================================================
-# 6. FOOTER
+# 7. FOOTER
 # =====================================================
 
 st.divider()
-
 st.caption(
-    "GenP Technologies is a fictional business case. "
-    "Use dashboard results as analytical evidence, not as proof "
-    "of causation. Interpret financial totals according to the "
-    "underlying dataset structure."
+    "GenP Technologies | Business Analytics Capstone Project"
 )
