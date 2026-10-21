@@ -1,3 +1,9 @@
+## Live Interactive Dashboard
+
+**[Open the GenP Business Analytics Dashboard](https://genp-business-analytics-capstone-hzqjjhw6gmtyboewv5hjfc.streamlit.app/)**
+
+Explore customer growth, sales performance, marketing efficiency, support operations, and financial health through an interactive Streamlit dashboard.
+
 # GenP Business Analytics Capstone Project
 
 ## Overview
@@ -57,7 +63,7 @@ The project applied statistical techniques including:
 - Correlation analysis
 - Distribution analysis
 
-## Power BI Executive Dashboard
+## Power BI Dashboard Screenshots
 
 The final dashboard contains five analytical areas:
 
@@ -97,12 +103,13 @@ The analysis resulted in recommendations focused on:
 
 ## Tools Used
 
-- Microsoft Excel
-- SQL / MySQL
-- Power BI
-- Statistical Analysis
-- Data Visualization
-- Business Analysis
+Microsoft Excel — Data preparation and analysis
+SQL / MySQL — Data querying and analysis
+Power BI — Executive dashboard visualization
+Python — Data processing and analysis
+Pandas — Data manipulation
+Streamlit — Interactive dashboard development
+Statistical Analysis — Hypothesis testing and data interpretation
 
 ## Skills Demonstrated
 
