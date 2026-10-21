@@ -1,0 +1,484 @@
+Campaign_ID,Campaign_Name,Campaign_Type,Start_Date,End_Date,Budget_USD,Actual_Spend_USD,Leads_Generated,Qualified_Leads,Activations,Activation_Rate_Pct,Retention_7Day_Pct,Target_Audience,Channel,In_App_Nudge_Type,Target_Region
+CMP-001,Q2-2024 Partner Co-Market,Partner Co-Market,06-04-24,25-05-24,13262.88,95355.7,299,120,64,21.4,67.1,Mid-Market,Email,,ANZ
+CMP-002,Q2-2024 Content Download,Content Download,18-05-24,28-07-24,35378.11,77945.7,676,331,90,13.31,24,Enterprise,Event,,Middle East
+CMP-003,Q1-2024 Event,Event,19-02-24,12-03-24,87451.84,60901.86,399,63,53,13.28,56.3,Mid-Market,Website,,East Africa
+CMP-004,Q2-2023 Event,Event,08-06-23,01-08-23,40321.13,,471,213,114,24.2,23,Mid-Market,LinkedIn,,Global
+CMP-005,Q4-2022 Webinar,Webinar,24-11-22,06-01-23,,,107,49,12,11.21,70.2,Enterprise,Website,,South Asia
+CMP-006,Q2-2024 Event,Event,21-04-24,21-06-24,57828.41,59595.82,744,335,,,43.8,Mid-Market,In-App,,South Asia
+CMP-007,Q2-2022 LinkedIn Ads,LinkedIn Ads,28-04-22,26-06-22,88131.4,114788.67,346,83,62,17.92,45.7,Mid-Market,Partner,,Southeast Asia
+CMP-008,Q3-2023 Email Nurture,Email Nurture,12-08-23,10-10-23,59885.71,89622.87,200,111,25,12.5,,Enterprise,Website,,East Africa
+CMP-009,Q1-2023 LinkedIn Ads,LinkedIn Ads,08-01-23,03-02-23,110954.34,68897.48,820,408,229,27.93,24.2,SMB,Partner,,ANZ
+CMP-010,Q1-2024 Partner Co-Market,Partner Co-Market,24-02-24,24-04-24,12628.68,113153.97,744,,86,11.56,,All Segments,In-App,,ANZ
+CMP-011,Q2-2024 Partner Co-Market,Partner Co-Market,13-05-24,14-07-24,8185.75,18669.09,300,173,28,9.33,56.7,All Segments,In-App,,South Asia
+CMP-012,Q2-2022 In-App Nudge,In-App Nudge,11-06-22,13-07-22,40218.22,118058.47,534,95,63,11.8,76.4,SMB,Website,Feature Highlight,East Africa
+CMP-013,Q2-2024 Webinar,Webinar,17-06-24,19-08-24,56284.75,112399.21,134,61,22,16.42,35.5,Enterprise,LinkedIn,,Middle East
+CMP-014,Q3-2022 Webinar,Webinar,16-08-22,06-10-22,11368.17,38059.1,73,29,11,15.07,77.3,Enterprise,Partner,,Middle East
+CMP-015,Q2-2024 Organic SEO,Organic SEO,01-04-24,18-06-24,38896.87,69477.49,266,,49,18.42,35.6,All Segments,Website,,Middle East
+CMP-016,Q1-2024 Partner Co-Market,Partner Co-Market,16-01-24,11-03-24,34466.06,11045.3,52,,4,7.69,,Mid-Market,Partner,,East Africa
+CMP-017,Q2-2022 Organic SEO,Organic SEO,23-04-22,17-07-22,49976.66,28941.93,312,120,,,40.6,SMB,Partner,,South Asia
+CMP-018,Q2-2022 In-App Nudge,In-App Nudge,17-05-22,12-06-22,8607.85,93315.36,421,210,89,21.14,31.9,SMB,Event,Re-engagement,Middle East
+CMP-019,Q4-2023 Email Nurture,Email Nurture,17-10-23,26-12-23,70451.18,98412.46,262,30,52,19.85,63.7,SMB,In-App,,Global
+CMP-020,Q2-2023 Paid Search,Paid Search,15-04-23,28-05-23,38728.06,79517.78,714,414,190,26.61,31.8,All Segments,Google,,ANZ
+CMP-021,Q1-2022 Webinar,Webinar,21-03-22,03-06-22,15961.09,108406.37,351,58,103,29.34,61,SMB,Google,,Middle East
+CMP-022,Q1-2022 Organic SEO,Organic SEO,14-01-22,26-03-22,47252.19,56935.61,650,309,126,19.38,35,Enterprise,LinkedIn,,East Africa
+CMP-023,Q1-2023 LinkedIn Ads,LinkedIn Ads,04-02-23,15-03-23,37209.77,,154,,37,24.03,27.6,Enterprise,Partner,,South Asia
+CMP-024,Q1-2023 In-App Nudge,In-App Nudge,15-01-23,28-03-23,68489.36,59056,712,,64,8.99,37.8,Mid-Market,Event,,Southeast Asia
+CMP-025,Q2-2023 Partner Co-Market,Partner Co-Market,30-04-23,10-05-23,116546.96,63272.31,592,191,26,4.39,29.4,Mid-Market,In-App,,Global
+CMP-026,Q3-2022 Partner Co-Market,Partner Co-Market,26-08-22,09-10-22,79030.35,61538.6,239,30,,,27.4,Enterprise,Website,,Middle East
+CMP-027,Q3-2022 Content Download,Content Download,11-07-22,05-08-22,25520.71,,221,98,58,26.24,70.2,Mid-Market,Email,,East Africa
+CMP-028,Q1-2024 Content Download,Content Download,30-03-24,10-06-24,21529.18,38673.13,125,22,37,29.6,30.3,All Segments,LinkedIn,,Middle East
+CMP-029,Q1-2022 Content Download,Content Download,01-02-22,14-04-22,24073.08,53802.71,707,103,134,18.95,20.3,SMB,Email,,South Asia
+CMP-030,Q4-2022 LinkedIn Ads,LinkedIn Ads,06-12-22,30-12-22,83346.45,126350.07,228,27,65,28.51,60.9,All Segments,Event,,Middle East
+CMP-031,Q1-2024 Email Nurture,Email Nurture,23-03-24,11-04-24,81255.76,5589.69,303,176,72,23.76,50.7,All Segments,Website,,South Asia
+CMP-032,Q4-2022 Paid Search,Paid Search,24-10-22,09-11-22,31861.79,59525.29,70,21,10,14.29,67.7,Enterprise,Google,,Middle East
+CMP-033,Q2-2023 Paid Search,Paid Search,17-06-23,01-08-23,105312.12,29032.38,75,15,8,10.67,25.2,SMB,LinkedIn,,ANZ
+CMP-034,Q2-2022 Email Nurture,Email Nurture,02-06-22,04-08-22,113680.23,78562.1,196,,51,26.02,82.5,SMB,LinkedIn,,East Africa
+CMP-035,Q4-2022 In-App Nudge,In-App Nudge,20-10-22,04-01-23,14120.54,21342.85,232,24,35,15.09,65.5,SMB,In-App,Re-engagement,Global
+CMP-036,Q2-2022 Email Nurture,Email Nurture,14-05-22,12-06-22,,,856,,150,17.52,42.9,Mid-Market,Website,,Middle East
+CMP-037,Q2-2024 LinkedIn Ads,LinkedIn Ads,14-05-24,05-07-24,73515.53,93922.87,607,279,30,4.94,45.8,All Segments,Partner,,ANZ
+CMP-038,Q1-2022 Email Nurture,Email Nurture,23-03-22,03-05-22,,,650,236,114,17.54,,SMB,Email,,Southeast Asia
+CMP-039,Q1-2024 Partner Co-Market,Partner Co-Market,25-03-24,19-04-24,37086.18,108213.73,92,31,16,17.39,77.6,Enterprise,Google,,Middle East
+CMP-040,Q3-2022 Partner Co-Market,Partner Co-Market,19-07-22,18-08-22,15491.5,60941.85,850,508,110,12.94,52.2,Mid-Market,LinkedIn,,South Asia
+CMP-041,Q2-2023 Partner Co-Market,Partner Co-Market,02-04-23,03-06-23,15930.37,20971.35,373,53,39,10.46,79.8,Mid-Market,In-App,,East Africa
+CMP-042,Q2-2022 Email Nurture,Email Nurture,26-06-22,09-09-22,92619.85,36626.8,893,119,231,25.87,27.2,SMB,LinkedIn,,ANZ
+CMP-043,Q3-2024 LinkedIn Ads,LinkedIn Ads,24-07-24,16-08-24,80430.22,59123.33,550,,37,6.73,64.3,Mid-Market,Event,,Global
+CMP-044,Q4-2022 Partner Co-Market,Partner Co-Market,11-12-22,07-02-23,68503.89,49182.22,798,278,44,5.51,30.2,All Segments,Website,,East Africa
+CMP-045,Q2-2024 Event,Event,22-04-24,27-05-24,5917.98,,29,8,2,6.9,30,Mid-Market,Email,,Global
+CMP-046,Q2-2023 Paid Search,Paid Search,16-05-23,25-05-23,100118.34,84572.94,314,131,74,23.57,82.9,SMB,Email,,Southeast Asia
+CMP-047,Q4-2022 LinkedIn Ads,LinkedIn Ads,29-12-22,04-02-23,92622.97,6724.65,176,88,51,28.98,59.3,Mid-Market,Website,,Global
+CMP-048,Q1-2024 Paid Search,Paid Search,10-01-24,01-04-24,86890.01,17748.26,812,437,34,4.19,53.5,Mid-Market,Google,,East Africa
+CMP-049,Q1-2023 Event,Event,28-01-23,07-02-23,10857.2,4417.6,755,322,96,12.72,,Enterprise,LinkedIn,,Southeast Asia
+CMP-050,Q4-2022 Paid Search,Paid Search,08-11-22,16-12-22,91787.48,57818.83,202,24,17,8.42,28,All Segments,Website,,East Africa
+CMP-051,Q4-2023 Webinar,Webinar,24-12-23,13-03-24,112273.78,41918.27,383,149,,,31.9,All Segments,Website,,East Africa
+CMP-052,Q1-2023 Partner Co-Market,Partner Co-Market,18-03-23,07-06-23,99251.54,52707.53,84,35,8,9.52,69.1,Mid-Market,LinkedIn,,ANZ
+CMP-053,Q2-2022 Paid Search,Paid Search,04-04-22,13-06-22,74465.15,35303.67,800,164,178,22.25,57.9,Mid-Market,Website,,Global
+CMP-054,Q2-2023 Webinar,Webinar,29-05-23,24-07-23,67815.48,103653.53,670,152,162,24.18,47.4,Mid-Market,Event,,South Asia
+CMP-055,Q3-2024 In-App Nudge,In-App Nudge,27-07-24,16-10-24,5113.39,76597.68,820,242,347,42.32,62.1,Mid-Market,Website,Onboarding Tip,South Asia
+CMP-056,Q2-2022 In-App Nudge,In-App Nudge,27-06-22,15-08-22,70096.67,53864.75,296,118,24,8.11,65,Enterprise,Website,Re-engagement,Global
+CMP-057,Q2-2024 Partner Co-Market,Partner Co-Market,20-06-24,14-08-24,119553.86,28933.08,217,,47,21.66,35.6,SMB,In-App,,ANZ
+CMP-058,Q2-2023 Email Nurture,Email Nurture,13-05-23,20-06-23,94152.6,110569.74,889,115,54,6.07,64.9,SMB,Partner,,Southeast Asia
+CMP-059,Q1-2023 Organic SEO,Organic SEO,03-03-23,14-03-23,30167.84,40670.94,421,109,80,19,76.3,All Segments,Email,,Southeast Asia
+CMP-060,Q3-2022 Content Download,Content Download,10-09-22,23-11-22,80485.51,39141.92,294,164,42,14.29,74.5,All Segments,LinkedIn,,South Asia
+CMP-061,Q1-2022 Partner Co-Market,Partner Co-Market,19-01-22,01-04-22,7239.13,81760.31,523,140,61,11.66,53.8,Mid-Market,Email,,Southeast Asia
+CMP-062,Q3-2023 Email Nurture,Email Nurture,04-07-23,29-08-23,51439.1,100203.34,42,14,9,21.43,60,SMB,Email,,East Africa
+CMP-063,Q3-2023 Event,Event,22-09-23,13-11-23,49842.89,128740.25,341,185,20,5.87,70.1,SMB,Google,,Southeast Asia
+CMP-064,Q4-2023 Event,Event,02-12-23,29-01-24,38922.7,66494.48,529,63,44,8.32,44.4,Mid-Market,In-App,,ANZ
+CMP-065,Q1-2022 Partner Co-Market,Partner Co-Market,14-01-22,11-04-22,64881.76,,840,335,37,4.4,47.1,Mid-Market,Website,,South Asia
+CMP-066,Q3-2022 Event,Event,05-09-22,29-10-22,66193.98,19680.86,747,414,128,17.14,41.6,Mid-Market,Google,,East Africa
+CMP-067,Q1-2022 Event,Event,26-03-22,23-04-22,64979.61,,511,298,74,14.48,50,Mid-Market,Email,,Global
+CMP-068,Q3-2024 Content Download,Content Download,09-07-24,17-08-24,82120.43,60970.7,528,119,114,21.59,29.1,Mid-Market,Event,,East Africa
+CMP-069,Q3-2024 Paid Search,Paid Search,27-08-24,25-09-24,114288.12,95540.21,278,34,10,3.6,70.5,Enterprise,LinkedIn,,East Africa
+CMP-070,Q2-2023 Organic SEO,Organic SEO,20-05-23,19-07-23,112608.94,60378.98,159,31,10,6.29,,SMB,Google,,Global
+CMP-071,Q1-2022 Event,Event,27-02-22,23-03-22,107293.35,6716.54,588,69,100,17.01,77.8,Enterprise,In-App,,South Asia
+CMP-072,Q2-2022 Paid Search,Paid Search,08-05-22,25-07-22,78520.54,22560.89,875,,254,29.03,24.3,Mid-Market,Event,,Middle East
+CMP-073,Q2-2024 LinkedIn Ads,LinkedIn Ads,09-04-24,01-05-24,26519.17,26392.84,730,436,185,25.34,71.2,Enterprise,In-App,,Southeast Asia
+CMP-074,Q2-2024 Organic SEO,Organic SEO,20-06-24,24-07-24,54415.14,63389.76,284,31,84,29.58,,Mid-Market,Email,,South Asia
+CMP-075,Q2-2023 Partner Co-Market,Partner Co-Market,19-05-23,14-06-23,38641.36,104742.04,207,124,42,20.29,24.3,Enterprise,Website,,Middle East
+CMP-076,Q3-2024 Content Download,Content Download,26-09-24,16-12-24,71015.13,46015.68,646,162,96,14.86,35.1,All Segments,Email,,ANZ
+CMP-077,Q1-2022 In-App Nudge,In-App Nudge,29-01-22,15-02-22,94158.99,125037.92,282,56,115,40.78,75.1,Enterprise,Email,Re-engagement,Global
+CMP-078,Q1-2024 Content Download,Content Download,12-03-24,29-03-24,,,205,87,59,28.78,44.3,Mid-Market,Partner,,East Africa
+CMP-079,Q2-2023 In-App Nudge,In-App Nudge,23-06-23,13-08-23,11143.76,100914.52,26,12,5,19.23,75,SMB,Partner,Upgrade Prompt,Global
+CMP-080,Q1-2022 Content Download,Content Download,12-02-22,11-03-22,44988.43,106795.43,877,,234,26.68,82,SMB,LinkedIn,,Southeast Asia
+CMP-081,Q1-2023 Event,Event,24-02-23,06-05-23,64898.85,109927.66,105,,16,15.24,45.5,Mid-Market,Event,,ANZ
+CMP-082,Q1-2024 In-App Nudge,In-App Nudge,04-01-24,20-03-24,85188.32,15079.89,743,243,94,12.65,20.8,Mid-Market,Event,Upgrade Prompt,Global
+CMP-083,Q2-2022 Webinar,Webinar,15-06-22,22-08-22,82051.24,20558.52,879,161,,,41.9,Enterprise,Website,,East Africa
+CMP-084,Q2-2024 Partner Co-Market,Partner Co-Market,12-06-24,18-08-24,54583.72,58338.9,433,65,25,5.77,,Mid-Market,Partner,,South Asia
+CMP-085,Q1-2022 Partner Co-Market,Partner Co-Market,17-02-22,24-02-22,38315.9,63883.18,763,95,,,72.3,Mid-Market,LinkedIn,,ANZ
+CMP-086,Q1-2023 Webinar,Webinar,18-02-23,08-03-23,53065.82,29105.74,194,,26,13.4,21.5,SMB,Event,,Middle East
+CMP-087,Q3-2022 Event,Event,03-07-22,16-09-22,109813.26,113856.12,535,,101,18.88,80.3,SMB,Event,,Global
+CMP-088,Q2-2024 Paid Search,Paid Search,06-04-24,12-06-24,86752.66,51869.07,560,325,72,12.86,25.8,Mid-Market,LinkedIn,,Middle East
+CMP-089,Q4-2023 LinkedIn Ads,LinkedIn Ads,23-10-23,06-11-23,109227.95,82295.05,597,306,27,4.52,,Enterprise,Event,,ANZ
+CMP-090,Q1-2022 Partner Co-Market,Partner Co-Market,28-02-22,16-05-22,92748.17,,814,240,176,21.62,74,Mid-Market,Event,,ANZ
+CMP-091,Q3-2023 Email Nurture,Email Nurture,05-07-23,15-07-23,58266.71,54083.96,169,67,22,13.02,61.5,SMB,LinkedIn,,East Africa
+CMP-092,Q3-2022 In-App Nudge,In-App Nudge,26-08-22,16-11-22,16700.54,114948.81,563,337,141,25.04,,Mid-Market,In-App,Onboarding Tip,East Africa
+CMP-093,Q2-2024 Email Nurture,Email Nurture,28-06-24,16-08-24,33238.12,106433.34,422,251,,,71.7,Mid-Market,Email,,Global
+CMP-094,Q1-2024 Webinar,Webinar,21-03-24,02-06-24,113580.64,126978.23,881,385,121,13.73,51.1,SMB,Google,,East Africa
+CMP-095,Q4-2023 Organic SEO,Organic SEO,11-12-23,30-01-24,68357.36,,387,167,87,22.48,72.6,SMB,Website,,Middle East
+CMP-096,Q1-2023 LinkedIn Ads,LinkedIn Ads,12-03-23,04-04-23,55773.75,49322.75,161,62,48,29.81,54.1,SMB,LinkedIn,,East Africa
+CMP-097,Q3-2023 Content Download,Content Download,22-09-23,20-11-23,97432.19,76788.12,655,98,161,24.58,41.6,Mid-Market,LinkedIn,,Middle East
+CMP-098,Q1-2024 Organic SEO,Organic SEO,23-02-24,15-04-24,84319.02,124869.8,415,146,26,6.27,67.5,SMB,Event,,East Africa
+CMP-099,Q1-2023 Partner Co-Market,Partner Co-Market,16-02-23,25-03-23,62538.19,51511.57,256,112,49,19.14,72.4,All Segments,Partner,,Middle East
+CMP-100,Q2-2023 Webinar,Webinar,30-04-23,04-07-23,65006.65,119322.65,254,127,,,31.1,Mid-Market,Partner,,East Africa
+CMP-101,Q2-2023 In-App Nudge,In-App Nudge,24-06-23,03-08-23,109196.72,107013.75,37,4,2,5.41,,Mid-Market,LinkedIn,Upgrade Prompt,East Africa
+CMP-102,Q3-2023 Organic SEO,Organic SEO,22-09-23,25-10-23,93282.89,16250.68,797,418,93,11.67,30.1,Mid-Market,Partner,,Middle East
+CMP-103,Q1-2024 In-App Nudge,In-App Nudge,13-01-24,02-03-24,,,638,355,107,16.77,36.7,SMB,In-App,Onboarding Tip,Global
+CMP-104,Q2-2022 Partner Co-Market,Partner Co-Market,23-06-22,09-08-22,118630.08,71867.02,166,46,7,4.22,46.5,Enterprise,Email,,ANZ
+CMP-105,Q1-2024 Event,Event,28-03-24,12-06-24,78602.44,12419.7,822,299,37,4.5,,Mid-Market,Partner,,Middle East
+CMP-106,Q4-2022 Partner Co-Market,Partner Co-Market,08-12-22,01-03-23,8510.83,110291.54,494,260,100,20.24,,Mid-Market,In-App,,ANZ
+CMP-107,Q4-2023 Organic SEO,Organic SEO,20-11-23,07-02-24,113042.07,98408.62,846,358,50,5.91,31.9,Mid-Market,Partner,,Southeast Asia
+CMP-108,Q2-2022 Email Nurture,Email Nurture,13-06-22,01-08-22,39943.31,118390.19,353,146,45,12.75,,Mid-Market,LinkedIn,,Global
+CMP-109,Q2-2024 Event,Event,22-05-24,13-08-24,51930.67,55539.54,12,1,,,23.1,All Segments,Website,,East Africa
+CMP-110,Q2-2024 Event,Event,15-05-24,11-07-24,48686.15,35526.18,725,384,98,13.52,49.5,Enterprise,Google,,Southeast Asia
+CMP-111,Q1-2022 LinkedIn Ads,LinkedIn Ads,03-03-22,21-04-22,86674.2,56862.06,755,304,203,26.89,70.9,All Segments,Website,,ANZ
+CMP-112,Q4-2023 Organic SEO,Organic SEO,01-11-23,14-12-23,54951.56,128432.67,758,130,129,17.02,,All Segments,Event,,Middle East
+CMP-113,Q4-2022 Webinar,Webinar,28-10-22,16-12-22,67528.58,65174.75,251,26,48,19.12,27.1,Enterprise,Google,,Middle East
+CMP-114,Q3-2022 Email Nurture,Email Nurture,14-07-22,27-08-22,108629.22,26807.31,75,20,6,8,61.6,SMB,Partner,,ANZ
+CMP-115,Q2-2023 In-App Nudge,In-App Nudge,30-04-23,06-06-23,89465.54,,209,,43,20.57,34.9,All Segments,Event,Onboarding Tip,South Asia
+CMP-116,Q1-2022 Organic SEO,Organic SEO,20-02-22,06-04-22,85805.62,109851.07,441,232,18,4.08,51.7,SMB,Email,,Southeast Asia
+CMP-117,Q1-2023 Partner Co-Market,Partner Co-Market,12-02-23,27-04-23,99355.29,107408.46,156,50,46,29.49,77.2,Mid-Market,LinkedIn,,Southeast Asia
+CMP-118,Q3-2024 Content Download,Content Download,19-08-24,30-10-24,116674.34,,111,,31,27.93,72.6,Enterprise,Partner,,Global
+CMP-119,Q3-2022 Email Nurture,Email Nurture,06-07-22,29-07-22,9211.49,87677.87,596,241,,,71.5,SMB,Partner,,Middle East
+CMP-120,Q1-2022 Partner Co-Market,Partner Co-Market,27-02-22,19-03-22,33065.97,8757.77,689,327,,,31.3,Enterprise,Google,,Global
+CMP-121,Q4-2022 In-App Nudge,In-App Nudge,02-12-22,25-01-23,45541.16,115536.66,836,475,99,11.84,73.4,Mid-Market,In-App,,East Africa
+CMP-122,Q3-2022 Partner Co-Market,Partner Co-Market,09-09-22,21-11-22,7190.11,79673.5,617,93,136,22.04,28.5,Mid-Market,Google,,Southeast Asia
+CMP-123,Q1-2022 Paid Search,Paid Search,23-03-22,12-04-22,48437.45,67522.27,462,178,102,22.08,55,SMB,Email,,Middle East
+CMP-124,Q2-2022 In-App Nudge,In-App Nudge,09-04-22,17-05-22,82139.3,67498.68,379,,122,32.19,49.1,Mid-Market,Google,,East Africa
+CMP-125,Q3-2024 Webinar,Webinar,09-07-24,12-09-24,109421.78,1748.96,23,11,,,76.5,All Segments,LinkedIn,,South Asia
+CMP-126,Q4-2022 In-App Nudge,In-App Nudge,09-11-22,10-01-23,69614.5,38625.48,293,45,127,43.34,59.4,SMB,Email,Re-engagement,East Africa
+CMP-127,Q3-2023 Webinar,Webinar,30-07-23,23-10-23,95985.49,94656.37,729,343,56,7.68,49.8,SMB,In-App,,Southeast Asia
+CMP-128,Q4-2022 Event,Event,17-11-22,09-02-23,69283.82,36222.12,403,151,65,16.13,24.7,Enterprise,In-App,,Southeast Asia
+CMP-129,Q4-2022 In-App Nudge,In-App Nudge,12-12-22,20-01-23,8508.53,42835.49,886,316,298,33.63,,Mid-Market,Google,Re-engagement,Southeast Asia
+CMP-130,Q1-2022 Email Nurture,Email Nurture,03-02-22,21-02-22,118742.74,103255.17,55,6,13,23.64,29,All Segments,In-App,,Global
+CMP-131,Q3-2024 Event,Event,28-09-24,07-11-24,19936.4,105573.86,573,283,22,3.84,69.6,Enterprise,In-App,,East Africa
+CMP-132,Q2-2024 In-App Nudge,In-App Nudge,18-04-24,10-07-24,104653.47,35864.15,663,261,129,19.46,75.5,Mid-Market,Partner,Upgrade Prompt,Southeast Asia
+CMP-133,Q2-2022 LinkedIn Ads,LinkedIn Ads,05-04-22,16-05-22,53521.14,108461.38,860,490,37,4.3,72.6,Mid-Market,Email,,Middle East
+CMP-134,Q1-2023 Paid Search,Paid Search,09-02-23,12-04-23,108224.65,72689.04,398,94,105,26.38,56.9,All Segments,LinkedIn,,Global
+CMP-135,Q3-2024 Event,Event,15-09-24,04-12-24,20003.29,80866.9,445,47,119,26.74,55.7,Enterprise,Email,,Global
+CMP-136,Q1-2023 Webinar,Webinar,16-01-23,24-03-23,105549.37,80135.6,813,394,93,11.44,,Enterprise,Website,,East Africa
+CMP-137,Q3-2023 Partner Co-Market,Partner Co-Market,26-07-23,18-08-23,112575.87,44499.81,219,40,7,3.2,22.1,SMB,Event,,Middle East
+CMP-138,Q1-2022 LinkedIn Ads,LinkedIn Ads,28-02-22,21-03-22,81626.19,106052.49,800,81,159,19.88,72.2,All Segments,Partner,,Global
+CMP-139,Q3-2024 Webinar,Webinar,17-07-24,01-10-24,62849.52,85432.46,552,124,79,14.31,,Mid-Market,Google,,East Africa
+CMP-140,Q1-2023 Event,Event,11-02-23,13-03-23,62739.97,112908.21,400,119,54,13.5,81.7,Mid-Market,Event,,Middle East
+CMP-141,Q1-2024 Webinar,Webinar,21-02-24,03-04-24,5608.28,10054.7,643,96,138,21.46,68.7,All Segments,Google,,Middle East
+CMP-142,Q4-2022 Email Nurture,Email Nurture,20-11-22,06-12-22,90279.91,88381.33,71,23,13,18.31,60.6,All Segments,Website,,Middle East
+CMP-143,Q1-2024 Partner Co-Market,Partner Co-Market,06-02-24,24-04-24,94972.5,51376.46,140,27,19,13.57,84.5,All Segments,In-App,,South Asia
+CMP-144,Q4-2022 Paid Search,Paid Search,26-12-22,04-03-23,5558.78,9330.69,320,158,21,6.56,,Enterprise,Website,,Global
+CMP-145,Q1-2022 Webinar,Webinar,31-03-22,28-05-22,33213.27,,11,6,2,18.18,71.7,Enterprise,Website,,East Africa
+CMP-146,Q1-2024 LinkedIn Ads,LinkedIn Ads,07-03-24,16-03-24,,,388,,66,17.01,58.5,Mid-Market,Website,,ANZ
+CMP-147,Q2-2023 Content Download,Content Download,12-05-23,06-08-23,95663.34,81540.84,729,331,92,12.62,27.8,Mid-Market,Partner,,Global
+CMP-148,Q3-2023 Email Nurture,Email Nurture,16-08-23,12-09-23,85647.94,39687.78,250,139,,,73.5,All Segments,LinkedIn,,South Asia
+CMP-149,Q1-2024 Content Download,Content Download,14-02-24,30-04-24,5969.16,103393.89,611,93,71,11.62,69.6,All Segments,Email,,South Asia
+CMP-150,Q4-2023 Organic SEO,Organic SEO,08-10-23,05-12-23,70202.94,80223.79,725,267,43,5.93,42.9,All Segments,Google,,Southeast Asia
+CMP-151,Q1-2022 Event,Event,16-01-22,05-03-22,91963.9,38748.14,714,350,122,17.09,,All Segments,Website,,Southeast Asia
+CMP-152,Q3-2024 Email Nurture,Email Nurture,20-09-24,18-12-24,52861.88,7409.17,194,61,39,20.1,63.4,Enterprise,In-App,,Southeast Asia
+CMP-153,Q1-2023 Webinar,Webinar,22-01-23,25-03-23,90213.12,70175.05,387,127,114,29.46,53.3,Mid-Market,Event,,Middle East
+CMP-154,Q4-2023 Webinar,Webinar,05-12-23,24-12-23,5779.52,100377.56,752,250,107,14.23,63.8,Enterprise,Email,,ANZ
+CMP-155,Q4-2023 LinkedIn Ads,LinkedIn Ads,08-12-23,10-01-24,53387.54,128521.41,279,57,30,10.75,79.9,SMB,Partner,,South Asia
+CMP-156,Q4-2023 Partner Co-Market,Partner Co-Market,25-12-23,09-03-24,46876.05,66612.61,359,136,22,6.13,84.6,Mid-Market,Email,,Southeast Asia
+CMP-157,Q4-2022 Event,Event,30-12-22,18-03-23,6114.49,54480.6,517,73,16,3.09,62.1,Mid-Market,Event,,South Asia
+CMP-158,Q2-2024 Paid Search,Paid Search,02-06-24,24-06-24,93856.22,113803.34,307,48,89,28.99,24.6,SMB,Google,,Global
+CMP-159,Q3-2024 Webinar,Webinar,27-09-24,22-10-24,58967.8,86950.14,598,161,76,12.71,67.6,Mid-Market,Partner,,Southeast Asia
+CMP-160,Q2-2022 Email Nurture,Email Nurture,15-06-22,27-07-22,,,178,78,,,79.4,SMB,Email,,Global
+CMP-161,Q3-2023 Paid Search,Paid Search,27-08-23,11-10-23,40312.28,91118.86,643,,186,28.93,,All Segments,Website,,Southeast Asia
+CMP-162,Q2-2022 Partner Co-Market,Partner Co-Market,18-06-22,21-08-22,41203.49,6299.87,855,168,235,27.49,,Mid-Market,Website,,ANZ
+CMP-163,Q2-2022 Paid Search,Paid Search,16-06-22,08-07-22,108183.64,15198.27,495,123,100,20.2,61.5,Mid-Market,Website,,South Asia
+CMP-164,Q4-2022 LinkedIn Ads,LinkedIn Ads,22-10-22,14-12-22,41762.47,41759.69,13,4,,,56.6,SMB,Event,,East Africa
+CMP-165,Q2-2022 Partner Co-Market,Partner Co-Market,26-06-22,27-08-22,26672.51,25159.88,151,39,28,18.54,42.2,Mid-Market,Partner,,Global
+CMP-166,Q4-2023 Paid Search,Paid Search,08-10-23,21-12-23,106789.19,105423.81,344,198,61,17.73,77.1,SMB,In-App,,Global
+CMP-167,Q4-2022 LinkedIn Ads,LinkedIn Ads,15-11-22,20-12-22,33068.56,,547,210,57,10.42,47.6,All Segments,Google,,ANZ
+CMP-168,Q2-2024 Partner Co-Market,Partner Co-Market,26-05-24,12-07-24,20674.64,71307.86,510,281,112,21.96,24.2,Enterprise,Google,,ANZ
+CMP-169,Q1-2023 Organic SEO,Organic SEO,21-02-23,05-04-23,73176.08,93757.24,398,186,67,16.83,39.6,SMB,In-App,,Middle East
+CMP-170,Q1-2022 Content Download,Content Download,30-01-22,20-04-22,92743.62,129715.42,415,98,57,13.73,28.4,SMB,Event,,Middle East
+CMP-171,Q1-2023 LinkedIn Ads,LinkedIn Ads,26-02-23,20-03-23,18987.7,125717.26,38,5,4,10.53,53.9,Mid-Market,Email,,Southeast Asia
+CMP-172,Q1-2022 LinkedIn Ads,LinkedIn Ads,15-02-22,07-04-22,21910.78,48347.33,258,,62,24.03,48.7,All Segments,LinkedIn,,ANZ
+CMP-173,Q2-2023 Event,Event,17-04-23,03-07-23,5407.6,25415.83,60,8,14,23.33,,All Segments,Website,,Global
+CMP-174,Q2-2024 Paid Search,Paid Search,21-05-24,13-06-24,88608.97,83160.41,220,123,,,84.9,All Segments,Partner,,South Asia
+CMP-175,Q2-2023 Email Nurture,Email Nurture,24-05-23,13-06-23,83542.17,14701.16,334,164,28,8.38,31.3,Enterprise,In-App,,Global
+CMP-176,Q1-2024 LinkedIn Ads,LinkedIn Ads,24-02-24,13-04-24,16727.41,92595.4,612,362,153,25,51.2,All Segments,Google,,South Asia
+CMP-177,Q1-2022 Paid Search,Paid Search,29-01-22,20-03-22,66780.36,105920.38,184,110,26,14.13,47,SMB,LinkedIn,,East Africa
+CMP-178,Q1-2024 Organic SEO,Organic SEO,22-01-24,16-03-24,103932.54,62120.27,82,26,20,24.39,53.6,Enterprise,Event,,Middle East
+CMP-179,Q4-2023 Organic SEO,Organic SEO,19-10-23,30-10-23,95662.93,90451.68,536,,144,26.87,,Mid-Market,In-App,,Middle East
+CMP-180,Q1-2022 Content Download,Content Download,28-02-22,23-05-22,97375.99,94964.46,399,,39,9.77,67.5,All Segments,Website,,ANZ
+CMP-181,Q4-2022 Organic SEO,Organic SEO,21-11-22,28-01-23,76552.99,116301.55,141,39,33,23.4,41,Enterprise,Website,,Middle East
+CMP-182,Q3-2022 Webinar,Webinar,29-09-22,06-11-22,68252.35,12754.43,119,12,14,11.76,66.8,Enterprise,Partner,,Global
+CMP-183,Q4-2023 Partner Co-Market,Partner Co-Market,13-12-23,19-01-24,102725.1,35051.11,475,,58,12.21,58.4,Enterprise,Google,,South Asia
+CMP-184,Q3-2024 Organic SEO,Organic SEO,23-07-24,26-09-24,31988.76,96179.73,168,,16,9.52,61.1,Mid-Market,Google,,Southeast Asia
+CMP-185,Q3-2023 Content Download,Content Download,14-08-23,26-09-23,100670.31,26371.64,623,354,64,10.27,54.2,All Segments,Partner,,Global
+CMP-186,Q4-2023 Paid Search,Paid Search,25-12-23,01-03-24,9727.14,104269.5,97,26,28,28.87,58.2,All Segments,In-App,,Middle East
+CMP-187,Q1-2023 Event,Event,15-02-23,14-03-23,9989.37,85488.47,41,12,1,2.44,47.2,Enterprise,LinkedIn,,East Africa
+CMP-188,Q3-2022 Content Download,Content Download,19-08-22,06-10-22,94512.77,90934.24,31,14,2,6.45,64.7,Mid-Market,Partner,,East Africa
+CMP-189,Q3-2023 Organic SEO,Organic SEO,10-07-23,29-07-23,78522.52,93683.78,588,351,106,18.03,30.8,Enterprise,Event,,South Asia
+CMP-190,Q3-2024 Content Download,Content Download,21-08-24,30-09-24,7293.28,,816,475,84,10.29,51.4,Enterprise,Email,,East Africa
+CMP-191,Q2-2022 In-App Nudge,In-App Nudge,29-06-22,01-09-22,94507.44,101081.66,319,175,102,31.97,75.1,Enterprise,In-App,Upgrade Prompt,ANZ
+CMP-192,Q1-2024 Webinar,Webinar,30-01-24,20-03-24,53149.09,101570.2,738,179,198,26.83,45.4,Mid-Market,Partner,,ANZ
+CMP-193,Q3-2024 Paid Search,Paid Search,12-07-24,28-08-24,29072.41,,235,,45,19.15,71.1,Mid-Market,Website,,ANZ
+CMP-194,Q4-2022 Event,Event,15-11-22,29-12-22,28347.8,72391.6,897,379,150,16.72,73.4,Mid-Market,Website,,East Africa
+CMP-195,Q2-2022 Paid Search,Paid Search,24-04-22,07-05-22,105342.85,86287.64,777,378,83,10.68,62.6,Mid-Market,LinkedIn,,Global
+CMP-196,Q1-2022 Webinar,Webinar,01-02-22,03-03-22,44277.13,31194.74,434,111,45,10.37,50.4,SMB,Partner,,ANZ
+CMP-197,Q3-2023 In-App Nudge,In-App Nudge,03-07-23,14-09-23,12007.86,105126.83,586,,259,44.2,74,SMB,Email,Upgrade Prompt,East Africa
+CMP-198,Q4-2022 Event,Event,17-12-22,15-03-23,8659.06,110074.12,428,178,77,17.99,,Mid-Market,Website,,Middle East
+CMP-199,Q1-2024 Organic SEO,Organic SEO,31-01-24,08-04-24,110659.8,33905.88,129,34,11,8.53,52.4,SMB,In-App,,Middle East
+CMP-200,Q1-2024 In-App Nudge,In-App Nudge,11-01-24,07-02-24,107033.38,112454.79,209,116,56,26.79,73.9,All Segments,Google,Upgrade Prompt,South Asia
+CMP-201,Q3-2022 Organic SEO,Organic SEO,12-09-22,25-09-22,15225.77,13911.21,432,107,39,9.03,68.2,Mid-Market,Partner,,South Asia
+CMP-202,Q4-2023 Paid Search,Paid Search,25-10-23,21-12-23,96195.97,76850.5,153,86,,,31.6,Enterprise,Website,,East Africa
+CMP-203,Q4-2023 Paid Search,Paid Search,14-11-23,24-11-23,70784.4,18131.71,85,42,,,36.6,Mid-Market,Event,,ANZ
+CMP-204,Q1-2024 LinkedIn Ads,LinkedIn Ads,16-03-24,26-05-24,44201.73,23520.8,36,18,1,2.78,41.9,SMB,Partner,,South Asia
+CMP-205,Q3-2022 Content Download,Content Download,27-08-22,28-10-22,5918.21,106912.19,853,,124,14.54,72,SMB,Partner,,Middle East
+CMP-206,Q4-2022 In-App Nudge,In-App Nudge,02-10-22,24-12-22,118144.72,92436.3,702,420,142,20.23,27.5,Mid-Market,Email,,Middle East
+CMP-207,Q2-2024 Event,Event,05-05-24,26-07-24,81706.78,36057.87,687,313,75,10.92,26.1,Enterprise,Website,,Southeast Asia
+CMP-208,Q4-2022 Organic SEO,Organic SEO,02-10-22,10-12-22,84608.28,64633.38,51,16,2,3.92,69.8,Enterprise,Website,,South Asia
+CMP-209,Q3-2023 In-App Nudge,In-App Nudge,20-08-23,16-09-23,76546.82,58793.35,273,56,53,19.41,,SMB,Partner,Upgrade Prompt,ANZ
+CMP-210,Q2-2023 Content Download,Content Download,31-05-23,01-08-23,73477.43,32144.77,518,102,,,31.9,Enterprise,In-App,,East Africa
+CMP-211,Q3-2023 LinkedIn Ads,LinkedIn Ads,21-08-23,23-10-23,40862.16,19091.33,295,34,85,28.81,29.3,Enterprise,LinkedIn,,Southeast Asia
+CMP-212,Q4-2022 In-App Nudge,In-App Nudge,09-10-22,27-10-22,65788.11,50867.13,15,8,0,,53.2,All Segments,Website,,South Asia
+CMP-213,Q1-2024 Organic SEO,Organic SEO,18-03-24,23-05-24,20887.69,34557.03,598,,157,26.25,67.2,All Segments,In-App,,ANZ
+CMP-214,Q4-2023 Email Nurture,Email Nurture,31-10-23,30-11-23,77536.97,23023.53,702,144,186,26.5,,All Segments,Google,,East Africa
+CMP-215,Q1-2023 Paid Search,Paid Search,21-02-23,10-04-23,9589.4,95303.08,866,,209,24.13,,All Segments,Email,,Global
+CMP-216,Q4-2022 Paid Search,Paid Search,17-12-22,06-02-23,70942.76,80316.58,430,55,77,17.91,58.3,All Segments,Event,,East Africa
+CMP-217,Q1-2022 Paid Search,Paid Search,06-02-22,22-02-22,51759.52,124622.24,632,170,148,23.42,74.7,Mid-Market,In-App,,Global
+CMP-218,Q2-2022 Paid Search,Paid Search,25-04-22,21-06-22,92534.47,66107.05,505,277,76,15.05,44.8,All Segments,LinkedIn,,ANZ
+CMP-219,Q3-2024 Content Download,Content Download,17-07-24,29-08-24,65609.93,18377.58,702,253,36,5.13,26.5,SMB,Website,,Global
+CMP-220,Q2-2024 Webinar,Webinar,14-05-24,11-07-24,80344.36,29530.55,575,140,134,23.3,36.6,Mid-Market,Partner,,ANZ
+CMP-221,Q1-2024 Content Download,Content Download,28-02-24,14-05-24,98723.5,27222.35,394,58,35,8.88,31.7,Enterprise,Partner,,East Africa
+CMP-222,Q1-2022 LinkedIn Ads,LinkedIn Ads,18-03-22,05-04-22,86336.62,54333.3,665,373,114,17.14,,SMB,Event,,East Africa
+CMP-223,Q1-2023 LinkedIn Ads,LinkedIn Ads,19-03-23,30-05-23,88392.31,39939.52,731,297,216,29.55,31,All Segments,LinkedIn,,Middle East
+CMP-224,Q1-2022 Paid Search,Paid Search,10-01-22,21-02-22,60176.64,17309.01,719,402,162,22.53,81.8,SMB,Website,,Middle East
+CMP-225,Q1-2024 Paid Search,Paid Search,28-03-24,13-06-24,108438.26,41763.67,509,257,,,45.8,Enterprise,Google,,South Asia
+CMP-226,Q2-2024 Content Download,Content Download,10-04-24,24-06-24,98189.78,31975.95,141,35,30,21.28,26.6,Enterprise,LinkedIn,,Middle East
+CMP-227,Q3-2023 LinkedIn Ads,LinkedIn Ads,01-07-23,17-07-23,99068.75,,476,193,124,26.05,81.3,All Segments,In-App,,East Africa
+CMP-228,Q1-2022 Webinar,Webinar,17-02-22,09-03-22,28534.84,29230.5,595,210,143,24.03,26.3,Mid-Market,Email,,Middle East
+CMP-229,Q2-2023 Webinar,Webinar,04-06-23,23-06-23,24724.91,20427.88,487,189,90,18.48,41.9,Mid-Market,LinkedIn,,South Asia
+CMP-230,Q2-2022 In-App Nudge,In-App Nudge,07-06-22,15-07-22,97774.41,53937.93,601,316,146,24.29,24.3,Enterprise,LinkedIn,Feature Highlight,Middle East
+CMP-231,Q3-2022 Partner Co-Market,Partner Co-Market,05-07-22,13-08-22,118132.25,82581.55,751,129,101,13.45,52.6,Enterprise,In-App,,Southeast Asia
+CMP-232,Q2-2022 Partner Co-Market,Partner Co-Market,12-04-22,29-04-22,114125.62,22019.25,281,113,11,3.91,82.1,Enterprise,Partner,,East Africa
+CMP-233,Q3-2023 Event,Event,19-09-23,30-09-23,118394.32,110362.18,515,115,65,12.62,20.7,Mid-Market,LinkedIn,,ANZ
+CMP-234,Q1-2022 Paid Search,Paid Search,27-01-22,12-02-22,73088.43,22610.54,743,281,30,4.04,55.8,Mid-Market,Google,,South Asia
+CMP-235,Q4-2022 Organic SEO,Organic SEO,28-12-22,23-02-23,74389.22,106417.8,789,320,104,13.18,34,All Segments,Event,,East Africa
+CMP-236,Q1-2022 Organic SEO,Organic SEO,25-03-22,19-05-22,22975.38,,474,63,137,28.9,48.4,Mid-Market,Website,,Middle East
+CMP-237,Q2-2024 Partner Co-Market,Partner Co-Market,21-05-24,15-06-24,90320.55,2173.86,541,59,21,3.88,49.6,SMB,Google,,South Asia
+CMP-238,Q3-2022 Email Nurture,Email Nurture,30-07-22,17-10-22,108324.59,70325.39,29,13,,,31.4,Mid-Market,Event,,East Africa
+CMP-239,Q2-2022 Organic SEO,Organic SEO,13-05-22,09-07-22,115065.4,46542.9,163,39,28,17.18,61.1,All Segments,In-App,,Global
+CMP-240,Q1-2022 LinkedIn Ads,LinkedIn Ads,05-03-22,17-03-22,105793.13,1949.4,247,63,,,41.5,Mid-Market,Partner,,East Africa
+CMP-241,Q2-2024 Event,Event,27-05-24,13-07-24,49754.34,12010.29,861,283,184,21.37,51.8,All Segments,Google,,Middle East
+CMP-242,Q3-2024 Partner Co-Market,Partner Co-Market,19-09-24,16-11-24,20317.34,104531.09,812,292,157,19.33,43.2,Mid-Market,Event,,Middle East
+CMP-243,Q1-2022 Paid Search,Paid Search,14-02-22,26-04-22,19860.09,21832.68,74,35,21,28.38,67.3,All Segments,Email,,Global
+CMP-244,Q2-2023 Content Download,Content Download,12-05-23,17-07-23,54634.62,50971.28,300,56,,,58.8,Enterprise,In-App,,Middle East
+CMP-245,Q2-2022 Email Nurture,Email Nurture,09-06-22,30-07-22,82409.91,60676.62,304,33,87,28.62,44.4,SMB,Partner,,Middle East
+CMP-246,Q4-2023 Webinar,Webinar,28-11-23,10-12-23,48708.16,33190.71,673,381,,,28.8,SMB,Event,,ANZ
+CMP-247,Q1-2024 Email Nurture,Email Nurture,06-01-24,01-02-24,95250.35,53034.8,192,39,,,66.1,SMB,Website,,East Africa
+CMP-248,Q2-2022 Webinar,Webinar,07-05-22,31-07-22,21830.72,108129.25,778,243,107,13.75,43.9,SMB,LinkedIn,,Southeast Asia
+CMP-249,Q1-2023 Email Nurture,Email Nurture,10-01-23,15-03-23,96424.94,105019.74,278,90,36,12.95,27.2,Enterprise,Partner,,Middle East
+CMP-250,Q2-2024 LinkedIn Ads,LinkedIn Ads,01-06-24,06-07-24,38017.25,39831.39,243,53,70,28.81,78.6,SMB,Event,,ANZ
+CMP-251,Q2-2024 Webinar,Webinar,26-05-24,17-07-24,91901.6,102469.46,595,312,123,20.67,62.8,Enterprise,Website,,Middle East
+CMP-252,Q1-2022 Organic SEO,Organic SEO,20-02-22,28-02-22,38030.95,66030.1,213,50,,,63.4,SMB,LinkedIn,,Southeast Asia
+CMP-253,Q3-2023 Partner Co-Market,Partner Co-Market,28-07-23,20-08-23,31508.46,96005.13,531,182,121,22.79,56.5,SMB,Google,,ANZ
+CMP-254,Q3-2022 LinkedIn Ads,LinkedIn Ads,21-09-22,04-11-22,115726.56,35770.29,311,131,59,18.97,62.1,Enterprise,Google,,ANZ
+CMP-255,Q2-2024 Email Nurture,Email Nurture,06-04-24,18-05-24,28027.04,51088.81,696,130,120,17.24,,All Segments,Event,,East Africa
+CMP-256,Q3-2024 Organic SEO,Organic SEO,14-09-24,23-10-24,98954.58,18854.46,589,141,77,13.07,80.6,All Segments,LinkedIn,,East Africa
+CMP-257,Q1-2024 Email Nurture,Email Nurture,12-02-24,19-02-24,83557.94,117683.68,832,180,137,16.47,41.1,All Segments,In-App,,Southeast Asia
+CMP-258,Q1-2023 Organic SEO,Organic SEO,02-02-23,23-02-23,112719.89,121062.38,349,,28,8.02,72.9,All Segments,Email,,Southeast Asia
+CMP-259,Q1-2024 Partner Co-Market,Partner Co-Market,16-02-24,21-04-24,70395.3,28346.39,98,46,15,15.31,50.4,Mid-Market,In-App,,Global
+CMP-260,Q1-2022 Paid Search,Paid Search,18-03-22,05-04-22,71957.45,18795.65,409,69,17,4.16,33.5,Mid-Market,In-App,,South Asia
+CMP-261,Q2-2024 Event,Event,13-05-24,25-05-24,92495.26,,97,11,,,63.3,All Segments,In-App,,South Asia
+CMP-262,Q2-2022 Event,Event,27-05-22,16-08-22,117326.89,85488.3,892,178,112,12.56,42.3,Enterprise,Event,,Southeast Asia
+CMP-263,Q1-2024 Partner Co-Market,Partner Co-Market,04-01-24,22-02-24,5897.21,33477.96,733,,103,14.05,34.4,Enterprise,Google,,Global
+CMP-264,Q3-2023 Webinar,Webinar,31-08-23,12-10-23,94297.29,38524.09,105,53,6,5.71,32.4,Enterprise,Event,,East Africa
+CMP-265,Q1-2024 Webinar,Webinar,05-02-24,27-03-24,70151.09,19729.57,177,,40,22.6,30.7,Mid-Market,Event,,Southeast Asia
+CMP-266,Q3-2024 Content Download,Content Download,26-09-24,21-11-24,100651.98,109832.91,348,53,91,26.15,49.6,Enterprise,Email,,South Asia
+CMP-267,Q2-2023 Paid Search,Paid Search,25-05-23,06-08-23,27801.14,78818.23,212,82,37,17.45,28.5,Mid-Market,Event,,South Asia
+CMP-268,Q1-2023 Organic SEO,Organic SEO,24-03-23,08-06-23,8725.93,127302.34,583,95,,,23.2,Mid-Market,LinkedIn,,East Africa
+CMP-269,Q3-2024 LinkedIn Ads,LinkedIn Ads,11-07-24,07-08-24,77355.01,55353.67,504,285,,,,All Segments,Event,,Global
+CMP-270,Q4-2023 Event,Event,16-11-23,17-12-23,56316.97,10886.68,259,73,39,15.06,83.5,All Segments,Website,,South Asia
+CMP-271,Q1-2022 Content Download,Content Download,08-01-22,30-03-22,59074.94,55335.19,290,167,35,12.07,20.3,Mid-Market,Website,,South Asia
+CMP-272,Q2-2022 Event,Event,18-06-22,16-08-22,114670.48,55614.2,409,46,32,7.82,74.7,Enterprise,Website,,East Africa
+CMP-273,Q4-2023 Paid Search,Paid Search,04-10-23,28-12-23,115019.48,15169.14,659,321,28,4.25,,All Segments,Event,,South Asia
+CMP-274,Q4-2023 Webinar,Webinar,11-10-23,10-12-23,88281.52,10862.92,567,89,97,17.11,,Mid-Market,Google,,East Africa
+CMP-275,Q1-2022 LinkedIn Ads,LinkedIn Ads,15-01-22,21-02-22,39834.56,16263.06,346,207,,,34.7,Enterprise,Partner,,East Africa
+CMP-276,Q3-2023 Webinar,Webinar,21-09-23,07-10-23,31202.74,6699.99,402,,77,19.15,23.5,Enterprise,Partner,,Global
+CMP-277,Q1-2024 In-App Nudge,In-App Nudge,28-02-24,11-04-24,80400.6,98493.08,615,121,39,6.34,52.7,All Segments,Partner,Feature Highlight,Global
+CMP-278,Q3-2024 LinkedIn Ads,LinkedIn Ads,29-08-24,16-11-24,20372.7,76030.87,145,45,11,7.59,57,Enterprise,Event,,Global
+CMP-279,Q2-2024 LinkedIn Ads,LinkedIn Ads,07-04-24,07-06-24,48509.14,33578.9,700,272,166,23.71,63.7,Enterprise,Event,,Middle East
+CMP-280,Q3-2022 Partner Co-Market,Partner Co-Market,24-07-22,22-10-22,13904.91,11342.17,357,187,89,24.93,75.3,SMB,Google,,ANZ
+CMP-281,Q1-2022 Email Nurture,Email Nurture,09-02-22,14-04-22,91957.68,22650.84,181,57,7,3.87,66.1,SMB,Event,,Middle East
+CMP-282,Q3-2024 Email Nurture,Email Nurture,29-08-24,05-11-24,23828.34,,104,59,,,23.5,All Segments,In-App,,Global
+CMP-283,Q2-2022 Organic SEO,Organic SEO,17-04-22,18-06-22,53750.1,104573.99,739,,122,16.51,37.5,All Segments,Google,,ANZ
+CMP-284,Q3-2023 In-App Nudge,In-App Nudge,12-08-23,03-09-23,28358.14,73945.3,636,130,86,13.52,83,SMB,In-App,Onboarding Tip,Southeast Asia
+CMP-285,Q4-2023 LinkedIn Ads,LinkedIn Ads,16-10-23,04-01-24,115771.16,119897.27,413,238,112,27.12,57.3,Mid-Market,Website,,East Africa
+CMP-286,Q1-2024 Email Nurture,Email Nurture,22-01-24,30-03-24,103088.3,93204.5,296,120,65,21.96,43.9,Mid-Market,Partner,,Middle East
+CMP-287,Q1-2023 LinkedIn Ads,LinkedIn Ads,01-02-23,29-03-23,91606.49,25130.45,377,186,38,10.08,71.3,Enterprise,LinkedIn,,Southeast Asia
+CMP-288,Q4-2023 Event,Event,25-10-23,26-11-23,26674.01,17542.7,464,176,,,43.5,SMB,LinkedIn,,ANZ
+CMP-289,Q2-2022 Email Nurture,Email Nurture,27-06-22,07-07-22,82977.58,30249.12,10,2,2,20,45,Mid-Market,Event,,Middle East
+CMP-290,Q1-2024 LinkedIn Ads,LinkedIn Ads,06-01-24,14-03-24,96420.77,115063.25,180,,9,5,74.2,All Segments,Event,,ANZ
+CMP-291,Q2-2022 Organic SEO,Organic SEO,20-05-22,08-07-22,25796.54,5942.16,708,322,39,5.51,47,Mid-Market,Google,,South Asia
+CMP-292,Q2-2024 Paid Search,Paid Search,01-04-24,31-05-24,94830.63,61431.99,261,48,,,81.4,Enterprise,Partner,,South Asia
+CMP-293,Q2-2022 Partner Co-Market,Partner Co-Market,06-04-22,08-05-22,32804.86,119951.3,552,306,117,21.2,61.5,All Segments,Google,,Middle East
+CMP-294,Q3-2024 Email Nurture,Email Nurture,16-09-24,17-10-24,87324.02,52038.16,244,36,29,11.89,,Enterprise,LinkedIn,,Global
+CMP-295,Q3-2022 Email Nurture,Email Nurture,26-07-22,26-08-22,102961.26,35333.66,73,,6,8.22,20.6,Mid-Market,Website,,ANZ
+CMP-296,Q2-2023 Webinar,Webinar,25-05-23,18-08-23,18941.12,69063,741,278,176,23.75,23.4,Enterprise,Event,,Global
+CMP-297,Q3-2022 Content Download,Content Download,03-07-22,13-07-22,48712.52,95104.83,141,56,4,2.84,51.4,SMB,Partner,,ANZ
+CMP-298,Q3-2023 Event,Event,14-07-23,01-10-23,8587.05,,458,221,44,9.61,58,Mid-Market,LinkedIn,,South Asia
+CMP-299,Q1-2024 Organic SEO,Organic SEO,16-01-24,28-01-24,24525.59,97623.7,118,65,30,25.42,75.7,Mid-Market,LinkedIn,,East Africa
+CMP-300,Q2-2024 LinkedIn Ads,LinkedIn Ads,25-05-24,21-07-24,5222.66,84776.47,714,110,,,65,SMB,LinkedIn,,ANZ
+CMP-301,Q3-2022 LinkedIn Ads,LinkedIn Ads,08-07-22,23-08-22,91363.44,5587,343,89,42,12.24,39.1,Enterprise,Partner,,Global
+CMP-302,Q1-2024 Content Download,Content Download,20-03-24,27-04-24,65440.57,3110.84,527,225,93,17.65,57.5,Enterprise,Google,,East Africa
+CMP-303,Q3-2022 Paid Search,Paid Search,02-09-22,10-10-22,92642.63,62607.25,197,,16,8.12,30.9,Mid-Market,Partner,,South Asia
+CMP-304,Q1-2022 LinkedIn Ads,LinkedIn Ads,05-02-22,14-02-22,64766.25,16030.5,800,225,57,7.12,21.6,All Segments,Event,,South Asia
+CMP-305,Q2-2023 Webinar,Webinar,02-04-23,09-06-23,19085.22,64371.39,114,21,30,26.32,60.7,SMB,Partner,,Global
+CMP-306,Q3-2024 Webinar,Webinar,13-07-24,27-09-24,46451.45,4932.98,732,351,,,76.6,All Segments,Website,,Middle East
+CMP-307,Q3-2023 Organic SEO,Organic SEO,16-09-23,07-10-23,57478.92,67047.31,883,,,,64,Mid-Market,LinkedIn,,Southeast Asia
+CMP-308,Q4-2023 LinkedIn Ads,LinkedIn Ads,14-12-23,10-03-24,11138.11,9349.32,784,201,102,13.01,80.4,Mid-Market,Website,,East Africa
+CMP-309,Q4-2022 In-App Nudge,In-App Nudge,04-10-22,01-11-22,12617.43,60139.27,890,200,235,26.4,54,All Segments,Partner,Feature Highlight,Global
+CMP-310,Q3-2024 Email Nurture,Email Nurture,04-09-24,09-10-24,22772.93,110844.19,143,23,27,18.88,71.5,All Segments,LinkedIn,,Middle East
+CMP-311,Q3-2023 Content Download,Content Download,23-08-23,12-09-23,99365.22,22715.61,227,65,23,10.13,45.7,SMB,Partner,,ANZ
+CMP-312,Q1-2024 In-App Nudge,In-App Nudge,19-03-24,09-04-24,51228.68,92153.5,391,161,56,14.32,45.2,All Segments,Partner,Upgrade Prompt,Middle East
+CMP-313,Q1-2024 Content Download,Content Download,13-03-24,10-06-24,52737.84,54386.47,580,172,121,20.86,28.8,All Segments,Google,,Southeast Asia
+CMP-314,Q2-2023 Paid Search,Paid Search,11-06-23,28-08-23,,,823,,198,24.06,23.1,Mid-Market,In-App,,Southeast Asia
+CMP-315,Q4-2023 Content Download,Content Download,31-12-23,30-01-24,3670.21,58934.6,161,18,44,27.33,41.4,SMB,Event,,ANZ
+CMP-316,Q3-2023 Email Nurture,Email Nurture,23-07-23,08-08-23,79821.68,16818.4,515,82,143,27.77,24.7,Mid-Market,Event,,East Africa
+CMP-317,Q4-2022 Content Download,Content Download,28-10-22,29-11-22,66493.64,48281.54,635,365,31,4.88,55.4,Enterprise,Event,,South Asia
+CMP-318,Q3-2024 Webinar,Webinar,04-07-24,11-07-24,19390.58,1945.05,720,286,41,5.69,72.4,Enterprise,In-App,,ANZ
+CMP-319,Q4-2023 Content Download,Content Download,09-11-23,05-12-23,44577.12,76353.68,83,,20,24.1,79,Enterprise,Google,,Middle East
+CMP-320,Q2-2022 LinkedIn Ads,LinkedIn Ads,27-05-22,09-07-22,77231.74,86684.96,612,,176,28.76,55.1,Mid-Market,Partner,,Southeast Asia
+CMP-321,Q1-2023 Organic SEO,Organic SEO,13-02-23,03-05-23,16766.63,,52,11,,,72,SMB,Email,,Southeast Asia
+CMP-322,Q2-2022 In-App Nudge,In-App Nudge,17-04-22,12-06-22,119392.3,20537.44,263,108,98,37.26,36.6,SMB,Google,Feature Highlight,East Africa
+CMP-323,Q2-2023 LinkedIn Ads,LinkedIn Ads,02-04-23,17-05-23,,,384,72,86,22.4,45.7,Enterprise,Event,,Southeast Asia
+CMP-324,Q2-2024 Webinar,Webinar,25-04-24,13-05-24,27848.67,81852.55,632,325,177,28.01,30.7,All Segments,LinkedIn,,Global
+CMP-325,Q2-2022 Paid Search,Paid Search,02-05-22,08-06-22,49378.1,21628.18,497,244,122,24.55,58.7,Enterprise,Partner,,ANZ
+CMP-326,Q4-2022 Event,Event,13-12-22,19-01-23,112664.66,45128.98,399,,93,23.31,54.8,SMB,Google,,ANZ
+CMP-327,Q2-2022 Partner Co-Market,Partner Co-Market,01-04-22,12-04-22,67703.45,32841.75,368,137,26,7.07,21.4,Enterprise,Google,,Middle East
+CMP-328,Q3-2023 Organic SEO,Organic SEO,12-09-23,10-10-23,76173.66,57465.05,622,169,47,7.56,53.5,SMB,In-App,,ANZ
+CMP-329,Q2-2022 Event,Event,27-06-22,09-08-22,29325.21,94371.32,691,241,56,8.1,43.9,All Segments,Website,,Southeast Asia
+CMP-330,Q3-2023 Content Download,Content Download,25-07-23,26-08-23,63556.88,128717.04,739,,110,14.88,71.2,SMB,Partner,,Middle East
+CMP-331,Q1-2022 Email Nurture,Email Nurture,16-03-22,19-04-22,59614.94,128638.08,824,107,195,23.67,,Enterprise,Website,,Global
+CMP-332,Q3-2022 Content Download,Content Download,31-08-22,14-11-22,30672.26,81836.3,730,,,,,Enterprise,Partner,,ANZ
+CMP-333,Q3-2023 Event,Event,28-07-23,22-10-23,90726.5,69476.12,500,176,129,25.8,54.2,SMB,Website,,Middle East
+CMP-334,Q1-2023 Webinar,Webinar,07-03-23,02-06-23,6251.19,28596.62,94,17,23,24.47,30.5,Enterprise,Event,,South Asia
+CMP-335,Q1-2023 In-App Nudge,In-App Nudge,24-03-23,16-06-23,76708.54,14557.03,100,36,43,43,52.2,Mid-Market,Partner,Onboarding Tip,Global
+CMP-336,Q1-2022 Content Download,Content Download,27-03-22,04-05-22,68705.61,31008.42,871,502,27,3.1,47.9,Enterprise,Email,,Global
+CMP-337,Q4-2023 Partner Co-Market,Partner Co-Market,10-11-23,04-12-23,15398.3,107792.83,364,,,,84.2,Enterprise,Website,,South Asia
+CMP-338,Q3-2024 Event,Event,01-07-24,27-08-24,,,306,156,,,35.9,SMB,Partner,,ANZ
+CMP-339,Q1-2024 In-App Nudge,In-App Nudge,19-02-24,04-05-24,92169.98,3580.97,710,,285,40.14,28.8,All Segments,Partner,,Southeast Asia
+CMP-340,Q2-2024 In-App Nudge,In-App Nudge,03-04-24,06-05-24,83950.25,22170.21,360,133,101,28.06,71.2,All Segments,LinkedIn,Feature Highlight,East Africa
+CMP-341,Q3-2022 LinkedIn Ads,LinkedIn Ads,18-08-22,02-10-22,98816.6,,244,74,31,12.7,29.6,Mid-Market,In-App,,ANZ
+CMP-342,Q1-2022 Partner Co-Market,Partner Co-Market,30-03-22,16-06-22,79990.75,33144.1,289,62,44,15.22,60.3,Mid-Market,Google,,ANZ
+CMP-343,Q3-2022 LinkedIn Ads,LinkedIn Ads,02-07-22,17-09-22,79984.92,125096.23,842,,60,7.13,53.6,SMB,Email,,ANZ
+CMP-344,Q4-2023 Organic SEO,Organic SEO,02-10-23,12-11-23,56324.46,72045.23,688,333,,,47.1,All Segments,Event,,ANZ
+CMP-345,Q1-2023 Partner Co-Market,Partner Co-Market,11-01-23,27-02-23,46666.3,62498.6,41,22,,,73.4,SMB,Partner,,Middle East
+CMP-346,Q1-2023 Paid Search,Paid Search,04-01-23,07-03-23,45967.17,99967.11,862,134,151,17.52,34.9,Mid-Market,Partner,,South Asia
+CMP-347,Q1-2024 LinkedIn Ads,LinkedIn Ads,26-01-24,19-03-24,84540.39,86131.25,506,247,66,13.04,67.9,SMB,Email,,South Asia
+CMP-348,Q3-2022 Webinar,Webinar,21-08-22,01-10-22,62113.48,9530.15,690,122,195,28.26,58.5,SMB,Google,,Global
+CMP-349,Q4-2023 Partner Co-Market,Partner Co-Market,21-11-23,25-12-23,67381.78,31749.68,330,121,37,11.21,78.6,All Segments,In-App,,South Asia
+CMP-350,Q1-2023 Paid Search,Paid Search,20-02-23,03-04-23,57856.15,110481.02,156,25,36,23.08,79.1,SMB,Google,,Global
+CMP-351,Q2-2023 Paid Search,Paid Search,08-04-23,30-05-23,,,274,121,38,13.87,47.9,All Segments,Email,,Southeast Asia
+CMP-352,Q3-2024 Organic SEO,Organic SEO,17-07-24,10-10-24,87776.88,32702.02,857,213,235,27.42,73.5,Mid-Market,Email,,Middle East
+CMP-353,Q1-2022 Organic SEO,Organic SEO,25-02-22,25-04-22,30035,86763.35,554,106,81,14.62,,Mid-Market,Website,,East Africa
+CMP-354,Q3-2024 Content Download,Content Download,23-08-24,10-10-24,8422.08,129541.4,845,422,,,78.4,Enterprise,In-App,,ANZ
+CMP-355,Q4-2022 LinkedIn Ads,LinkedIn Ads,03-11-22,07-12-22,9196.46,117485.31,227,105,30,13.22,65.2,Mid-Market,Website,,South Asia
+CMP-356,Q4-2022 Organic SEO,Organic SEO,13-11-22,17-12-22,4998.37,68602.48,288,44,,,47.7,All Segments,Website,,South Asia
+CMP-357,Q1-2023 Content Download,Content Download,13-03-23,26-04-23,98235.85,33022.64,721,398,214,29.68,75.1,All Segments,Website,,Middle East
+CMP-358,Q1-2024 Content Download,Content Download,20-03-24,14-05-24,85908.57,95987.49,899,222,149,16.57,48,All Segments,Partner,,Global
+CMP-359,Q3-2024 Partner Co-Market,Partner Co-Market,14-08-24,10-09-24,95833.75,41089.18,637,96,132,20.72,32.7,Enterprise,Website,,Global
+CMP-360,Q4-2023 Paid Search,Paid Search,11-12-23,22-12-23,49688.22,65862.14,240,59,,,57.3,All Segments,Website,,ANZ
+CMP-361,Q3-2023 LinkedIn Ads,LinkedIn Ads,16-07-23,28-09-23,114576.94,109666.91,398,190,27,6.78,38.9,Enterprise,Partner,,East Africa
+CMP-362,Q4-2022 Email Nurture,Email Nurture,12-11-22,06-02-23,90533.82,105557.59,816,170,,,56.4,Mid-Market,LinkedIn,,Middle East
+CMP-363,Q4-2022 In-App Nudge,In-App Nudge,12-12-22,05-02-23,97241.05,5552.09,448,195,131,29.24,47.5,SMB,Website,Upgrade Prompt,South Asia
+CMP-364,Q2-2024 Organic SEO,Organic SEO,06-05-24,25-06-24,68119.72,102616.4,886,481,,,39,Mid-Market,LinkedIn,,Southeast Asia
+CMP-365,Q2-2023 Paid Search,Paid Search,08-06-23,29-06-23,116353.3,33808.09,42,19,,,50.4,Mid-Market,Google,,Global
+CMP-366,Q3-2024 Partner Co-Market,Partner Co-Market,15-07-24,03-08-24,90243.12,95060.62,895,466,38,4.25,70.8,All Segments,Website,,Southeast Asia
+CMP-367,Q4-2023 Content Download,Content Download,06-12-23,24-02-24,90007.9,20898.81,693,201,41,5.92,42.3,Mid-Market,Email,,Middle East
+CMP-368,Q3-2022 Partner Co-Market,Partner Co-Market,28-07-22,24-09-22,22801.43,109377.09,610,125,,,20.7,All Segments,LinkedIn,,Middle East
+CMP-369,Q3-2024 Event,Event,11-08-24,21-09-24,30077.11,115718.13,828,329,95,11.47,,Mid-Market,Website,,East Africa
+CMP-370,Q1-2024 Partner Co-Market,Partner Co-Market,18-01-24,31-01-24,77028.96,18974.81,32,9,3,9.38,78,Enterprise,Email,,East Africa
+CMP-371,Q3-2023 Webinar,Webinar,31-08-23,10-10-23,103879.96,95396.98,169,51,,,73.9,All Segments,Email,,South Asia
+CMP-372,Q2-2023 Webinar,Webinar,11-06-23,09-07-23,50329.1,129038.37,884,379,83,9.39,53.6,All Segments,Google,,East Africa
+CMP-373,Q2-2024 Paid Search,Paid Search,28-06-24,06-09-24,103932.09,20940.21,751,257,,,,Enterprise,Google,,ANZ
+CMP-374,Q3-2023 Partner Co-Market,Partner Co-Market,03-07-23,23-09-23,82291.32,93146.26,772,368,159,20.6,,Enterprise,LinkedIn,,Middle East
+CMP-375,Q1-2022 Event,Event,27-01-22,11-04-22,64337.93,83132.14,430,82,,,49.2,All Segments,Google,,South Asia
+CMP-376,Q2-2024 Paid Search,Paid Search,21-05-24,02-08-24,60175.68,,546,245,124,22.71,39.1,SMB,Partner,,ANZ
+CMP-377,Q3-2022 Webinar,Webinar,23-07-22,24-08-22,107035.74,50981.49,542,,21,3.87,83.6,All Segments,Event,,Middle East
+CMP-378,Q2-2023 In-App Nudge,In-App Nudge,28-06-23,09-08-23,27551.6,90049.25,411,175,62,15.09,,SMB,Google,Onboarding Tip,Global
+CMP-379,Q2-2023 Partner Co-Market,Partner Co-Market,18-05-23,06-07-23,18813.24,15706.43,653,204,46,7.04,,Mid-Market,LinkedIn,,ANZ
+CMP-380,Q3-2023 Email Nurture,Email Nurture,06-09-23,22-09-23,18087.16,23679.25,170,57,,,23.7,All Segments,Google,,Global
+CMP-381,Q3-2024 Paid Search,Paid Search,22-09-24,29-11-24,74489.43,83621.91,737,231,,,54.2,All Segments,In-App,,ANZ
+CMP-382,Q2-2023 In-App Nudge,In-App Nudge,27-04-23,19-06-23,93261.38,56422.62,339,152,67,19.76,28.5,Enterprise,LinkedIn,Onboarding Tip,Southeast Asia
+CMP-383,Q4-2022 Webinar,Webinar,31-10-22,02-12-22,68076.65,16522.14,403,212,113,28.04,74.4,SMB,Email,,East Africa
+CMP-384,Q3-2023 Content Download,Content Download,08-08-23,03-09-23,26228.56,,554,,82,14.8,,SMB,In-App,,Southeast Asia
+CMP-385,Q3-2024 Organic SEO,Organic SEO,01-07-24,08-07-24,82549.76,97854.61,765,230,,,,Enterprise,Event,,Southeast Asia
+CMP-386,Q3-2024 Content Download,Content Download,19-09-24,11-11-24,91512.69,83720.24,446,165,95,21.3,25.7,Mid-Market,Event,,Global
+CMP-387,Q2-2022 In-App Nudge,In-App Nudge,20-06-22,14-09-22,19172.64,102433.43,506,66,104,20.55,34.2,SMB,Website,Upgrade Prompt,Middle East
+CMP-388,Q2-2023 LinkedIn Ads,LinkedIn Ads,18-06-23,28-06-23,59206.66,7543.07,585,320,90,15.38,84.2,SMB,Partner,,Global
+CMP-389,Q2-2024 LinkedIn Ads,LinkedIn Ads,06-04-24,03-05-24,,,425,149,83,19.53,30.4,All Segments,Email,,Middle East
+CMP-390,Q3-2022 In-App Nudge,In-App Nudge,13-08-22,31-10-22,46350.38,81079.68,360,64,146,40.56,31.8,Mid-Market,Partner,Onboarding Tip,East Africa
+CMP-391,Q4-2022 Webinar,Webinar,19-11-22,11-02-23,2406.64,,658,229,65,9.88,44.9,Enterprise,Email,,Southeast Asia
+CMP-392,Q4-2022 Webinar,Webinar,06-11-22,07-12-22,,,424,174,,,45.5,Enterprise,In-App,,ANZ
+CMP-393,Q3-2023 Email Nurture,Email Nurture,18-09-23,14-12-23,13577.91,118337.88,818,367,134,16.38,,All Segments,Website,,East Africa
+CMP-394,Q3-2022 Partner Co-Market,Partner Co-Market,22-09-22,12-11-22,76216.35,104048.26,796,139,,,24.9,Mid-Market,Event,,Middle East
+CMP-395,Q3-2023 Content Download,Content Download,14-08-23,06-10-23,63992.02,19257.87,550,74,,,42.4,SMB,Google,,ANZ
+CMP-396,Q4-2023 Paid Search,Paid Search,10-10-23,20-12-23,58017.32,55652.97,541,248,141,26.06,60.9,All Segments,Google,,Global
+CMP-397,Q3-2022 Email Nurture,Email Nurture,20-07-22,12-10-22,25122.6,55140,466,172,68,14.59,31.5,Enterprise,LinkedIn,,ANZ
+CMP-398,Q4-2023 Organic SEO,Organic SEO,30-10-23,26-01-24,27717.12,113392.35,152,49,27,17.76,79.6,All Segments,Event,,ANZ
+CMP-399,Q1-2023 Webinar,Webinar,31-03-23,06-05-23,17418.11,104368.82,293,40,28,9.56,53.5,SMB,Email,,Southeast Asia
+CMP-400,Q2-2022 In-App Nudge,In-App Nudge,08-06-22,18-07-22,105864.05,89615.3,726,421,99,13.64,,Mid-Market,Website,Onboarding Tip,Middle East
+CMP-401,Q3-2024 Webinar,Webinar,30-09-24,22-10-24,28640.43,106553.19,434,208,74,17.05,45.7,Enterprise,Event,,Global
+CMP-402,Q2-2023 Content Download,Content Download,08-06-23,04-07-23,50371.47,109340.38,25,12,3,12,43.3,All Segments,Website,,Middle East
+CMP-403,Q3-2023 Event,Event,30-09-23,19-11-23,9517.33,,865,334,209,24.16,20.8,Mid-Market,Email,,East Africa
+CMP-404,Q2-2023 Event,Event,06-05-23,28-06-23,57297.82,105211.84,585,340,95,16.24,61.2,Enterprise,Email,,South Asia
+CMP-405,Q3-2023 Organic SEO,Organic SEO,01-09-23,09-10-23,43150.44,82997.17,486,247,28,5.76,38.2,All Segments,In-App,,Global
+CMP-406,Q2-2024 Partner Co-Market,Partner Co-Market,30-04-24,09-06-24,97638.19,64969.45,148,,15,10.14,64.4,SMB,In-App,,Middle East
+CMP-407,Q2-2024 In-App Nudge,In-App Nudge,16-05-24,14-06-24,43938.73,14773.52,604,290,159,26.32,56.6,Enterprise,Email,,Middle East
+CMP-408,Q2-2023 Content Download,Content Download,08-05-23,27-05-23,71906.24,2094.99,473,146,,,,All Segments,Website,,ANZ
+CMP-409,Q4-2022 Partner Co-Market,Partner Co-Market,21-12-22,30-12-22,62196.17,,757,347,193,25.5,71,All Segments,In-App,,Middle East
+CMP-410,Q4-2023 In-App Nudge,In-App Nudge,28-11-23,08-01-24,75825.14,104350.39,800,393,334,41.75,45.8,Mid-Market,In-App,Feature Highlight,Global
+CMP-411,Q4-2022 Partner Co-Market,Partner Co-Market,02-11-22,07-01-23,6354.29,90885.12,716,342,,,40.8,Enterprise,In-App,,ANZ
+CMP-412,Q2-2023 Partner Co-Market,Partner Co-Market,14-06-23,09-07-23,100316.42,104136.53,54,19,9,16.67,51.6,Mid-Market,In-App,,East Africa
+CMP-413,Q2-2024 Partner Co-Market,Partner Co-Market,12-06-24,02-07-24,74817.65,113880.35,196,111,28,14.29,26,SMB,Event,,East Africa
+CMP-414,Q3-2024 Event,Event,15-08-24,29-09-24,39582.87,63615.38,872,,51,5.85,26.2,Enterprise,Event,,Global
+CMP-415,Q1-2023 LinkedIn Ads,LinkedIn Ads,04-03-23,08-04-23,11360.09,16423.31,792,395,,,66.6,Mid-Market,Google,,Middle East
+CMP-416,Q3-2023 Email Nurture,Email Nurture,09-08-23,04-10-23,106561.34,126070.79,418,,28,6.7,28.3,All Segments,Email,,South Asia
+CMP-417,Q2-2022 Event,Event,25-05-22,05-08-22,9059.75,46747.29,118,34,7,5.93,28.3,SMB,Event,,Global
+CMP-418,Q1-2022 Content Download,Content Download,08-02-22,08-04-22,19894.88,79649.64,881,320,,,84.1,Enterprise,Email,,East Africa
+CMP-419,Q3-2023 Content Download,Content Download,11-08-23,15-10-23,38940.01,60245.17,349,188,28,8.02,80.9,SMB,In-App,,Global
+CMP-420,Q2-2022 LinkedIn Ads,LinkedIn Ads,23-04-22,28-06-22,111174.67,27851.32,397,59,,,58.2,Mid-Market,Website,,Middle East
+CMP-421,Q3-2024 Partner Co-Market,Partner Co-Market,09-07-24,20-09-24,44764.6,,83,31,6,7.23,78.3,Enterprise,Email,,East Africa
+CMP-422,Q1-2024 Partner Co-Market,Partner Co-Market,21-02-24,08-03-24,50180.9,12072.79,837,500,162,19.35,54,All Segments,Google,,Middle East
+CMP-423,Q3-2022 Partner Co-Market,Partner Co-Market,20-09-22,27-11-22,15297.42,40342.93,86,33,,,,Enterprise,Event,,Global
+CMP-424,Q3-2024 Paid Search,Paid Search,13-07-24,06-09-24,110322.58,113778.93,565,182,,,38.7,Mid-Market,Partner,,Southeast Asia
+CMP-425,Q2-2022 LinkedIn Ads,LinkedIn Ads,23-04-22,02-07-22,71235.45,53842.09,450,129,132,29.33,,All Segments,Google,,East Africa
+CMP-426,Q3-2023 Event,Event,01-07-23,11-09-23,114770.83,71918.6,331,130,89,26.89,30.3,Mid-Market,Email,,Global
+CMP-427,Q2-2023 Content Download,Content Download,18-06-23,31-08-23,40545.9,46572.4,402,84,29,7.21,60.2,Mid-Market,Google,,South Asia
+CMP-428,Q4-2024 Partner Co-Market,Partner Co-Market,01-10-24,20-11-24,42917.55,50399.75,272,92,57,20.96,23.2,Mid-Market,In-App,,ANZ
+CMP-429,Q3-2024 Email Nurture,Email Nurture,19-08-24,28-10-24,48642.67,30287.11,651,,21,3.23,75.7,Enterprise,Google,,Southeast Asia
+CMP-430,Q3-2023 Organic SEO,Organic SEO,05-08-23,19-09-23,66675.88,26714.16,91,33,,,,Enterprise,Partner,,East Africa
+CMP-431,Q1-2023 Organic SEO,Organic SEO,11-01-23,31-01-23,62996.5,59365.64,509,299,61,11.98,68.7,Mid-Market,In-App,,Global
+CMP-432,Q1-2023 Event,Event,08-03-23,24-05-23,98350.64,89942.94,781,235,144,18.44,,Enterprise,Google,,ANZ
+CMP-433,Q2-2024 Organic SEO,Organic SEO,26-06-24,25-07-24,43247.04,88538.84,482,264,57,11.83,52.8,All Segments,Event,,South Asia
+CMP-434,Q4-2022 Email Nurture,Email Nurture,22-12-22,22-02-23,25761.73,72307.28,649,302,53,8.17,59.4,Enterprise,In-App,,Middle East
+CMP-435,Q2-2024 Email Nurture,Email Nurture,30-05-24,19-07-24,60039.49,123930.48,432,238,24,5.56,72.9,Enterprise,Email,,Global
+CMP-436,Q4-2022 LinkedIn Ads,LinkedIn Ads,29-12-22,23-03-23,71282.16,98027.17,236,81,66,27.97,23.7,Mid-Market,Event,,South Asia
+CMP-437,Q3-2022 Content Download,Content Download,23-07-22,12-08-22,59095.28,125786.62,157,71,,,30.4,Enterprise,Partner,,South Asia
+CMP-438,Q4-2023 Organic SEO,Organic SEO,04-12-23,14-01-24,95738.97,105213.06,160,18,13,8.12,37.6,Enterprise,Website,,ANZ
+CMP-439,Q2-2024 Webinar,Webinar,16-05-24,07-07-24,48904.7,92462.11,482,229,45,9.34,75.2,SMB,Event,,South Asia
+CMP-440,Q4-2022 In-App Nudge,In-App Nudge,23-12-22,18-02-23,65660.14,,138,67,31,22.46,31,Mid-Market,LinkedIn,,East Africa
+CMP-441,Q3-2024 In-App Nudge,In-App Nudge,14-09-24,03-12-24,119523.33,,541,90,241,44.55,,All Segments,Google,,South Asia
+CMP-442,Q3-2024 LinkedIn Ads,LinkedIn Ads,04-09-24,30-10-24,106872.66,26385.9,71,,,,,SMB,Partner,,South Asia
+CMP-443,Q3-2024 Webinar,Webinar,19-08-24,07-09-24,118128.09,80559.38,111,48,6,5.41,25.7,Mid-Market,Event,,Global
+CMP-444,Q3-2023 LinkedIn Ads,LinkedIn Ads,20-07-23,11-09-23,68080.57,60666.03,797,448,41,5.14,59.2,Mid-Market,Email,,South Asia
+CMP-445,Q2-2022 Email Nurture,Email Nurture,21-06-22,29-06-22,80736.57,126538.08,330,167,66,20,23.2,Mid-Market,Partner,,Southeast Asia
+CMP-446,Q4-2022 In-App Nudge,In-App Nudge,04-12-22,06-01-23,96977.01,122954.23,734,90,256,34.88,57.1,SMB,Partner,Re-engagement,East Africa
+CMP-447,Q2-2024 Webinar,Webinar,12-06-24,27-08-24,65945.25,7663.65,635,204,80,12.6,28.6,All Segments,Event,,Global
+CMP-448,Q2-2024 Paid Search,Paid Search,22-04-24,20-05-24,44648.72,3959.21,32,11,1,3.12,25.4,SMB,Partner,,Global
+CMP-449,Q4-2022 Organic SEO,Organic SEO,09-10-22,19-12-22,,,142,50,32,22.54,79.2,Enterprise,Google,,East Africa
+CMP-450,Q4-2023 Content Download,Content Download,12-11-23,07-12-23,41392.35,71123.56,113,12,32,28.32,64.1,Mid-Market,LinkedIn,,Southeast Asia
+CMP-451,Q3-2024 Partner Co-Market,Partner Co-Market,13-07-24,21-08-24,110707.57,12588.58,631,88,152,24.09,39.9,Mid-Market,In-App,,South Asia
+CMP-452,Q4-2022 Organic SEO,Organic SEO,12-11-22,28-01-23,68808.8,119462.69,608,258,,,50.5,All Segments,In-App,,Southeast Asia
+CMP-453,Q3-2023 Event,Event,11-09-23,12-10-23,60959.72,95900.61,498,261,48,9.64,64.5,Mid-Market,Event,,ANZ
+CMP-454,Q1-2022 In-App Nudge,In-App Nudge,09-02-22,02-03-22,116989.53,2155.97,395,123,62,15.7,47,All Segments,Website,Feature Highlight,Middle East
+CMP-455,Q1-2022 Email Nurture,Email Nurture,27-01-22,21-04-22,89077.81,65344.68,652,244,167,25.61,78.7,Enterprise,Google,,East Africa
+CMP-456,Q2-2022 In-App Nudge,In-App Nudge,06-05-22,15-07-22,65836.12,,745,167,117,15.7,47.8,Mid-Market,Partner,,South Asia
+CMP-457,Q3-2022 Paid Search,Paid Search,27-09-22,21-10-22,88441.1,8725.12,113,37,28,24.78,72.9,Enterprise,LinkedIn,,Global
+CMP-458,Q2-2023 Webinar,Webinar,17-04-23,15-07-23,35851.83,128599.21,771,340,109,14.14,83.7,SMB,LinkedIn,,Middle East
+CMP-459,Q1-2022 In-App Nudge,In-App Nudge,08-01-22,03-03-22,32793.12,,384,85,57,14.84,64.8,Mid-Market,Event,Upgrade Prompt,East Africa
+CMP-460,Q2-2022 Content Download,Content Download,02-05-22,22-07-22,37566.08,123334.64,511,,54,10.57,42.4,All Segments,Partner,,Middle East
+CMP-461,Q2-2023 LinkedIn Ads,LinkedIn Ads,20-04-23,11-07-23,68575.79,48105.15,458,142,35,7.64,46.3,Enterprise,In-App,,South Asia
+CMP-462,Q1-2022 Email Nurture,Email Nurture,04-03-22,29-04-22,,,60,14,,,44.8,Enterprise,Website,,East Africa
+CMP-463,Q4-2022 Event,Event,29-12-22,02-03-23,71988.48,,207,,40,19.32,,SMB,In-App,,Middle East
+CMP-464,Q3-2022 Webinar,Webinar,30-08-22,12-11-22,38894.94,24664.19,821,149,81,9.87,71.4,Enterprise,Website,,Southeast Asia
+CMP-465,Q3-2024 Content Download,Content Download,06-09-24,03-11-24,52755.38,89389.72,121,44,10,8.26,23,Mid-Market,Website,,South Asia
+CMP-466,Q3-2024 Event,Event,15-09-24,31-10-24,,,218,53,57,26.15,21.6,Enterprise,Event,,Middle East
+CMP-467,Q2-2024 Partner Co-Market,Partner Co-Market,18-04-24,18-06-24,17829.7,81460.03,793,198,234,29.51,60.3,Enterprise,Website,,East Africa
+CMP-468,Q3-2022 Content Download,Content Download,18-09-22,01-11-22,68369.66,,36,11,7,19.44,42.8,All Segments,Website,,ANZ
+CMP-469,Q2-2022 Content Download,Content Download,14-04-22,30-04-22,14015.74,37217.89,711,,54,7.59,48.7,Enterprise,Partner,,Southeast Asia
+CMP-470,Q1-2024 Paid Search,Paid Search,28-01-24,01-03-24,79625.26,24179.87,626,153,,,41,All Segments,Event,,Southeast Asia
+CMP-471,Q3-2022 LinkedIn Ads,LinkedIn Ads,07-07-22,11-09-22,87164.58,78905.66,646,284,126,19.5,,Mid-Market,Email,,East Africa
+CMP-472,Q2-2024 Partner Co-Market,Partner Co-Market,19-04-24,16-06-24,10794.24,79785.67,160,27,44,27.5,71.7,Enterprise,In-App,,Middle East
+CMP-473,Q3-2024 Event,Event,25-09-24,20-11-24,66691.87,32384.65,868,478,253,29.15,78,All Segments,Event,,South Asia
+CMP-474,Q3-2022 Organic SEO,Organic SEO,07-07-22,01-08-22,27132.61,53713.74,614,326,177,28.83,82.6,SMB,Website,,East Africa
+CMP-475,Q1-2024 LinkedIn Ads,LinkedIn Ads,21-01-24,14-04-24,60095.21,84042.12,530,112,,,54.7,Enterprise,In-App,,Middle East
+CMP-476,Q1-2023 Paid Search,Paid Search,31-01-23,26-03-23,22712.54,114630.93,847,269,209,24.68,31,Mid-Market,Partner,,East Africa
+CMP-477,Q2-2022 Paid Search,Paid Search,13-04-22,07-06-22,12305.62,97911.51,137,46,13,9.49,30.8,Mid-Market,Google,,East Africa
+CMP-478,Q3-2024 Paid Search,Paid Search,04-08-24,18-09-24,92792.9,57358.76,108,54,21,19.44,53.8,SMB,Partner,,South Asia
+CMP-479,Q1-2024 Webinar,Webinar,06-01-24,08-02-24,76389.96,21004.69,883,401,31,3.51,57.7,Enterprise,LinkedIn,,ANZ
+CMP-480,Q4-2022 Partner Co-Market,Partner Co-Market,29-10-22,10-11-22,51285.09,18047.56,363,150,20,5.51,50.2,Enterprise,In-App,,Global
+CMP-071,Q1-2022 Event,Event,27-02-22,23-03-22,107293.35,6716.54,588,69,100,17.01,77.8,Enterprise,In-App,,South Asia
+CMP-008,Q3-2023 Email Nurture,Email Nurture,12-08-23,10-10-23,59885.71,89622.87,200,111,25,12.5,,Enterprise,Website,,East Africa
+CMP-199,Q1-2024 Organic SEO,Organic SEO,31-01-24,08-04-24,110659.8,33905.88,129,34,11,8.53,52.4,SMB,In-App,,Middle East

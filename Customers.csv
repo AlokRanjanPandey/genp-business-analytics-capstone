@@ -1,0 +1,1521 @@
+Customer_ID,Company_Name,Industry,Company_Size,Customer_Tier,Region,Onboarding_Date,Renewal_Status,MRR_USD,NPS_Score,Subscribed_Plan,CSM_Name,Contract_Months,Churn_Risk_Flag
+CUST-0001,Patla-Gaba,Retail,1–50,Mid-Market,Southeast Asia,2024-05-19,At Risk,911.36,8.0,WorkHub Core,Hemangini Lalla,24,1
+CUST-0002,Pant-Kadakia,BFSI,5000+,Enterprise,Southeast Asia,2023-11-27,Active,10215.15,9.0,WorkHub Pro,Tripti Yadav,24,0
+CUST-0003,"Loke, Bora and Garg",EdTech,1–50,Mid-Market,South Asia,2024-01-24,Active,3723.34,15.0,WorkHub Core,Janaki Handa,12,0
+CUST-0004,"Konda, Gade and Shere",Logistics,1001–5000,Mid-Market,Southeast Asia,2022-05-06,Active,1352.5,91.0,WorkHub Pro,Lajita Chatterjee,36,0
+CUST-0005,Madan-Kanda,Healthcare,5000+,SMB,East Africa,2022-10-25,At Risk,598.27,,WorkHub Core,Fariq Kaul,12,1
+CUST-0006,"Nair, Bhalla and Karnik",EdTech,51–200,SMB,Southeast Asia,2024-03-20,Active,500.59,59.0,WorkHub Core,Gagan Sami,12,0
+CUST-0007,Mutti Group,Government,5000+,SMB,ANZ,2024-02-27,Churned,187.73,40.0,WorkHub Core,Janaki Handa,36,1
+CUST-0008,Bhatti-Kakar,Retail,5000+,Enterprise,East Africa,2022-07-06,Active,11040.09,7.0,WorkHub Enterprise,Gayathri Chaudry,12,0
+CUST-0009,"Murty, Kala and Tata",EdTech,201–1000,Mid-Market,East Africa,2024-07-05,Active,1428.17,70.0,WorkHub Core,Lajita Mall,12,0
+CUST-0010,Shanker-Dhar,Retail,5000+,Enterprise,East Africa,2022-06-07,Churned,16628.01,,WorkHub Enterprise,Aryan Maharaj,12,1
+CUST-0011,Dewan-Koshy,Real Estate,201–1000,Mid-Market,Southeast Asia,2024-02-25,Churned,896.91,80.0,WorkHub Core,Chakradev Kari,12,1
+CUST-0012,"Yohannan, Lall and Sangha",Media & Entertainment,201–1000,Mid-Market,ANZ,2022-03-16,Active,2129.99,59.0,WorkHub Pro,Lajita Chatterjee,36,0
+CUST-0013,"Rastogi, Pathak and Kanda",Manufacturing,1001–5000,Enterprise,Southeast Asia,2024-02-18,Churned,8467.62,,WorkHub Pro,Nathaniel Sami,12,1
+CUST-0014,Upadhyay Group,Logistics,1001–5000,Enterprise,East Africa,2023-03-05,At Risk,6235.8,41.0,WorkHub Pro,Saumya Mall,12,1
+CUST-0015,Batta Inc,Telecom,1001–5000,Mid-Market,ANZ,2024-06-19,Active,3824.74,64.0,WorkHub Pro,Saumya Mall,36,0
+CUST-0016,Dutta Ltd,BFSI,201–1000,Mid-Market,ANZ,2023-09-04,Churned,2305.88,,WorkHub Pro,Kritika Brar,12,1
+CUST-0017,Bhatt-Rajan,Manufacturing,1001–5000,Mid-Market,Middle East,2022-02-16,Churned,1422.9,70.0,WorkHub Core,Fariq Kaul,24,1
+CUST-0018,Sidhu-Wadhwa,Logistics,5000+,Mid-Market,East Africa,2022-05-02,Active,1994.23,43.0,WorkHub Core,Viraj Tiwari,12,0
+CUST-0019,Apte-Contractor,Media & Entertainment,5000+,SMB,South Asia,16/02/2022,Churned,662.78,66.0,WorkHub Core,Lajita Chatterjee,36,1
+CUST-0020,"Yadav, Loke and Oak",Media & Entertainment,5000+,Enterprise,Middle East,2023-08-31,At Risk,11452.76,90.0,WorkHub Pro,Aryan Maharaj,24,1
+CUST-0021,Memon Group,Healthcare,1001–5000,SMB,East Africa,2022-11-12,Churned,581.63,,WorkHub Core,Nathaniel Sami,36,1
+CUST-0022,Setty Inc,Government,51–200,SMB,East Africa,2023-10-07,At Risk,366.13,87.0,WorkHub Core,Saumya Mall,12,1
+CUST-0023,"Lall, Tella and Gokhale",Media & Entertainment,51–200,Mid-Market,ANZ,2023-12-09,Active,2756.73,60.0,WorkHub Pro,Viraj Tiwari,36,0
+CUST-0024,"Cherian, Misra and Tripathi",Manufacturing,1001–5000,Enterprise,East Africa,2023-01-21,Active,16769.74,43.0,WorkHub Pro,Chakradev Kari,12,0
+CUST-0025,"Issac, Dua and Prakash",Logistics,5000+,SMB,Middle East,2022-08-19,Renewed,639.82,90.0,WorkHub Core,Lajita Chatterjee,24,0
+CUST-0026,Zacharia PLC,Logistics,201–1000,Mid-Market,South Asia,2023-08-11,Active,3936.51,44.0,WorkHub Pro,Gayathri Chaudry,12,0
+CUST-0027,Naik Group,Healthcare,201–1000,Enterprise,ANZ,2023-11-03,Active,6828.95,68.0,WorkHub Pro,Viraj Tiwari,12,0
+CUST-0028,Choudhury LLC,Real Estate,51–200,Enterprise,Southeast Asia,2022-02-21,Active,12931.22,,WorkHub Pro,Chakradev Kari,12,0
+CUST-0029,Khatri-Bhardwaj,Retail,1–50,SMB,East Africa,2024-09-28,Active,754.52,60.0,WorkHub Core,Gayathri Chaudry,24,0
+CUST-0030,Brar Inc,BFSI,1–50,Mid-Market,East Africa,2022-08-26,Churned,3797.34,22.0,WorkHub Pro,Udant Dewan,24,1
+CUST-0031,"Sunder, Biswas and Walia",Retail,201–1000,SMB,South Asia,2022-01-10,Churned,749.92,42.0,WorkHub Core,Viraj Tiwari,36,1
+CUST-0032,Dave Ltd,EdTech,1–50,SMB,Middle East,2022-06-16,Churned,603.02,1.0,WorkHub Core,Saumya Mall,12,1
+CUST-0033,Gandhi-Lanka,Media & Entertainment,1001–5000,Mid-Market,East Africa,02/12/2022,Churned,1391.3,17.0,WorkHub Pro,Aryan Maharaj,24,1
+CUST-0034,"Sampath, Kakar and Zacharia",Government,201–1000,SMB,Middle East,2022-11-06,Churned,283.09,46.0,WorkHub Core,Ayushman Chander,24,1
+CUST-0035,"Iyer, Muni and Rastogi",Media & Entertainment,5000+,Mid-Market,Middle East,08/12/2023,Renewed,1744.12,78.0,WorkHub Pro,Chakradev Kari,12,0
+CUST-0036,"Prakash, Sarma and Varughese",Real Estate,201–1000,Mid-Market,ANZ,2023-12-20,Active,2520.06,85.0,WorkHub Pro,Gagan Sami,36,0
+CUST-0037,Dara-Kota,Manufacturing,1–50,SMB,East Africa,25/04/2022,Active,453.84,73.0,WorkHub Core,Lajita Chatterjee,36,0
+CUST-0038,Bhatt LLC,EdTech,5000+,Mid-Market,ANZ,2022-04-04,Active,978.03,16.0,WorkHub Core,Udant Dewan,36,0
+CUST-0039,Karpe PLC,Logistics,1–50,SMB,ANZ,2022-09-18,At Risk,504.82,5.0,WorkHub Core,Lajita Mall,12,1
+CUST-0040,Amble Inc,Healthcare,1001–5000,Mid-Market,South Asia,2022-10-21,At Risk,3250.65,93.0,WorkHub Core,Hemangini Lalla,24,1
+CUST-0041,"Bhargava, Karnik and Bir",Media & Entertainment,1001–5000,SMB,South Asia,2023-12-01,Renewed,193.09,,WorkHub Core,Fariq Kaul,12,0
+CUST-0042,Narayanan Inc,EdTech,1–50,Enterprise,South Asia,2024-09-28,Churned,11622.23,68.0,WorkHub Enterprise,Nathaniel Sami,24,1
+CUST-0043,"Khanna, Mallick and Sunder",Logistics,51–200,Mid-Market,South Asia,2022-02-02,Active,3251.37,,WorkHub Pro,Ayushman Chander,36,0
+CUST-0044,Zacharia and Sons,Real Estate,1–50,Mid-Market,Southeast Asia,29/01/2024,Active,2527.23,96.0,WorkHub Pro,Viraj Tiwari,36,0
+CUST-0045,"Solanki, Kibe and Solanki",EdTech,5000+,Enterprise,Middle East,2023-08-15,Churned,8489.31,38.0,WorkHub Enterprise,Kritika Brar,24,1
+CUST-0046,Gupta-Chandra,Telecom,5000+,Mid-Market,Southeast Asia,2023-10-04,Churned,950.03,44.0,WorkHub Core,Fariq Kaul,24,1
+CUST-0047,Sankar LLC,Media & Entertainment,51–200,Enterprise,Middle East,2023-01-21,Active,7373.55,28.0,WorkHub Enterprise,Janaki Handa,12,0
+CUST-0048,Roy-Sibal,Media & Entertainment,5000+,Mid-Market,East Africa,2022-05-18,Active,1856.84,10.0,WorkHub Core,Gagan Sami,36,0
+CUST-0049,"Bhagat, Chaudhari and Bhat",EdTech,1–50,Mid-Market,Middle East,2023-01-22,Churned,3595.59,24.0,WorkHub Pro,Chakradev Kari,12,1
+CUST-0050,Nori-Chopra,Manufacturing,201–1000,Mid-Market,South Asia,2022-08-05,Renewed,1175.41,96.0,WorkHub Pro,Saumya Mall,24,0
+CUST-0051,Handa and Sons,Telecom,201–1000,Mid-Market,Middle East,2023-01-25,Churned,1786.95,46.0,WorkHub Core,Janaki Handa,12,1
+CUST-0052,"Sen, Dey and Sami",Government,201–1000,Mid-Market,Southeast Asia,2023-01-15,Active,3565.07,94.0,WorkHub Core,Lajita Mall,36,0
+CUST-0053,Mallick Group,Media & Entertainment,201–1000,Mid-Market,Southeast Asia,2022-07-20,Active,3466.76,63.0,WorkHub Core,Arunima Dugal,24,0
+CUST-0054,Borra Group,Government,1001–5000,SMB,Southeast Asia,2024-01-21,Active,604.22,62.0,WorkHub Core,Fariq Kaul,12,0
+CUST-0055,"Chaudhari, Bedi and Zachariah",Healthcare,1–50,Mid-Market,South Asia,2023-02-27,Churned,1017.5,,WorkHub Core,Hemangini Lalla,12,1
+CUST-0056,Chander and Sons,Real Estate,1001–5000,Mid-Market,ANZ,17/01/2022,Churned,837.92,67.0,WorkHub Core,Aryan Maharaj,36,1
+CUST-0057,Ray Group,Media & Entertainment,51–200,Enterprise,South Asia,29/07/2024,Active,6687.05,,WorkHub Pro,Arunima Dugal,24,0
+CUST-0058,Kala-Rattan,Media & Entertainment,1001–5000,SMB,East Africa,2022-09-07,Active,578.83,10.0,WorkHub Core,Gagan Sami,24,0
+CUST-0059,Gala Group,Telecom,1001–5000,Enterprise,South Asia,15/10/2023,Active,10998.02,55.0,WorkHub Pro,Ayushman Chander,36,0
+CUST-0060,Ramakrishnan LLC,EdTech,51–200,Mid-Market,East Africa,2023-05-02,Renewed,2990.17,,WorkHub Pro,Rushil Saini,24,0
+CUST-0061,Mangal-Sampath,EdTech,5000+,SMB,Southeast Asia,2024-02-10,At Risk,750.21,38.0,WorkHub Core,Tripti Yadav,36,1
+CUST-0062,"Sur, Dubey and Gupta",Manufacturing,1001–5000,Mid-Market,Southeast Asia,2024-03-20,Churned,2402.54,,WorkHub Core,Nathaniel Sami,12,1
+CUST-0063,Kalla-Bhardwaj,Real Estate,5000+,Mid-Market,ANZ,2024-09-19,Active,1674.65,57.0,WorkHub Core,Lajita Mall,24,0
+CUST-0064,"Bhat, Murthy and Bhandari",Real Estate,1001–5000,SMB,South Asia,2024-03-01,At Risk,599.18,10.0,WorkHub Core,Viraj Tiwari,36,1
+CUST-0065,Sood PLC,Manufacturing,1–50,SMB,South Asia,2022-01-06,Active,632.94,,WorkHub Core,Kritika Brar,24,0
+CUST-0066,"Dugar, Bhandari and Trivedi",Telecom,1001–5000,SMB,South Asia,27/01/2022,Churned,517.85,100.0,WorkHub Core,Aryan Maharaj,24,1
+CUST-0067,Grewal Inc,Healthcare,5000+,Mid-Market,Southeast Asia,2023-08-09,Churned,1342.41,34.0,WorkHub Core,Viraj Tiwari,12,1
+CUST-0068,"Bir, Keer and Raval",Logistics,1001–5000,Enterprise,Middle East,2023-05-11,Active,17219.11,,WorkHub Enterprise,Janaki Handa,12,0
+CUST-0069,Koshy PLC,BFSI,1001–5000,Mid-Market,Middle East,2024-05-11,At Risk,1854.53,42.0,WorkHub Pro,Gayathri Chaudry,24,1
+CUST-0070,"Baral, Bumb and Saini",EdTech,1001–5000,Mid-Market,Middle East,2022-07-01,Renewed,1732.63,88.0,WorkHub Pro,Lajita Chatterjee,24,0
+CUST-0071,"Virk, Mutti and Lal",Media & Entertainment,201–1000,Mid-Market,South Asia,2024-08-12,Churned,2546.01,87.0,WorkHub Pro,Janaki Handa,36,1
+CUST-0072,Murthy and Sons,Logistics,1–50,SMB,ANZ,2023-11-21,Churned,269.41,84.0,WorkHub Core,Tripti Yadav,12,1
+CUST-0073,Randhawa-Deep,Real Estate,1001–5000,SMB,East Africa,2023-02-15,Renewed,708.74,53.0,WorkHub Core,Lajita Mall,36,0
+CUST-0074,"Mital, Shankar and Mutti",Healthcare,1–50,Mid-Market,Southeast Asia,2023-11-05,Active,2760.57,,WorkHub Core,Lajita Chatterjee,24,0
+CUST-0075,Andra Group,Healthcare,201–1000,SMB,Southeast Asia,2023-06-07,Churned,581.37,28.0,WorkHub Core,Janaki Handa,36,1
+CUST-0076,"Chaudhry, Borah and Yogi",Telecom,51–200,Mid-Market,Middle East,2022-01-26,Active,3745.75,,WorkHub Pro,Hemangini Lalla,24,0
+CUST-0077,Toor LLC,EdTech,5000+,SMB,ANZ,2022-12-23,Active,587.73,,WorkHub Core,Ayushman Chander,12,0
+CUST-0078,Palla Inc,Healthcare,51–200,Mid-Market,Southeast Asia,2023-06-13,Active,2591.52,59.0,WorkHub Core,Rushil Saini,12,0
+CUST-0079,Pingle LLC,Media & Entertainment,1001–5000,Mid-Market,South Asia,2024-01-26,Active,2695.05,,WorkHub Pro,Saumya Mall,24,0
+CUST-0080,Sarma PLC,Healthcare,5000+,Mid-Market,South Asia,2024-03-29,Active,1843.15,,WorkHub Core,Fariq Kaul,36,0
+CUST-0081,"Mittal, Wadhwa and Anand",Media & Entertainment,5000+,Mid-Market,ANZ,25/08/2023,Active,2265.15,,WorkHub Core,Gagan Sami,36,0
+CUST-0082,"Mistry, Chawla and Desai",Healthcare,51–200,Mid-Market,Middle East,2022-04-30,Churned,2434.64,53.0,WorkHub Core,Kritika Brar,12,1
+CUST-0083,D’Alia-Chhabra,Telecom,51–200,Mid-Market,East Africa,2022-06-20,Active,1806.66,,WorkHub Core,Aryan Maharaj,24,0
+CUST-0084,"Dugal, Magar and Manda",Media & Entertainment,5000+,SMB,East Africa,2023-10-31,Churned,390.94,56.0,WorkHub Core,Aryan Maharaj,12,1
+CUST-0085,"Kade, Oza and Jani",Logistics,51–200,Mid-Market,East Africa,2022-10-23,Active,3176.06,98.0,WorkHub Pro,Ayushman Chander,24,0
+CUST-0086,"Lalla, Tiwari and Suresh",Manufacturing,5000+,Mid-Market,South Asia,2024-02-18,Active,3967.28,13.0,WorkHub Pro,Gayathri Chaudry,12,0
+CUST-0087,Behl-Chanda,Manufacturing,1–50,SMB,ANZ,2024-06-05,At Risk,265.86,94.0,WorkHub Core,Kritika Brar,12,1
+CUST-0088,"Sampath, Malhotra and Basu",EdTech,51–200,Mid-Market,South Asia,2023-08-07,Active,2524.06,41.0,WorkHub Core,Gayathri Chaudry,36,0
+CUST-0089,Nath and Sons,Telecom,1–50,Enterprise,Southeast Asia,2024-09-12,Active,4830.0,35.0,WorkHub Enterprise,Viraj Tiwari,12,0
+CUST-0090,"Lala, Edwin and Sathe",Manufacturing,51–200,Enterprise,ANZ,2023-05-17,Churned,12789.38,48.0,WorkHub Enterprise,Tripti Yadav,36,1
+CUST-0091,"Sane, Andra and Choudhury",Manufacturing,1001–5000,Enterprise,ANZ,2022-12-02,At Risk,15860.34,11.0,WorkHub Pro,Hemangini Lalla,12,1
+CUST-0092,Dixit PLC,Media & Entertainment,51–200,Mid-Market,ANZ,2024-04-24,Active,3450.7,43.0,WorkHub Pro,Chakradev Kari,24,0
+CUST-0093,Pingle PLC,BFSI,1–50,SMB,South Asia,2023-10-04,Active,186.97,20.0,WorkHub Core,Kritika Brar,12,0
+CUST-0094,"Divan, Sani and Datta",Retail,201–1000,Mid-Market,Southeast Asia,2024-06-14,Active,2894.68,,WorkHub Pro,Udant Dewan,24,0
+CUST-0095,Morar LLC,EdTech,1001–5000,Enterprise,South Asia,22/12/2023,Active,5091.14,75.0,WorkHub Pro,Aryan Maharaj,12,0
+CUST-0096,Parmar and Sons,Healthcare,1001–5000,Mid-Market,Southeast Asia,05/05/2023,Active,3138.44,,WorkHub Core,Gayathri Chaudry,12,0
+CUST-0097,"Krish, Chauhan and Pandya",Retail,51–200,SMB,South Asia,2026-03-11,Churned,214.88,44.0,WorkHub Core,Kritika Brar,36,1
+CUST-0098,"Ray, Dubey and Khalsa",EdTech,1–50,Mid-Market,South Asia,2022-05-24,Churned,2028.9,54.0,WorkHub Pro,Nathaniel Sami,24,1
+CUST-0099,Goel Group,EdTech,5000+,SMB,East Africa,2023-09-07,Active,758.9,3.0,WorkHub Core,Saumya Mall,36,0
+CUST-0100,Gola Ltd,EdTech,1001–5000,SMB,Middle East,24/10/2023,Renewed,768.27,63.0,WorkHub Core,Chakradev Kari,36,0
+CUST-0101,Sabharwal-Kothari,Telecom,1–50,Enterprise,Middle East,2024-08-14,Active,15745.63,,WorkHub Enterprise,Chakradev Kari,12,0
+CUST-0102,Dutta-Chokshi,Healthcare,1–50,SMB,Middle East,09/08/2022,Active,652.5,64.0,WorkHub Core,Kritika Brar,36,0
+CUST-0103,Barad-Singhal,Telecom,5000+,SMB,East Africa,2022-06-06,Active,457.91,26.0,WorkHub Core,Lajita Mall,24,0
+CUST-0104,Iyengar Group,Healthcare,201–1000,Mid-Market,ANZ,2024-01-18,Active,1582.34,,WorkHub Pro,Gayathri Chaudry,36,0
+CUST-0105,Mody-Kari,Retail,1–50,Mid-Market,South Asia,2023-12-26,Active,2388.52,,WorkHub Core,Rushil Saini,24,0
+CUST-0106,Bajwa Ltd,Logistics,1–50,Mid-Market,South Asia,2022-12-10,Active,1004.39,91.0,WorkHub Pro,Chakradev Kari,24,0
+CUST-0107,Rastogi LLC,BFSI,1001–5000,Enterprise,East Africa,2022-06-20,Active,5440.67,73.0,WorkHub Enterprise,Nathaniel Sami,36,0
+CUST-0108,Boase-Mallick,BFSI,1–50,Mid-Market,Southeast Asia,2022-02-17,Active,1280.27,4.0,WorkHub Core,Nathaniel Sami,24,0
+CUST-0109,Upadhyay-Ratta,Manufacturing,201–1000,Mid-Market,South Asia,2023-08-09,Active,3686.21,22.0,WorkHub Pro,Tripti Yadav,12,0
+CUST-0110,"Yadav, Narula and Bala",Logistics,201–1000,SMB,Middle East,2022-03-30,Active,240.47,72.0,WorkHub Core,Janaki Handa,24,0
+CUST-0111,Lal and Sons,Government,51–200,SMB,East Africa,2024-02-18,Active,752.68,,WorkHub Core,Aryan Maharaj,24,0
+CUST-0112,"Lanka, Barad and Chopra",Media & Entertainment,201–1000,Mid-Market,South Asia,2022-07-30,Active,2374.49,,WorkHub Pro,Arunima Dugal,12,0
+CUST-0113,"Saraf, Pai and Murthy",EdTech,5000+,Mid-Market,ANZ,2023-12-19,Active,3193.28,,WorkHub Pro,Tripti Yadav,12,0
+CUST-0114,Vaidya-D’Alia,BFSI,1001–5000,Enterprise,Southeast Asia,2022-08-31,At Risk,16964.59,50.0,WorkHub Pro,Lajita Chatterjee,24,1
+CUST-0115,Gupta-Kumar,Healthcare,51–200,SMB,Southeast Asia,2024-03-09,Active,173.96,57.0,WorkHub Core,Ayushman Chander,36,0
+CUST-0116,Sarin Inc,EdTech,1001–5000,SMB,Middle East,2023-04-20,Active,210.33,87.0,WorkHub Core,Saumya Mall,24,0
+CUST-0117,"Yohannan, Hegde and Patla",EdTech,201–1000,Mid-Market,ANZ,10/06/2023,Active,3424.29,,WorkHub Core,Janaki Handa,36,0
+CUST-0118,Boase-Narayanan,EdTech,1–50,Mid-Market,ANZ,2022-04-15,Active,838.26,99.0,WorkHub Pro,Saumya Mall,24,0
+CUST-0119,"Murthy, Dash and Mital",Healthcare,5000+,Mid-Market,East Africa,2022-09-23,Active,3990.92,25.0,WorkHub Core,Viraj Tiwari,12,0
+CUST-0120,"More, Rege and Narain",Manufacturing,1–50,Enterprise,South Asia,2024-08-22,Active,12034.38,92.0,WorkHub Enterprise,Tripti Yadav,36,0
+CUST-0121,Merchant-Datta,Manufacturing,51–200,SMB,Southeast Asia,2022-10-09,Renewed,124.25,79.0,WorkHub Core,Chakradev Kari,24,0
+CUST-0122,Salvi Ltd,Government,1–50,Mid-Market,South Asia,2022-10-14,Active,2856.49,67.0,WorkHub Pro,Tripti Yadav,36,0
+CUST-0123,Ghosh-Mitra,Telecom,1001–5000,SMB,Middle East,2024-07-23,Active,289.3,,WorkHub Core,Aryan Maharaj,24,0
+CUST-0124,Acharya-Modi,Government,5000+,Mid-Market,Middle East,2024-02-25,Active,1310.8,,WorkHub Core,Lajita Mall,36,0
+CUST-0125,Kade-Sani,EdTech,5000+,Enterprise,ANZ,2022-12-30,Renewed,6431.97,30.0,WorkHub Pro,Aryan Maharaj,36,0
+CUST-0126,"Nagy, Shroff and Sathe",Real Estate,5000+,Mid-Market,Southeast Asia,2023-07-31,At Risk,3393.28,,WorkHub Pro,Chakradev Kari,12,1
+CUST-0127,Kala-Vaidya,EdTech,5000+,Enterprise,Southeast Asia,2022-01-21,Active,16850.55,,WorkHub Pro,Rushil Saini,24,0
+CUST-0128,Gara-Chad,Retail,5000+,SMB,Southeast Asia,03/03/2024,Active,355.42,9.0,WorkHub Core,Ayushman Chander,24,0
+CUST-0129,Varma-Nayak,Retail,51–200,SMB,ANZ,2024-03-21,Active,322.1,90.0,WorkHub Core,Nathaniel Sami,36,0
+CUST-0130,Keer Ltd,Retail,1001–5000,SMB,Middle East,2024-01-22,Active,610.18,89.0,WorkHub Core,Udant Dewan,12,0
+CUST-0131,Kar-Issac,Real Estate,51–200,Mid-Market,East Africa,2022-04-17,Active,3185.1,30.0,WorkHub Core,Rushil Saini,36,0
+CUST-0132,Bakshi Inc,Healthcare,201–1000,Enterprise,ANZ,2022-01-12,Active,4949.13,32.0,WorkHub Enterprise,Udant Dewan,24,0
+CUST-0133,Soman PLC,Media & Entertainment,51–200,SMB,ANZ,2023-05-20,Active,362.74,,WorkHub Core,Rushil Saini,24,0
+CUST-0134,Shah Group,BFSI,201–1000,SMB,South Asia,2022-11-23,Active,339.27,48.0,WorkHub Core,Lajita Mall,12,0
+CUST-0135,"Hayer, Rajagopalan and Talwar",Real Estate,1001–5000,Enterprise,South Asia,2023-03-18,Active,16456.55,,WorkHub Pro,Saumya Mall,12,0
+CUST-0136,Kohli-Divan,Telecom,5000+,Mid-Market,Middle East,2023-11-08,Active,958.83,73.0,WorkHub Core,Viraj Tiwari,12,0
+CUST-0137,"Ahluwalia, Chhabra and Sandal",Media & Entertainment,1–50,Enterprise,Middle East,2024-04-23,Churned,6795.45,3.0,WorkHub Pro,Gagan Sami,24,1
+CUST-0138,Goda Ltd,Logistics,1001–5000,SMB,ANZ,2023-05-16,Active,549.31,49.0,WorkHub Core,Hemangini Lalla,12,0
+CUST-0139,"Shetty, Bedi and Krish",Logistics,1001–5000,SMB,ANZ,2022-09-27,Active,143.15,96.0,WorkHub Core,Gagan Sami,36,0
+CUST-0140,Shan and Sons,Telecom,1001–5000,Enterprise,East Africa,2022-08-21,At Risk,15457.67,53.0,WorkHub Pro,Nathaniel Sami,24,1
+CUST-0141,Wali-Nadig,Media & Entertainment,1–50,Mid-Market,East Africa,2023-08-08,At Risk,2968.11,79.0,WorkHub Core,Rushil Saini,12,1
+CUST-0142,Thaman-Sandhu,EdTech,51–200,Mid-Market,South Asia,10/03/2023,Churned,1446.14,80.0,WorkHub Core,Lajita Chatterjee,36,1
+CUST-0143,"Sehgal, Dutt and Soman",Healthcare,1–50,Mid-Market,ANZ,2023-07-24,Active,1683.84,,WorkHub Pro,Fariq Kaul,24,0
+CUST-0144,Lad-Kota,Retail,51–200,SMB,East Africa,2023-08-26,Renewed,170.14,13.0,WorkHub Core,Gayathri Chaudry,36,0
+CUST-0145,"Malhotra, Verma and Sundaram",Media & Entertainment,201–1000,Mid-Market,ANZ,2023-11-02,Churned,919.89,35.0,WorkHub Core,Udant Dewan,24,1
+CUST-0146,"Khare, Maharaj and Sarraf",Manufacturing,51–200,Mid-Market,South Asia,2024-02-03,Active,1991.81,43.0,WorkHub Core,Gayathri Chaudry,24,0
+CUST-0147,Mangal and Sons,Healthcare,51–200,Mid-Market,Southeast Asia,2022-11-04,Active,3442.63,34.0,WorkHub Pro,Saumya Mall,24,0
+CUST-0148,Nayak-Nagarajan,Media & Entertainment,1001–5000,SMB,East Africa,2024-06-07,Active,654.04,8.0,WorkHub Core,Viraj Tiwari,36,0
+CUST-0149,"Buch, Devi and Dora",BFSI,51–200,Mid-Market,Southeast Asia,2024-06-15,At Risk,1598.37,,WorkHub Core,Saumya Mall,24,1
+CUST-0150,Rajagopal Ltd,Government,5000+,Mid-Market,ANZ,2023-10-13,Churned,1574.2,62.0,WorkHub Pro,Chakradev Kari,36,1
+CUST-0151,Kala Inc,Manufacturing,51–200,SMB,Middle East,2024-02-06,Active,119.22,6.0,WorkHub Core,Nathaniel Sami,36,0
+CUST-0152,Reddy-Narayanan,EdTech,201–1000,Mid-Market,ANZ,10/06/2023,At Risk,3256.23,1.0,WorkHub Pro,Rushil Saini,36,1
+CUST-0153,"Shukla, Sagar and Bhatia",EdTech,201–1000,Mid-Market,East Africa,2024-04-04,Churned,3069.98,35.0,WorkHub Core,Hemangini Lalla,24,1
+CUST-0154,Salvi Group,Government,201–1000,Mid-Market,East Africa,2024-04-24,Churned,823.51,84.0,WorkHub Core,Lajita Mall,36,1
+CUST-0155,"Bahri, Rai and Sood",Logistics,201–1000,Enterprise,South Asia,09/05/2023,Renewed,12968.33,35.0,WorkHub Pro,Saumya Mall,12,0
+CUST-0156,Pandey LLC,EdTech,1–50,Mid-Market,East Africa,2023-02-18,Churned,3108.11,83.0,WorkHub Core,Arunima Dugal,24,1
+CUST-0157,Saini-Yohannan,BFSI,5000+,Mid-Market,East Africa,2026-02-27,Churned,1511.56,68.0,WorkHub Core,Hemangini Lalla,36,1
+CUST-0158,"Kannan, Sura and Kanda",Retail,5000+,Mid-Market,Southeast Asia,28/10/2022,Active,1627.69,,WorkHub Pro,Lajita Chatterjee,36,0
+CUST-0159,Sarin-Sunder,Manufacturing,51–200,Mid-Market,Middle East,2023-03-07,Active,1633.79,37.0,WorkHub Pro,Chakradev Kari,12,0
+CUST-0160,Ramachandran LLC,Real Estate,5000+,Mid-Market,East Africa,2022-03-14,Active,1183.41,87.0,WorkHub Core,Kritika Brar,12,0
+CUST-0161,"Ravel, Gandhi and Sibal",Retail,51–200,Enterprise,Southeast Asia,2022-12-17,Churned,16692.69,58.0,WorkHub Enterprise,Gagan Sami,24,1
+CUST-0162,Walla Inc,Retail,201–1000,Mid-Market,South Asia,2022-01-05,Active,3275.34,73.0,WorkHub Core,Gagan Sami,12,0
+CUST-0163,Bala-Chacko,Media & Entertainment,1001–5000,Mid-Market,ANZ,2024-09-15,Active,2508.1,93.0,WorkHub Pro,Lajita Chatterjee,36,0
+CUST-0164,"Sangha, Deshmukh and Shenoy",BFSI,51–200,SMB,Southeast Asia,2023-12-12,Active,171.9,64.0,WorkHub Core,Gagan Sami,12,0
+CUST-0165,Bedi LLC,Logistics,1001–5000,SMB,East Africa,2023-09-03,Active,580.75,17.0,WorkHub Core,Hemangini Lalla,12,0
+CUST-0166,Narang-Kakar,Media & Entertainment,1–50,Enterprise,Southeast Asia,2022-08-18,Active,14277.07,75.0,WorkHub Enterprise,Hemangini Lalla,36,0
+CUST-0167,Narain-Nazareth,BFSI,1001–5000,Mid-Market,Middle East,2024-02-29,Active,3982.98,,WorkHub Pro,Udant Dewan,36,0
+CUST-0168,Mall-Sama,Government,1001–5000,SMB,South Asia,2023-07-15,Churned,243.85,,WorkHub Core,Kritika Brar,36,1
+CUST-0169,Bumb-Singhal,Telecom,201–1000,Mid-Market,East Africa,2023-09-13,Active,3675.59,65.0,WorkHub Pro,Gayathri Chaudry,12,0
+CUST-0170,Zacharia Inc,Government,51–200,Enterprise,East Africa,2022-07-24,At Risk,17623.68,45.0,WorkHub Pro,Rushil Saini,12,1
+CUST-0171,Kapur-Biswas,EdTech,1001–5000,SMB,Middle East,29/08/2022,Churned,734.82,,WorkHub Core,Gagan Sami,36,1
+CUST-0172,"Baria, Balasubramanian and Kota",Healthcare,201–1000,Mid-Market,Southeast Asia,2023-04-13,Active,2285.69,12.0,WorkHub Pro,Gayathri Chaudry,24,0
+CUST-0173,Bahri PLC,Manufacturing,1001–5000,Mid-Market,South Asia,2022-04-08,Renewed,830.95,17.0,WorkHub Pro,Lajita Chatterjee,24,0
+CUST-0174,Khare and Sons,Real Estate,201–1000,SMB,South Asia,2025-09-29,Active,380.54,58.0,WorkHub Core,Chakradev Kari,24,0
+CUST-0175,Contractor-Kamdar,Retail,1–50,SMB,Southeast Asia,2023-12-14,Renewed,691.04,13.0,WorkHub Core,Janaki Handa,12,0
+CUST-0176,Kunda-Pillay,Manufacturing,5000+,Enterprise,South Asia,2024-06-02,At Risk,17628.22,16.0,WorkHub Pro,Ayushman Chander,24,1
+CUST-0177,Contractor and Sons,Healthcare,201–1000,Enterprise,Middle East,2025-11-25,Churned,14745.4,73.0,WorkHub Enterprise,Lajita Chatterjee,36,1
+CUST-0178,Chokshi-Bal,Real Estate,1–50,Mid-Market,ANZ,2023-11-09,Active,2923.87,82.0,WorkHub Pro,Aryan Maharaj,36,0
+CUST-0179,Prashad-Ranganathan,Telecom,1001–5000,Mid-Market,ANZ,2024-06-09,At Risk,1826.03,42.0,WorkHub Pro,Fariq Kaul,12,1
+CUST-0180,"Issac, Borra and Kibe",Media & Entertainment,1001–5000,Mid-Market,Southeast Asia,2022-03-22,At Risk,2233.92,63.0,WorkHub Pro,Chakradev Kari,36,1
+CUST-0181,Mitra Ltd,Healthcare,1001–5000,SMB,ANZ,2022-02-06,Active,163.63,77.0,WorkHub Core,Fariq Kaul,36,0
+CUST-0182,"Dara, Barman and Palan",Government,201–1000,SMB,Middle East,25/04/2024,Active,418.12,71.0,WorkHub Core,Hemangini Lalla,36,0
+CUST-0183,"Sangha, Prabhakar and Biswas",Healthcare,51–200,SMB,South Asia,2022-12-16,Churned,659.94,70.0,WorkHub Core,Udant Dewan,12,1
+CUST-0184,"Om, Arora and Salvi",Media & Entertainment,1–50,Enterprise,Middle East,2023-09-18,Active,15930.72,27.0,WorkHub Enterprise,Lajita Chatterjee,12,0
+CUST-0185,Cherian-Sant,BFSI,5000+,Mid-Market,South Asia,2024-03-01,Active,2685.81,,WorkHub Core,Aryan Maharaj,36,0
+CUST-0186,Sharaf-Dua,Telecom,1001–5000,Mid-Market,East Africa,2023-05-10,At Risk,3712.58,88.0,WorkHub Pro,Ayushman Chander,24,1
+CUST-0187,Goda-Vig,Real Estate,201–1000,SMB,East Africa,2024-06-21,Renewed,741.14,97.0,WorkHub Core,Lajita Chatterjee,24,0
+CUST-0188,"Madan, Yohannan and Sule",Retail,51–200,Mid-Market,ANZ,2023-09-09,At Risk,1756.52,89.0,WorkHub Core,Lajita Mall,36,1
+CUST-0189,Sarin-Loyal,EdTech,5000+,Enterprise,Middle East,2023-12-05,Churned,17738.7,83.0,WorkHub Enterprise,Fariq Kaul,36,1
+CUST-0190,Korpal-Chadha,Manufacturing,1–50,Mid-Market,Middle East,2023-07-30,Churned,2934.9,53.0,WorkHub Core,Kritika Brar,12,1
+CUST-0191,Seshadri-Kohli,BFSI,1001–5000,Mid-Market,Southeast Asia,2022-02-24,Active,3200.59,20.0,WorkHub Core,Viraj Tiwari,12,0
+CUST-0192,Raghavan-Nayar,Logistics,51–200,Mid-Market,East Africa,2022-02-03,Active,2771.55,86.0,WorkHub Pro,Lajita Mall,24,0
+CUST-0193,Talwar LLC,Logistics,1–50,Mid-Market,ANZ,2023-02-01,At Risk,2992.48,,WorkHub Core,Saumya Mall,36,1
+CUST-0194,Sura and Sons,Government,51–200,SMB,Middle East,2024-02-13,At Risk,237.53,92.0,WorkHub Core,Janaki Handa,12,1
+CUST-0195,Kuruvilla-Oak,Healthcare,51–200,Mid-Market,Southeast Asia,2024-01-23,Active,2171.23,71.0,WorkHub Pro,Arunima Dugal,12,0
+CUST-0196,Majumdar-Anne,Retail,1–50,SMB,Southeast Asia,2024-08-08,Active,752.67,78.0,WorkHub Core,Chakradev Kari,36,0
+CUST-0197,"Halder, Chada and Khurana",Healthcare,201–1000,Mid-Market,East Africa,2022-08-14,Active,3316.03,20.0,WorkHub Core,Gagan Sami,24,0
+CUST-0198,"Ray, Suresh and Khosla",EdTech,201–1000,Enterprise,Middle East,2023-01-05,Renewed,12655.93,60.0,WorkHub Enterprise,Ayushman Chander,36,0
+CUST-0199,"Soni, Swaminathan and Sem",EdTech,5000+,SMB,East Africa,2022-09-07,Churned,324.66,14.0,WorkHub Core,Aryan Maharaj,36,1
+CUST-0200,Chander LLC,Manufacturing,5000+,SMB,East Africa,2023-04-02,Active,556.07,41.0,WorkHub Core,Rushil Saini,36,0
+CUST-0201,Ravel Ltd,Healthcare,51–200,SMB,Southeast Asia,2024-06-04,At Risk,243.91,89.0,WorkHub Core,Gagan Sami,36,1
+CUST-0202,Mohan Ltd,BFSI,1001–5000,SMB,Middle East,08/02/2022,Active,655.95,,WorkHub Core,Arunima Dugal,24,0
+CUST-0203,"Pillay, Solanki and Wali",Media & Entertainment,1001–5000,SMB,Middle East,2022-01-18,Active,104.13,92.0,WorkHub Core,Gagan Sami,24,0
+CUST-0204,Sandal-Narayanan,Healthcare,201–1000,Enterprise,Middle East,14/09/2023,At Risk,10127.47,50.0,WorkHub Enterprise,Chakradev Kari,12,1
+CUST-0205,Setty-Madan,Retail,1001–5000,Mid-Market,East Africa,2026-02-18,Active,2967.32,93.0,WorkHub Pro,Lajita Mall,36,0
+CUST-0206,Krishnamurthy-Kashyap,BFSI,1–50,Mid-Market,East Africa,2023-09-03,Active,1072.41,26.0,WorkHub Core,Saumya Mall,24,0
+CUST-0207,Hans LLC,Telecom,51–200,Mid-Market,Southeast Asia,2022-07-08,At Risk,1421.84,23.0,WorkHub Pro,Lajita Mall,24,1
+CUST-0208,Wason Ltd,Healthcare,201–1000,Enterprise,South Asia,14/09/2022,Churned,10820.67,42.0,WorkHub Enterprise,Ayushman Chander,24,1
+CUST-0209,Handa and Sons,EdTech,201–1000,Mid-Market,ANZ,2023-04-07,Churned,3019.07,19.0,WorkHub Core,Lajita Chatterjee,24,1
+CUST-0210,"Sule, Malhotra and Vohra",Manufacturing,51–200,SMB,Southeast Asia,2023-12-31,Active,688.08,17.0,WorkHub Core,Chakradev Kari,24,0
+CUST-0211,"Mandal, Chaudhry and Hari",Logistics,1001–5000,Mid-Market,East Africa,2022-04-22,Churned,3493.74,17.0,WorkHub Pro,Arunima Dugal,36,1
+CUST-0212,Karan-Patel,Healthcare,1–50,SMB,South Asia,2024-05-19,Active,507.32,51.0,WorkHub Core,Udant Dewan,36,0
+CUST-0213,Mittal Inc,Telecom,1001–5000,Mid-Market,Southeast Asia,2023-01-10,Renewed,2686.72,,WorkHub Pro,Tripti Yadav,24,0
+CUST-0214,"Walla, Date and Mahal",EdTech,5000+,Mid-Market,Southeast Asia,2024-02-15,Active,1373.26,,WorkHub Pro,Chakradev Kari,24,0
+CUST-0215,Bhagat PLC,Government,51–200,SMB,South Asia,2022-09-28,Active,244.74,46.0,WorkHub Core,Udant Dewan,12,0
+CUST-0216,Date-Swaminathan,Manufacturing,1–50,SMB,East Africa,2023-10-11,At Risk,284.32,69.0,WorkHub Core,Tripti Yadav,24,1
+CUST-0217,Arora PLC,Healthcare,5000+,Mid-Market,Middle East,2023-01-21,Active,2098.7,44.0,WorkHub Core,Aryan Maharaj,36,0
+CUST-0218,Singh-Srinivas,Government,51–200,SMB,Southeast Asia,2022-03-20,Active,205.17,20.0,WorkHub Core,Nathaniel Sami,24,0
+CUST-0219,Oak-Gour,Healthcare,1001–5000,Enterprise,ANZ,2023-05-06,Active,15667.11,2.0,WorkHub Enterprise,Rushil Saini,12,0
+CUST-0220,Krishnan Group,BFSI,5000+,Mid-Market,Southeast Asia,2022-02-27,Renewed,2453.25,51.0,WorkHub Pro,Gayathri Chaudry,12,0
+CUST-0221,Bhattacharyya Group,Real Estate,1001–5000,SMB,ANZ,2022-06-24,Active,199.9,74.0,WorkHub Core,Fariq Kaul,24,0
+CUST-0222,Borah-Bera,Manufacturing,1001–5000,Mid-Market,East Africa,28/08/2023,Active,1223.08,,WorkHub Core,Viraj Tiwari,36,0
+CUST-0223,Dixit PLC,Government,5000+,Mid-Market,East Africa,2022-02-09,Active,3207.63,11.0,WorkHub Pro,Lajita Mall,12,0
+CUST-0224,Chada-Kothari,Media & Entertainment,5000+,SMB,ANZ,2023-01-15,Churned,400.27,61.0,WorkHub Core,Hemangini Lalla,36,1
+CUST-0225,Saha PLC,Real Estate,1–50,Enterprise,ANZ,2022-05-18,At Risk,16741.19,,WorkHub Pro,Arunima Dugal,12,1
+CUST-0226,"Kara, Virk and Rai",BFSI,5000+,Mid-Market,East Africa,2022-05-01,Active,1457.34,40.0,WorkHub Pro,Viraj Tiwari,24,0
+CUST-0227,Savant-Mishra,Logistics,201–1000,Mid-Market,East Africa,2023-03-10,Churned,3973.76,50.0,WorkHub Core,Lajita Mall,36,1
+CUST-0228,"Sanghvi, Mody and Bhasin",Manufacturing,5000+,SMB,East Africa,2023-05-11,Active,341.05,90.0,WorkHub Core,Ayushman Chander,36,0
+CUST-0229,"Chaudhary, Johal and Kakar",Retail,1–50,Enterprise,Southeast Asia,2023-06-05,Active,11708.07,89.0,WorkHub Enterprise,Rushil Saini,24,0
+CUST-0230,Bumb-Dugar,BFSI,1–50,SMB,Southeast Asia,2023-04-28,Active,144.86,28.0,WorkHub Core,Tripti Yadav,24,0
+CUST-0231,Ghose PLC,Telecom,201–1000,Enterprise,East Africa,2022-02-28,At Risk,12964.08,,WorkHub Pro,Saumya Mall,12,1
+CUST-0232,Dugar Inc,Telecom,5000+,Enterprise,Southeast Asia,2023-09-22,Active,7349.59,0.0,WorkHub Enterprise,Arunima Dugal,24,0
+CUST-0233,Seshadri-Singhal,Media & Entertainment,1001–5000,Mid-Market,East Africa,2022-07-25,At Risk,1019.57,11.0,WorkHub Core,Hemangini Lalla,24,1
+CUST-0234,Bali-Kata,EdTech,1001–5000,SMB,ANZ,12/08/2023,Active,454.37,,WorkHub Core,Lajita Chatterjee,12,0
+CUST-0235,Mandal-Setty,Logistics,5000+,Mid-Market,East Africa,2022-09-14,Renewed,2602.14,98.0,WorkHub Core,Janaki Handa,36,0
+CUST-0236,Kaur LLC,Real Estate,1–50,Enterprise,ANZ,2022-04-30,Active,15041.18,28.0,WorkHub Enterprise,Lajita Chatterjee,24,0
+CUST-0237,"Hora, Sandal and Contractor",Telecom,5000+,SMB,South Asia,2023-12-19,Active,165.11,86.0,WorkHub Core,Gagan Sami,36,0
+CUST-0238,"Kar, Dixit and Lata",Government,201–1000,Mid-Market,Middle East,2022-08-12,Active,3830.78,87.0,WorkHub Pro,Chakradev Kari,36,0
+CUST-0239,Bora Inc,EdTech,201–1000,Mid-Market,Southeast Asia,2022-08-23,Active,2779.51,19.0,WorkHub Pro,Gagan Sami,36,0
+CUST-0240,Mohanty PLC,Government,5000+,Mid-Market,South Asia,2024-02-22,Renewed,3513.63,47.0,WorkHub Core,Arunima Dugal,24,0
+CUST-0241,"Mani, Sarna and Dash",Telecom,201–1000,Mid-Market,ANZ,2022-08-16,Active,2482.35,54.0,WorkHub Pro,Fariq Kaul,24,0
+CUST-0242,Modi-Rau,Retail,1001–5000,Mid-Market,South Asia,2023-12-17,Active,826.94,86.0,WorkHub Pro,Lajita Chatterjee,24,0
+CUST-0243,Tella-Zacharia,Logistics,51–200,Mid-Market,East Africa,2022-09-27,Active,2761.87,46.0,WorkHub Core,Saumya Mall,24,0
+CUST-0244,Sarma-Buch,Manufacturing,201–1000,SMB,ANZ,2022-10-14,Churned,785.49,87.0,WorkHub Core,Arunima Dugal,12,1
+CUST-0245,"Baral, Sankaran and Naidu",Media & Entertainment,51–200,Mid-Market,Southeast Asia,2025-12-30,Active,3378.14,22.0,WorkHub Pro,Fariq Kaul,36,0
+CUST-0246,"Krishna, Bal and Chand",Government,201–1000,SMB,Middle East,2023-07-30,Active,169.28,,WorkHub Core,Chakradev Kari,36,0
+CUST-0247,Bail Ltd,Manufacturing,201–1000,Mid-Market,Middle East,2023-01-04,Renewed,1624.69,2.0,WorkHub Core,Saumya Mall,36,0
+CUST-0248,Baria-Gill,Telecom,51–200,Mid-Market,Middle East,2022-12-30,Active,3279.18,57.0,WorkHub Core,Gayathri Chaudry,24,0
+CUST-0249,Venkataraman-Sathe,Retail,51–200,SMB,Middle East,2023-03-08,Churned,694.23,,WorkHub Core,Nathaniel Sami,24,1
+CUST-0250,Golla-Sarin,Logistics,201–1000,Mid-Market,East Africa,2023-10-23,Renewed,3299.12,46.0,WorkHub Core,Kritika Brar,12,0
+CUST-0251,"Swamy, Chand and Singhal",BFSI,51–200,Mid-Market,Southeast Asia,2023-11-09,At Risk,3199.17,26.0,WorkHub Pro,Ayushman Chander,12,1
+CUST-0252,Rege-Nath,Government,5000+,SMB,South Asia,2022-01-27,Active,797.21,13.0,WorkHub Core,Gagan Sami,36,0
+CUST-0253,Cheema-Dyal,Media & Entertainment,201–1000,Enterprise,Southeast Asia,2022-09-11,Active,5769.76,67.0,WorkHub Enterprise,Udant Dewan,36,0
+CUST-0254,Sabharwal-Tandon,Manufacturing,1001–5000,Mid-Market,ANZ,2024-09-25,Renewed,2555.34,17.0,WorkHub Pro,Janaki Handa,36,0
+CUST-0255,Rattan-Bansal,Real Estate,1001–5000,SMB,East Africa,2023-10-18,Active,343.02,69.0,WorkHub Core,Janaki Handa,24,0
+CUST-0256,Chakrabarti-Murty,Logistics,51–200,SMB,Middle East,11/01/2022,At Risk,693.56,44.0,WorkHub Core,Chakradev Kari,24,1
+CUST-0257,Naik-D’Alia,Media & Entertainment,201–1000,Enterprise,East Africa,2022-08-25,Active,6639.99,71.0,WorkHub Enterprise,Rushil Saini,36,0
+CUST-0258,Varkey-Agarwal,Media & Entertainment,1001–5000,Mid-Market,Southeast Asia,27/09/2022,Churned,2453.15,78.0,WorkHub Core,Gayathri Chaudry,36,1
+CUST-0259,"Shere, Sachdev and Bhagat",Logistics,1001–5000,Mid-Market,Southeast Asia,23/05/2024,Active,1153.14,58.0,WorkHub Core,Chakradev Kari,12,0
+CUST-0260,Vasa LLC,Retail,1–50,SMB,East Africa,2022-01-23,Active,288.44,91.0,WorkHub Core,Nathaniel Sami,12,0
+CUST-0261,"Tara, Sathe and Behl",Government,51–200,SMB,Middle East,2023-03-07,At Risk,798.57,59.0,WorkHub Core,Lajita Chatterjee,12,1
+CUST-0262,Loke PLC,Retail,1–50,SMB,Middle East,2024-03-05,Active,227.12,32.0,WorkHub Core,Ayushman Chander,36,0
+CUST-0263,Mani Group,Government,51–200,Mid-Market,South Asia,2022-07-23,At Risk,2467.65,26.0,WorkHub Core,Lajita Chatterjee,12,1
+CUST-0264,"Sundaram, Dara and Balakrishnan",BFSI,5000+,Enterprise,East Africa,2022-05-06,Churned,6782.13,6.0,WorkHub Enterprise,Ayushman Chander,12,1
+CUST-0265,"Khatri, Dutt and Mukhopadhyay",Manufacturing,1–50,SMB,Southeast Asia,2024-03-24,Active,652.4,1.0,WorkHub Core,Viraj Tiwari,24,0
+CUST-0266,"Atwal, Reddy and Chander",EdTech,51–200,SMB,ANZ,2022-04-04,Active,778.76,97.0,WorkHub Core,Hemangini Lalla,36,0
+CUST-0267,Comar Group,Telecom,1–50,Mid-Market,Southeast Asia,2025-06-22,Renewed,3323.4,96.0,WorkHub Core,Saumya Mall,12,0
+CUST-0268,Dube Group,Manufacturing,51–200,SMB,Middle East,09/07/2024,Churned,491.32,69.0,WorkHub Core,Rushil Saini,36,1
+CUST-0269,"Manne, Upadhyay and Mahajan",Government,201–1000,SMB,East Africa,2024-07-25,Active,471.8,57.0,WorkHub Core,Lajita Mall,24,0
+CUST-0270,Subramanian-Sodhi,Telecom,1001–5000,Enterprise,Southeast Asia,23/06/2024,At Risk,14864.23,30.0,WorkHub Enterprise,Lajita Mall,24,1
+CUST-0271,Shan PLC,Government,5000+,SMB,Southeast Asia,2023-09-20,Active,325.42,12.0,WorkHub Core,Udant Dewan,12,0
+CUST-0272,Rajagopal and Sons,BFSI,51–200,Mid-Market,South Asia,2023-05-13,Active,2853.61,49.0,WorkHub Core,Udant Dewan,24,0
+CUST-0273,"Trivedi, Deshpande and Boase",Healthcare,1–50,SMB,Southeast Asia,2023-11-03,Renewed,155.97,,WorkHub Core,Hemangini Lalla,36,0
+CUST-0274,Sachdeva-Oak,Real Estate,201–1000,SMB,East Africa,2022-02-11,At Risk,154.55,27.0,WorkHub Core,Ayushman Chander,36,1
+CUST-0275,"Loke, Agate and Mandal",Media & Entertainment,51–200,Enterprise,Southeast Asia,2023-06-23,Churned,17265.05,71.0,WorkHub Pro,Ayushman Chander,36,1
+CUST-0276,"Misra, Suri and Dixit",Government,1001–5000,Enterprise,South Asia,2022-06-20,Active,11065.7,84.0,WorkHub Pro,Hemangini Lalla,24,0
+CUST-0277,Yohannan-Sule,Manufacturing,201–1000,Enterprise,ANZ,2024-02-22,At Risk,8528.31,30.0,WorkHub Enterprise,Tripti Yadav,36,1
+CUST-0278,Natarajan-Purohit,Logistics,201–1000,Mid-Market,ANZ,2023-04-04,Active,910.92,36.0,WorkHub Pro,Gayathri Chaudry,12,0
+CUST-0279,Nagy-Gulati,EdTech,51–200,Mid-Market,Middle East,2022-01-23,Renewed,3431.48,70.0,WorkHub Pro,Ayushman Chander,12,0
+CUST-0280,"Khare, Rajagopal and Kaur",Retail,51–200,Mid-Market,Middle East,2023-01-11,Active,1619.98,,WorkHub Core,Saumya Mall,36,0
+CUST-0281,Bassi-Nadkarni,Manufacturing,1001–5000,SMB,Southeast Asia,2023-05-15,Churned,503.36,12.0,WorkHub Core,Udant Dewan,36,1
+CUST-0282,"Solanki, Raj and Raju",Media & Entertainment,1–50,Mid-Market,South Asia,2024-08-01,Active,3414.85,53.0,WorkHub Pro,Nathaniel Sami,36,0
+CUST-0283,"Doshi, Tandon and Bansal",Real Estate,1–50,Mid-Market,ANZ,2022-02-25,Active,2527.78,19.0,WorkHub Pro,Viraj Tiwari,12,0
+CUST-0284,Thakkar PLC,Media & Entertainment,1001–5000,Mid-Market,East Africa,2023-08-13,Active,1727.31,50.0,WorkHub Core,Gagan Sami,24,0
+CUST-0285,Chaudhry-Sarraf,BFSI,5000+,Mid-Market,ANZ,26/09/2022,Active,3276.24,16.0,WorkHub Core,Lajita Mall,12,0
+CUST-0286,Vora Group,Real Estate,51–200,SMB,East Africa,2023-09-23,Active,269.62,34.0,WorkHub Core,Gagan Sami,12,0
+CUST-0287,Dhawan Group,Media & Entertainment,201–1000,SMB,Middle East,2022-07-15,Churned,116.94,39.0,WorkHub Core,Janaki Handa,36,1
+CUST-0288,"Dubey, Borde and Singh",BFSI,51–200,Enterprise,Southeast Asia,2023-12-03,At Risk,15938.7,,WorkHub Enterprise,Viraj Tiwari,24,1
+CUST-0289,Nigam-Rao,Healthcare,201–1000,Mid-Market,ANZ,28/04/2023,Active,2521.62,26.0,WorkHub Core,Lajita Mall,24,0
+CUST-0290,"Buch, Narasimhan and Walla",Retail,1–50,Mid-Market,ANZ,2023-08-20,Active,1617.46,7.0,WorkHub Core,Udant Dewan,24,0
+CUST-0291,Nadig-Sura,BFSI,1–50,Enterprise,ANZ,2023-11-08,At Risk,13241.41,,WorkHub Pro,Nathaniel Sami,24,1
+CUST-0292,"Banik, Biswas and Keer",Healthcare,201–1000,SMB,ANZ,2024-06-06,Active,239.21,58.0,WorkHub Core,Udant Dewan,12,0
+CUST-0293,"Mani, Karan and Chana",Logistics,201–1000,Mid-Market,ANZ,2023-02-07,Active,2989.8,45.0,WorkHub Pro,Fariq Kaul,24,0
+CUST-0294,Chaudhari-Chaudhry,Logistics,1001–5000,Mid-Market,South Asia,2024-08-24,Active,1285.47,50.0,WorkHub Pro,Tripti Yadav,36,0
+CUST-0295,Ganesan-Mistry,Real Estate,51–200,SMB,ANZ,2022-09-04,Active,318.67,,WorkHub Core,Saumya Mall,36,0
+CUST-0296,Batra LLC,Telecom,51–200,Mid-Market,Southeast Asia,2022-11-13,Renewed,3710.6,,WorkHub Pro,Rushil Saini,24,0
+CUST-0297,Memon LLC,Telecom,1–50,Mid-Market,Southeast Asia,2022-11-22,Active,894.35,40.0,WorkHub Core,Kritika Brar,24,0
+CUST-0298,Sankar-Dhingra,Logistics,51–200,Enterprise,Southeast Asia,2022-04-20,Active,17803.38,78.0,WorkHub Enterprise,Nathaniel Sami,12,0
+CUST-0299,Wali Group,Manufacturing,1–50,Enterprise,ANZ,2022-05-18,Churned,13968.27,,WorkHub Pro,Chakradev Kari,24,1
+CUST-0300,"Gole, Garde and Gill",EdTech,51–200,SMB,South Asia,2023-02-23,Active,288.9,52.0,WorkHub Core,Saumya Mall,12,0
+CUST-0301,Raja PLC,Government,5000+,SMB,ANZ,2023-12-06,Active,272.75,51.0,WorkHub Core,Lajita Chatterjee,24,0
+CUST-0302,"Khosla, Tank and Dhar",Real Estate,5000+,Mid-Market,East Africa,2023-06-22,Churned,923.24,13.0,WorkHub Pro,Nathaniel Sami,36,1
+CUST-0303,Shenoy Ltd,BFSI,5000+,SMB,ANZ,2023-06-13,Renewed,232.9,56.0,WorkHub Core,Gayathri Chaudry,24,0
+CUST-0304,Sharaf-Kumer,Logistics,5000+,Mid-Market,South Asia,2023-12-08,Active,3455.66,,WorkHub Pro,Rushil Saini,36,0
+CUST-0305,"Andra, Shroff and Mani",Telecom,51–200,Enterprise,ANZ,2023-02-28,Active,10351.53,91.0,WorkHub Pro,Gagan Sami,24,0
+CUST-0306,"Dugar, Borah and Sathe",Retail,1–50,Enterprise,South Asia,2022-04-27,Churned,5194.29,90.0,WorkHub Enterprise,Tripti Yadav,36,1
+CUST-0307,Mistry-Samra,Retail,201–1000,Mid-Market,East Africa,2024-06-11,Active,3580.22,22.0,WorkHub Pro,Kritika Brar,24,0
+CUST-0308,"Krishna, Shan and Mittal",Government,201–1000,SMB,Southeast Asia,2022-05-01,Renewed,102.47,97.0,WorkHub Core,Chakradev Kari,24,0
+CUST-0309,Rajagopalan Group,BFSI,5000+,SMB,ANZ,2022-09-01,Churned,417.62,,WorkHub Core,Nathaniel Sami,36,1
+CUST-0310,Khalsa Group,Telecom,51–200,SMB,South Asia,2022-07-09,Churned,125.7,,WorkHub Core,Lajita Chatterjee,12,1
+CUST-0311,"Parmer, Merchant and Merchant",Media & Entertainment,51–200,SMB,Southeast Asia,2023-11-20,Churned,589.89,73.0,WorkHub Core,Janaki Handa,36,1
+CUST-0312,Randhawa LLC,BFSI,1–50,Mid-Market,Middle East,2022-11-27,Active,1016.53,,WorkHub Pro,Gayathri Chaudry,24,0
+CUST-0313,Bawa PLC,Logistics,201–1000,Mid-Market,East Africa,2023-02-28,Churned,2758.57,13.0,WorkHub Pro,Chakradev Kari,36,1
+CUST-0314,"Taneja, Mangat and Karpe",Logistics,1001–5000,Enterprise,East Africa,2024-05-18,Active,17930.34,45.0,WorkHub Pro,Fariq Kaul,36,0
+CUST-0315,"Pandey, Kanda and Gupta",Government,51–200,SMB,East Africa,2022-08-27,Renewed,101.11,3.0,WorkHub Core,Saumya Mall,36,0
+CUST-0316,"Krishna, Devan and Chatterjee",Media & Entertainment,1–50,SMB,Middle East,2022-12-25,Churned,107.91,25.0,WorkHub Core,Gagan Sami,24,1
+CUST-0317,"Baral, More and Sastry",Telecom,201–1000,Mid-Market,South Asia,2022-04-27,Active,3118.07,78.0,WorkHub Pro,Saumya Mall,24,0
+CUST-0318,Patla Ltd,Government,1001–5000,Mid-Market,South Asia,2023-10-24,Active,2273.98,,WorkHub Core,Kritika Brar,36,0
+CUST-0319,Chana LLC,Telecom,201–1000,Enterprise,East Africa,2024-01-13,Churned,4262.06,73.0,WorkHub Pro,Gagan Sami,12,1
+CUST-0320,Sagar-Gill,BFSI,201–1000,SMB,ANZ,2023-10-04,Active,523.98,,WorkHub Core,Lajita Chatterjee,36,0
+CUST-0321,Deo PLC,Media & Entertainment,1–50,SMB,ANZ,2024-06-17,Active,765.51,27.0,WorkHub Core,Ayushman Chander,24,0
+CUST-0322,Wali-Thaker,EdTech,1–50,SMB,ANZ,03/06/2023,Active,450.04,24.0,WorkHub Core,Fariq Kaul,24,0
+CUST-0323,Gala-Kurian,Retail,1–50,SMB,East Africa,2023-11-24,Active,125.59,49.0,WorkHub Core,Aryan Maharaj,24,0
+CUST-0324,Merchant-Nigam,Real Estate,1–50,SMB,Middle East,2023-04-24,Active,636.33,95.0,WorkHub Core,Saumya Mall,24,0
+CUST-0325,Sidhu Inc,Logistics,201–1000,Enterprise,East Africa,2022-11-23,Churned,7817.16,,WorkHub Enterprise,Lajita Mall,36,1
+CUST-0326,Kara Ltd,Telecom,201–1000,SMB,East Africa,2022-11-23,Renewed,662.8,73.0,WorkHub Core,Gayathri Chaudry,36,0
+CUST-0327,"Ranganathan, Pau and Chana",Telecom,1001–5000,Mid-Market,South Asia,14/05/2022,Renewed,961.46,,WorkHub Core,Tripti Yadav,12,0
+CUST-0328,Atwal-Lalla,Real Estate,1001–5000,SMB,East Africa,2022-12-31,At Risk,599.03,,WorkHub Core,Janaki Handa,36,1
+CUST-0329,"Dasgupta, Sha and Pillay",Government,1–50,SMB,ANZ,2022-11-14,Churned,425.78,29.0,WorkHub Core,Arunima Dugal,24,1
+CUST-0330,"Lala, Raj and Prabhu",Manufacturing,201–1000,SMB,ANZ,15/05/2023,Active,346.01,59.0,WorkHub Core,Hemangini Lalla,36,0
+CUST-0331,Kaur Group,Telecom,1–50,SMB,ANZ,2024-04-17,Active,489.3,9.0,WorkHub Core,Tripti Yadav,36,0
+CUST-0332,Narang PLC,Real Estate,51–200,Mid-Market,East Africa,2022-06-12,Active,1890.29,88.0,WorkHub Core,Lajita Chatterjee,36,0
+CUST-0333,Bhatnagar Ltd,Retail,1–50,SMB,East Africa,2024-05-06,Churned,424.04,,WorkHub Core,Rushil Saini,24,1
+CUST-0334,Mittal-Rege,Healthcare,5000+,Enterprise,South Asia,2023-12-03,At Risk,9304.75,63.0,WorkHub Enterprise,Gagan Sami,12,1
+CUST-0335,Dey Inc,Real Estate,1–50,SMB,Southeast Asia,2023-11-08,Active,372.99,73.0,WorkHub Core,Lajita Chatterjee,24,0
+CUST-0336,Modi Group,Logistics,1001–5000,SMB,Middle East,2022-04-02,Churned,457.3,16.0,WorkHub Core,Hemangini Lalla,36,1
+CUST-0337,Chatterjee and Sons,BFSI,5000+,Mid-Market,Middle East,2022-04-23,At Risk,1552.77,89.0,WorkHub Core,Tripti Yadav,24,1
+CUST-0338,"Deshmukh, Rama and Setty",Telecom,51–200,SMB,Southeast Asia,2023-05-02,Churned,690.33,,WorkHub Core,Gayathri Chaudry,36,1
+CUST-0339,Zachariah-Saini,BFSI,1–50,Mid-Market,South Asia,2022-05-28,Active,2197.55,,WorkHub Core,Janaki Handa,36,0
+CUST-0340,"Dubey, Sachdeva and Chaudhary",Media & Entertainment,5000+,Mid-Market,Southeast Asia,2023-04-11,Churned,2240.15,45.0,WorkHub Core,Aryan Maharaj,36,1
+CUST-0341,Reddy-Mammen,EdTech,5000+,SMB,Middle East,2023-02-25,Churned,123.42,4.0,WorkHub Core,Ayushman Chander,36,1
+CUST-0342,Prabhakar and Sons,Healthcare,51–200,Mid-Market,East Africa,2024-05-29,At Risk,2287.8,10.0,WorkHub Pro,Nathaniel Sami,24,1
+CUST-0343,Saxena-Keer,Healthcare,5000+,Enterprise,East Africa,2022-11-16,Renewed,11490.47,1.0,WorkHub Pro,Lajita Chatterjee,24,0
+CUST-0344,Chaudhary-Pillai,Logistics,201–1000,Enterprise,Southeast Asia,2022-02-06,Churned,8256.99,100.0,WorkHub Enterprise,Chakradev Kari,36,1
+CUST-0345,"Parmer, Bhat and Rao",BFSI,201–1000,Mid-Market,East Africa,2022-01-28,Active,2417.91,100.0,WorkHub Pro,Arunima Dugal,24,0
+CUST-0346,Gupta-Das,BFSI,1–50,SMB,East Africa,2022-06-28,At Risk,561.41,47.0,WorkHub Core,Nathaniel Sami,24,1
+CUST-0347,Chand-Kala,Telecom,1–50,SMB,Middle East,2022-03-28,Churned,675.21,63.0,WorkHub Core,Tripti Yadav,12,1
+CUST-0348,"Bail, Bedi and Nath",Retail,51–200,Mid-Market,East Africa,2024-01-22,Active,1646.07,,WorkHub Core,Tripti Yadav,24,0
+CUST-0349,Dass PLC,Telecom,51–200,Mid-Market,ANZ,2023-12-01,Active,1264.48,,WorkHub Core,Tripti Yadav,36,0
+CUST-0350,Biswas PLC,Telecom,1–50,Mid-Market,South Asia,2024-07-28,Active,3501.57,78.0,WorkHub Core,Lajita Chatterjee,24,0
+CUST-0351,Kalita and Sons,Healthcare,201–1000,SMB,East Africa,2023-02-05,Churned,269.26,86.0,WorkHub Core,Fariq Kaul,24,1
+CUST-0352,Divan-Agate,Retail,201–1000,Mid-Market,East Africa,2022-01-11,At Risk,838.28,12.0,WorkHub Core,Hemangini Lalla,12,1
+CUST-0353,Dhillon-De,Logistics,51–200,SMB,South Asia,2022-01-25,Active,515.9,27.0,WorkHub Core,Ayushman Chander,12,0
+CUST-0354,"Krishna, Ghosh and Choudhary",Retail,1001–5000,Enterprise,East Africa,2024-04-02,Renewed,13739.15,32.0,WorkHub Enterprise,Janaki Handa,24,0
+CUST-0355,"Bal, Deep and Aurora",Manufacturing,201–1000,SMB,Southeast Asia,10/03/2024,At Risk,367.96,42.0,WorkHub Core,Arunima Dugal,12,1
+CUST-0356,Khanna-Naik,Government,51–200,Enterprise,East Africa,2023-02-07,Active,6014.22,98.0,WorkHub Enterprise,Janaki Handa,36,0
+CUST-0357,Ghosh LLC,BFSI,1–50,SMB,South Asia,2023-08-09,At Risk,113.14,63.0,WorkHub Core,Udant Dewan,36,1
+CUST-0358,Date Ltd,Retail,201–1000,Mid-Market,ANZ,12/08/2023,Churned,3267.17,,WorkHub Pro,Lajita Mall,12,1
+CUST-0359,Vora-Comar,Government,1–50,Enterprise,East Africa,2023-07-03,Active,13545.7,,WorkHub Enterprise,Hemangini Lalla,36,0
+CUST-0360,"Bhatt, Soni and Sen",Manufacturing,1–50,Mid-Market,ANZ,2024-02-18,Churned,1365.18,5.0,WorkHub Pro,Gayathri Chaudry,36,1
+CUST-0361,Varghese-Chopra,Healthcare,201–1000,SMB,ANZ,2022-03-28,Active,232.63,,WorkHub Core,Chakradev Kari,24,0
+CUST-0362,Thakur-Kant,Telecom,201–1000,Mid-Market,ANZ,2023-07-01,At Risk,3893.04,,WorkHub Pro,Lajita Chatterjee,36,1
+CUST-0363,"Bassi, Verma and Mitra",Healthcare,51–200,Mid-Market,East Africa,2023-04-15,Renewed,2517.0,94.0,WorkHub Pro,Udant Dewan,36,0
+CUST-0364,Balasubramanian-Bhat,BFSI,1001–5000,Mid-Market,East Africa,2022-02-16,Churned,845.97,,WorkHub Core,Ayushman Chander,24,1
+CUST-0365,Ratti-Sandhu,Real Estate,1–50,Mid-Market,South Asia,2022-04-27,At Risk,1505.83,25.0,WorkHub Core,Lajita Chatterjee,12,1
+CUST-0366,"Chokshi, Swaminathan and Sawhney",Real Estate,5000+,Mid-Market,Southeast Asia,2022-11-26,At Risk,3245.53,75.0,WorkHub Pro,Ayushman Chander,24,1
+CUST-0367,Buch LLC,Media & Entertainment,51–200,Mid-Market,Middle East,2023-07-21,Active,2662.35,,WorkHub Core,Rushil Saini,12,0
+CUST-0368,"Divan, Bhatti and Date",Healthcare,1–50,SMB,South Asia,2022-07-03,Churned,515.61,36.0,WorkHub Core,Viraj Tiwari,12,1
+CUST-0369,Nair-Raj,Logistics,5000+,Enterprise,ANZ,2023-02-26,Active,13683.43,76.0,WorkHub Pro,Gagan Sami,36,0
+CUST-0370,"Wali, Menon and Setty",Logistics,201–1000,SMB,ANZ,2022-01-05,Active,790.62,12.0,WorkHub Core,Janaki Handa,36,0
+CUST-0371,"Sani, Chaudhary and Contractor",Logistics,1–50,Mid-Market,Southeast Asia,2022-04-26,Churned,3899.44,60.0,WorkHub Pro,Udant Dewan,12,1
+CUST-0372,"Kale, Sani and Seth",Logistics,51–200,SMB,ANZ,2022-09-15,At Risk,630.89,,WorkHub Core,Lajita Mall,12,1
+CUST-0373,Sachdev LLC,BFSI,1001–5000,SMB,East Africa,29/04/2022,Active,411.37,74.0,WorkHub Core,Lajita Chatterjee,12,0
+CUST-0374,Rastogi-Sagar,Manufacturing,51–200,SMB,South Asia,2022-08-31,At Risk,362.87,,WorkHub Core,Udant Dewan,24,1
+CUST-0375,"Chandran, Munshi and Sane",Real Estate,1001–5000,Mid-Market,Southeast Asia,2023-02-01,Active,1421.3,,WorkHub Pro,Lajita Chatterjee,12,0
+CUST-0376,Kumer-Prasad,Real Estate,1–50,Enterprise,Middle East,20/05/2022,Active,9855.13,97.0,WorkHub Pro,Rushil Saini,36,0
+CUST-0377,Som Inc,Retail,5000+,SMB,East Africa,2024-05-25,Active,465.24,27.0,WorkHub Core,Arunima Dugal,12,0
+CUST-0378,Chada Inc,EdTech,51–200,Mid-Market,Middle East,2023-03-21,Renewed,2693.67,,WorkHub Pro,Kritika Brar,12,0
+CUST-0379,Char-Pradhan,Government,5000+,Mid-Market,South Asia,2023-03-12,Active,3353.66,12.0,WorkHub Pro,Gagan Sami,36,0
+CUST-0380,Bhasin PLC,Media & Entertainment,51–200,SMB,Southeast Asia,2023-01-03,Churned,163.51,61.0,WorkHub Core,Janaki Handa,36,1
+CUST-0381,"Narayan, Das and Roy",BFSI,1001–5000,SMB,ANZ,2024-03-01,Churned,229.46,47.0,WorkHub Core,Gagan Sami,24,1
+CUST-0382,Sampath-Behl,Manufacturing,5000+,Mid-Market,South Asia,2026-01-21,Active,3827.51,69.0,WorkHub Pro,Gagan Sami,36,0
+CUST-0383,Muni-Pandey,BFSI,5000+,Mid-Market,Middle East,28/06/2024,Active,2289.13,,WorkHub Pro,Lajita Mall,36,0
+CUST-0384,Tripathi and Sons,EdTech,51–200,Mid-Market,Middle East,2022-09-02,Churned,3159.62,96.0,WorkHub Pro,Nathaniel Sami,24,1
+CUST-0385,Subramaniam and Sons,Logistics,5000+,Mid-Market,ANZ,11/10/2022,Active,2247.71,64.0,WorkHub Pro,Chakradev Kari,36,0
+CUST-0386,Palla PLC,Telecom,201–1000,Mid-Market,ANZ,2023-09-28,Churned,3018.31,8.0,WorkHub Core,Gagan Sami,12,1
+CUST-0387,Contractor-Mallick,Retail,201–1000,Enterprise,South Asia,2022-04-22,Active,6071.36,19.0,WorkHub Enterprise,Gayathri Chaudry,24,0
+CUST-0388,"Kara, Sanghvi and Bal",Telecom,51–200,Mid-Market,ANZ,2022-12-22,At Risk,868.74,,WorkHub Pro,Fariq Kaul,36,1
+CUST-0389,"Loke, Balakrishnan and Gole",Real Estate,201–1000,SMB,Middle East,2023-05-13,Churned,689.34,56.0,WorkHub Core,Gayathri Chaudry,12,1
+CUST-0390,More-Nori,EdTech,1001–5000,SMB,Middle East,2024-09-21,At Risk,203.84,36.0,WorkHub Core,Rushil Saini,36,1
+CUST-0391,Ahuja-Golla,Retail,51–200,SMB,Southeast Asia,2022-06-15,Active,321.64,16.0,WorkHub Core,Rushil Saini,12,0
+CUST-0392,Rattan Inc,BFSI,201–1000,Mid-Market,Middle East,2022-06-01,Active,1320.31,,WorkHub Pro,Tripti Yadav,24,0
+CUST-0393,Balasubramanian Inc,Government,201–1000,Mid-Market,Southeast Asia,2022-01-05,Active,2423.71,82.0,WorkHub Core,Gayathri Chaudry,36,0
+CUST-0394,"Wali, Kale and Puri",Real Estate,1001–5000,Mid-Market,Middle East,07/12/2023,Active,928.26,86.0,WorkHub Core,Aryan Maharaj,24,0
+CUST-0395,Setty-Om,EdTech,1001–5000,Enterprise,Middle East,2022-04-05,Churned,6732.1,,WorkHub Pro,Saumya Mall,12,1
+CUST-0396,Pingle LLC,Government,1–50,Mid-Market,East Africa,2023-02-08,Active,2736.25,7.0,WorkHub Core,Tripti Yadav,12,0
+CUST-0397,"Nair, Chad and Ben",Media & Entertainment,201–1000,Mid-Market,ANZ,17/01/2023,Active,1785.87,57.0,WorkHub Pro,Saumya Mall,36,0
+CUST-0398,Dugar PLC,Media & Entertainment,1001–5000,Mid-Market,Middle East,2022-06-17,Renewed,2156.26,,WorkHub Pro,Viraj Tiwari,12,0
+CUST-0399,Bumb LLC,Telecom,201–1000,SMB,South Asia,2024-08-13,At Risk,161.91,52.0,WorkHub Core,Kritika Brar,12,1
+CUST-0400,Samra-Sunder,Real Estate,51–200,Mid-Market,Southeast Asia,2022-07-10,Active,2369.87,38.0,WorkHub Core,Chakradev Kari,36,0
+CUST-0401,"Sathe, Sachdeva and Mahajan",EdTech,1–50,Mid-Market,South Asia,2022-06-07,Renewed,3469.58,,WorkHub Core,Kritika Brar,12,0
+CUST-0402,Vala Inc,EdTech,1–50,Mid-Market,South Asia,2024-02-23,Renewed,1013.52,95.0,WorkHub Core,Kritika Brar,24,0
+CUST-0403,Sani-Choudhry,Government,1–50,Mid-Market,Middle East,2023-06-09,Active,1630.52,,WorkHub Core,Janaki Handa,36,0
+CUST-0404,Sur-Vyas,Retail,1–50,SMB,Middle East,2023-01-05,Renewed,349.19,37.0,WorkHub Core,Fariq Kaul,12,0
+CUST-0405,"Morar, Bath and Kannan",Retail,1–50,SMB,East Africa,2024-02-10,Active,321.35,87.0,WorkHub Core,Hemangini Lalla,12,0
+CUST-0406,Bhakta-Amble,Manufacturing,51–200,Enterprise,South Asia,2022-05-21,Active,10788.59,43.0,WorkHub Enterprise,Ayushman Chander,12,0
+CUST-0407,Mitra and Sons,EdTech,51–200,Enterprise,East Africa,2023-09-21,Renewed,15844.98,91.0,WorkHub Enterprise,Kritika Brar,24,0
+CUST-0408,Kumer LLC,Healthcare,51–200,Mid-Market,South Asia,2023-05-07,Churned,1244.84,56.0,WorkHub Core,Rushil Saini,36,1
+CUST-0409,Dar-Amble,Healthcare,51–200,Mid-Market,Southeast Asia,2024-05-27,Churned,1783.77,,WorkHub Pro,Kritika Brar,36,1
+CUST-0410,Sani-Gill,Healthcare,1–50,Mid-Market,South Asia,2024-03-04,Active,1428.32,4.0,WorkHub Pro,Chakradev Kari,12,0
+CUST-0411,Rai PLC,BFSI,1–50,SMB,Middle East,15/11/2023,Active,186.66,77.0,WorkHub Core,Rushil Saini,36,0
+CUST-0412,"Karpe, Tella and Pandya",Healthcare,51–200,SMB,Middle East,2024-08-29,Active,698.6,,WorkHub Core,Fariq Kaul,36,0
+CUST-0413,Ranganathan Ltd,Real Estate,1–50,SMB,East Africa,2022-08-11,Renewed,220.24,96.0,WorkHub Core,Saumya Mall,36,0
+CUST-0414,Sarin Inc,Government,201–1000,Mid-Market,East Africa,2022-07-09,Renewed,1378.72,45.0,WorkHub Core,Saumya Mall,36,0
+CUST-0415,Brahmbhatt-Munshi,Healthcare,201–1000,Enterprise,South Asia,23/04/2023,Active,14671.83,90.0,WorkHub Enterprise,Gagan Sami,24,0
+CUST-0416,"Sanghvi, Ravel and Sahni",Media & Entertainment,201–1000,Enterprise,ANZ,2023-09-07,Churned,15775.26,28.0,WorkHub Pro,Kritika Brar,12,1
+CUST-0417,Contractor-Ravel,Government,201–1000,Mid-Market,Southeast Asia,2022-01-14,Active,1136.55,56.0,WorkHub Pro,Ayushman Chander,12,0
+CUST-0418,Nair and Sons,Real Estate,1–50,Mid-Market,Southeast Asia,2022-03-08,Active,1440.84,,WorkHub Core,Chakradev Kari,24,0
+CUST-0419,"Sharma, Pathak and Chakrabarti",Real Estate,5000+,SMB,Middle East,2024-02-14,Churned,380.16,60.0,WorkHub Core,Chakradev Kari,36,1
+CUST-0420,Cherian-Kohli,Government,1–50,Enterprise,South Asia,2022-09-14,Active,17193.64,,WorkHub Enterprise,Gagan Sami,24,0
+CUST-0421,Rattan-Viswanathan,Retail,1001–5000,Mid-Market,East Africa,2023-11-27,Active,2794.34,,WorkHub Core,Janaki Handa,12,0
+CUST-0422,Randhawa LLC,Government,1001–5000,Mid-Market,East Africa,2022-09-25,At Risk,2529.69,2.0,WorkHub Pro,Kritika Brar,12,1
+CUST-0423,"Nori, Kant and Nath",Manufacturing,1001–5000,Enterprise,ANZ,16/04/2023,Active,13231.75,,WorkHub Enterprise,Chakradev Kari,24,0
+CUST-0424,Bose PLC,Media & Entertainment,1001–5000,SMB,South Asia,2023-08-06,Churned,579.76,73.0,WorkHub Core,Fariq Kaul,12,1
+CUST-0425,"Comar, Wali and Uppal",Government,5000+,Mid-Market,ANZ,2023-09-24,At Risk,1710.2,,WorkHub Pro,Viraj Tiwari,24,1
+CUST-0426,Palla LLC,Real Estate,1–50,Mid-Market,Middle East,25/01/2023,Active,1943.57,,WorkHub Pro,Nathaniel Sami,12,0
+CUST-0427,"Divan, Keer and Chauhan",Real Estate,1–50,SMB,South Asia,2024-06-08,Active,113.8,,WorkHub Core,Fariq Kaul,24,0
+CUST-0428,Kunda and Sons,Government,5000+,Enterprise,South Asia,2022-11-21,Active,12015.54,,WorkHub Enterprise,Lajita Chatterjee,24,0
+CUST-0429,Dua Ltd,Manufacturing,51–200,SMB,East Africa,2022-11-03,Active,447.87,,WorkHub Core,Gayathri Chaudry,24,0
+CUST-0430,Goel Ltd,Real Estate,1001–5000,SMB,Southeast Asia,2023-10-02,Active,690.93,12.0,WorkHub Core,Gagan Sami,36,0
+CUST-0431,Shetty-Sen,Government,1001–5000,Enterprise,Southeast Asia,2022-12-22,Churned,8225.86,38.0,WorkHub Pro,Saumya Mall,24,1
+CUST-0432,"Naidu, Mutti and Dora",Real Estate,5000+,Mid-Market,ANZ,2023-11-19,Active,859.53,90.0,WorkHub Pro,Chakradev Kari,12,0
+CUST-0433,Bir-Singh,Government,201–1000,Enterprise,East Africa,2024-04-08,At Risk,10072.14,72.0,WorkHub Enterprise,Fariq Kaul,12,1
+CUST-0434,Mitter-Maharaj,Retail,51–200,SMB,Southeast Asia,2024-02-04,Active,404.77,40.0,WorkHub Core,Saumya Mall,24,0
+CUST-0435,"Bhalla, Pandey and Tripathi",Logistics,51–200,Mid-Market,Middle East,2023-12-05,Active,1163.39,,WorkHub Core,Janaki Handa,24,0
+CUST-0436,Mukherjee Group,Media & Entertainment,1001–5000,Enterprise,South Asia,2022-07-26,Active,7617.56,35.0,WorkHub Enterprise,Udant Dewan,36,0
+CUST-0437,Barad-Bhandari,BFSI,1–50,Mid-Market,South Asia,2022-11-18,At Risk,3681.84,52.0,WorkHub Pro,Tripti Yadav,36,1
+CUST-0438,Mangat-Bose,EdTech,1–50,SMB,East Africa,2024-01-23,Active,564.95,74.0,WorkHub Core,Chakradev Kari,12,0
+CUST-0439,"Chana, Tripathi and Rajagopalan",Healthcare,201–1000,Mid-Market,Middle East,2024-05-02,Active,3194.8,30.0,WorkHub Pro,Viraj Tiwari,12,0
+CUST-0440,Barman-Sengupta,Logistics,1001–5000,SMB,ANZ,2022-09-18,Active,473.43,89.0,WorkHub Core,Lajita Mall,24,0
+CUST-0441,"Guha, Nagy and Soni",EdTech,201–1000,SMB,Southeast Asia,2023-01-07,Active,315.72,82.0,WorkHub Core,Udant Dewan,36,0
+CUST-0442,"Dora, Bhatia and Seshadri",EdTech,201–1000,SMB,East Africa,2023-01-29,Renewed,354.0,,WorkHub Core,Janaki Handa,24,0
+CUST-0443,Oza Ltd,Media & Entertainment,201–1000,Mid-Market,Middle East,2022-04-03,At Risk,1751.75,20.0,WorkHub Core,Kritika Brar,12,1
+CUST-0444,Thaman Ltd,Healthcare,1001–5000,SMB,ANZ,2024-01-25,At Risk,602.17,12.0,WorkHub Core,Fariq Kaul,12,1
+CUST-0445,Baral and Sons,Real Estate,5000+,SMB,Middle East,2023-04-10,At Risk,548.96,23.0,WorkHub Core,Aryan Maharaj,24,1
+CUST-0446,"Sarma, Sarna and Viswanathan",Logistics,201–1000,Mid-Market,East Africa,26/03/2022,Active,3083.4,98.0,WorkHub Pro,Kritika Brar,24,0
+CUST-0447,"Dutt, Patla and Pradhan",Retail,201–1000,SMB,Southeast Asia,2023-12-05,Active,297.26,10.0,WorkHub Core,Tripti Yadav,24,0
+CUST-0448,Ram-Rege,Real Estate,51–200,Mid-Market,South Asia,28/08/2024,Churned,2758.41,29.0,WorkHub Core,Saumya Mall,24,1
+CUST-0449,Ben-Natt,Retail,1–50,SMB,ANZ,2023-09-25,Active,162.34,47.0,WorkHub Core,Aryan Maharaj,36,0
+CUST-0450,Narayan Inc,Government,1001–5000,Mid-Market,South Asia,2022-08-18,Active,3558.2,100.0,WorkHub Core,Tripti Yadav,12,0
+CUST-0451,"Raju, Mander and Krishnan",EdTech,5000+,SMB,Southeast Asia,2024-04-23,Churned,392.83,52.0,WorkHub Core,Gayathri Chaudry,24,1
+CUST-0452,"Doctor, Nath and Bumb",Government,51–200,SMB,Middle East,2023-08-20,Active,107.22,17.0,WorkHub Core,Saumya Mall,36,0
+CUST-0453,"Dhaliwal, Palla and Mukherjee",Media & Entertainment,5000+,Mid-Market,Middle East,16/03/2022,Active,1865.16,30.0,WorkHub Core,Udant Dewan,12,0
+CUST-0454,"Ramanathan, Dayal and Chad",Real Estate,1001–5000,Mid-Market,Middle East,2024-09-27,Active,3897.78,,WorkHub Pro,Arunima Dugal,12,0
+CUST-0455,Puri-Narasimhan,Manufacturing,1001–5000,Mid-Market,Southeast Asia,2022-04-02,Active,1253.75,14.0,WorkHub Pro,Chakradev Kari,24,0
+CUST-0456,Vyas Inc,Media & Entertainment,201–1000,Mid-Market,Middle East,2023-09-20,Renewed,2454.31,55.0,WorkHub Core,Chakradev Kari,12,0
+CUST-0457,"Sampath, Trivedi and Pathak",Government,1–50,SMB,Southeast Asia,02/06/2022,Active,429.17,,WorkHub Core,Ayushman Chander,24,0
+CUST-0458,Patil LLC,Manufacturing,5000+,Mid-Market,ANZ,2023-04-14,At Risk,3574.01,15.0,WorkHub Pro,Gayathri Chaudry,12,1
+CUST-0459,Kala LLC,Telecom,201–1000,Mid-Market,East Africa,2024-07-01,Active,3993.61,0.0,WorkHub Pro,Kritika Brar,12,0
+CUST-0460,Handa-Kara,Government,1–50,Mid-Market,Middle East,2022-01-27,Renewed,1190.37,,WorkHub Pro,Lajita Chatterjee,12,0
+CUST-0461,Dubey Inc,Government,1001–5000,Enterprise,ANZ,2023-10-06,Churned,4081.28,5.0,WorkHub Pro,Lajita Chatterjee,36,1
+CUST-0462,Chaudhuri-Tripathi,Real Estate,51–200,Mid-Market,Southeast Asia,02/06/2024,Churned,1834.15,7.0,WorkHub Core,Gagan Sami,24,1
+CUST-0463,"Vyas, Barad and Nayar",EdTech,1001–5000,Mid-Market,South Asia,2022-01-22,Active,3294.38,36.0,WorkHub Pro,Ayushman Chander,24,0
+CUST-0464,"Deep, Puri and Dube",Media & Entertainment,201–1000,Mid-Market,East Africa,2022-05-15,Active,1975.86,25.0,WorkHub Core,Chakradev Kari,24,0
+CUST-0465,Golla Ltd,Media & Entertainment,1–50,Mid-Market,ANZ,2024-04-10,Active,2818.2,,WorkHub Core,Janaki Handa,36,0
+CUST-0466,"Gandhi, Sarma and Bassi",Retail,1001–5000,Enterprise,East Africa,2023-10-07,Active,10555.07,10.0,WorkHub Pro,Gayathri Chaudry,12,0
+CUST-0467,Patla-Khanna,Logistics,51–200,Mid-Market,East Africa,2023-03-14,Active,1044.9,5.0,WorkHub Core,Kritika Brar,12,0
+CUST-0468,Mane-Sen,Real Estate,201–1000,SMB,Middle East,2022-09-18,At Risk,111.39,,WorkHub Core,Rushil Saini,24,1
+CUST-0469,Walla and Sons,Media & Entertainment,201–1000,SMB,Middle East,2023-08-25,At Risk,414.96,,WorkHub Core,Saumya Mall,12,1
+CUST-0470,Singh-Hari,Real Estate,201–1000,Enterprise,South Asia,2023-03-21,Active,5633.5,21.0,WorkHub Pro,Tripti Yadav,36,0
+CUST-0471,Sastry-Shenoy,Real Estate,1001–5000,Mid-Market,Middle East,2023-09-26,Churned,3010.12,,WorkHub Core,Gagan Sami,12,1
+CUST-0472,Raja-Thakkar,EdTech,1–50,Mid-Market,South Asia,2023-12-14,At Risk,1469.53,83.0,WorkHub Pro,Kritika Brar,36,1
+CUST-0473,"Sahota, Edwin and Iyengar",Telecom,51–200,Mid-Market,South Asia,2022-11-05,Active,2150.01,14.0,WorkHub Pro,Janaki Handa,24,0
+CUST-0474,"Devi, Krishna and Ben",Government,5000+,Mid-Market,Southeast Asia,2022-07-26,At Risk,2053.55,,WorkHub Core,Kritika Brar,24,1
+CUST-0475,"Srivastava, Prabhu and Chauhan",Real Estate,5000+,Mid-Market,Middle East,2022-02-07,Active,2691.33,,WorkHub Core,Nathaniel Sami,36,0
+CUST-0476,"Varty, Dash and Mane",BFSI,1001–5000,SMB,East Africa,2022-11-20,Active,553.81,,WorkHub Core,Janaki Handa,36,0
+CUST-0477,Dyal LLC,Retail,201–1000,Mid-Market,Southeast Asia,2023-04-26,Active,1503.05,87.0,WorkHub Core,Viraj Tiwari,24,0
+CUST-0478,Varghese-Din,Media & Entertainment,1001–5000,SMB,Middle East,2024-03-26,Renewed,213.42,26.0,WorkHub Core,Chakradev Kari,12,0
+CUST-0479,Chand-Kapadia,Retail,5000+,SMB,ANZ,2022-04-14,Renewed,445.61,30.0,WorkHub Core,Aryan Maharaj,24,0
+CUST-0480,Palla-Bala,Manufacturing,51–200,SMB,Southeast Asia,2024-04-27,Active,664.77,43.0,WorkHub Core,Ayushman Chander,36,0
+CUST-0481,Bera-Randhawa,Logistics,201–1000,Mid-Market,Middle East,27/02/2024,Renewed,1655.97,19.0,WorkHub Pro,Udant Dewan,24,0
+CUST-0482,"Prakash, Keer and Raju",Healthcare,1–50,Enterprise,East Africa,2023-09-17,Renewed,15530.54,5.0,WorkHub Enterprise,Ayushman Chander,12,0
+CUST-0483,Prasad and Sons,Retail,201–1000,Mid-Market,ANZ,2024-02-20,At Risk,1117.74,82.0,WorkHub Pro,Ayushman Chander,12,1
+CUST-0484,Nagar Inc,Media & Entertainment,1–50,SMB,Southeast Asia,2024-05-04,Active,453.52,10.0,WorkHub Core,Hemangini Lalla,36,0
+CUST-0485,"Nayak, Dhingra and Devan",Retail,5000+,SMB,ANZ,2024-03-17,At Risk,389.39,52.0,WorkHub Core,Aryan Maharaj,24,1
+CUST-0486,Mangat Group,BFSI,5000+,SMB,South Asia,2022-03-28,Active,640.66,,WorkHub Core,Viraj Tiwari,36,0
+CUST-0487,"Dewan, Singh and Sen",Telecom,201–1000,Mid-Market,ANZ,2023-02-16,Churned,3595.35,92.0,WorkHub Core,Aryan Maharaj,24,1
+CUST-0488,"Ahluwalia, Buch and Bahl",Real Estate,51–200,SMB,ANZ,2023-04-02,Renewed,537.05,79.0,WorkHub Core,Tripti Yadav,12,0
+CUST-0489,Kale-Doctor,Healthcare,1–50,Mid-Market,East Africa,2022-12-09,Churned,3615.6,66.0,WorkHub Core,Saumya Mall,12,1
+CUST-0490,"Wable, Sampath and Choudhry",Logistics,5000+,Mid-Market,Middle East,2024-02-15,Active,3649.02,69.0,WorkHub Pro,Gayathri Chaudry,36,0
+CUST-0491,Khanna-Mitra,Telecom,1–50,Mid-Market,South Asia,2024-05-11,Churned,1934.31,6.0,WorkHub Pro,Janaki Handa,24,1
+CUST-0492,Batta and Sons,BFSI,1001–5000,Mid-Market,Middle East,2022-08-30,Renewed,2609.91,80.0,WorkHub Pro,Hemangini Lalla,24,0
+CUST-0493,Shankar-Bhatnagar,Real Estate,51–200,Mid-Market,ANZ,2023-06-17,Active,2452.65,24.0,WorkHub Core,Janaki Handa,12,0
+CUST-0494,Tata PLC,Media & Entertainment,1001–5000,Enterprise,South Asia,05/04/2022,Renewed,10667.54,,WorkHub Pro,Lajita Mall,36,0
+CUST-0495,"Babu, Varma and Khurana",Logistics,5000+,Mid-Market,ANZ,2023-10-14,Active,3779.31,62.0,WorkHub Core,Rushil Saini,12,0
+CUST-0496,"Dhawan, Manne and Sanghvi",Government,1001–5000,SMB,Southeast Asia,2024-09-18,At Risk,182.64,27.0,WorkHub Core,Rushil Saini,36,1
+CUST-0497,Pandit and Sons,Healthcare,5000+,Mid-Market,ANZ,2022-04-23,Churned,928.9,,WorkHub Core,Hemangini Lalla,24,1
+CUST-0498,"Saha, Grover and Chada",BFSI,51–200,Enterprise,Southeast Asia,2024-03-13,Active,16519.54,36.0,WorkHub Pro,Aryan Maharaj,12,0
+CUST-0499,"Patel, Bir and Vora",Healthcare,1–50,Mid-Market,ANZ,2023-05-08,Churned,3680.92,100.0,WorkHub Pro,Viraj Tiwari,36,1
+CUST-0500,"Tripathi, Tripathi and Bahri",Government,1001–5000,Enterprise,Southeast Asia,2024-06-06,Active,12746.79,79.0,WorkHub Enterprise,Tripti Yadav,24,0
+CUST-0501,Singhal-Bassi,Government,201–1000,Mid-Market,South Asia,2024-06-05,Active,2816.35,98.0,WorkHub Pro,Lajita Mall,12,0
+CUST-0502,"Ram, Prakash and Kulkarni",Real Estate,5000+,Enterprise,East Africa,15/02/2024,Churned,6651.54,60.0,WorkHub Enterprise,Ayushman Chander,36,1
+CUST-0503,"Babu, Parikh and Bir",Retail,1–50,Mid-Market,Middle East,2024-03-16,At Risk,3484.54,,WorkHub Core,Tripti Yadav,36,1
+CUST-0504,Khosla-Chawla,BFSI,201–1000,Mid-Market,ANZ,2022-07-04,At Risk,1815.62,,WorkHub Pro,Lajita Mall,12,1
+CUST-0505,"Natarajan, Deol and Basu",Retail,201–1000,Enterprise,South Asia,2022-06-07,Active,6368.67,,WorkHub Enterprise,Aryan Maharaj,36,0
+CUST-0506,Nigam-Gill,Media & Entertainment,1–50,Mid-Market,Middle East,2022-05-26,Active,2001.64,,WorkHub Pro,Nathaniel Sami,24,0
+CUST-0507,"Shetty, Srinivas and Gopal",Telecom,1001–5000,Enterprise,South Asia,03/10/2022,Active,9699.07,,WorkHub Enterprise,Aryan Maharaj,24,0
+CUST-0508,Bhatnagar Ltd,Real Estate,1–50,Mid-Market,Southeast Asia,2024-02-21,At Risk,1774.76,52.0,WorkHub Pro,Viraj Tiwari,24,1
+CUST-0509,Bansal-Memon,Retail,51–200,Enterprise,East Africa,2024-09-02,Renewed,10324.39,,WorkHub Pro,Rushil Saini,12,0
+CUST-0510,Bassi and Sons,Government,201–1000,Mid-Market,East Africa,2022-09-14,Active,1924.54,80.0,WorkHub Core,Udant Dewan,12,0
+CUST-0511,Mutti LLC,Real Estate,1–50,Mid-Market,Middle East,2022-04-02,Active,1246.88,71.0,WorkHub Core,Saumya Mall,36,0
+CUST-0512,"Rao, Solanki and Kulkarni",Manufacturing,201–1000,Mid-Market,Middle East,2024-09-30,Active,1586.97,41.0,WorkHub Core,Lajita Chatterjee,12,0
+CUST-0513,Halder LLC,Retail,1–50,SMB,East Africa,03/05/2023,Active,221.48,,WorkHub Core,Tripti Yadav,36,0
+CUST-0514,Batta-Narula,Healthcare,5000+,Mid-Market,South Asia,2024-07-02,Churned,2951.19,45.0,WorkHub Core,Hemangini Lalla,24,1
+CUST-0515,Dash-Pillai,BFSI,1–50,SMB,ANZ,2023-01-15,Active,255.06,2.0,WorkHub Core,Saumya Mall,12,0
+CUST-0516,Ratta-Sarraf,Logistics,51–200,SMB,Southeast Asia,2024-09-30,Active,296.53,90.0,WorkHub Core,Aryan Maharaj,12,0
+CUST-0517,Nori-Grover,Media & Entertainment,1–50,Mid-Market,Middle East,2023-08-06,Active,1420.06,,WorkHub Pro,Gagan Sami,36,0
+CUST-0518,Tank-Pillai,Healthcare,51–200,Enterprise,Middle East,2024-08-13,Active,11323.12,100.0,WorkHub Enterprise,Lajita Mall,36,0
+CUST-0519,"Loke, Butala and Samra",Telecom,1001–5000,Enterprise,South Asia,2024-08-18,Churned,13100.42,41.0,WorkHub Pro,Arunima Dugal,12,1
+CUST-0520,Sani PLC,Government,1001–5000,Mid-Market,Middle East,2023-06-14,Renewed,1518.55,35.0,WorkHub Core,Lajita Chatterjee,12,0
+CUST-0521,Memon LLC,Manufacturing,1–50,SMB,East Africa,07/04/2024,At Risk,784.67,54.0,WorkHub Core,Saumya Mall,12,1
+CUST-0522,Buch LLC,Healthcare,1–50,Mid-Market,South Asia,2023-05-07,Active,3351.11,42.0,WorkHub Pro,Ayushman Chander,24,0
+CUST-0523,"Merchant, Mohan and Sehgal",Manufacturing,1–50,SMB,Middle East,2023-06-17,Renewed,643.02,,WorkHub Core,Janaki Handa,36,0
+CUST-0524,"Sandhu, Ganesan and Sawhney",BFSI,1–50,SMB,ANZ,2022-11-17,Churned,647.85,7.0,WorkHub Core,Udant Dewan,24,1
+CUST-0525,Sekhon-Basak,Media & Entertainment,1–50,SMB,South Asia,25/11/2023,Active,694.95,,WorkHub Core,Nathaniel Sami,36,0
+CUST-0526,"Pandit, Saran and Maharaj",Real Estate,1–50,SMB,ANZ,2023-01-29,Active,534.15,12.0,WorkHub Core,Janaki Handa,36,0
+CUST-0527,"Bhandari, Borde and Ravi",EdTech,1–50,SMB,South Asia,2022-01-13,Active,652.59,24.0,WorkHub Core,Fariq Kaul,24,0
+CUST-0528,Varghese-Dutta,Government,5000+,Enterprise,ANZ,2022-07-10,At Risk,4846.88,39.0,WorkHub Pro,Gayathri Chaudry,36,1
+CUST-0529,Dhar PLC,Retail,51–200,Enterprise,ANZ,2022-11-13,Active,17583.79,66.0,WorkHub Enterprise,Udant Dewan,12,0
+CUST-0530,"Sarma, Banerjee and Date",Telecom,1–50,Enterprise,ANZ,2022-12-19,Active,16719.0,,WorkHub Enterprise,Chakradev Kari,36,0
+CUST-0531,Keer Ltd,Government,5000+,Enterprise,Middle East,2024-05-22,Renewed,12625.44,53.0,WorkHub Enterprise,Janaki Handa,12,0
+CUST-0532,Pathak-Rajagopal,BFSI,51–200,SMB,Southeast Asia,2023-04-23,Active,614.21,42.0,WorkHub Core,Saumya Mall,24,0
+CUST-0533,"Bali, Dube and Sengupta",BFSI,201–1000,Mid-Market,South Asia,2022-03-17,Churned,1255.69,56.0,WorkHub Core,Udant Dewan,12,1
+CUST-0534,Prabhu-Sawhney,Logistics,51–200,Mid-Market,Southeast Asia,2024-06-25,Active,3512.11,31.0,WorkHub Pro,Rushil Saini,24,0
+CUST-0535,Devan PLC,BFSI,51–200,SMB,ANZ,2023-11-02,Active,755.28,39.0,WorkHub Core,Hemangini Lalla,36,0
+CUST-0536,Rao-Murthy,Telecom,5000+,SMB,ANZ,2024-06-18,Active,717.91,16.0,WorkHub Core,Lajita Mall,24,0
+CUST-0537,"Mallick, Krish and Comar",Manufacturing,5000+,Enterprise,ANZ,2024-09-27,Renewed,14683.15,75.0,WorkHub Pro,Viraj Tiwari,24,0
+CUST-0538,Grewal Group,Logistics,51–200,Mid-Market,East Africa,2024-09-18,Active,3127.36,100.0,WorkHub Pro,Rushil Saini,36,0
+CUST-0539,"Ram, Dalal and Lala",Telecom,201–1000,SMB,ANZ,2023-06-16,Active,361.72,88.0,WorkHub Core,Chakradev Kari,24,0
+CUST-0540,Sehgal-Kala,Real Estate,1–50,Enterprise,Southeast Asia,2022-08-13,Active,7281.38,27.0,WorkHub Pro,Rushil Saini,24,0
+CUST-0541,"Mangal, Swaminathan and Iyengar",Healthcare,51–200,SMB,South Asia,2022-10-30,Active,508.77,59.0,WorkHub Core,Kritika Brar,24,0
+CUST-0542,Deshmukh Inc,Media & Entertainment,201–1000,SMB,ANZ,2022-11-21,Active,409.18,33.0,WorkHub Core,Gagan Sami,24,0
+CUST-0543,Gera-Saxena,Telecom,5000+,Enterprise,South Asia,2024-03-15,Active,5660.23,,WorkHub Enterprise,Lajita Chatterjee,12,0
+CUST-0544,Nagarajan Ltd,Logistics,201–1000,Enterprise,Middle East,2022-07-15,Renewed,17977.67,96.0,WorkHub Pro,Aryan Maharaj,24,0
+CUST-0545,Bhattacharyya-Mannan,Manufacturing,1001–5000,Mid-Market,ANZ,2024-04-21,Churned,2310.41,65.0,WorkHub Pro,Tripti Yadav,12,1
+CUST-0546,Dugar-Ghosh,EdTech,1001–5000,SMB,Southeast Asia,2023-06-13,Churned,428.12,59.0,WorkHub Core,Lajita Chatterjee,12,1
+CUST-0547,Trivedi-Kapur,Media & Entertainment,51–200,SMB,ANZ,2023-04-06,Active,197.27,16.0,WorkHub Core,Chakradev Kari,36,0
+CUST-0548,Iyer and Sons,Manufacturing,51–200,Mid-Market,ANZ,2023-03-12,Active,3291.66,68.0,WorkHub Pro,Udant Dewan,12,0
+CUST-0549,Tak Inc,Manufacturing,5000+,SMB,East Africa,2024-07-24,At Risk,786.12,26.0,WorkHub Core,Lajita Mall,24,1
+CUST-0550,Pillay-Sibal,Healthcare,201–1000,Enterprise,East Africa,2024-09-12,Renewed,5305.38,13.0,WorkHub Enterprise,Udant Dewan,36,0
+CUST-0551,"Dayal, Chadha and Bhatti",BFSI,51–200,SMB,Southeast Asia,2022-03-13,Active,244.12,37.0,WorkHub Core,Janaki Handa,12,0
+CUST-0552,Rao-Srinivas,BFSI,51–200,Mid-Market,Middle East,2024-05-30,Active,3966.7,16.0,WorkHub Core,Gagan Sami,24,0
+CUST-0553,"Roy, Rout and Borah",EdTech,51–200,Enterprise,Southeast Asia,2022-11-14,Churned,10646.92,77.0,WorkHub Pro,Saumya Mall,36,1
+CUST-0554,Nadig Ltd,Government,201–1000,SMB,Southeast Asia,2022-01-08,Active,677.21,77.0,WorkHub Core,Chakradev Kari,24,0
+CUST-0555,Sengupta Group,BFSI,1–50,SMB,Middle East,2023-10-24,Active,590.22,91.0,WorkHub Core,Rushil Saini,24,0
+CUST-0556,"Varughese, Padmanabhan and Dave",Real Estate,1001–5000,Mid-Market,ANZ,2023-01-29,Active,2619.57,50.0,WorkHub Pro,Nathaniel Sami,12,0
+CUST-0557,"Gopal, Dayal and Sant",Telecom,201–1000,Enterprise,South Asia,2023-12-16,Renewed,16722.31,52.0,WorkHub Enterprise,Hemangini Lalla,12,0
+CUST-0558,"Bhakta, Dash and Vasa",Telecom,201–1000,SMB,ANZ,2023-04-07,Active,131.24,,WorkHub Core,Tripti Yadav,24,0
+CUST-0559,Modi and Sons,EdTech,1001–5000,SMB,South Asia,2022-01-11,Churned,195.54,,WorkHub Core,Janaki Handa,12,1
+CUST-0560,Naidu Ltd,EdTech,1001–5000,Mid-Market,Southeast Asia,2023-04-28,At Risk,1345.89,2.0,WorkHub Pro,Gayathri Chaudry,12,1
+CUST-0561,Pal PLC,Media & Entertainment,51–200,Mid-Market,South Asia,2023-11-19,Churned,1291.19,45.0,WorkHub Pro,Lajita Mall,12,1
+CUST-0562,Brar-Krishna,BFSI,5000+,Mid-Market,South Asia,2023-02-04,Active,2714.26,6.0,WorkHub Pro,Nathaniel Sami,24,0
+CUST-0563,Maharaj and Sons,EdTech,1–50,Mid-Market,South Asia,08/03/2023,Active,3425.68,87.0,WorkHub Pro,Ayushman Chander,36,0
+CUST-0564,"Mitter, Walla and Chander",Retail,1–50,Mid-Market,ANZ,09/06/2023,Active,2598.57,24.0,WorkHub Core,Kritika Brar,12,0
+CUST-0565,"Ganguly, Dube and Garg",Healthcare,201–1000,SMB,Middle East,27/06/2022,Churned,108.39,27.0,WorkHub Core,Arunima Dugal,36,1
+CUST-0566,"Nazareth, Barman and Balakrishnan",BFSI,1–50,SMB,Southeast Asia,2023-02-25,Churned,788.17,13.0,WorkHub Core,Arunima Dugal,12,1
+CUST-0567,Bath Ltd,Media & Entertainment,51–200,Enterprise,Middle East,2022-06-29,Renewed,8451.54,85.0,WorkHub Pro,Aryan Maharaj,36,0
+CUST-0568,"Lanka, Kade and Saha",Government,1001–5000,SMB,East Africa,2023-10-18,Active,593.24,1.0,WorkHub Core,Gayathri Chaudry,12,0
+CUST-0569,"Balasubramanian, Tank and Mann",EdTech,5000+,Mid-Market,South Asia,2022-03-03,Active,1446.44,48.0,WorkHub Pro,Nathaniel Sami,36,0
+CUST-0570,"Mittal, Subramanian and Konda",Government,201–1000,SMB,Southeast Asia,2022-10-12,At Risk,127.73,53.0,WorkHub Core,Aryan Maharaj,12,1
+CUST-0571,"Ravi, Mishra and Setty",Manufacturing,201–1000,SMB,Southeast Asia,2022-07-30,Renewed,565.5,31.0,WorkHub Core,Tripti Yadav,36,0
+CUST-0572,Bhasin and Sons,Government,1–50,Mid-Market,South Asia,2024-06-09,Renewed,966.74,18.0,WorkHub Pro,Gagan Sami,12,0
+CUST-0573,Sagar-Sule,EdTech,51–200,SMB,East Africa,2022-03-22,Active,214.91,25.0,WorkHub Core,Nathaniel Sami,24,0
+CUST-0574,Jani-Oak,Government,51–200,SMB,Middle East,2024-06-02,Active,780.79,50.0,WorkHub Core,Janaki Handa,24,0
+CUST-0575,"Dhawan, Munshi and Nagar",Media & Entertainment,51–200,Mid-Market,ANZ,2022-01-21,Active,1066.35,38.0,WorkHub Pro,Lajita Mall,36,0
+CUST-0576,"Pai, Rastogi and De",Media & Entertainment,1001–5000,SMB,Middle East,2023-04-10,Churned,436.59,,WorkHub Core,Saumya Mall,12,1
+CUST-0577,Varma-Cherian,BFSI,1–50,Mid-Market,East Africa,2024-01-18,Active,3762.21,50.0,WorkHub Core,Tripti Yadav,24,0
+CUST-0578,Khurana-Shukla,Real Estate,1–50,Mid-Market,ANZ,25/06/2024,Renewed,2031.44,72.0,WorkHub Core,Arunima Dugal,36,0
+CUST-0579,Loke Group,Government,201–1000,Mid-Market,South Asia,2023-10-29,Active,1589.73,,WorkHub Core,Aryan Maharaj,36,0
+CUST-0580,Dhaliwal Inc,Retail,201–1000,SMB,East Africa,2023-04-12,Active,273.19,74.0,WorkHub Core,Aryan Maharaj,12,0
+CUST-0581,Mannan Group,Media & Entertainment,1001–5000,Mid-Market,East Africa,2024-09-24,Active,1404.23,54.0,WorkHub Core,Arunima Dugal,36,0
+CUST-0582,"Sahota, Kothari and Dutta",Telecom,1001–5000,SMB,East Africa,2022-11-12,At Risk,747.02,,WorkHub Core,Viraj Tiwari,24,1
+CUST-0583,Munshi-Gupta,Media & Entertainment,201–1000,SMB,South Asia,2022-06-22,Active,148.89,89.0,WorkHub Core,Gayathri Chaudry,36,0
+CUST-0584,Tara PLC,Retail,201–1000,Enterprise,Southeast Asia,2023-12-22,Active,11036.59,,WorkHub Enterprise,Rushil Saini,12,0
+CUST-0585,Tara-Morar,Retail,51–200,SMB,Middle East,2024-07-12,Active,739.08,,WorkHub Core,Gagan Sami,24,0
+CUST-0586,Bajaj-Chana,Healthcare,201–1000,Mid-Market,South Asia,17/12/2022,Active,2352.62,,WorkHub Pro,Arunima Dugal,12,0
+CUST-0587,Tiwari-Shankar,BFSI,1–50,Mid-Market,Southeast Asia,2023-06-19,Active,2464.24,97.0,WorkHub Core,Chakradev Kari,24,0
+CUST-0588,Kale PLC,Manufacturing,201–1000,Mid-Market,Middle East,2022-11-19,Renewed,2928.25,,WorkHub Core,Lajita Chatterjee,12,0
+CUST-0589,Bava-Bedi,Media & Entertainment,51–200,Mid-Market,South Asia,2023-09-09,Active,3843.4,96.0,WorkHub Core,Janaki Handa,36,0
+CUST-0590,Talwar-Singhal,Government,5000+,Enterprise,ANZ,2023-11-08,Renewed,17405.66,,WorkHub Pro,Udant Dewan,36,0
+CUST-0591,Yadav-Anand,Government,51–200,SMB,East Africa,2023-05-12,Churned,156.96,54.0,WorkHub Core,Ayushman Chander,36,1
+CUST-0592,Sankar and Sons,Real Estate,51–200,Enterprise,Southeast Asia,2024-06-09,Churned,15995.24,,WorkHub Pro,Gagan Sami,24,1
+CUST-0593,Pau-Rau,Telecom,1001–5000,Mid-Market,Southeast Asia,2024-07-06,Active,2920.45,30.0,WorkHub Pro,Gagan Sami,12,0
+CUST-0594,Bath-Rattan,BFSI,51–200,SMB,Middle East,2024-07-13,Active,603.42,85.0,WorkHub Core,Viraj Tiwari,36,0
+CUST-0595,Hayer LLC,Government,1–50,Mid-Market,Middle East,2024-06-11,Churned,3756.31,8.0,WorkHub Core,Tripti Yadav,36,1
+CUST-0596,"Mani, Borah and Raju",Telecom,1001–5000,SMB,Southeast Asia,2022-08-17,Active,177.97,43.0,WorkHub Core,Ayushman Chander,36,0
+CUST-0597,"Seshadri, Mammen and Dani",Manufacturing,1001–5000,SMB,East Africa,25/01/2024,Active,474.92,49.0,WorkHub Core,Hemangini Lalla,36,0
+CUST-0598,Chatterjee Group,Retail,5000+,Mid-Market,East Africa,2023-08-28,Active,2522.54,58.0,WorkHub Core,Nathaniel Sami,24,0
+CUST-0599,Nori-Pau,Retail,5000+,Enterprise,Middle East,2022-05-30,At Risk,15588.52,,WorkHub Pro,Fariq Kaul,36,1
+CUST-0600,Issac PLC,Real Estate,1001–5000,SMB,Southeast Asia,2023-05-22,Renewed,141.17,42.0,WorkHub Core,Nathaniel Sami,36,0
+CUST-0601,"Ratti, Tella and Baria",Retail,1001–5000,Enterprise,ANZ,2022-11-03,Churned,15879.26,2.0,WorkHub Pro,Kritika Brar,36,1
+CUST-0602,Barad and Sons,Manufacturing,1001–5000,SMB,ANZ,2022-03-15,Active,587.46,24.0,WorkHub Core,Ayushman Chander,12,0
+CUST-0603,"Nath, Som and Venkataraman",Real Estate,1–50,Mid-Market,Middle East,2023-04-14,Churned,2214.03,61.0,WorkHub Pro,Saumya Mall,12,1
+CUST-0604,Dixit-Varma,EdTech,1–50,SMB,Middle East,2024-01-14,Active,649.85,,WorkHub Core,Rushil Saini,12,0
+CUST-0605,Narang PLC,Government,51–200,SMB,South Asia,2022-05-01,Churned,515.37,,WorkHub Core,Nathaniel Sami,12,1
+CUST-0606,Gaba-Ramaswamy,Media & Entertainment,1001–5000,Mid-Market,Middle East,2023-12-06,Active,3184.64,99.0,WorkHub Pro,Janaki Handa,36,0
+CUST-0607,"Mistry, Nayar and Tripathi",Government,201–1000,Mid-Market,South Asia,03/05/2022,Active,2852.51,65.0,WorkHub Core,Arunima Dugal,36,0
+CUST-0608,"Walia, Suri and Mistry",Real Estate,51–200,SMB,ANZ,2023-05-11,Churned,308.85,,WorkHub Core,Lajita Mall,12,1
+CUST-0609,Badal-Pillay,BFSI,1001–5000,Enterprise,East Africa,2024-04-17,At Risk,10839.89,66.0,WorkHub Enterprise,Saumya Mall,36,1
+CUST-0610,Choudhary-Saha,Retail,5000+,Mid-Market,Southeast Asia,2022-01-06,At Risk,1193.74,16.0,WorkHub Pro,Gagan Sami,36,1
+CUST-0611,"Morar, Bala and Som",BFSI,1–50,SMB,South Asia,2023-06-03,Renewed,220.12,,WorkHub Core,Udant Dewan,36,0
+CUST-0612,Kari-Behl,Logistics,5000+,Mid-Market,ANZ,2022-05-24,Churned,2472.53,45.0,WorkHub Pro,Ayushman Chander,36,1
+CUST-0613,"Srinivasan, Garde and Viswanathan",EdTech,1–50,Mid-Market,Southeast Asia,2022-05-26,At Risk,3863.75,77.0,WorkHub Core,Arunima Dugal,12,1
+CUST-0614,"Rai, Divan and Kibe",Media & Entertainment,1–50,Mid-Market,East Africa,2022-09-19,Churned,1322.62,,WorkHub Core,Kritika Brar,36,1
+CUST-0615,Choudhary and Sons,EdTech,1–50,Mid-Market,Middle East,2023-10-11,Active,1990.86,84.0,WorkHub Pro,Kritika Brar,12,0
+CUST-0616,Sastry LLC,Media & Entertainment,1001–5000,Mid-Market,South Asia,2024-09-14,Active,1198.79,14.0,WorkHub Core,Gagan Sami,24,0
+CUST-0617,Doshi-Sachar,Manufacturing,201–1000,SMB,Middle East,2022-05-30,Active,106.9,48.0,WorkHub Core,Tripti Yadav,12,0
+CUST-0618,"Jani, Roy and Thaker",Healthcare,51–200,Mid-Market,East Africa,2024-01-16,Churned,3381.75,12.0,WorkHub Core,Lajita Mall,24,1
+CUST-0619,"Sinha, Bhatia and Devi",BFSI,51–200,SMB,Middle East,2024-08-27,Active,664.26,,WorkHub Core,Chakradev Kari,36,0
+CUST-0620,"Johal, Nair and Sridhar",BFSI,5000+,Mid-Market,Southeast Asia,2023-11-05,Active,3153.35,6.0,WorkHub Core,Nathaniel Sami,36,0
+CUST-0621,"Puri, Murthy and Ghose",Government,51–200,Mid-Market,ANZ,2022-12-29,Active,1682.63,54.0,WorkHub Pro,Gayathri Chaudry,36,0
+CUST-0622,Walia-Oommen,Logistics,1001–5000,Enterprise,Middle East,15/05/2024,Active,14219.34,11.0,WorkHub Enterprise,Gagan Sami,36,0
+CUST-0623,"Pandya, Lalla and Sule",Government,1–50,Enterprise,ANZ,2023-11-25,At Risk,10715.18,65.0,WorkHub Enterprise,Tripti Yadav,12,1
+CUST-0624,Koshy LLC,BFSI,1001–5000,Enterprise,East Africa,2024-02-07,Renewed,13256.44,67.0,WorkHub Enterprise,Janaki Handa,12,0
+CUST-0625,"Misra, Kar and Mishra",Telecom,51–200,Mid-Market,Southeast Asia,2022-03-18,Active,1930.53,6.0,WorkHub Core,Rushil Saini,24,0
+CUST-0626,Johal-Suresh,Manufacturing,51–200,SMB,East Africa,2024-05-21,Active,309.42,37.0,WorkHub Core,Tripti Yadav,12,0
+CUST-0627,Srinivasan-Palla,Telecom,1–50,Enterprise,ANZ,2024-07-02,Active,8980.42,,WorkHub Pro,Hemangini Lalla,12,0
+CUST-0628,"Mahal, Mani and Dara",Retail,1001–5000,Mid-Market,Middle East,10/01/2022,Active,1071.18,,WorkHub Core,Ayushman Chander,24,0
+CUST-0629,"Raghavan, Rana and Pai",Logistics,51–200,Mid-Market,ANZ,2023-02-09,Active,3655.02,68.0,WorkHub Pro,Janaki Handa,36,0
+CUST-0630,Mannan Inc,Retail,51–200,SMB,Middle East,2024-02-05,Active,709.36,,WorkHub Core,Udant Dewan,12,0
+CUST-0631,Brar-Pal,Manufacturing,1–50,SMB,Southeast Asia,2023-11-14,Active,565.67,,WorkHub Core,Lajita Mall,24,0
+CUST-0632,Kunda-Srinivas,Retail,201–1000,Mid-Market,ANZ,2023-05-29,At Risk,3442.05,,WorkHub Pro,Aryan Maharaj,12,1
+CUST-0633,Jaggi PLC,Telecom,1–50,Mid-Market,Southeast Asia,2022-02-23,Active,3924.6,,WorkHub Core,Gayathri Chaudry,24,0
+CUST-0634,Magar-Devan,Media & Entertainment,51–200,Enterprise,East Africa,2022-06-06,Active,7935.94,14.0,WorkHub Enterprise,Kritika Brar,12,0
+CUST-0635,Khatri and Sons,Healthcare,5000+,Enterprise,East Africa,2022-07-05,At Risk,12804.71,19.0,WorkHub Enterprise,Tripti Yadav,12,1
+CUST-0636,Wali and Sons,EdTech,51–200,Mid-Market,ANZ,2022-01-19,Active,963.06,52.0,WorkHub Pro,Nathaniel Sami,24,0
+CUST-0637,"Kaul, Ben and Chaudhry",BFSI,5000+,Enterprise,ANZ,22/10/2023,Active,9090.07,44.0,WorkHub Enterprise,Lajita Chatterjee,12,0
+CUST-0638,Narayanan-Sodhi,BFSI,1–50,Enterprise,Middle East,2022-08-06,Active,12491.31,55.0,WorkHub Pro,Hemangini Lalla,24,0
+CUST-0639,Devan Inc,Healthcare,1–50,Mid-Market,East Africa,2024-02-28,Active,3172.13,46.0,WorkHub Core,Nathaniel Sami,36,0
+CUST-0640,"Dugar, Ray and Soni",Real Estate,1001–5000,Mid-Market,South Asia,27/06/2024,Churned,2725.87,5.0,WorkHub Pro,Saumya Mall,36,1
+CUST-0641,Iyengar-Mani,Healthcare,1–50,SMB,East Africa,2023-09-26,Churned,792.75,25.0,WorkHub Core,Udant Dewan,12,1
+CUST-0642,Mangal-Bhargava,Telecom,201–1000,Mid-Market,East Africa,2024-09-25,Active,2815.57,15.0,WorkHub Pro,Chakradev Kari,24,0
+CUST-0643,Kata PLC,Telecom,1–50,SMB,Southeast Asia,2023-09-06,Renewed,302.76,,WorkHub Core,Tripti Yadav,24,0
+CUST-0644,"Barad, Gill and Sahni",Telecom,1–50,Enterprise,Southeast Asia,2023-03-25,Active,14911.21,51.0,WorkHub Enterprise,Rushil Saini,12,0
+CUST-0645,Bansal Group,EdTech,5000+,SMB,South Asia,2024-06-19,Active,452.67,92.0,WorkHub Core,Nathaniel Sami,24,0
+CUST-0646,Grewal-Mann,Telecom,1–50,Mid-Market,Southeast Asia,18/08/2022,Active,925.09,18.0,WorkHub Core,Viraj Tiwari,24,0
+CUST-0647,Andra LLC,BFSI,51–200,SMB,Southeast Asia,02/07/2023,Churned,542.88,47.0,WorkHub Core,Viraj Tiwari,24,1
+CUST-0648,"Chhabra, Nayak and Mane",Logistics,201–1000,Mid-Market,South Asia,2023-10-03,At Risk,1501.69,35.0,WorkHub Pro,Lajita Mall,36,1
+CUST-0649,Viswanathan-Tak,Real Estate,1–50,Mid-Market,ANZ,2024-08-26,Renewed,2829.78,70.0,WorkHub Core,Nathaniel Sami,24,0
+CUST-0650,Thaman Group,Real Estate,1001–5000,Mid-Market,Southeast Asia,2023-04-02,Churned,1979.65,,WorkHub Pro,Janaki Handa,12,1
+CUST-0651,Hans-Chowdhury,Retail,51–200,Enterprise,East Africa,2023-05-18,Active,7948.62,39.0,WorkHub Enterprise,Tripti Yadav,36,0
+CUST-0652,Gaba-Shanker,Healthcare,51–200,Enterprise,South Asia,2023-03-13,Renewed,17585.4,,WorkHub Enterprise,Aryan Maharaj,36,0
+CUST-0653,"Kurian, Grewal and Atwal",Media & Entertainment,1–50,SMB,South Asia,26/04/2024,At Risk,754.27,16.0,WorkHub Core,Arunima Dugal,12,1
+CUST-0654,"Nazareth, Merchant and Hans",Real Estate,1–50,Mid-Market,South Asia,2024-09-07,Active,3418.42,,WorkHub Pro,Chakradev Kari,36,0
+CUST-0655,Ravi Group,Retail,201–1000,SMB,Middle East,2023-05-06,Active,584.43,80.0,WorkHub Core,Udant Dewan,12,0
+CUST-0656,"Narang, Chadha and Rattan",Healthcare,5000+,Mid-Market,ANZ,26/05/2022,Active,1525.36,49.0,WorkHub Core,Nathaniel Sami,36,0
+CUST-0657,"Chandran, Goyal and Dey",Healthcare,1001–5000,Enterprise,Southeast Asia,2022-04-23,Renewed,7945.4,9.0,WorkHub Enterprise,Hemangini Lalla,12,0
+CUST-0658,Naik-Kothari,Real Estate,51–200,Mid-Market,Southeast Asia,2023-03-15,Churned,2974.19,19.0,WorkHub Core,Gayathri Chaudry,24,1
+CUST-0659,Lal Group,Logistics,1001–5000,Enterprise,Middle East,2024-08-13,Renewed,15181.57,,WorkHub Enterprise,Viraj Tiwari,24,0
+CUST-0660,Sekhon LLC,Government,1001–5000,Enterprise,South Asia,2022-04-26,Renewed,7898.67,11.0,WorkHub Enterprise,Rushil Saini,24,0
+CUST-0661,Mittal-Apte,Government,1001–5000,Mid-Market,ANZ,2023-12-12,Churned,2837.13,17.0,WorkHub Pro,Tripti Yadav,24,1
+CUST-0662,Parsa-Keer,Telecom,5000+,Mid-Market,ANZ,2023-06-30,Active,1067.58,91.0,WorkHub Pro,Gagan Sami,12,0
+CUST-0663,Dani Group,EdTech,1–50,SMB,Middle East,2023-07-26,Active,177.11,44.0,WorkHub Core,Gayathri Chaudry,24,0
+CUST-0664,Dutta-Ravi,Telecom,1001–5000,Enterprise,Southeast Asia,2022-08-04,Active,5929.22,89.0,WorkHub Pro,Aryan Maharaj,36,0
+CUST-0665,"Thakkar, Mukhopadhyay and Dalal",Manufacturing,1–50,SMB,South Asia,2023-11-10,Active,515.75,,WorkHub Core,Viraj Tiwari,12,0
+CUST-0666,"Merchant, Pillai and Kant",BFSI,5000+,Mid-Market,ANZ,2022-06-03,Active,1248.36,67.0,WorkHub Core,Chakradev Kari,24,0
+CUST-0667,Deol Group,Government,1–50,SMB,Middle East,2022-04-24,Renewed,122.48,96.0,WorkHub Core,Aryan Maharaj,24,0
+CUST-0668,Sha Ltd,Government,5000+,Mid-Market,Middle East,2024-07-30,Active,1527.41,20.0,WorkHub Pro,Fariq Kaul,24,0
+CUST-0669,"Prakash, Sagar and Sinha",Retail,51–200,Mid-Market,ANZ,26/09/2023,Active,3432.02,71.0,WorkHub Pro,Janaki Handa,24,0
+CUST-0670,"Kamdar, Kota and Bumb",Media & Entertainment,1001–5000,Mid-Market,Southeast Asia,2022-02-25,Churned,1423.14,,WorkHub Core,Lajita Chatterjee,12,1
+CUST-0671,"Sekhon, Wable and Pathak",Retail,5000+,Mid-Market,South Asia,2022-03-08,Active,3711.0,,WorkHub Pro,Nathaniel Sami,24,0
+CUST-0672,Choudhury Inc,Real Estate,5000+,SMB,South Asia,2023-08-01,Active,133.63,11.0,WorkHub Core,Hemangini Lalla,24,0
+CUST-0673,"Tiwari, Jain and Yadav",Telecom,51–200,SMB,Middle East,2024-02-09,Active,190.66,,WorkHub Core,Fariq Kaul,12,0
+CUST-0674,Gala LLC,Retail,1–50,Mid-Market,East Africa,2024-03-26,Churned,3526.49,,WorkHub Core,Gagan Sami,36,1
+CUST-0675,"Sathe, Dada and Jha",EdTech,51–200,Mid-Market,Southeast Asia,2024-02-27,Renewed,2405.18,93.0,WorkHub Core,Janaki Handa,12,0
+CUST-0676,"Suresh, Chand and Uppal",Manufacturing,5000+,Mid-Market,ANZ,2022-02-10,At Risk,2040.43,26.0,WorkHub Pro,Viraj Tiwari,36,1
+CUST-0677,Bhakta-Setty,Government,1–50,SMB,South Asia,2022-05-27,Active,707.27,100.0,WorkHub Core,Ayushman Chander,24,0
+CUST-0678,Varghese Group,Logistics,51–200,SMB,South Asia,2022-10-14,Active,149.79,90.0,WorkHub Core,Chakradev Kari,24,0
+CUST-0679,Bhardwaj-Shere,Government,51–200,Mid-Market,South Asia,2024-09-22,Active,3548.81,51.0,WorkHub Pro,Janaki Handa,24,0
+CUST-0680,"Morar, Bains and Randhawa",Real Estate,201–1000,Mid-Market,Middle East,2022-03-27,Active,1641.05,,WorkHub Pro,Nathaniel Sami,36,0
+CUST-0681,Aggarwal-Kamdar,BFSI,51–200,SMB,South Asia,2022-10-25,Churned,697.68,28.0,WorkHub Core,Gagan Sami,24,1
+CUST-0682,"Bora, Bath and Sampath",Telecom,1001–5000,Enterprise,South Asia,2022-03-29,Active,17433.67,,WorkHub Enterprise,Tripti Yadav,24,0
+CUST-0683,Bhatt-Bhasin,Manufacturing,5000+,Enterprise,ANZ,2022-08-06,Active,7897.25,4.0,WorkHub Pro,Viraj Tiwari,36,0
+CUST-0684,Sodhi Inc,Real Estate,1–50,Enterprise,East Africa,2024-03-03,Renewed,9060.9,55.0,WorkHub Enterprise,Udant Dewan,12,0
+CUST-0685,Rege-Gole,Media & Entertainment,201–1000,Enterprise,Middle East,2023-10-13,Active,7834.67,10.0,WorkHub Pro,Kritika Brar,36,0
+CUST-0686,Salvi LLC,Logistics,51–200,Mid-Market,South Asia,2022-04-05,Active,3882.77,38.0,WorkHub Core,Kritika Brar,24,0
+CUST-0687,Sen-Purohit,Retail,1001–5000,Mid-Market,Middle East,2024-07-23,Active,831.78,100.0,WorkHub Pro,Gagan Sami,36,0
+CUST-0688,Buch-Zacharia,Real Estate,51–200,Mid-Market,Middle East,2023-11-12,Renewed,3177.08,94.0,WorkHub Pro,Viraj Tiwari,24,0
+CUST-0689,Pall Inc,Government,201–1000,Mid-Market,South Asia,2024-03-22,Active,2466.21,0.0,WorkHub Pro,Janaki Handa,36,0
+CUST-0690,Yogi Group,Healthcare,1–50,SMB,Southeast Asia,2024-02-03,Active,482.26,21.0,WorkHub Core,Hemangini Lalla,12,0
+CUST-0691,"Datta, Kapoor and Aggarwal",Real Estate,1–50,SMB,Middle East,2024-04-13,Active,314.88,15.0,WorkHub Core,Kritika Brar,24,0
+CUST-0692,Misra Group,Telecom,1001–5000,Mid-Market,East Africa,2024-09-24,Active,1362.6,54.0,WorkHub Pro,Lajita Mall,24,0
+CUST-0693,"Samra, Wali and Raghavan",Media & Entertainment,201–1000,SMB,East Africa,2024-08-18,At Risk,796.75,,WorkHub Core,Kritika Brar,12,1
+CUST-0694,Kota Group,Real Estate,5000+,SMB,South Asia,2023-10-11,Churned,122.84,37.0,WorkHub Core,Nathaniel Sami,24,1
+CUST-0695,Dubey-Majumdar,Healthcare,51–200,SMB,ANZ,2024-08-31,Renewed,739.82,52.0,WorkHub Core,Aryan Maharaj,24,0
+CUST-0696,Chowdhury Inc,Telecom,201–1000,Mid-Market,Middle East,2024-06-19,Active,3688.55,,WorkHub Pro,Kritika Brar,12,0
+CUST-0697,"Saini, Babu and Khosla",Retail,201–1000,SMB,East Africa,2024-04-19,Active,219.29,73.0,WorkHub Core,Lajita Mall,24,0
+CUST-0698,Bhavsar Inc,Media & Entertainment,1–50,SMB,East Africa,2023-03-16,Churned,784.15,22.0,WorkHub Core,Fariq Kaul,12,1
+CUST-0699,"Bandi, Sekhon and Bava",Healthcare,51–200,Mid-Market,East Africa,2022-05-02,At Risk,3497.7,,WorkHub Pro,Lajita Chatterjee,12,1
+CUST-0700,Basu Group,BFSI,1001–5000,Mid-Market,South Asia,2023-10-06,Active,2777.92,69.0,WorkHub Pro,Tripti Yadav,12,0
+CUST-0701,Kaur-Zacharia,Retail,1001–5000,Mid-Market,Middle East,2022-07-11,Renewed,1750.15,,WorkHub Core,Arunima Dugal,36,0
+CUST-0702,Bhalla and Sons,Healthcare,51–200,SMB,South Asia,2023-10-16,At Risk,177.65,,WorkHub Core,Gayathri Chaudry,24,1
+CUST-0703,"Mann, Kaur and Nagar",Healthcare,1–50,SMB,ANZ,2024-05-14,At Risk,373.56,62.0,WorkHub Core,Gagan Sami,24,1
+CUST-0704,"Nagi, Khalsa and Mittal",Healthcare,51–200,Enterprise,ANZ,2023-01-20,Churned,10312.3,20.0,WorkHub Enterprise,Rushil Saini,36,1
+CUST-0705,Verma and Sons,Real Estate,1–50,Enterprise,South Asia,2024-09-26,Active,17928.82,76.0,WorkHub Enterprise,Fariq Kaul,36,0
+CUST-0706,Mital-Maharaj,Healthcare,51–200,Mid-Market,East Africa,2022-01-31,Active,3235.08,27.0,WorkHub Pro,Saumya Mall,12,0
+CUST-0707,Gill Ltd,EdTech,1–50,SMB,Southeast Asia,2022-10-02,Active,164.38,90.0,WorkHub Core,Janaki Handa,36,0
+CUST-0708,"Sane, Tandon and Batta",Media & Entertainment,5000+,Mid-Market,ANZ,2024-08-02,Active,2998.58,91.0,WorkHub Core,Ayushman Chander,36,0
+CUST-0709,Raj-Vohra,Real Estate,201–1000,Mid-Market,Southeast Asia,2024-03-24,Churned,2187.11,,WorkHub Core,Lajita Chatterjee,36,1
+CUST-0710,Saha-Rege,Media & Entertainment,1001–5000,Enterprise,Southeast Asia,2023-08-04,Renewed,15470.78,57.0,WorkHub Enterprise,Fariq Kaul,24,0
+CUST-0711,Mital Group,Logistics,5000+,SMB,East Africa,2022-12-27,Active,666.33,54.0,WorkHub Core,Nathaniel Sami,12,0
+CUST-0712,Yogi Group,Manufacturing,201–1000,SMB,Southeast Asia,2024-03-09,Active,581.8,91.0,WorkHub Core,Lajita Chatterjee,12,0
+CUST-0713,Kar LLC,Media & Entertainment,201–1000,SMB,East Africa,2022-08-06,Active,294.63,77.0,WorkHub Core,Kritika Brar,36,0
+CUST-0714,"Dhawan, Sheth and Bhardwaj",Manufacturing,201–1000,Mid-Market,Southeast Asia,21/07/2022,Active,949.73,35.0,WorkHub Pro,Janaki Handa,12,0
+CUST-0715,"Sachar, Saha and Wagle",Real Estate,1001–5000,Mid-Market,Southeast Asia,14/08/2023,Active,3306.58,73.0,WorkHub Core,Gayathri Chaudry,12,0
+CUST-0716,Rama and Sons,Media & Entertainment,1–50,Enterprise,East Africa,2024-07-29,Active,4227.81,,WorkHub Pro,Gayathri Chaudry,24,0
+CUST-0717,Jani-Narayanan,Manufacturing,1001–5000,Enterprise,South Asia,2023-07-24,Active,4659.02,38.0,WorkHub Pro,Chakradev Kari,36,0
+CUST-0718,"Brar, Sengupta and Prabhakar",Healthcare,201–1000,Mid-Market,East Africa,16/04/2022,Active,833.27,,WorkHub Core,Nathaniel Sami,12,0
+CUST-0719,Wason Ltd,Manufacturing,5000+,Mid-Market,South Asia,2024-08-14,Active,3626.62,,WorkHub Core,Gagan Sami,24,0
+CUST-0720,Behl LLC,Real Estate,1001–5000,Mid-Market,Middle East,2023-12-17,Active,2274.22,16.0,WorkHub Pro,Kritika Brar,36,0
+CUST-0721,Baral-Bora,Healthcare,5000+,Enterprise,East Africa,2022-09-04,Churned,17668.89,41.0,WorkHub Pro,Nathaniel Sami,12,1
+CUST-0722,Kalla Group,Logistics,1–50,SMB,Middle East,2023-07-26,Active,552.99,26.0,WorkHub Core,Chakradev Kari,12,0
+CUST-0723,Natarajan LLC,EdTech,1001–5000,SMB,ANZ,2022-07-12,Active,669.8,97.0,WorkHub Core,Gayathri Chaudry,36,0
+CUST-0724,Kakar and Sons,Retail,5000+,Mid-Market,South Asia,2024-07-25,Renewed,2033.84,,WorkHub Pro,Tripti Yadav,12,0
+CUST-0725,"Dalal, Srinivas and Kibe",Media & Entertainment,51–200,SMB,Middle East,2024-09-01,Churned,203.1,13.0,WorkHub Core,Aryan Maharaj,24,1
+CUST-0726,"Jayaraman, Ranganathan and Khatri",BFSI,1001–5000,SMB,East Africa,2023-04-09,Active,485.21,45.0,WorkHub Core,Tripti Yadav,36,0
+CUST-0727,"Nagy, Mandal and Rai",Manufacturing,1–50,SMB,ANZ,2022-10-07,Active,367.77,54.0,WorkHub Core,Tripti Yadav,12,0
+CUST-0728,Walla-Parmer,Telecom,5000+,Mid-Market,ANZ,2023-06-16,Churned,2868.3,14.0,WorkHub Pro,Udant Dewan,36,1
+CUST-0729,Lal-Parsa,Healthcare,5000+,Enterprise,South Asia,2022-10-10,Churned,14021.53,50.0,WorkHub Enterprise,Arunima Dugal,24,1
+CUST-0730,"Tank, Shukla and Chaudhari",EdTech,201–1000,SMB,Middle East,2023-12-24,At Risk,165.97,64.0,WorkHub Core,Gayathri Chaudry,36,1
+CUST-0731,"Singh, Nagarajan and Jani",Manufacturing,1–50,Mid-Market,Southeast Asia,2022-07-11,Active,3879.18,85.0,WorkHub Core,Aryan Maharaj,12,0
+CUST-0732,Munshi-Sachdev,Healthcare,51–200,SMB,South Asia,2023-09-01,Active,100.7,31.0,WorkHub Core,Aryan Maharaj,36,0
+CUST-0733,Kant Ltd,Logistics,51–200,SMB,East Africa,2023-05-31,Active,165.74,38.0,WorkHub Core,Janaki Handa,24,0
+CUST-0734,Babu LLC,Telecom,201–1000,Enterprise,ANZ,2022-09-17,Active,8936.77,90.0,WorkHub Pro,Ayushman Chander,24,0
+CUST-0735,"Sahni, Merchant and Dua",BFSI,51–200,Mid-Market,ANZ,2024-05-26,Renewed,1943.02,3.0,WorkHub Core,Hemangini Lalla,12,0
+CUST-0736,Narayan and Sons,EdTech,1001–5000,Mid-Market,South Asia,2024-09-15,Churned,2543.73,57.0,WorkHub Pro,Arunima Dugal,36,1
+CUST-0737,Korpal-Tata,Manufacturing,1001–5000,Mid-Market,East Africa,2023-03-04,Active,1409.83,74.0,WorkHub Core,Ayushman Chander,24,0
+CUST-0738,"Nazareth, Kurian and Suresh",Real Estate,201–1000,Enterprise,Middle East,2022-04-23,Active,13597.37,59.0,WorkHub Pro,Lajita Mall,36,0
+CUST-0739,"Swaminathan, Sharma and Ganguly",Government,201–1000,Mid-Market,South Asia,2024-03-29,Active,1495.44,,WorkHub Core,Gayathri Chaudry,12,0
+CUST-0740,"Pandey, Gara and Dey",BFSI,1–50,Mid-Market,Middle East,2022-05-22,Active,3548.83,85.0,WorkHub Pro,Gagan Sami,36,0
+CUST-0741,"Suresh, Gour and Bhargava",EdTech,1001–5000,SMB,East Africa,29/07/2024,Active,431.22,45.0,WorkHub Core,Kritika Brar,24,0
+CUST-0742,"Bandi, Borde and Bava",Healthcare,201–1000,SMB,Middle East,2023-09-04,Churned,575.25,,WorkHub Core,Saumya Mall,24,1
+CUST-0743,Sachar and Sons,Telecom,51–200,Mid-Market,Middle East,09/11/2022,Churned,2810.62,69.0,WorkHub Core,Ayushman Chander,12,1
+CUST-0744,"Kashyap, Bir and Dora",Manufacturing,5000+,SMB,Middle East,2023-04-25,Active,773.01,,WorkHub Core,Kritika Brar,12,0
+CUST-0745,Kamdar PLC,Real Estate,201–1000,Mid-Market,Southeast Asia,2023-08-18,Active,2538.46,72.0,WorkHub Pro,Tripti Yadav,12,0
+CUST-0746,Prakash-Bhasin,BFSI,1001–5000,SMB,East Africa,2023-04-17,Active,289.12,,WorkHub Core,Gayathri Chaudry,36,0
+CUST-0747,"Subramanian, Sura and Babu",Manufacturing,1–50,SMB,South Asia,2024-01-29,Active,601.87,89.0,WorkHub Core,Lajita Mall,36,0
+CUST-0748,Wali PLC,Retail,51–200,Mid-Market,Southeast Asia,2022-11-05,Churned,3796.9,,WorkHub Pro,Ayushman Chander,12,1
+CUST-0749,Arora-Badal,Real Estate,1–50,Mid-Market,East Africa,2022-04-10,Active,878.9,64.0,WorkHub Pro,Ayushman Chander,24,0
+CUST-0750,"Maharaj, Wason and Mangat",Retail,51–200,Mid-Market,East Africa,2022-09-24,Churned,3549.8,,WorkHub Pro,Aryan Maharaj,12,1
+CUST-0751,Thakkar Ltd,EdTech,51–200,Mid-Market,East Africa,2024-01-30,Active,2337.49,37.0,WorkHub Core,Hemangini Lalla,36,0
+CUST-0752,"Sani, Gola and Chhabra",Media & Entertainment,1–50,SMB,ANZ,2023-03-03,Active,298.4,15.0,WorkHub Core,Gayathri Chaudry,12,0
+CUST-0753,Viswanathan and Sons,Real Estate,1001–5000,Mid-Market,South Asia,2024-07-18,Renewed,2297.3,92.0,WorkHub Pro,Rushil Saini,24,0
+CUST-0754,Handa PLC,Telecom,51–200,Mid-Market,Middle East,2024-07-13,Active,1000.85,83.0,WorkHub Core,Janaki Handa,36,0
+CUST-0755,"Krishnan, Pandya and Loke",Retail,201–1000,SMB,Middle East,2024-08-03,Renewed,551.59,48.0,WorkHub Core,Fariq Kaul,36,0
+CUST-0756,Brar-Prakash,Retail,201–1000,SMB,East Africa,2024-09-05,Churned,680.92,,WorkHub Core,Nathaniel Sami,12,1
+CUST-0757,Sharaf-Kohli,Government,1001–5000,Mid-Market,Middle East,2024-02-18,At Risk,3735.26,,WorkHub Pro,Tripti Yadav,24,1
+CUST-0758,"Kara, Mital and Buch",BFSI,5000+,Mid-Market,Middle East,28/04/2022,At Risk,2212.89,,WorkHub Pro,Rushil Saini,24,1
+CUST-0759,"Balay, Chander and Ravi",Government,1001–5000,Enterprise,Southeast Asia,2023-10-15,Active,7534.93,56.0,WorkHub Enterprise,Saumya Mall,36,0
+CUST-0760,Purohit-Soni,Telecom,51–200,Mid-Market,South Asia,20/08/2023,Renewed,1107.86,4.0,WorkHub Pro,Hemangini Lalla,24,0
+CUST-0761,Andra Ltd,Healthcare,201–1000,SMB,Southeast Asia,2023-11-30,Renewed,549.56,63.0,WorkHub Core,Chakradev Kari,36,0
+CUST-0762,Butala Group,Real Estate,5000+,Mid-Market,Southeast Asia,31/03/2024,Active,2003.58,,WorkHub Pro,Fariq Kaul,24,0
+CUST-0763,Narula-Chandran,Government,51–200,SMB,South Asia,2023-09-08,Active,674.93,37.0,WorkHub Core,Tripti Yadav,36,0
+CUST-0764,"Basak, Karpe and Kakar",Retail,201–1000,Mid-Market,South Asia,2023-07-02,At Risk,3781.79,64.0,WorkHub Pro,Lajita Mall,36,1
+CUST-0765,"Soman, Madan and Batra",Real Estate,1001–5000,Mid-Market,Middle East,31/10/2023,Active,1634.82,42.0,WorkHub Pro,Viraj Tiwari,12,0
+CUST-0766,Mand PLC,Manufacturing,1–50,SMB,Southeast Asia,21/05/2023,Renewed,733.03,89.0,WorkHub Core,Hemangini Lalla,12,0
+CUST-0767,"Bali, Gola and Murty",Real Estate,5000+,Mid-Market,South Asia,2024-06-27,Renewed,1665.63,,WorkHub Core,Fariq Kaul,12,0
+CUST-0768,Johal PLC,Media & Entertainment,1001–5000,SMB,Middle East,2024-03-11,Renewed,115.01,,WorkHub Core,Lajita Mall,36,0
+CUST-0769,Rao Inc,BFSI,5000+,Enterprise,ANZ,2022-02-23,Active,5753.32,,WorkHub Enterprise,Ayushman Chander,24,0
+CUST-0770,Gaba-Khosla,Real Estate,201–1000,SMB,Middle East,2022-07-18,Renewed,266.72,11.0,WorkHub Core,Kritika Brar,36,0
+CUST-0771,"Ramachandran, Zachariah and Narula",Telecom,5000+,Mid-Market,South Asia,01/04/2024,Churned,3400.39,,WorkHub Core,Rushil Saini,24,1
+CUST-0772,Dey-Brar,Manufacturing,5000+,Mid-Market,Southeast Asia,2022-10-27,Active,2904.27,,WorkHub Core,Lajita Mall,12,0
+CUST-0773,"Pal, Bera and Chaudhari",Manufacturing,51–200,Enterprise,ANZ,2024-01-01,Active,11719.68,83.0,WorkHub Pro,Lajita Chatterjee,36,0
+CUST-0774,Kata-Borra,Healthcare,1–50,Mid-Market,Middle East,2024-07-11,Renewed,2355.86,10.0,WorkHub Pro,Fariq Kaul,12,0
+CUST-0775,Ranganathan-Narain,Telecom,51–200,Mid-Market,South Asia,2023-01-17,At Risk,914.78,30.0,WorkHub Core,Ayushman Chander,12,1
+CUST-0776,Mahajan Group,BFSI,201–1000,Enterprise,Middle East,2023-08-26,At Risk,5182.91,35.0,WorkHub Pro,Chakradev Kari,12,1
+CUST-0777,Kari-Parekh,Media & Entertainment,1001–5000,SMB,South Asia,2022-08-18,Active,401.76,6.0,WorkHub Core,Lajita Mall,24,0
+CUST-0778,"Prashad, Sankaran and Grewal",Real Estate,201–1000,SMB,Middle East,2024-04-09,Active,119.14,92.0,WorkHub Core,Kritika Brar,36,0
+CUST-0779,"Rai, Chada and Merchant",BFSI,1–50,Mid-Market,East Africa,2023-02-02,Renewed,1719.74,68.0,WorkHub Core,Rushil Saini,24,0
+CUST-0780,Borah Inc,EdTech,51–200,Enterprise,South Asia,2022-10-15,Renewed,5197.52,31.0,WorkHub Pro,Lajita Chatterjee,36,0
+CUST-0781,Dube-Rai,Real Estate,201–1000,SMB,Middle East,2022-10-03,At Risk,667.18,,WorkHub Core,Lajita Chatterjee,24,1
+CUST-0782,"Dube, Ramachandran and Nadig",Government,1001–5000,Mid-Market,South Asia,27/03/2023,Active,1947.92,81.0,WorkHub Pro,Kritika Brar,12,0
+CUST-0783,Chhabra-Chand,Healthcare,201–1000,SMB,East Africa,2023-07-19,Active,225.86,98.0,WorkHub Core,Chakradev Kari,12,0
+CUST-0784,Morar Group,Retail,51–200,Mid-Market,East Africa,03/11/2023,Active,923.21,87.0,WorkHub Core,Lajita Chatterjee,12,0
+CUST-0785,Madan-Chaudry,EdTech,1–50,Mid-Market,Middle East,2024-09-25,Churned,3543.97,,WorkHub Pro,Nathaniel Sami,24,1
+CUST-0786,Chahal and Sons,Telecom,1001–5000,SMB,South Asia,08/06/2023,Active,499.26,,WorkHub Core,Gayathri Chaudry,12,0
+CUST-0787,Sen-Vala,Real Estate,201–1000,SMB,Middle East,2024-09-25,Churned,429.48,37.0,WorkHub Core,Hemangini Lalla,12,1
+CUST-0788,Chauhan-Bal,Retail,5000+,Mid-Market,South Asia,2022-04-19,At Risk,2434.55,99.0,WorkHub Core,Saumya Mall,24,1
+CUST-0789,Pandya PLC,BFSI,51–200,Mid-Market,ANZ,2024-02-20,Active,1047.4,,WorkHub Core,Lajita Mall,36,0
+CUST-0790,Nair Group,Telecom,1–50,Mid-Market,East Africa,2023-04-29,Active,1814.21,24.0,WorkHub Core,Nathaniel Sami,24,0
+CUST-0791,Manne Group,Manufacturing,51–200,SMB,ANZ,2022-11-19,Active,268.73,93.0,WorkHub Core,Hemangini Lalla,12,0
+CUST-0792,Chad-Kibe,Telecom,1–50,Mid-Market,Middle East,2023-11-01,Active,3316.17,29.0,WorkHub Pro,Lajita Mall,12,0
+CUST-0793,"Verma, Gara and Rai",Media & Entertainment,5000+,SMB,Southeast Asia,2023-09-13,Active,319.69,10.0,WorkHub Core,Chakradev Kari,36,0
+CUST-0794,Dewan LLC,EdTech,51–200,SMB,ANZ,2022-01-16,Active,635.86,91.0,WorkHub Core,Viraj Tiwari,12,0
+CUST-0795,Loyal-Tailor,BFSI,51–200,Mid-Market,South Asia,2022-05-16,Active,2041.97,54.0,WorkHub Core,Lajita Mall,12,0
+CUST-0796,Bhatnagar and Sons,Healthcare,201–1000,SMB,Middle East,2023-08-29,Active,605.53,9.0,WorkHub Core,Janaki Handa,24,0
+CUST-0797,Majumdar-Sama,Media & Entertainment,201–1000,Mid-Market,ANZ,2023-12-18,Active,3251.06,,WorkHub Pro,Hemangini Lalla,36,0
+CUST-0798,Sule-Bose,Media & Entertainment,201–1000,SMB,ANZ,2022-06-30,Churned,761.34,12.0,WorkHub Core,Lajita Chatterjee,12,1
+CUST-0799,Krishnamurthy-Koshy,Telecom,5000+,Mid-Market,East Africa,2024-05-14,Active,2029.02,96.0,WorkHub Pro,Udant Dewan,36,0
+CUST-0800,"Tandon, Hayre and Shankar",EdTech,1001–5000,SMB,East Africa,2022-10-12,Churned,169.63,36.0,WorkHub Core,Arunima Dugal,24,1
+CUST-0801,Deshmukh LLC,Retail,201–1000,Mid-Market,Middle East,2023-09-13,Renewed,2932.59,,WorkHub Pro,Aryan Maharaj,36,0
+CUST-0802,Randhawa LLC,Telecom,5000+,Mid-Market,Southeast Asia,2022-01-07,At Risk,1982.53,,WorkHub Core,Janaki Handa,36,1
+CUST-0803,"Rai, Narayan and Sarraf",Government,201–1000,Mid-Market,South Asia,2024-01-04,At Risk,2222.1,55.0,WorkHub Pro,Viraj Tiwari,24,1
+CUST-0804,Sani-Deshpande,Healthcare,201–1000,SMB,South Asia,2024-02-02,Churned,328.98,64.0,WorkHub Core,Fariq Kaul,36,1
+CUST-0805,Nagi-Iyer,Manufacturing,1–50,Mid-Market,ANZ,2022-04-13,At Risk,1816.09,,WorkHub Pro,Aryan Maharaj,12,1
+CUST-0806,Murthy-Goel,Media & Entertainment,51–200,Enterprise,Southeast Asia,2022-09-29,Active,6619.47,63.0,WorkHub Enterprise,Gagan Sami,36,0
+CUST-0807,Nagar-Manne,EdTech,1–50,Mid-Market,ANZ,2022-03-10,Churned,3071.97,4.0,WorkHub Core,Tripti Yadav,36,1
+CUST-0808,"Swaminathan, Kibe and Nanda",Manufacturing,1001–5000,Mid-Market,East Africa,2023-11-04,Renewed,3490.21,37.0,WorkHub Core,Tripti Yadav,36,0
+CUST-0809,Mand-Ramaswamy,Government,201–1000,Mid-Market,South Asia,13/08/2022,Renewed,3215.88,36.0,WorkHub Core,Lajita Chatterjee,12,0
+CUST-0810,Comar-Iyengar,Healthcare,51–200,Mid-Market,ANZ,2024-09-06,Active,3030.3,,WorkHub Core,Chakradev Kari,36,0
+CUST-0811,"Gole, Bala and Shenoy",EdTech,1–50,Mid-Market,Middle East,2022-10-02,Renewed,3305.05,7.0,WorkHub Core,Arunima Dugal,36,0
+CUST-0812,"Kadakia, Sarma and Manne",Media & Entertainment,1001–5000,Mid-Market,ANZ,2023-02-13,Active,2353.62,28.0,WorkHub Pro,Gayathri Chaudry,24,0
+CUST-0813,"Biswas, Rege and Tata",Real Estate,51–200,Enterprise,East Africa,2022-07-31,Active,17555.58,,WorkHub Enterprise,Aryan Maharaj,24,0
+CUST-0814,Mitter and Sons,Manufacturing,201–1000,SMB,East Africa,2022-03-06,Active,353.47,25.0,WorkHub Core,Nathaniel Sami,24,0
+CUST-0815,Dube-Sampath,Manufacturing,201–1000,Mid-Market,ANZ,2022-08-09,Active,843.65,2.0,WorkHub Pro,Fariq Kaul,24,0
+CUST-0816,Borah-Sen,BFSI,51–200,Mid-Market,Middle East,05/11/2022,Churned,3001.82,4.0,WorkHub Pro,Tripti Yadav,36,1
+CUST-0817,"Srinivas, Rattan and Warrior",Logistics,1–50,SMB,South Asia,2022-03-17,Churned,612.85,,WorkHub Core,Ayushman Chander,36,1
+CUST-0818,"Sahota, Bansal and Parsa",Media & Entertainment,51–200,Enterprise,East Africa,2024-05-29,Active,11172.98,2.0,WorkHub Pro,Saumya Mall,12,0
+CUST-0819,"Yadav, Chada and Chopra",Real Estate,1001–5000,SMB,ANZ,2022-10-26,Active,384.43,35.0,WorkHub Core,Tripti Yadav,12,0
+CUST-0820,Pant and Sons,Media & Entertainment,201–1000,SMB,East Africa,02/01/2024,Active,782.63,50.0,WorkHub Core,Hemangini Lalla,24,0
+CUST-0821,"Basu, Ratta and Narula",Logistics,201–1000,SMB,Southeast Asia,2024-04-09,Active,492.62,26.0,WorkHub Core,Nathaniel Sami,12,0
+CUST-0822,Cherian-Anne,Real Estate,1001–5000,Mid-Market,East Africa,2024-01-11,At Risk,988.59,,WorkHub Core,Lajita Chatterjee,12,1
+CUST-0823,Kuruvilla and Sons,Real Estate,5000+,SMB,ANZ,11/06/2024,Churned,628.53,62.0,WorkHub Core,Nathaniel Sami,24,1
+CUST-0824,"Venkataraman, Kant and Sehgal",Government,5000+,SMB,East Africa,2024-05-29,At Risk,744.86,54.0,WorkHub Core,Viraj Tiwari,12,1
+CUST-0825,Raman-Sheth,Healthcare,51–200,SMB,Southeast Asia,2023-03-25,Active,719.85,63.0,WorkHub Core,Viraj Tiwari,36,0
+CUST-0826,"Tella, Dora and Pai",Media & Entertainment,1001–5000,Mid-Market,South Asia,31/10/2022,Renewed,3103.82,86.0,WorkHub Core,Hemangini Lalla,36,0
+CUST-0827,Subramanian Inc,Retail,201–1000,Enterprise,East Africa,2023-12-03,Churned,14002.65,66.0,WorkHub Pro,Janaki Handa,12,1
+CUST-0828,Sagar-Chada,Retail,51–200,Mid-Market,East Africa,2024-01-03,Active,2132.17,19.0,WorkHub Pro,Gayathri Chaudry,36,0
+CUST-0829,Dhar LLC,Healthcare,5000+,Mid-Market,ANZ,05/12/2022,Churned,2702.25,,WorkHub Pro,Hemangini Lalla,36,1
+CUST-0830,Oza-Shah,EdTech,201–1000,SMB,Middle East,2024-04-20,Active,610.53,47.0,WorkHub Core,Arunima Dugal,36,0
+CUST-0831,Verma Group,EdTech,1–50,SMB,East Africa,06/06/2022,Active,224.83,,WorkHub Core,Lajita Chatterjee,36,0
+CUST-0832,Soni-Chatterjee,Real Estate,5000+,Mid-Market,Middle East,2024-09-16,Renewed,2939.19,,WorkHub Pro,Nathaniel Sami,12,0
+CUST-0833,Sethi-Nagar,Real Estate,51–200,Mid-Market,Southeast Asia,2022-06-18,Active,1048.92,,WorkHub Core,Kritika Brar,36,0
+CUST-0834,Mital Inc,Logistics,5000+,Mid-Market,South Asia,2022-09-04,Active,2033.7,60.0,WorkHub Core,Fariq Kaul,12,0
+CUST-0835,"Contractor, Bajaj and Oza",EdTech,51–200,SMB,Middle East,2023-12-30,Active,409.15,88.0,WorkHub Core,Lajita Mall,24,0
+CUST-0836,"Chopra, Gala and Kohli",Retail,1–50,Mid-Market,Middle East,2024-05-25,Churned,3131.17,27.0,WorkHub Pro,Tripti Yadav,24,1
+CUST-0837,"Ghosh, Dutta and Narayanan",BFSI,51–200,SMB,ANZ,2023-01-05,Active,317.27,12.0,WorkHub Core,Fariq Kaul,12,0
+CUST-0838,"Sandhu, Shere and Kata",BFSI,201–1000,Enterprise,ANZ,12/02/2023,Churned,7542.53,,WorkHub Enterprise,Chakradev Kari,36,1
+CUST-0839,Gour-Grewal,Government,51–200,Mid-Market,ANZ,2024-02-07,At Risk,3383.78,,WorkHub Pro,Rushil Saini,12,1
+CUST-0840,"Sankaran, Randhawa and Balakrishnan",Healthcare,1–50,SMB,ANZ,2023-10-15,Active,700.52,35.0,WorkHub Core,Aryan Maharaj,24,0
+CUST-0841,"Hora, Sengupta and Sanghvi",Manufacturing,51–200,Mid-Market,East Africa,2024-01-10,Active,3809.74,51.0,WorkHub Pro,Gagan Sami,12,0
+CUST-0842,Agrawal-Kala,Telecom,51–200,SMB,Middle East,2022-03-27,Active,525.97,88.0,WorkHub Core,Aryan Maharaj,24,0
+CUST-0843,Mallick Ltd,Manufacturing,1–50,Mid-Market,Middle East,2023-04-23,Churned,2611.81,,WorkHub Pro,Rushil Saini,36,1
+CUST-0844,Chaudry PLC,Manufacturing,5000+,SMB,South Asia,2024-02-25,Active,546.56,,WorkHub Core,Gayathri Chaudry,36,0
+CUST-0845,Pau LLC,EdTech,51–200,SMB,Middle East,2022-02-24,Active,295.27,72.0,WorkHub Core,Saumya Mall,24,0
+CUST-0846,Shankar Inc,Retail,201–1000,SMB,Middle East,2023-12-16,Active,348.61,46.0,WorkHub Core,Rushil Saini,12,0
+CUST-0847,Suri-Wable,Real Estate,1001–5000,Mid-Market,Southeast Asia,2023-07-05,Renewed,2188.33,82.0,WorkHub Core,Saumya Mall,24,0
+CUST-0848,"Munshi, Rama and Ramanathan",Telecom,5000+,Mid-Market,Middle East,2022-04-03,Active,1498.42,,WorkHub Pro,Fariq Kaul,36,0
+CUST-0849,"Comar, Pall and Pandey",Government,51–200,SMB,ANZ,2023-08-24,Churned,560.81,4.0,WorkHub Core,Hemangini Lalla,12,1
+CUST-0850,Gera-Mishra,Government,201–1000,SMB,Middle East,2023-10-26,Active,350.6,20.0,WorkHub Core,Aryan Maharaj,24,0
+CUST-0851,"Chad, Desai and Munshi",Government,5000+,SMB,East Africa,2023-12-13,Active,683.87,32.0,WorkHub Core,Chakradev Kari,36,0
+CUST-0852,Khare LLC,BFSI,51–200,Enterprise,East Africa,2022-04-21,At Risk,17355.75,51.0,WorkHub Enterprise,Fariq Kaul,12,1
+CUST-0853,Goswami LLC,Real Estate,5000+,Enterprise,Southeast Asia,2024-09-01,At Risk,5818.47,42.0,WorkHub Enterprise,Gagan Sami,24,1
+CUST-0854,"Dhaliwal, Vaidya and Rama",Retail,201–1000,Mid-Market,ANZ,2023-02-10,Active,1271.97,22.0,WorkHub Pro,Rushil Saini,12,0
+CUST-0855,Devi-Rajagopal,Media & Entertainment,1–50,SMB,Southeast Asia,2022-06-07,At Risk,361.98,61.0,WorkHub Core,Chakradev Kari,36,1
+CUST-0856,Grewal-Sur,EdTech,1001–5000,SMB,ANZ,2024-05-01,Active,741.86,,WorkHub Core,Tripti Yadav,24,0
+CUST-0857,"Yogi, Ghose and Ganesan",Media & Entertainment,5000+,SMB,ANZ,01/07/2023,Active,618.3,,WorkHub Core,Nathaniel Sami,24,0
+CUST-0858,Mani-Dey,Telecom,1–50,Mid-Market,East Africa,2023-09-06,Renewed,2865.85,17.0,WorkHub Pro,Saumya Mall,24,0
+CUST-0859,Murty Group,Manufacturing,1001–5000,Enterprise,Southeast Asia,2023-03-12,Active,13453.82,,WorkHub Pro,Rushil Saini,12,0
+CUST-0860,"Bera, Parmer and Andra",Telecom,1–50,Mid-Market,ANZ,05/04/2024,Churned,1124.5,,WorkHub Pro,Rushil Saini,24,1
+CUST-0861,Deshpande-Hayer,Telecom,1001–5000,SMB,ANZ,2022-01-12,Renewed,381.19,,WorkHub Core,Arunima Dugal,36,0
+CUST-0862,Tiwari-Talwar,Real Estate,1001–5000,Mid-Market,East Africa,2023-01-17,Churned,3501.34,,WorkHub Pro,Kritika Brar,36,1
+CUST-0863,Swamy-Sagar,Healthcare,51–200,SMB,South Asia,2022-12-12,Churned,280.49,65.0,WorkHub Core,Kritika Brar,12,1
+CUST-0864,"Sawhney, Suresh and Ganesh",BFSI,1–50,SMB,ANZ,2023-04-17,Renewed,580.47,32.0,WorkHub Core,Aryan Maharaj,36,0
+CUST-0865,Balasubramanian and Sons,Logistics,201–1000,Enterprise,ANZ,2022-01-18,Active,4498.61,14.0,WorkHub Enterprise,Lajita Mall,36,0
+CUST-0866,Bali-Maharaj,Retail,1–50,SMB,East Africa,2022-04-07,Active,445.42,35.0,WorkHub Core,Nathaniel Sami,36,0
+CUST-0867,Yogi LLC,Real Estate,1001–5000,Mid-Market,South Asia,2022-03-20,Active,2749.93,92.0,WorkHub Pro,Tripti Yadav,36,0
+CUST-0868,Shankar PLC,Healthcare,201–1000,Mid-Market,Middle East,2023-03-09,Active,3189.65,92.0,WorkHub Pro,Kritika Brar,12,0
+CUST-0869,"Tandon, Vaidya and Chowdhury",Real Estate,201–1000,Enterprise,Middle East,2023-09-23,At Risk,7412.53,6.0,WorkHub Pro,Saumya Mall,24,1
+CUST-0870,"Comar, Loyal and Peri",Retail,201–1000,Mid-Market,East Africa,19/11/2023,Active,1380.03,36.0,WorkHub Core,Saumya Mall,12,0
+CUST-0871,"Barman, Sastry and Kamdar",Retail,201–1000,Mid-Market,Middle East,2023-04-19,Renewed,1818.11,28.0,WorkHub Core,Nathaniel Sami,12,0
+CUST-0872,Chaudry-Kota,Real Estate,1001–5000,SMB,East Africa,2023-03-07,Active,372.33,,WorkHub Core,Lajita Chatterjee,24,0
+CUST-0873,Bali-Sengupta,Retail,1001–5000,Enterprise,ANZ,2022-08-04,Active,9460.86,,WorkHub Enterprise,Chakradev Kari,36,0
+CUST-0874,Pall-Chahal,Healthcare,51–200,Enterprise,East Africa,2023-01-14,At Risk,10320.99,,WorkHub Enterprise,Hemangini Lalla,36,1
+CUST-0875,Dalal-Khalsa,BFSI,201–1000,SMB,East Africa,2024-02-01,Active,744.82,16.0,WorkHub Core,Ayushman Chander,24,0
+CUST-0876,Panchal Ltd,Healthcare,5000+,Mid-Market,Middle East,2022-07-02,At Risk,3950.02,51.0,WorkHub Core,Saumya Mall,24,1
+CUST-0877,"Sangha, Gandhi and Dewan",Logistics,201–1000,Mid-Market,Middle East,08/10/2023,Renewed,3872.77,97.0,WorkHub Core,Nathaniel Sami,24,0
+CUST-0878,Jhaveri Inc,Government,201–1000,SMB,ANZ,2022-06-10,Active,301.89,68.0,WorkHub Core,Rushil Saini,36,0
+CUST-0879,"Panchal, Walia and Mand",Media & Entertainment,5000+,Enterprise,ANZ,2024-09-24,Active,4406.57,,WorkHub Enterprise,Kritika Brar,12,0
+CUST-0880,"Yohannan, Ganguly and Naik",EdTech,51–200,Mid-Market,East Africa,2023-10-03,Active,1984.95,95.0,WorkHub Core,Lajita Mall,36,0
+CUST-0881,"Master, Mann and Loke",Retail,1001–5000,Mid-Market,Middle East,2024-01-11,Active,3798.85,25.0,WorkHub Core,Gagan Sami,12,0
+CUST-0882,"Chandran, Deshmukh and Sabharwal",Government,1001–5000,Mid-Market,Southeast Asia,2023-12-02,Renewed,3349.61,59.0,WorkHub Pro,Lajita Chatterjee,12,0
+CUST-0883,Malhotra Ltd,Healthcare,1–50,Enterprise,South Asia,2023-11-30,At Risk,17937.48,,WorkHub Pro,Arunima Dugal,36,1
+CUST-0884,Deo and Sons,Real Estate,5000+,SMB,South Asia,2023-03-26,Churned,305.07,50.0,WorkHub Core,Hemangini Lalla,24,1
+CUST-0885,Nagy and Sons,Telecom,1001–5000,SMB,ANZ,2024-03-17,Active,283.75,74.0,WorkHub Core,Rushil Saini,24,0
+CUST-0886,"Ramaswamy, Suri and Dhar",Manufacturing,51–200,SMB,Southeast Asia,2024-03-25,Active,331.02,,WorkHub Core,Nathaniel Sami,24,0
+CUST-0887,"Luthra, Sachdeva and Prashad",Government,201–1000,Enterprise,ANZ,2023-12-18,Active,4500.43,17.0,WorkHub Pro,Aryan Maharaj,12,0
+CUST-0888,Borra-Chander,Real Estate,201–1000,Mid-Market,Middle East,2022-11-11,Active,2828.46,60.0,WorkHub Core,Viraj Tiwari,36,0
+CUST-0889,Varma-Mall,Retail,51–200,Mid-Market,East Africa,2022-10-27,Active,1529.34,27.0,WorkHub Pro,Aryan Maharaj,24,0
+CUST-0890,"Pillay, Sha and Sura",Telecom,5000+,Mid-Market,ANZ,2023-05-04,Active,1901.48,19.0,WorkHub Core,Fariq Kaul,24,0
+CUST-0891,Agate-Chander,Government,51–200,Mid-Market,East Africa,2023-05-09,Renewed,845.54,8.0,WorkHub Core,Saumya Mall,12,0
+CUST-0892,"Shanker, Parmar and Bhatnagar",Real Estate,1–50,Mid-Market,Southeast Asia,2023-01-01,Churned,2843.64,1.0,WorkHub Pro,Saumya Mall,24,1
+CUST-0893,"Rao, Kamdar and Sanghvi",Media & Entertainment,1–50,Mid-Market,Middle East,04/06/2023,Churned,2511.21,94.0,WorkHub Pro,Udant Dewan,24,1
+CUST-0894,Talwar LLC,EdTech,51–200,SMB,Middle East,2024-03-27,Churned,555.57,31.0,WorkHub Core,Rushil Saini,12,1
+CUST-0895,Mander-Nazareth,Logistics,5000+,Enterprise,Middle East,2022-04-04,At Risk,16844.54,16.0,WorkHub Enterprise,Saumya Mall,12,1
+CUST-0896,"De, Sundaram and Oza",Real Estate,1001–5000,Mid-Market,ANZ,2022-04-11,At Risk,1820.35,,WorkHub Core,Ayushman Chander,24,1
+CUST-0897,"Bava, Batra and Chaudhary",EdTech,1–50,Mid-Market,East Africa,2023-08-27,Active,2621.85,74.0,WorkHub Pro,Janaki Handa,36,0
+CUST-0898,"Sharaf, Babu and Dash",Real Estate,1001–5000,Mid-Market,South Asia,2022-09-15,Churned,2376.34,22.0,WorkHub Core,Fariq Kaul,24,1
+CUST-0899,Sastry Group,Logistics,201–1000,Mid-Market,East Africa,2022-09-12,Churned,2409.8,80.0,WorkHub Pro,Chakradev Kari,12,1
+CUST-0900,Sangha and Sons,Telecom,1001–5000,Mid-Market,ANZ,2022-06-17,At Risk,2953.52,12.0,WorkHub Core,Lajita Chatterjee,36,1
+CUST-0901,"Deo, Mittal and Dutt",Retail,51–200,SMB,South Asia,2024-02-21,Active,313.77,98.0,WorkHub Core,Gayathri Chaudry,36,0
+CUST-0902,Chander-Patel,Retail,201–1000,Mid-Market,Southeast Asia,2022-07-16,At Risk,3527.54,78.0,WorkHub Core,Fariq Kaul,24,1
+CUST-0903,Butala-Prabhu,Media & Entertainment,201–1000,SMB,Southeast Asia,2024-08-13,Renewed,684.11,47.0,WorkHub Core,Hemangini Lalla,36,0
+CUST-0904,"Gandhi, Ben and Randhawa",Logistics,1001–5000,SMB,East Africa,2023-02-07,Active,757.99,7.0,WorkHub Core,Viraj Tiwari,24,0
+CUST-0905,"Mody, Kaur and Sanghvi",BFSI,51–200,Mid-Market,Southeast Asia,2023-11-09,Active,1995.12,41.0,WorkHub Core,Lajita Chatterjee,36,0
+CUST-0906,"Chand, Chandran and Agarwal",EdTech,51–200,Mid-Market,East Africa,2023-05-31,Active,1038.17,20.0,WorkHub Core,Chakradev Kari,12,0
+CUST-0907,Sood Inc,Media & Entertainment,1001–5000,SMB,Southeast Asia,2022-10-14,Churned,141.52,7.0,WorkHub Core,Lajita Mall,24,1
+CUST-0908,Kara PLC,Logistics,1–50,SMB,ANZ,2022-05-18,Active,784.03,93.0,WorkHub Core,Viraj Tiwari,36,0
+CUST-0909,"Saxena, Andra and Anand",EdTech,5000+,Enterprise,South Asia,2023-03-25,Churned,14679.02,33.0,WorkHub Pro,Aryan Maharaj,12,1
+CUST-0910,"Oza, Dara and Sami",Healthcare,201–1000,Mid-Market,Middle East,2024-07-15,At Risk,1487.4,41.0,WorkHub Core,Hemangini Lalla,24,1
+CUST-0911,"Deo, Sridhar and Bobal",Logistics,201–1000,Mid-Market,East Africa,2024-02-05,Active,2855.17,,WorkHub Core,Udant Dewan,36,0
+CUST-0912,Rajagopal Inc,Telecom,201–1000,SMB,South Asia,2023-08-03,Active,452.95,41.0,WorkHub Core,Gayathri Chaudry,36,0
+CUST-0913,"Chaudry, Chauhan and Munshi",Healthcare,1–50,Mid-Market,East Africa,2022-04-05,At Risk,2501.64,65.0,WorkHub Pro,Janaki Handa,36,1
+CUST-0914,Mistry-Devan,EdTech,1–50,SMB,ANZ,2024-04-17,Active,716.38,94.0,WorkHub Core,Gagan Sami,12,0
+CUST-0915,Deol-Dhar,Manufacturing,1001–5000,Mid-Market,East Africa,2024-03-10,At Risk,2183.67,2.0,WorkHub Core,Aryan Maharaj,36,1
+CUST-0916,Wali PLC,BFSI,1–50,Mid-Market,Southeast Asia,2022-11-27,Active,1513.25,86.0,WorkHub Core,Saumya Mall,36,0
+CUST-0917,Gala Group,Real Estate,51–200,Mid-Market,Southeast Asia,2024-03-02,Active,1122.87,68.0,WorkHub Pro,Viraj Tiwari,36,0
+CUST-0918,Kala-Doshi,Healthcare,201–1000,Mid-Market,Middle East,2024-08-08,Active,1769.37,,WorkHub Pro,Saumya Mall,24,0
+CUST-0919,Savant-Kalla,Government,1–50,SMB,ANZ,2022-01-27,At Risk,617.94,,WorkHub Core,Tripti Yadav,12,1
+CUST-0920,Chaudhry and Sons,Media & Entertainment,5000+,SMB,South Asia,2022-04-06,Active,504.81,,WorkHub Core,Ayushman Chander,24,0
+CUST-0921,Rajagopalan LLC,Manufacturing,201–1000,SMB,ANZ,2022-07-15,Active,454.84,,WorkHub Core,Janaki Handa,12,0
+CUST-0922,Murty-Dey,Media & Entertainment,1001–5000,SMB,South Asia,2022-12-30,Active,145.71,,WorkHub Core,Tripti Yadav,24,0
+CUST-0923,Malhotra Ltd,Logistics,201–1000,Mid-Market,South Asia,2022-05-25,Active,829.68,66.0,WorkHub Core,Udant Dewan,12,0
+CUST-0924,Kothari PLC,EdTech,201–1000,SMB,Middle East,2023-09-25,Active,220.69,66.0,WorkHub Core,Hemangini Lalla,12,0
+CUST-0925,"Mane, Bala and Mitra",BFSI,1001–5000,Mid-Market,Southeast Asia,2022-11-10,Active,3492.56,79.0,WorkHub Pro,Lajita Chatterjee,12,0
+CUST-0926,Vasa PLC,BFSI,51–200,Mid-Market,ANZ,2022-02-17,At Risk,3112.07,,WorkHub Pro,Hemangini Lalla,12,1
+CUST-0927,"Gulati, Ramanathan and Merchant",Healthcare,1–50,Mid-Market,ANZ,2023-04-21,At Risk,2517.53,17.0,WorkHub Pro,Gayathri Chaudry,24,1
+CUST-0928,"Bhagat, Khatri and Talwar",Logistics,51–200,Mid-Market,Middle East,2023-11-04,Renewed,2938.98,12.0,WorkHub Pro,Viraj Tiwari,12,0
+CUST-0929,Chowdhury-Khosla,Retail,51–200,SMB,South Asia,01/02/2024,Active,720.84,13.0,WorkHub Core,Rushil Saini,36,0
+CUST-0930,Bobal-Wable,Manufacturing,1001–5000,Enterprise,East Africa,2023-06-17,Renewed,7734.16,16.0,WorkHub Pro,Viraj Tiwari,36,0
+CUST-0931,Patel LLC,BFSI,1001–5000,Mid-Market,South Asia,2024-03-24,Active,1257.45,4.0,WorkHub Pro,Rushil Saini,24,0
+CUST-0932,Ram PLC,Real Estate,1001–5000,SMB,ANZ,2024-05-28,Churned,671.89,73.0,WorkHub Core,Janaki Handa,36,1
+CUST-0933,Pau-Gera,Government,1–50,Enterprise,Middle East,2023-11-03,Renewed,8721.56,23.0,WorkHub Pro,Lajita Mall,24,0
+CUST-0934,Bora-Badal,Manufacturing,5000+,Enterprise,Middle East,2022-03-06,Active,4355.8,,WorkHub Enterprise,Janaki Handa,12,0
+CUST-0935,"Bir, Atwal and Lala",Logistics,51–200,Mid-Market,Middle East,2022-11-11,Churned,3806.56,64.0,WorkHub Pro,Viraj Tiwari,36,1
+CUST-0936,Baral Inc,BFSI,51–200,SMB,Middle East,2023-06-23,Active,701.95,,WorkHub Core,Lajita Mall,12,0
+CUST-0937,Toor-Mangat,Telecom,51–200,Mid-Market,Middle East,12/06/2022,Active,2829.8,79.0,WorkHub Pro,Lajita Mall,36,0
+CUST-0938,"Thaker, Sagar and Sampath",EdTech,201–1000,SMB,South Asia,2024-09-09,Active,372.84,,WorkHub Core,Janaki Handa,24,0
+CUST-0939,"Ratti, Butala and Yadav",Logistics,1–50,SMB,South Asia,2022-09-15,Churned,246.13,93.0,WorkHub Core,Udant Dewan,24,1
+CUST-0940,"Dua, Mall and Chacko",Government,51–200,Mid-Market,Southeast Asia,2023-02-05,Churned,2051.2,24.0,WorkHub Core,Gagan Sami,12,1
+CUST-0941,Brar-Vaidya,Logistics,51–200,SMB,ANZ,2022-05-07,Churned,570.62,26.0,WorkHub Core,Lajita Chatterjee,12,1
+CUST-0942,Dugal PLC,Telecom,201–1000,Mid-Market,East Africa,2022-04-16,Churned,1542.98,56.0,WorkHub Pro,Lajita Mall,36,1
+CUST-0943,Raman-Bhatti,Retail,1–50,SMB,Middle East,2024-06-15,Renewed,367.05,,WorkHub Core,Kritika Brar,36,0
+CUST-0944,Sarkar-Khare,Government,201–1000,SMB,Southeast Asia,20/06/2023,Renewed,522.32,76.0,WorkHub Core,Chakradev Kari,36,0
+CUST-0945,Konda Inc,Media & Entertainment,1–50,Mid-Market,South Asia,2024-06-04,At Risk,3143.82,32.0,WorkHub Core,Kritika Brar,36,1
+CUST-0946,D’Alia-Setty,Manufacturing,1–50,Enterprise,South Asia,2022-04-14,Active,12200.98,28.0,WorkHub Pro,Ayushman Chander,36,0
+CUST-0947,"Bhakta, More and Gill",Real Estate,5000+,SMB,ANZ,2023-09-14,Renewed,367.81,,WorkHub Core,Ayushman Chander,12,0
+CUST-0948,Arora Ltd,EdTech,201–1000,Enterprise,East Africa,2023-11-20,Churned,15413.97,91.0,WorkHub Pro,Janaki Handa,24,1
+CUST-0949,Apte and Sons,Telecom,1–50,SMB,ANZ,2024-04-12,At Risk,402.26,3.0,WorkHub Core,Aryan Maharaj,36,1
+CUST-0950,Palan-Virk,Healthcare,201–1000,SMB,ANZ,01/04/2024,Active,723.66,45.0,WorkHub Core,Hemangini Lalla,12,0
+CUST-0951,"Lad, Ganesan and Prabhu",BFSI,201–1000,SMB,ANZ,2023-12-17,Active,655.55,26.0,WorkHub Core,Tripti Yadav,24,0
+CUST-0952,Luthra Ltd,Retail,1001–5000,SMB,South Asia,2022-12-08,Active,663.61,,WorkHub Core,Ayushman Chander,36,0
+CUST-0953,Balan LLC,Media & Entertainment,201–1000,SMB,East Africa,2023-05-25,At Risk,241.5,90.0,WorkHub Core,Janaki Handa,24,1
+CUST-0954,Magar-Viswanathan,Retail,201–1000,SMB,South Asia,2022-04-25,Active,454.28,82.0,WorkHub Core,Tripti Yadav,36,0
+CUST-0955,Lall Ltd,EdTech,1–50,Mid-Market,South Asia,2023-12-30,Renewed,2094.84,33.0,WorkHub Core,Lajita Mall,24,0
+CUST-0956,"Bose, Taneja and Shah",Media & Entertainment,1–50,SMB,Middle East,2023-09-21,Active,799.61,56.0,WorkHub Core,Lajita Mall,12,0
+CUST-0957,"Parsa, Bhakta and Tata",Logistics,1–50,Enterprise,ANZ,2022-08-18,Renewed,7434.92,28.0,WorkHub Enterprise,Viraj Tiwari,12,0
+CUST-0958,"Ganesan, Pillai and Dugar",BFSI,5000+,Mid-Market,ANZ,2024-05-08,Churned,3994.79,24.0,WorkHub Core,Tripti Yadav,36,1
+CUST-0959,Chauhan-D’Alia,Manufacturing,201–1000,Mid-Market,ANZ,2023-01-15,Renewed,1551.06,69.0,WorkHub Pro,Lajita Chatterjee,36,0
+CUST-0960,Upadhyay Inc,Telecom,5000+,SMB,Southeast Asia,2022-04-09,At Risk,455.22,60.0,WorkHub Core,Nathaniel Sami,36,1
+CUST-0961,Arora and Sons,Telecom,51–200,SMB,ANZ,2022-10-03,Active,533.16,63.0,WorkHub Core,Rushil Saini,12,0
+CUST-0962,Sodhi LLC,Telecom,1–50,Mid-Market,Middle East,2023-05-04,Active,2982.42,,WorkHub Core,Arunima Dugal,36,0
+CUST-0963,Doctor-Gola,Real Estate,1001–5000,SMB,ANZ,2023-12-23,Active,377.37,84.0,WorkHub Core,Lajita Chatterjee,12,0
+CUST-0964,Saini and Sons,Telecom,1001–5000,SMB,Southeast Asia,2024-02-24,Churned,320.12,,WorkHub Core,Hemangini Lalla,36,1
+CUST-0965,Kothari-Saha,Healthcare,5000+,Enterprise,South Asia,2023-06-27,Active,6724.67,76.0,WorkHub Enterprise,Rushil Saini,12,0
+CUST-0966,"Nagarajan, Madan and Brahmbhatt",Government,1–50,Mid-Market,Middle East,02/04/2022,Active,3042.97,87.0,WorkHub Core,Tripti Yadav,36,0
+CUST-0967,"Pradhan, Dar and Thakkar",Manufacturing,51–200,Enterprise,South Asia,2022-11-15,Churned,16306.9,,WorkHub Pro,Tripti Yadav,12,1
+CUST-0968,"Ben, Gola and Kapoor",Healthcare,201–1000,SMB,ANZ,09/02/2024,Active,715.51,7.0,WorkHub Core,Hemangini Lalla,12,0
+CUST-0969,"Batra, Rattan and Biswas",Telecom,1–50,Mid-Market,South Asia,2022-12-01,Active,3696.46,72.0,WorkHub Pro,Rushil Saini,12,0
+CUST-0970,Mandal-Mukhopadhyay,Government,51–200,SMB,East Africa,2022-08-12,Active,578.23,19.0,WorkHub Core,Janaki Handa,36,0
+CUST-0971,Chadha-Shan,Retail,5000+,Mid-Market,Southeast Asia,2024-04-13,Active,924.08,,WorkHub Pro,Gayathri Chaudry,24,0
+CUST-0972,Pillay and Sons,Retail,5000+,Enterprise,East Africa,2022-06-21,Active,12449.05,78.0,WorkHub Pro,Lajita Mall,24,0
+CUST-0973,Modi-Kibe,Healthcare,5000+,SMB,South Asia,2022-12-13,Active,772.27,,WorkHub Core,Udant Dewan,24,0
+CUST-0974,Pillay-Tak,Government,5000+,SMB,South Asia,2024-05-18,Churned,324.39,67.0,WorkHub Core,Lajita Mall,36,1
+CUST-0975,Korpal and Sons,Manufacturing,51–200,Mid-Market,ANZ,2024-02-21,Renewed,2164.22,,WorkHub Core,Aryan Maharaj,24,0
+CUST-0976,Rout Inc,Telecom,1001–5000,Mid-Market,East Africa,2023-02-03,Renewed,3266.37,98.0,WorkHub Pro,Fariq Kaul,12,0
+CUST-0977,Pal Ltd,Healthcare,201–1000,Enterprise,East Africa,2024-02-05,Active,12973.05,,WorkHub Enterprise,Udant Dewan,24,0
+CUST-0978,"Andra, Nayak and Agarwal",Manufacturing,5000+,SMB,South Asia,2024-04-23,Renewed,616.98,,WorkHub Core,Udant Dewan,12,0
+CUST-0979,"Puri, Mohanty and Chawla",Retail,51–200,Mid-Market,Middle East,2022-03-16,Active,2627.67,,WorkHub Core,Saumya Mall,36,0
+CUST-0980,Wagle and Sons,Logistics,1–50,Mid-Market,Southeast Asia,2023-11-07,At Risk,3950.09,49.0,WorkHub Core,Tripti Yadav,12,1
+CUST-0981,Swamy-Bhasin,Real Estate,51–200,Enterprise,East Africa,2023-11-16,Renewed,13525.54,90.0,WorkHub Pro,Saumya Mall,36,0
+CUST-0982,Mammen Inc,Logistics,1001–5000,SMB,South Asia,2023-03-02,Active,689.84,,WorkHub Core,Arunima Dugal,36,0
+CUST-0983,Kata PLC,Media & Entertainment,1–50,Enterprise,ANZ,2022-05-12,Active,12926.36,14.0,WorkHub Pro,Gagan Sami,12,0
+CUST-0984,Pradhan-Shanker,Retail,201–1000,Mid-Market,ANZ,2022-10-19,Active,2624.35,13.0,WorkHub Core,Saumya Mall,12,0
+CUST-0985,"Chad, Chandran and Tiwari",Government,51–200,SMB,Southeast Asia,2023-06-15,Active,176.54,,WorkHub Core,Rushil Saini,12,0
+CUST-0986,Ramesh Inc,Healthcare,51–200,SMB,ANZ,2023-09-23,At Risk,409.42,,WorkHub Core,Saumya Mall,36,1
+CUST-0987,"Bhatia, Saran and De",Real Estate,1–50,SMB,Southeast Asia,2022-12-16,Active,222.87,59.0,WorkHub Core,Tripti Yadav,24,0
+CUST-0988,Manne LLC,Logistics,5000+,Mid-Market,South Asia,2022-08-19,Active,2905.64,,WorkHub Core,Gagan Sami,12,0
+CUST-0989,Ramaswamy-Narain,Logistics,5000+,SMB,Southeast Asia,2022-05-27,Active,177.96,8.0,WorkHub Core,Rushil Saini,36,0
+CUST-0990,Sethi-Magar,Manufacturing,1–50,Enterprise,Southeast Asia,12/07/2024,Active,9336.99,,WorkHub Pro,Ayushman Chander,12,0
+CUST-0991,Borde and Sons,BFSI,5000+,Mid-Market,East Africa,17/03/2022,At Risk,2324.57,73.0,WorkHub Core,Tripti Yadav,24,1
+CUST-0992,Chopra and Sons,EdTech,1001–5000,Enterprise,East Africa,2022-09-14,Renewed,10369.78,19.0,WorkHub Pro,Nathaniel Sami,12,0
+CUST-0993,Gala Group,Retail,1001–5000,Mid-Market,Middle East,2024-06-22,At Risk,2181.56,38.0,WorkHub Core,Kritika Brar,36,1
+CUST-0994,Murthy-Ray,EdTech,1001–5000,Mid-Market,Southeast Asia,2024-05-10,Active,2098.54,53.0,WorkHub Core,Janaki Handa,24,0
+CUST-0995,Wason LLC,Manufacturing,201–1000,SMB,ANZ,2022-05-17,Active,251.87,24.0,WorkHub Core,Janaki Handa,36,0
+CUST-0996,Seth LLC,Media & Entertainment,201–1000,Enterprise,Middle East,2022-08-07,Active,11599.6,57.0,WorkHub Pro,Udant Dewan,12,0
+CUST-0997,Lanka-Dar,Telecom,51–200,Mid-Market,ANZ,2024-08-17,Active,2217.54,88.0,WorkHub Pro,Arunima Dugal,36,0
+CUST-0998,Dugar Ltd,Retail,1001–5000,Mid-Market,East Africa,2024-03-11,Active,1812.77,31.0,WorkHub Pro,Chakradev Kari,24,0
+CUST-0999,Baria-Kale,Real Estate,5000+,SMB,South Asia,24/11/2023,Active,115.03,6.0,WorkHub Core,Lajita Chatterjee,24,0
+CUST-1000,Divan-Chand,Retail,51–200,SMB,Middle East,10/05/2024,Churned,320.85,,WorkHub Core,Gayathri Chaudry,24,1
+CUST-1001,"Kothari, Parekh and Randhawa",Telecom,51–200,Enterprise,Southeast Asia,2022-06-17,Active,12656.04,20.0,WorkHub Pro,Arunima Dugal,36,0
+CUST-1002,"Bawa, Mistry and Lad",EdTech,1–50,SMB,Southeast Asia,2024-07-20,At Risk,194.92,48.0,WorkHub Core,Rushil Saini,12,1
+CUST-1003,Balasubramanian Group,Manufacturing,1001–5000,Mid-Market,East Africa,2023-08-09,Renewed,3904.95,,WorkHub Core,Gagan Sami,24,0
+CUST-1004,Krish-Chandra,Retail,5000+,SMB,Middle East,2023-11-25,Active,795.03,85.0,WorkHub Core,Gayathri Chaudry,36,0
+CUST-1005,Chaudry-Dey,Healthcare,201–1000,Mid-Market,East Africa,2024-03-29,Churned,2689.03,21.0,WorkHub Core,Saumya Mall,36,1
+CUST-1006,Arora Inc,Telecom,1–50,Mid-Market,ANZ,2022-11-23,Active,1564.17,39.0,WorkHub Core,Lajita Chatterjee,12,0
+CUST-1007,De and Sons,Government,1–50,Enterprise,Middle East,19/07/2023,Renewed,16971.63,1.0,WorkHub Enterprise,Gayathri Chaudry,24,0
+CUST-1008,Pradhan-Chad,Government,1001–5000,Enterprise,ANZ,2022-02-06,Active,9251.99,46.0,WorkHub Pro,Kritika Brar,36,0
+CUST-1009,"Lad, Borde and Bains",Manufacturing,201–1000,SMB,East Africa,2022-07-17,Active,739.35,,WorkHub Core,Fariq Kaul,12,0
+CUST-1010,Hora Ltd,Retail,1–50,Mid-Market,Southeast Asia,2022-03-18,Active,2630.11,,WorkHub Pro,Aryan Maharaj,36,0
+CUST-1011,Dave-Chanda,Manufacturing,5000+,SMB,South Asia,2022-06-09,Renewed,778.38,80.0,WorkHub Core,Ayushman Chander,12,0
+CUST-1012,Das-Basak,EdTech,1–50,Mid-Market,Southeast Asia,2022-04-04,Active,2185.5,87.0,WorkHub Pro,Gagan Sami,24,0
+CUST-1013,Bedi-Ganguly,Telecom,51–200,Mid-Market,ANZ,2024-04-17,Renewed,2737.47,23.0,WorkHub Pro,Janaki Handa,12,0
+CUST-1014,"Sant, Rana and Taneja",Healthcare,51–200,Enterprise,Southeast Asia,2022-09-27,Active,17618.13,,WorkHub Enterprise,Saumya Mall,12,0
+CUST-1015,Raja Ltd,EdTech,51–200,SMB,ANZ,2023-10-13,Active,388.6,81.0,WorkHub Core,Arunima Dugal,24,0
+CUST-1016,Gera-Pandya,Telecom,1–50,Mid-Market,Middle East,2022-10-16,Active,1000.91,44.0,WorkHub Pro,Kritika Brar,12,0
+CUST-1017,Grover LLC,Government,1–50,Enterprise,South Asia,2022-11-23,Renewed,9060.72,87.0,WorkHub Enterprise,Arunima Dugal,36,0
+CUST-1018,Sehgal-Dixit,Government,201–1000,Mid-Market,ANZ,2023-01-15,At Risk,1803.12,95.0,WorkHub Pro,Udant Dewan,36,1
+CUST-1019,Korpal Ltd,Government,1001–5000,Enterprise,Middle East,2024-08-03,Renewed,9645.38,59.0,WorkHub Enterprise,Tripti Yadav,24,0
+CUST-1020,Tara-Sabharwal,Retail,201–1000,SMB,ANZ,2024-06-10,Active,109.77,,WorkHub Core,Rushil Saini,12,0
+CUST-1021,"Srinivas, Bhat and Chahal",Media & Entertainment,1001–5000,Mid-Market,Southeast Asia,2022-10-05,Active,2055.14,38.0,WorkHub Core,Nathaniel Sami,12,0
+CUST-1022,Rajagopal-Devan,Government,1001–5000,Mid-Market,ANZ,2024-08-28,Active,2930.53,45.0,WorkHub Pro,Lajita Chatterjee,36,0
+CUST-1023,Iyengar-Vora,Logistics,51–200,SMB,Southeast Asia,2023-06-16,At Risk,391.44,1.0,WorkHub Core,Lajita Chatterjee,36,1
+CUST-1024,Bahl Group,Real Estate,1001–5000,Mid-Market,East Africa,2022-05-05,Active,1891.51,47.0,WorkHub Pro,Hemangini Lalla,36,0
+CUST-1025,"Parmer, Srinivasan and Sundaram",Healthcare,1–50,Enterprise,ANZ,2023-01-14,Active,8566.81,29.0,WorkHub Pro,Chakradev Kari,24,0
+CUST-1026,Thakkar-Nagy,Real Estate,201–1000,SMB,Southeast Asia,2024-07-12,Active,542.88,29.0,WorkHub Core,Nathaniel Sami,24,0
+CUST-1027,Madan-Gole,BFSI,201–1000,Enterprise,East Africa,20/06/2024,At Risk,12730.5,10.0,WorkHub Pro,Arunima Dugal,12,1
+CUST-1028,Nagar PLC,EdTech,201–1000,SMB,Southeast Asia,2023-01-08,Active,272.61,,WorkHub Core,Chakradev Kari,36,0
+CUST-1029,Balan LLC,Logistics,201–1000,Enterprise,ANZ,2022-11-18,Active,15537.91,,WorkHub Enterprise,Gayathri Chaudry,36,0
+CUST-1030,Sodhi PLC,EdTech,5000+,Enterprise,East Africa,2022-10-17,Active,13809.05,,WorkHub Enterprise,Viraj Tiwari,24,0
+CUST-1031,Kaul-Dutta,Media & Entertainment,1–50,Mid-Market,Middle East,2023-04-22,Renewed,2229.39,48.0,WorkHub Core,Lajita Chatterjee,12,0
+CUST-1032,Kota Ltd,Government,201–1000,Enterprise,Southeast Asia,2023-12-25,Active,12210.72,41.0,WorkHub Enterprise,Udant Dewan,24,0
+CUST-1033,Lata PLC,Manufacturing,51–200,SMB,Middle East,2024-05-01,Churned,540.22,82.0,WorkHub Core,Lajita Chatterjee,36,1
+CUST-1034,"Bhalla, Kanda and Rama",BFSI,201–1000,Enterprise,Middle East,2023-08-03,Active,11163.92,92.0,WorkHub Enterprise,Chakradev Kari,12,0
+CUST-1035,Ghose-Goda,Retail,51–200,Enterprise,South Asia,2023-06-20,Churned,5286.03,46.0,WorkHub Pro,Gagan Sami,24,1
+CUST-1036,Nadkarni Ltd,Healthcare,1001–5000,SMB,ANZ,13/07/2023,Active,652.81,88.0,WorkHub Core,Saumya Mall,24,0
+CUST-1037,"Parmer, Bala and Pandey",Logistics,51–200,Mid-Market,Southeast Asia,2022-02-27,Churned,967.95,89.0,WorkHub Pro,Udant Dewan,12,1
+CUST-1038,"Dhar, Guha and Tailor",Retail,51–200,Mid-Market,East Africa,2022-11-24,At Risk,2944.84,2.0,WorkHub Core,Chakradev Kari,12,1
+CUST-1039,"More, Gill and Swaminathan",Media & Entertainment,5000+,Enterprise,South Asia,2022-02-11,Active,7213.08,,WorkHub Enterprise,Hemangini Lalla,36,0
+CUST-1040,Chana Inc,Retail,1001–5000,Enterprise,Southeast Asia,2022-06-05,Renewed,14419.55,36.0,WorkHub Pro,Fariq Kaul,24,0
+CUST-1041,Kanda Inc,EdTech,5000+,SMB,Middle East,2022-12-09,Renewed,374.84,83.0,WorkHub Core,Janaki Handa,36,0
+CUST-1042,"Sridhar, Acharya and Narula",Telecom,1001–5000,Mid-Market,Southeast Asia,09/07/2022,Active,1141.53,26.0,WorkHub Core,Saumya Mall,36,0
+CUST-1043,"Jaggi, De and Oak",Manufacturing,1001–5000,SMB,South Asia,2023-10-26,Churned,719.07,32.0,WorkHub Core,Gayathri Chaudry,12,1
+CUST-1044,"Goel, Naik and Bhargava",Retail,201–1000,Mid-Market,Southeast Asia,2023-05-27,Active,1847.55,50.0,WorkHub Pro,Chakradev Kari,24,0
+CUST-1045,Divan PLC,Logistics,51–200,SMB,South Asia,24/09/2023,Active,121.84,6.0,WorkHub Core,Aryan Maharaj,24,0
+CUST-1046,"Dhar, Choudhry and Vora",Real Estate,51–200,Mid-Market,South Asia,2022-02-24,Churned,3907.01,94.0,WorkHub Pro,Arunima Dugal,24,1
+CUST-1047,Bora-Prakash,Logistics,1–50,Enterprise,South Asia,2022-11-06,Active,17051.44,,WorkHub Enterprise,Chakradev Kari,12,0
+CUST-1048,"Randhawa, Chaudhuri and Nayar",Healthcare,51–200,Mid-Market,ANZ,2024-06-09,Churned,1674.03,2.0,WorkHub Core,Gagan Sami,36,1
+CUST-1049,Naidu-Deshpande,EdTech,1–50,SMB,ANZ,2023-11-26,Active,402.74,,WorkHub Core,Udant Dewan,36,0
+CUST-1050,Sarkar Ltd,Logistics,201–1000,Enterprise,ANZ,2022-07-27,Active,7807.47,,WorkHub Pro,Aryan Maharaj,36,0
+CUST-1051,Nadig-Ghosh,Real Estate,1001–5000,SMB,East Africa,2024-09-01,At Risk,600.9,,WorkHub Core,Gagan Sami,36,1
+CUST-1052,"Parikh, Kapoor and Gill",Government,5000+,SMB,Southeast Asia,2023-01-18,Active,485.72,18.0,WorkHub Core,Kritika Brar,12,0
+CUST-1053,Mohanty-Menon,Manufacturing,1001–5000,Mid-Market,Middle East,2024-02-25,At Risk,3205.31,,WorkHub Core,Hemangini Lalla,24,1
+CUST-1054,Goel Ltd,Logistics,51–200,Mid-Market,Middle East,2024-08-04,Active,3211.85,87.0,WorkHub Pro,Lajita Chatterjee,36,0
+CUST-1055,Raman PLC,Retail,5000+,SMB,Middle East,2023-07-08,At Risk,695.77,,WorkHub Core,Tripti Yadav,12,1
+CUST-1056,Gopal PLC,Healthcare,5000+,Enterprise,East Africa,2022-02-12,Churned,7566.04,70.0,WorkHub Enterprise,Nathaniel Sami,36,1
+CUST-1057,Kant-Chawla,Manufacturing,1001–5000,Mid-Market,South Asia,2022-11-30,At Risk,2555.04,50.0,WorkHub Core,Nathaniel Sami,36,1
+CUST-1058,Dhaliwal-Narula,Media & Entertainment,1–50,Mid-Market,Southeast Asia,2023-10-18,Active,3020.62,96.0,WorkHub Pro,Fariq Kaul,12,0
+CUST-1059,"Brahmbhatt, Khanna and Palan",Healthcare,201–1000,SMB,Southeast Asia,2024-02-13,At Risk,479.38,,WorkHub Core,Aryan Maharaj,12,1
+CUST-1060,Ganesh-Chakrabarti,Healthcare,51–200,Mid-Market,Southeast Asia,2024-04-27,Active,1610.99,15.0,WorkHub Core,Tripti Yadav,12,0
+CUST-1061,"Nayak, Sekhon and Apte",Logistics,201–1000,SMB,ANZ,2023-01-19,Active,512.78,61.0,WorkHub Core,Chakradev Kari,12,0
+CUST-1062,Kadakia-Krish,Manufacturing,1–50,Enterprise,Middle East,2023-12-19,At Risk,14540.85,,WorkHub Pro,Chakradev Kari,12,1
+CUST-1063,"Bir, Palla and Kunda",Government,1–50,Enterprise,ANZ,2022-09-16,Active,14139.9,91.0,WorkHub Enterprise,Janaki Handa,24,0
+CUST-1064,Agarwal Inc,EdTech,5000+,Mid-Market,ANZ,2022-02-05,Churned,3052.93,57.0,WorkHub Core,Ayushman Chander,12,1
+CUST-1065,Sarma-Saini,Real Estate,1–50,Enterprise,East Africa,01/04/2023,Active,7846.38,,WorkHub Enterprise,Arunima Dugal,36,0
+CUST-1066,Sachdev Group,Telecom,1001–5000,Mid-Market,Southeast Asia,2024-07-12,At Risk,927.41,76.0,WorkHub Pro,Viraj Tiwari,12,1
+CUST-1067,Panchal-Prashad,Government,51–200,Mid-Market,South Asia,2023-02-01,At Risk,3697.31,98.0,WorkHub Core,Rushil Saini,12,1
+CUST-1068,Srinivas PLC,Real Estate,1001–5000,Mid-Market,Southeast Asia,2024-01-01,Churned,3717.3,12.0,WorkHub Pro,Aryan Maharaj,24,1
+CUST-1069,"Kar, Gaba and Seth",Media & Entertainment,1–50,Mid-Market,East Africa,2024-07-08,Churned,1140.25,,WorkHub Core,Lajita Mall,36,1
+CUST-1070,Bandi LLC,Healthcare,1–50,SMB,Middle East,2024-06-17,Active,380.93,31.0,WorkHub Core,Ayushman Chander,12,0
+CUST-1071,Nagar LLC,Real Estate,51–200,Mid-Market,Southeast Asia,2023-04-02,Active,2583.58,,WorkHub Pro,Kritika Brar,12,0
+CUST-1072,Borah LLC,EdTech,51–200,Mid-Market,Southeast Asia,2022-11-04,Churned,835.82,7.0,WorkHub Pro,Ayushman Chander,36,1
+CUST-1073,Prashad and Sons,Real Estate,5000+,Mid-Market,South Asia,2022-11-07,Active,3746.34,61.0,WorkHub Pro,Chakradev Kari,24,0
+CUST-1074,"Borde, Chander and Nigam",Healthcare,51–200,Enterprise,ANZ,2023-07-21,Active,15254.18,18.0,WorkHub Enterprise,Gagan Sami,24,0
+CUST-1075,"Subramanian, Balasubramanian and Sankar",Healthcare,5000+,SMB,Southeast Asia,2022-09-10,Active,537.94,,WorkHub Core,Udant Dewan,24,0
+CUST-1076,"Gala, Saraf and Dugar",Manufacturing,1001–5000,SMB,South Asia,2022-07-17,Renewed,373.54,77.0,WorkHub Core,Viraj Tiwari,24,0
+CUST-1077,Chaudhuri LLC,Telecom,1001–5000,SMB,Southeast Asia,2022-09-05,Active,641.17,,WorkHub Core,Gagan Sami,36,0
+CUST-1078,Gupta Group,Retail,1–50,SMB,Middle East,2022-10-12,Active,664.77,43.0,WorkHub Core,Gayathri Chaudry,24,0
+CUST-1079,"Zachariah, Lanka and Manda",Media & Entertainment,5000+,SMB,East Africa,2024-08-03,Churned,650.07,17.0,WorkHub Core,Chakradev Kari,24,1
+CUST-1080,Khanna-Char,Real Estate,1–50,Mid-Market,Middle East,2023-10-07,Active,1724.63,65.0,WorkHub Core,Nathaniel Sami,36,0
+CUST-1081,Ramaswamy PLC,Logistics,51–200,Mid-Market,Middle East,2023-06-15,Active,2712.83,85.0,WorkHub Pro,Gayathri Chaudry,12,0
+CUST-1082,"Swaminathan, Dube and Bhagat",Manufacturing,5000+,Mid-Market,East Africa,2022-11-25,Active,2464.36,15.0,WorkHub Core,Nathaniel Sami,12,0
+CUST-1083,Aggarwal-Sane,Manufacturing,51–200,Mid-Market,ANZ,2023-01-19,Active,1666.37,72.0,WorkHub Core,Viraj Tiwari,24,0
+CUST-1084,Menon Ltd,Logistics,1–50,Mid-Market,ANZ,2024-04-12,Active,1012.95,32.0,WorkHub Core,Lajita Mall,36,0
+CUST-1085,"Srinivasan, Iyengar and Chatterjee",Telecom,5000+,Mid-Market,ANZ,2022-07-23,Renewed,2809.96,62.0,WorkHub Core,Kritika Brar,24,0
+CUST-1086,Jhaveri and Sons,Retail,51–200,Enterprise,South Asia,2023-01-06,Renewed,4574.48,8.0,WorkHub Pro,Viraj Tiwari,12,0
+CUST-1087,"Manne, Bumb and Solanki",Media & Entertainment,51–200,Mid-Market,South Asia,2024-07-01,Active,1156.58,79.0,WorkHub Core,Kritika Brar,12,0
+CUST-1088,Morar Group,Real Estate,5000+,SMB,East Africa,2024-02-09,Churned,688.54,,WorkHub Core,Nathaniel Sami,12,1
+CUST-1089,Suresh-Lanka,Media & Entertainment,51–200,Mid-Market,East Africa,24/09/2023,Active,2627.97,,WorkHub Core,Chakradev Kari,12,0
+CUST-1090,Ram and Sons,Media & Entertainment,51–200,Enterprise,Southeast Asia,2023-04-16,Renewed,16846.76,,WorkHub Enterprise,Gayathri Chaudry,24,0
+CUST-1091,Raj-Pingle,Real Estate,1001–5000,SMB,ANZ,2022-08-07,At Risk,385.97,56.0,WorkHub Core,Tripti Yadav,12,1
+CUST-1092,Sehgal Inc,Logistics,51–200,Enterprise,ANZ,2023-03-24,Active,8509.12,63.0,WorkHub Pro,Janaki Handa,36,0
+CUST-1093,Sarraf-Shroff,Retail,1–50,SMB,East Africa,2024-05-07,Active,651.65,26.0,WorkHub Core,Tripti Yadav,24,0
+CUST-1094,Kara-Luthra,Logistics,51–200,Enterprise,ANZ,2023-09-07,Renewed,13610.89,72.0,WorkHub Enterprise,Janaki Handa,36,0
+CUST-1095,"Bhatia, Dora and Chatterjee",Media & Entertainment,5000+,Enterprise,Middle East,2023-01-04,Active,14138.5,,WorkHub Pro,Hemangini Lalla,12,0
+CUST-1096,Padmanabhan PLC,Logistics,1001–5000,SMB,Southeast Asia,2022-06-22,Churned,462.02,,WorkHub Core,Tripti Yadav,24,1
+CUST-1097,Karan-Bhat,EdTech,1–50,SMB,Southeast Asia,2022-04-05,Churned,275.27,67.0,WorkHub Core,Viraj Tiwari,24,1
+CUST-1098,Virk-Sahota,Media & Entertainment,201–1000,Mid-Market,Southeast Asia,2022-08-23,Active,1013.69,11.0,WorkHub Pro,Gayathri Chaudry,36,0
+CUST-1099,"Soman, Keer and Soni",Media & Entertainment,51–200,Mid-Market,Southeast Asia,2022-01-18,Active,3080.09,,WorkHub Core,Rushil Saini,36,0
+CUST-1100,Brar-Rana,Government,5000+,Mid-Market,Middle East,2024-01-11,Active,1397.78,,WorkHub Pro,Arunima Dugal,36,0
+CUST-1101,"Banerjee, Thakkar and Varughese",Telecom,5000+,Mid-Market,South Asia,2023-02-08,Active,1298.91,16.0,WorkHub Core,Arunima Dugal,24,0
+CUST-1102,"Din, Dara and Sen",Retail,1–50,Enterprise,Southeast Asia,2022-06-15,At Risk,4939.04,,WorkHub Pro,Janaki Handa,36,1
+CUST-1103,Ganesh and Sons,Media & Entertainment,5000+,Mid-Market,East Africa,2024-01-14,Active,3878.74,66.0,WorkHub Core,Arunima Dugal,36,0
+CUST-1104,Date Inc,Retail,5000+,SMB,ANZ,2022-05-10,Active,519.86,47.0,WorkHub Core,Kritika Brar,24,0
+CUST-1105,Brar-Saran,Manufacturing,1–50,SMB,Middle East,2023-05-14,Active,404.88,81.0,WorkHub Core,Viraj Tiwari,36,0
+CUST-1106,Divan PLC,Media & Entertainment,51–200,SMB,Southeast Asia,2022-01-17,Renewed,277.04,51.0,WorkHub Core,Hemangini Lalla,12,0
+CUST-1107,Nagarajan-Bhavsar,Media & Entertainment,1–50,SMB,Southeast Asia,2024-08-28,Churned,170.9,,WorkHub Core,Tripti Yadav,36,1
+CUST-1108,Rama PLC,Healthcare,5000+,SMB,Middle East,2022-12-30,Churned,128.37,,WorkHub Core,Saumya Mall,24,1
+CUST-1109,Nanda-Majumdar,Retail,1–50,Mid-Market,South Asia,2022-05-30,Churned,991.64,65.0,WorkHub Core,Aryan Maharaj,24,1
+CUST-1110,"Shanker, Arora and Virk",Real Estate,1001–5000,Mid-Market,Middle East,2023-09-29,Active,3363.92,,WorkHub Core,Chakradev Kari,24,0
+CUST-1111,Chowdhury-Sachdeva,BFSI,5000+,Mid-Market,East Africa,03/06/2023,Renewed,3785.43,48.0,WorkHub Core,Arunima Dugal,12,0
+CUST-1112,Divan PLC,EdTech,1–50,Mid-Market,East Africa,2023-01-29,Active,940.84,1.0,WorkHub Pro,Kritika Brar,36,0
+CUST-1113,"Chaudhry, Cherian and Chaudhuri",Retail,1001–5000,SMB,East Africa,2023-08-05,Renewed,100.4,8.0,WorkHub Core,Arunima Dugal,36,0
+CUST-1114,Wason-Padmanabhan,Healthcare,51–200,Mid-Market,ANZ,2024-07-26,Renewed,2379.14,10.0,WorkHub Core,Hemangini Lalla,24,0
+CUST-1115,Lalla-Rajagopal,Logistics,5000+,Enterprise,East Africa,2023-07-16,At Risk,8628.4,85.0,WorkHub Enterprise,Fariq Kaul,36,1
+CUST-1116,"Sunder, Solanki and Barad",Real Estate,51–200,SMB,Southeast Asia,14/04/2024,Active,329.71,65.0,WorkHub Core,Udant Dewan,36,0
+CUST-1117,Majumdar Group,Logistics,1–50,Mid-Market,Southeast Asia,2023-07-23,At Risk,3618.39,31.0,WorkHub Pro,Ayushman Chander,36,1
+CUST-1118,Ratti Inc,Manufacturing,1001–5000,SMB,ANZ,2023-03-06,Active,269.75,79.0,WorkHub Core,Lajita Chatterjee,12,0
+CUST-1119,Narula-Khanna,Media & Entertainment,51–200,Mid-Market,ANZ,2023-04-30,Active,1985.22,39.0,WorkHub Core,Tripti Yadav,36,0
+CUST-1120,Soman LLC,Media & Entertainment,51–200,SMB,Middle East,2022-09-07,Active,211.43,,WorkHub Core,Ayushman Chander,12,0
+CUST-1121,Bahri-Nazareth,BFSI,51–200,SMB,East Africa,2023-03-15,Active,779.04,89.0,WorkHub Core,Aryan Maharaj,24,0
+CUST-1122,Mukhopadhyay-Mand,Retail,201–1000,SMB,Middle East,2023-11-27,At Risk,350.08,,WorkHub Core,Gayathri Chaudry,24,1
+CUST-1123,Chaudhari-Kari,Real Estate,1–50,SMB,South Asia,22/09/2023,Renewed,652.68,50.0,WorkHub Core,Ayushman Chander,24,0
+CUST-1124,Mital Ltd,Real Estate,5000+,Mid-Market,South Asia,2024-05-01,Active,2279.48,33.0,WorkHub Pro,Chakradev Kari,36,0
+CUST-1125,Nagi-Luthra,Logistics,1–50,Mid-Market,ANZ,2024-05-22,Active,2312.51,57.0,WorkHub Core,Gayathri Chaudry,36,0
+CUST-1126,"Saha, Chakraborty and Guha",Media & Entertainment,1001–5000,Enterprise,Southeast Asia,2024-03-24,Active,8572.54,,WorkHub Enterprise,Udant Dewan,12,0
+CUST-1127,Kakar-Ray,Healthcare,51–200,SMB,South Asia,2023-04-05,Churned,297.73,42.0,WorkHub Core,Chakradev Kari,24,1
+CUST-1128,"Sundaram, Varty and Prakash",Telecom,5000+,SMB,Middle East,2024-08-17,Renewed,559.33,,WorkHub Core,Hemangini Lalla,12,0
+CUST-1129,Varma and Sons,Logistics,1001–5000,Mid-Market,Southeast Asia,2024-04-12,Churned,2071.97,90.0,WorkHub Core,Viraj Tiwari,24,1
+CUST-1130,Mukhopadhyay Ltd,Media & Entertainment,201–1000,Enterprise,East Africa,2024-06-07,Active,14964.89,,WorkHub Pro,Lajita Chatterjee,12,0
+CUST-1131,"Raval, Deshmukh and Viswanathan",Retail,51–200,SMB,East Africa,2023-09-11,Active,241.58,23.0,WorkHub Core,Hemangini Lalla,36,0
+CUST-1132,"Balakrishnan, Ghose and Hans",Real Estate,201–1000,Mid-Market,Middle East,03/01/2022,At Risk,3901.68,25.0,WorkHub Core,Fariq Kaul,24,1
+CUST-1133,Bhardwaj and Sons,Telecom,5000+,Mid-Market,East Africa,2024-08-06,Active,3839.41,,WorkHub Core,Lajita Mall,24,0
+CUST-1134,Shan Inc,Manufacturing,1–50,Enterprise,ANZ,2023-08-27,At Risk,10643.25,53.0,WorkHub Enterprise,Lajita Chatterjee,36,1
+CUST-1135,Issac-Mahal,Logistics,201–1000,SMB,South Asia,2024-04-16,Renewed,277.9,,WorkHub Core,Udant Dewan,12,0
+CUST-1136,Shetty-Tiwari,Government,51–200,Mid-Market,ANZ,2022-01-03,Renewed,3367.65,35.0,WorkHub Core,Aryan Maharaj,36,0
+CUST-1137,Dasgupta-Balasubramanian,Logistics,5000+,Mid-Market,South Asia,2023-05-24,Active,2916.12,36.0,WorkHub Pro,Tripti Yadav,36,0
+CUST-1138,Pradhan Group,Retail,5000+,Enterprise,Southeast Asia,2022-01-15,Active,13055.8,,WorkHub Enterprise,Arunima Dugal,12,0
+CUST-1139,"Sehgal, Goel and Som",Logistics,1001–5000,Mid-Market,Southeast Asia,2024-07-16,Churned,1956.57,97.0,WorkHub Core,Lajita Mall,36,1
+CUST-1140,"Palla, Padmanabhan and Gade",Healthcare,1–50,Enterprise,Southeast Asia,2024-06-13,Renewed,17350.2,8.0,WorkHub Pro,Rushil Saini,12,0
+CUST-1141,Chana-Mane,Manufacturing,1–50,SMB,East Africa,2024-02-24,Active,457.55,61.0,WorkHub Core,Gagan Sami,24,0
+CUST-1142,Raju Inc,Manufacturing,51–200,Mid-Market,ANZ,2024-04-05,Renewed,3121.01,79.0,WorkHub Pro,Gagan Sami,12,0
+CUST-1143,Kala and Sons,Retail,5000+,Mid-Market,East Africa,2022-07-18,Renewed,2821.02,3.0,WorkHub Core,Kritika Brar,12,0
+CUST-1144,"Kar, Jhaveri and Luthra",Media & Entertainment,51–200,Mid-Market,Southeast Asia,2022-07-14,Active,2676.33,,WorkHub Pro,Chakradev Kari,36,0
+CUST-1145,"Rout, Varghese and Bahri",Media & Entertainment,201–1000,Mid-Market,Middle East,2022-07-23,Active,1401.86,73.0,WorkHub Core,Lajita Chatterjee,24,0
+CUST-1146,"Andra, Som and Deo",BFSI,201–1000,SMB,ANZ,2022-03-29,Active,464.36,,WorkHub Core,Chakradev Kari,24,0
+CUST-1147,"Ghose, Anand and Kapur",Telecom,201–1000,SMB,South Asia,2023-10-02,At Risk,546.66,31.0,WorkHub Core,Gayathri Chaudry,12,1
+CUST-1148,Mody-Maharaj,BFSI,201–1000,Mid-Market,Southeast Asia,2023-12-14,Active,1289.72,,WorkHub Pro,Fariq Kaul,24,0
+CUST-1149,Puri-Palla,Logistics,201–1000,Enterprise,ANZ,24/01/2022,Active,6586.87,,WorkHub Enterprise,Hemangini Lalla,12,0
+CUST-1150,Krishnan-Kamdar,Logistics,201–1000,Enterprise,Middle East,2024-06-28,Churned,12151.19,10.0,WorkHub Pro,Gayathri Chaudry,36,1
+CUST-1151,Mittal-Verma,Healthcare,5000+,Enterprise,East Africa,2024-06-10,Active,11733.13,,WorkHub Pro,Udant Dewan,24,0
+CUST-1152,"Ranganathan, Chaudry and Amble",Media & Entertainment,1–50,Mid-Market,Middle East,2022-10-03,Active,1101.81,,WorkHub Core,Udant Dewan,24,0
+CUST-1153,"Prasad, Mandal and Misra",Media & Entertainment,5000+,SMB,South Asia,2022-09-28,Renewed,726.52,,WorkHub Core,Rushil Saini,36,0
+CUST-1154,"Chokshi, Subramaniam and Bhatt",Healthcare,1–50,Mid-Market,ANZ,2022-08-12,Active,3161.16,87.0,WorkHub Core,Aryan Maharaj,36,0
+CUST-1155,Malhotra-Nair,Logistics,5000+,SMB,Southeast Asia,2023-05-20,Active,247.71,85.0,WorkHub Core,Hemangini Lalla,12,0
+CUST-1156,Lal-Misra,Real Estate,1001–5000,Mid-Market,East Africa,2022-10-22,Churned,3646.62,90.0,WorkHub Core,Aryan Maharaj,12,1
+CUST-1157,Doctor PLC,EdTech,201–1000,Mid-Market,Southeast Asia,2023-08-14,Churned,1183.93,85.0,WorkHub Pro,Nathaniel Sami,12,1
+CUST-1158,Bhandari PLC,Healthcare,1001–5000,Mid-Market,Southeast Asia,2024-09-15,Renewed,2638.64,,WorkHub Pro,Aryan Maharaj,24,0
+CUST-1159,Nagarajan-Dey,EdTech,1001–5000,SMB,Southeast Asia,2022-05-31,At Risk,708.16,41.0,WorkHub Core,Fariq Kaul,36,1
+CUST-1160,"Bal, Tank and Merchant",EdTech,51–200,Enterprise,Southeast Asia,2023-02-03,At Risk,16013.59,,WorkHub Pro,Arunima Dugal,24,1
+CUST-1161,Sahota-Ravel,BFSI,1001–5000,Mid-Market,ANZ,12/06/2022,Renewed,990.7,58.0,WorkHub Pro,Kritika Brar,12,0
+CUST-1162,Banik-Gupta,Retail,201–1000,Mid-Market,Middle East,2022-07-01,Active,3314.22,,WorkHub Core,Hemangini Lalla,24,0
+CUST-1163,Kapadia-Warrior,Government,51–200,SMB,Middle East,2024-05-09,Active,212.32,28.0,WorkHub Core,Aryan Maharaj,12,0
+CUST-1164,"Soni, Parmer and Tripathi",Media & Entertainment,51–200,Mid-Market,East Africa,2023-06-06,Active,1656.56,47.0,WorkHub Pro,Arunima Dugal,36,0
+CUST-1165,Garde-Golla,Logistics,1001–5000,SMB,South Asia,2022-03-06,Renewed,268.86,36.0,WorkHub Core,Lajita Mall,36,0
+CUST-1166,Chatterjee-Sinha,Telecom,51–200,Enterprise,ANZ,2024-09-27,Active,4273.98,98.0,WorkHub Pro,Lajita Chatterjee,12,0
+CUST-1167,Kuruvilla Ltd,Retail,1–50,Mid-Market,Middle East,2024-01-09,Active,3374.7,75.0,WorkHub Core,Hemangini Lalla,12,0
+CUST-1168,"Goswami, Nayak and Chakraborty",Real Estate,51–200,Mid-Market,Southeast Asia,29/11/2022,Active,2308.43,30.0,WorkHub Core,Nathaniel Sami,24,0
+CUST-1169,Pant and Sons,BFSI,1–50,Enterprise,South Asia,2023-08-02,Active,16131.72,26.0,WorkHub Enterprise,Ayushman Chander,36,0
+CUST-1170,"Mohanty, Salvi and Narula",Telecom,1001–5000,Mid-Market,Southeast Asia,2022-08-15,Active,1109.94,,WorkHub Core,Ayushman Chander,24,0
+CUST-1171,Lad-Menon,Government,51–200,Mid-Market,South Asia,2022-12-15,Churned,1099.23,32.0,WorkHub Pro,Udant Dewan,24,1
+CUST-1172,Dalal-Singhal,Telecom,51–200,Enterprise,South Asia,2024-08-06,At Risk,7029.02,52.0,WorkHub Enterprise,Gagan Sami,36,1
+CUST-1173,Bobal Group,Real Estate,201–1000,Mid-Market,South Asia,2023-03-14,Renewed,3210.65,71.0,WorkHub Pro,Ayushman Chander,36,0
+CUST-1174,Tella Inc,Logistics,51–200,Mid-Market,Southeast Asia,2024-04-22,At Risk,3143.81,25.0,WorkHub Pro,Viraj Tiwari,24,1
+CUST-1175,"Raj, Wagle and Misra",Government,51–200,Enterprise,East Africa,18/05/2022,Churned,14136.87,46.0,WorkHub Pro,Kritika Brar,12,1
+CUST-1176,Bhagat-Dora,Retail,1001–5000,SMB,ANZ,2022-01-08,Active,222.57,,WorkHub Core,Saumya Mall,12,0
+CUST-1177,Iyer LLC,Healthcare,1001–5000,Enterprise,Southeast Asia,2023-12-18,Active,11283.67,71.0,WorkHub Pro,Janaki Handa,12,0
+CUST-1178,Shankar-Dhar,Real Estate,5000+,Mid-Market,East Africa,2022-08-09,Active,2755.04,56.0,WorkHub Core,Saumya Mall,36,0
+CUST-1179,Gole-Buch,BFSI,51–200,SMB,ANZ,2022-10-30,Active,749.07,,WorkHub Core,Udant Dewan,12,0
+CUST-1180,Natarajan-Goel,Telecom,1–50,Mid-Market,East Africa,2023-05-06,Churned,3079.84,,WorkHub Pro,Lajita Mall,12,1
+CUST-1181,Bhardwaj-Agrawal,EdTech,1–50,SMB,East Africa,2024-05-28,Renewed,269.05,,WorkHub Core,Arunima Dugal,24,0
+CUST-1182,Mahal-Kadakia,Retail,51–200,SMB,South Asia,2023-03-14,At Risk,197.8,28.0,WorkHub Core,Fariq Kaul,12,1
+CUST-1183,Dutt Group,Healthcare,1001–5000,Enterprise,East Africa,2022-03-24,Active,6304.88,35.0,WorkHub Pro,Aryan Maharaj,12,0
+CUST-1184,Dayal PLC,BFSI,1–50,SMB,South Asia,2022-03-27,At Risk,665.58,,WorkHub Core,Chakradev Kari,12,1
+CUST-1185,Sanghvi-Raval,Telecom,201–1000,Enterprise,South Asia,2024-03-17,Renewed,4361.78,,WorkHub Pro,Tripti Yadav,36,0
+CUST-1186,Sood-Rajagopal,Telecom,201–1000,Enterprise,Middle East,2022-09-25,Active,6071.21,85.0,WorkHub Pro,Gayathri Chaudry,24,0
+CUST-1187,Barad PLC,Healthcare,51–200,SMB,Southeast Asia,2024-04-24,Active,651.82,40.0,WorkHub Core,Fariq Kaul,24,0
+CUST-1188,Prakash Inc,BFSI,5000+,SMB,South Asia,2022-01-03,Renewed,364.53,81.0,WorkHub Core,Fariq Kaul,24,0
+CUST-1189,Wali-Halder,Media & Entertainment,1001–5000,Mid-Market,East Africa,2022-05-06,Active,1662.11,29.0,WorkHub Core,Udant Dewan,24,0
+CUST-1190,Agrawal Ltd,Retail,5000+,Mid-Market,ANZ,18/01/2024,Churned,2800.05,6.0,WorkHub Pro,Kritika Brar,36,1
+CUST-1191,"Kothari, Kara and Padmanabhan",Telecom,1001–5000,SMB,East Africa,2022-12-30,Active,537.08,,WorkHub Core,Viraj Tiwari,12,0
+CUST-1192,Dayal-Chauhan,BFSI,1–50,Mid-Market,ANZ,2022-09-16,Active,2578.54,67.0,WorkHub Core,Arunima Dugal,36,0
+CUST-1193,Thakur-Mohan,Government,1001–5000,Enterprise,Southeast Asia,2023-06-13,Churned,6627.58,,WorkHub Pro,Nathaniel Sami,12,1
+CUST-1194,Bhattacharyya Inc,Retail,1001–5000,Enterprise,East Africa,2023-11-26,Active,11999.89,85.0,WorkHub Pro,Kritika Brar,24,0
+CUST-1195,Mannan-Shah,EdTech,1001–5000,Mid-Market,Southeast Asia,2023-01-13,At Risk,2178.84,13.0,WorkHub Core,Gagan Sami,24,1
+CUST-1196,"Venkatesh, Viswanathan and Nazareth",Media & Entertainment,201–1000,SMB,ANZ,2022-06-10,At Risk,630.36,5.0,WorkHub Core,Hemangini Lalla,24,1
+CUST-1197,Desai-Oommen,Retail,201–1000,Mid-Market,Southeast Asia,2024-09-09,Churned,2939.73,60.0,WorkHub Core,Arunima Dugal,24,1
+CUST-1198,Parmer-Guha,Telecom,5000+,SMB,South Asia,2024-03-01,Active,269.01,89.0,WorkHub Core,Arunima Dugal,24,0
+CUST-1199,Raval Inc,Retail,1001–5000,SMB,East Africa,2024-05-01,Churned,337.95,37.0,WorkHub Core,Gayathri Chaudry,12,1
+CUST-1200,Kapur Ltd,EdTech,51–200,Enterprise,Middle East,2022-07-18,Active,8411.03,,WorkHub Enterprise,Viraj Tiwari,12,0
+CUST-1201,Kakar Ltd,Real Estate,1001–5000,SMB,East Africa,2023-04-23,At Risk,481.06,77.0,WorkHub Core,Gagan Sami,36,1
+CUST-1202,Thaman and Sons,Government,51–200,Mid-Market,Southeast Asia,2023-02-19,Renewed,925.48,52.0,WorkHub Pro,Gagan Sami,36,0
+CUST-1203,Peri Ltd,Government,201–1000,Mid-Market,ANZ,2022-04-08,Active,2103.03,70.0,WorkHub Pro,Aryan Maharaj,12,0
+CUST-1204,"Barad, Prashad and Kumer",BFSI,1–50,Mid-Market,East Africa,2022-04-20,Active,2559.17,76.0,WorkHub Pro,Nathaniel Sami,36,0
+CUST-1205,"Bava, Bava and Chokshi",Government,1001–5000,Mid-Market,Middle East,2024-01-17,Renewed,1183.04,92.0,WorkHub Pro,Saumya Mall,24,0
+CUST-1206,"Bahri, Bava and D’Alia",Manufacturing,51–200,Mid-Market,South Asia,2022-03-20,Active,1194.16,67.0,WorkHub Core,Ayushman Chander,36,0
+CUST-1207,Sawhney-Rai,EdTech,1001–5000,Mid-Market,East Africa,2023-05-04,Active,1245.74,52.0,WorkHub Pro,Saumya Mall,36,0
+CUST-1208,Krishnan Group,Retail,1–50,Mid-Market,Southeast Asia,2023-04-08,Active,1045.58,32.0,WorkHub Core,Viraj Tiwari,36,0
+CUST-1209,"Dua, Jha and Andra",BFSI,201–1000,Enterprise,South Asia,2024-03-07,Active,17098.29,,WorkHub Enterprise,Fariq Kaul,36,0
+CUST-1210,Salvi-Chaudhuri,Retail,1001–5000,Mid-Market,South Asia,19/08/2024,Active,3968.83,66.0,WorkHub Core,Tripti Yadav,24,0
+CUST-1211,"Venkatesh, Madan and Devan",Healthcare,1–50,Enterprise,ANZ,2022-06-07,Active,17164.33,,WorkHub Enterprise,Saumya Mall,24,0
+CUST-1212,Cheema-Vaidya,Manufacturing,1–50,Mid-Market,ANZ,2023-06-06,Active,1148.08,80.0,WorkHub Core,Lajita Mall,36,0
+CUST-1213,"Dalal, Mandal and Comar",Real Estate,51–200,SMB,East Africa,2024-05-01,At Risk,128.24,30.0,WorkHub Core,Fariq Kaul,24,1
+CUST-1214,Tank and Sons,Manufacturing,201–1000,Mid-Market,Southeast Asia,2023-05-04,Renewed,3157.31,,WorkHub Pro,Saumya Mall,12,0
+CUST-1215,"Iyengar, Lall and Virk",Real Estate,1–50,SMB,South Asia,2022-04-15,Active,585.78,77.0,WorkHub Core,Gagan Sami,24,0
+CUST-1216,Parmar Ltd,Retail,1–50,SMB,ANZ,2022-09-19,Active,629.35,90.0,WorkHub Core,Tripti Yadav,36,0
+CUST-1217,Merchant-Dyal,Telecom,5000+,SMB,East Africa,2024-02-03,Churned,786.87,,WorkHub Core,Viraj Tiwari,36,1
+CUST-1218,Taneja and Sons,Real Estate,1001–5000,Mid-Market,East Africa,2022-09-12,Churned,1742.1,98.0,WorkHub Core,Saumya Mall,12,1
+CUST-1219,"Srivastava, Narayanan and Keer",Healthcare,51–200,Enterprise,Southeast Asia,2022-10-29,At Risk,10018.24,72.0,WorkHub Enterprise,Kritika Brar,36,1
+CUST-1220,Arya Ltd,Telecom,1001–5000,Enterprise,Southeast Asia,2023-02-12,Active,9847.85,3.0,WorkHub Enterprise,Saumya Mall,24,0
+CUST-1221,Choudhry PLC,EdTech,5000+,Mid-Market,East Africa,2022-08-14,Churned,3705.15,83.0,WorkHub Pro,Lajita Mall,12,1
+CUST-1222,"Tak, Dixit and Chana",Logistics,1–50,SMB,Middle East,2024-09-10,Churned,787.12,88.0,WorkHub Core,Lajita Chatterjee,12,1
+CUST-1223,"Borde, Chaudhuri and Kunda",Retail,1001–5000,SMB,East Africa,2024-02-21,Churned,403.9,,WorkHub Core,Tripti Yadav,24,1
+CUST-1224,"Kashyap, Shan and Minhas",Healthcare,51–200,Enterprise,South Asia,2023-07-30,Active,13408.16,87.0,WorkHub Enterprise,Fariq Kaul,24,0
+CUST-1225,Shetty-Bedi,Healthcare,201–1000,SMB,Southeast Asia,2024-03-06,Active,268.42,98.0,WorkHub Core,Udant Dewan,12,0
+CUST-1226,Ghosh Inc,Retail,1001–5000,Mid-Market,Southeast Asia,02/01/2022,At Risk,2189.59,,WorkHub Core,Gagan Sami,12,1
+CUST-1227,Parsa-Munshi,Media & Entertainment,5000+,SMB,Southeast Asia,18/03/2022,Active,528.32,,WorkHub Core,Tripti Yadav,36,0
+CUST-1228,D’Alia-Chandran,Logistics,1–50,SMB,Middle East,2023-10-07,At Risk,324.97,58.0,WorkHub Core,Fariq Kaul,12,1
+CUST-1229,Andra and Sons,Government,1001–5000,Mid-Market,Southeast Asia,2022-02-21,Active,1695.36,2.0,WorkHub Core,Janaki Handa,36,0
+CUST-1230,"Garde, Narasimhan and Parmar",Retail,1–50,SMB,ANZ,2024-06-25,Active,704.11,,WorkHub Core,Hemangini Lalla,12,0
+CUST-1231,Loyal-Chander,Healthcare,1001–5000,Mid-Market,ANZ,2024-08-02,Active,1315.11,89.0,WorkHub Pro,Arunima Dugal,12,0
+CUST-1232,Oommen-Goswami,Telecom,5000+,Mid-Market,Middle East,2022-03-10,Active,2252.37,11.0,WorkHub Core,Hemangini Lalla,36,0
+CUST-1233,Rattan Group,EdTech,201–1000,Mid-Market,ANZ,2022-04-22,Renewed,2285.62,26.0,WorkHub Pro,Ayushman Chander,12,0
+CUST-1234,Magar-Rajan,BFSI,1001–5000,SMB,South Asia,2022-08-13,Active,459.31,85.0,WorkHub Core,Chakradev Kari,36,0
+CUST-1235,"Sridhar, Sama and Ganesan",Manufacturing,1001–5000,Mid-Market,South Asia,2022-07-14,Active,2937.2,37.0,WorkHub Pro,Rushil Saini,36,0
+CUST-1236,Deo Ltd,Retail,1001–5000,Enterprise,Middle East,07/06/2023,At Risk,10036.24,36.0,WorkHub Enterprise,Janaki Handa,12,1
+CUST-1237,"Bhargava, Dutta and Chawla",Healthcare,1001–5000,Enterprise,ANZ,02/07/2023,Active,10484.87,,WorkHub Enterprise,Rushil Saini,12,0
+CUST-1238,Subramanian-Sarma,Retail,1–50,Mid-Market,ANZ,2024-07-04,Active,1383.65,80.0,WorkHub Core,Rushil Saini,36,0
+CUST-1239,Raghavan LLC,Government,5000+,Mid-Market,ANZ,2022-08-28,At Risk,1541.21,69.0,WorkHub Pro,Fariq Kaul,12,1
+CUST-1240,"Balakrishnan, De and Subramanian",Manufacturing,1001–5000,Mid-Market,South Asia,2022-12-13,At Risk,3871.26,2.0,WorkHub Core,Tripti Yadav,36,1
+CUST-1241,Chowdhury-Sabharwal,Healthcare,1001–5000,Enterprise,ANZ,18/12/2023,At Risk,10950.5,51.0,WorkHub Enterprise,Aryan Maharaj,24,1
+CUST-1242,Batra-Bhatnagar,Media & Entertainment,5000+,Mid-Market,Southeast Asia,2022-03-28,Active,1516.51,44.0,WorkHub Pro,Gagan Sami,24,0
+CUST-1243,Murthy-Arora,Manufacturing,1–50,Mid-Market,Middle East,2023-07-07,Renewed,2997.59,51.0,WorkHub Pro,Fariq Kaul,36,0
+CUST-1244,"Vohra, Kapur and Nigam",Retail,1–50,Mid-Market,East Africa,2022-05-23,Active,2261.52,76.0,WorkHub Core,Nathaniel Sami,24,0
+CUST-1245,"Virk, Chandran and Sant",Telecom,201–1000,Enterprise,East Africa,07/06/2024,Active,16490.47,4.0,WorkHub Enterprise,Nathaniel Sami,36,0
+CUST-1246,"Kothari, Subramaniam and Pal",Media & Entertainment,5000+,SMB,Middle East,2023-06-04,Churned,308.7,77.0,WorkHub Core,Gagan Sami,24,1
+CUST-1247,"Rajan, Dixit and Bhagat",Telecom,5000+,Enterprise,ANZ,2024-09-12,Renewed,13733.93,,WorkHub Enterprise,Nathaniel Sami,36,0
+CUST-1248,Dugar PLC,Media & Entertainment,1001–5000,SMB,Southeast Asia,2023-07-07,Churned,118.35,,WorkHub Core,Gagan Sami,36,1
+CUST-1249,Tandon-Gandhi,Government,1001–5000,SMB,East Africa,2023-06-29,Active,699.92,73.0,WorkHub Core,Viraj Tiwari,12,0
+CUST-1250,Swamy LLC,Real Estate,51–200,Mid-Market,ANZ,07/02/2024,Churned,1818.41,,WorkHub Pro,Nathaniel Sami,24,1
+CUST-1251,Narayanan LLC,Logistics,1–50,Mid-Market,Middle East,2024-02-13,Active,2782.53,,WorkHub Pro,Aryan Maharaj,36,0
+CUST-1252,Tripathi and Sons,Logistics,5000+,Mid-Market,Southeast Asia,2024-03-08,At Risk,1658.63,23.0,WorkHub Core,Janaki Handa,36,1
+CUST-1253,"Radhakrishnan, Rau and Keer",Retail,201–1000,Mid-Market,East Africa,2022-10-29,Active,3845.25,87.0,WorkHub Core,Tripti Yadav,12,0
+CUST-1254,Sharaf Group,EdTech,5000+,SMB,East Africa,14/08/2024,Active,282.51,87.0,WorkHub Core,Rushil Saini,36,0
+CUST-1255,"Sem, Chakrabarti and Tara",Government,51–200,SMB,Middle East,2023-02-03,Churned,382.56,75.0,WorkHub Core,Lajita Chatterjee,36,1
+CUST-1256,Mutti-Dani,Manufacturing,1–50,Mid-Market,Southeast Asia,2024-05-31,Active,2591.79,50.0,WorkHub Pro,Chakradev Kari,36,0
+CUST-1257,Badami-Chauhan,Media & Entertainment,5000+,SMB,Middle East,2022-01-17,At Risk,641.1,36.0,WorkHub Core,Aryan Maharaj,12,1
+CUST-1258,Sachar-Banik,Real Estate,1–50,SMB,East Africa,2024-04-24,Renewed,179.24,61.0,WorkHub Core,Udant Dewan,12,0
+CUST-1259,"Acharya, Chand and Modi",Manufacturing,5000+,Mid-Market,Southeast Asia,2022-10-03,Active,1965.52,,WorkHub Core,Gayathri Chaudry,24,0
+CUST-1260,"Jhaveri, Shan and Om",Manufacturing,51–200,Mid-Market,South Asia,2022-08-10,Active,3635.52,53.0,WorkHub Pro,Nathaniel Sami,24,0
+CUST-1261,Bhagat-Kapoor,Manufacturing,1–50,Enterprise,South Asia,2024-09-09,Renewed,6095.61,82.0,WorkHub Pro,Gagan Sami,12,0
+CUST-1262,Narula-Solanki,Retail,1001–5000,Enterprise,ANZ,2023-09-23,Renewed,13745.1,,WorkHub Enterprise,Viraj Tiwari,24,0
+CUST-1263,"Patla, Sethi and Comar",Manufacturing,51–200,Enterprise,Southeast Asia,2024-05-14,Churned,14737.8,51.0,WorkHub Enterprise,Lajita Chatterjee,36,1
+CUST-1264,Kapadia Inc,Media & Entertainment,1001–5000,SMB,South Asia,2024-09-05,At Risk,454.51,96.0,WorkHub Core,Arunima Dugal,24,1
+CUST-1265,Pant-Manne,Retail,1001–5000,Mid-Market,Middle East,2023-06-07,At Risk,2941.81,69.0,WorkHub Core,Hemangini Lalla,24,1
+CUST-1266,"Vig, Prakash and Cherian",Real Estate,201–1000,SMB,Southeast Asia,2023-05-30,Renewed,737.34,,WorkHub Core,Lajita Chatterjee,12,0
+CUST-1267,Gala Group,BFSI,1–50,Mid-Market,South Asia,2022-06-09,Active,1534.63,82.0,WorkHub Pro,Nathaniel Sami,12,0
+CUST-1268,Rout Inc,Healthcare,201–1000,Enterprise,Middle East,2022-03-12,Active,10727.41,66.0,WorkHub Pro,Lajita Mall,36,0
+CUST-1269,Hayre-Guha,Healthcare,201–1000,Mid-Market,Middle East,2022-10-19,Active,2025.82,75.0,WorkHub Core,Viraj Tiwari,24,0
+CUST-1270,Ramaswamy and Sons,EdTech,1001–5000,Mid-Market,ANZ,2024-07-09,Active,3838.26,82.0,WorkHub Pro,Viraj Tiwari,24,0
+CUST-1271,Halder-Nigam,Retail,201–1000,Mid-Market,Middle East,2022-08-03,Active,1499.0,22.0,WorkHub Pro,Viraj Tiwari,12,0
+CUST-1272,Sachdeva Inc,Retail,51–200,Mid-Market,East Africa,2022-05-27,Churned,2806.12,,WorkHub Core,Aryan Maharaj,12,1
+CUST-1273,"Dasgupta, Seshadri and Shankar",Media & Entertainment,201–1000,Enterprise,ANZ,2022-06-13,Churned,8830.1,68.0,WorkHub Pro,Tripti Yadav,36,1
+CUST-1274,"Thaman, Desai and Tara",Government,51–200,Mid-Market,Southeast Asia,2024-07-10,Active,1633.09,46.0,WorkHub Core,Chakradev Kari,12,0
+CUST-1275,Wali Ltd,Real Estate,1–50,Mid-Market,Middle East,2022-05-26,Active,3281.66,85.0,WorkHub Core,Lajita Mall,12,0
+CUST-1276,Sant PLC,Media & Entertainment,1–50,Mid-Market,East Africa,2024-06-08,Active,1186.98,60.0,WorkHub Core,Saumya Mall,12,0
+CUST-1277,Trivedi-Goel,EdTech,5000+,Mid-Market,East Africa,2024-09-16,At Risk,893.65,23.0,WorkHub Pro,Kritika Brar,12,1
+CUST-1278,"Ghose, Dave and Chawla",Media & Entertainment,201–1000,Mid-Market,East Africa,2022-03-19,Active,2562.11,30.0,WorkHub Core,Hemangini Lalla,36,0
+CUST-1279,Nagy-Thaman,Real Estate,5000+,SMB,Southeast Asia,2022-11-24,Active,392.51,62.0,WorkHub Core,Chakradev Kari,12,0
+CUST-1280,Sahota-Kothari,Media & Entertainment,201–1000,Mid-Market,Southeast Asia,22/08/2024,Active,3569.39,73.0,WorkHub Core,Ayushman Chander,12,0
+CUST-1281,Rao-Oza,Real Estate,5000+,Enterprise,ANZ,2022-01-03,Active,4978.35,7.0,WorkHub Pro,Fariq Kaul,24,0
+CUST-1282,Sethi-Deol,EdTech,1001–5000,Enterprise,Middle East,2022-05-22,Churned,16809.73,,WorkHub Enterprise,Ayushman Chander,12,1
+CUST-1283,Sachar PLC,Media & Entertainment,1–50,SMB,East Africa,2022-07-12,Renewed,285.72,70.0,WorkHub Core,Fariq Kaul,36,0
+CUST-1284,"Vala, Mistry and Murthy",Real Estate,1001–5000,Mid-Market,Middle East,2023-12-02,At Risk,3055.85,47.0,WorkHub Core,Rushil Saini,12,1
+CUST-1285,"Kalla, Iyer and Kadakia",Media & Entertainment,1–50,SMB,South Asia,26/07/2022,Renewed,265.4,,WorkHub Core,Ayushman Chander,24,0
+CUST-1286,"Mannan, Pai and Deo",Retail,51–200,SMB,East Africa,2024-07-09,Active,645.26,82.0,WorkHub Core,Aryan Maharaj,12,0
+CUST-1287,"Gokhale, Thakur and Naidu",Government,201–1000,SMB,East Africa,17/07/2022,At Risk,738.16,73.0,WorkHub Core,Gagan Sami,12,1
+CUST-1288,"D’Alia, Pandey and Srinivasan",Government,1–50,SMB,East Africa,17/09/2024,Active,543.3,93.0,WorkHub Core,Rushil Saini,12,0
+CUST-1289,"Sahni, Walla and Mangal",Government,1001–5000,Mid-Market,ANZ,2024-02-10,Active,2738.68,95.0,WorkHub Pro,Ayushman Chander,24,0
+CUST-1290,Arya-Virk,Retail,51–200,Mid-Market,South Asia,2022-05-04,Active,1235.16,43.0,WorkHub Core,Nathaniel Sami,12,0
+CUST-1291,Bakshi Group,EdTech,1–50,Enterprise,Middle East,2023-08-09,Active,6917.63,,WorkHub Pro,Gayathri Chaudry,36,0
+CUST-1292,Bera Ltd,Logistics,51–200,Mid-Market,South Asia,2022-04-03,At Risk,2985.73,80.0,WorkHub Core,Aryan Maharaj,36,1
+CUST-1293,Iyengar LLC,Retail,51–200,SMB,East Africa,2022-10-21,Active,676.27,24.0,WorkHub Core,Hemangini Lalla,36,0
+CUST-1294,Mangat Ltd,Healthcare,1–50,SMB,Southeast Asia,2024-01-03,Churned,189.74,88.0,WorkHub Core,Ayushman Chander,12,1
+CUST-1295,Dhingra-Bhatia,Healthcare,51–200,Mid-Market,Middle East,2022-07-15,Active,1845.24,46.0,WorkHub Pro,Saumya Mall,12,0
+CUST-1296,"Merchant, Jani and Bali",Healthcare,51–200,Mid-Market,South Asia,2022-05-25,Renewed,2151.87,46.0,WorkHub Core,Nathaniel Sami,36,0
+CUST-1297,Sethi-Chaudry,BFSI,51–200,SMB,East Africa,27/09/2023,Churned,774.8,,WorkHub Core,Kritika Brar,12,1
+CUST-1298,"Kapur, Ramachandran and Khanna",Logistics,5000+,Mid-Market,South Asia,2022-12-17,Renewed,1307.52,87.0,WorkHub Pro,Nathaniel Sami,36,0
+CUST-1299,"Mani, Batta and Raj",Logistics,1–50,Mid-Market,Southeast Asia,2022-03-02,Churned,3705.54,51.0,WorkHub Core,Hemangini Lalla,24,1
+CUST-1300,Saha-Munshi,Logistics,5000+,SMB,South Asia,2023-01-15,Churned,798.63,47.0,WorkHub Core,Nathaniel Sami,24,1
+CUST-1301,"Bhagat, Arya and Krishnamurthy",Healthcare,51–200,SMB,Middle East,2023-04-18,Active,488.46,,WorkHub Core,Udant Dewan,12,0
+CUST-1302,Savant and Sons,Media & Entertainment,5000+,SMB,Southeast Asia,2022-04-13,Active,760.25,62.0,WorkHub Core,Lajita Mall,12,0
+CUST-1303,"Pillai, Hegde and Hari",Manufacturing,1001–5000,SMB,South Asia,2022-06-01,At Risk,175.73,43.0,WorkHub Core,Gagan Sami,12,1
+CUST-1304,Sen-Goel,Media & Entertainment,1001–5000,SMB,South Asia,10/09/2022,Churned,332.5,6.0,WorkHub Core,Hemangini Lalla,36,1
+CUST-1305,"Borde, Grover and Ghose",Government,201–1000,SMB,Southeast Asia,2024-03-31,Active,237.59,2.0,WorkHub Core,Hemangini Lalla,36,0
+CUST-1306,"Varkey, Dar and Purohit",Manufacturing,1001–5000,Mid-Market,ANZ,2023-12-22,Active,894.99,15.0,WorkHub Core,Saumya Mall,36,0
+CUST-1307,Sangha LLC,EdTech,5000+,Mid-Market,ANZ,2022-06-10,Renewed,2206.32,,WorkHub Core,Kritika Brar,12,0
+CUST-1308,"Lalla, De and Dyal",Real Estate,1–50,Mid-Market,East Africa,2022-09-04,Churned,2320.01,,WorkHub Core,Tripti Yadav,24,1
+CUST-1309,"Kumer, Ahluwalia and Narayanan",Logistics,201–1000,Mid-Market,East Africa,2022-01-26,At Risk,961.85,,WorkHub Core,Ayushman Chander,24,1
+CUST-1310,Dubey-Baral,Logistics,5000+,Mid-Market,Southeast Asia,2023-07-11,Churned,3425.75,72.0,WorkHub Core,Aryan Maharaj,24,1
+CUST-1311,Naidu PLC,Healthcare,201–1000,Enterprise,Southeast Asia,2022-02-13,Churned,4530.57,75.0,WorkHub Pro,Tripti Yadav,36,1
+CUST-1312,Mitra Group,Government,51–200,Mid-Market,South Asia,2022-07-23,Active,1184.89,53.0,WorkHub Core,Ayushman Chander,24,0
+CUST-1313,"Parmar, Bora and Nadkarni",Healthcare,51–200,SMB,Southeast Asia,2023-05-12,Active,435.92,34.0,WorkHub Core,Lajita Chatterjee,24,0
+CUST-1314,"Kannan, Gour and Verma",Telecom,5000+,Mid-Market,East Africa,2022-10-24,Renewed,3986.15,57.0,WorkHub Pro,Arunima Dugal,12,0
+CUST-1315,Tiwari and Sons,Retail,1–50,Mid-Market,Southeast Asia,24/04/2023,Active,3693.04,,WorkHub Core,Udant Dewan,12,0
+CUST-1316,Yadav-Raval,BFSI,201–1000,Enterprise,South Asia,2024-05-20,Renewed,17212.0,,WorkHub Pro,Viraj Tiwari,12,0
+CUST-1317,Palla and Sons,Government,1–50,Enterprise,East Africa,2023-05-31,Renewed,16989.25,,WorkHub Enterprise,Lajita Mall,24,0
+CUST-1318,Narula LLC,Logistics,5000+,SMB,Southeast Asia,2022-06-14,Active,716.12,45.0,WorkHub Core,Janaki Handa,36,0
+CUST-1319,Memon-Kamdar,BFSI,5000+,Enterprise,Southeast Asia,2022-03-05,Active,4655.51,60.0,WorkHub Enterprise,Rushil Saini,12,0
+CUST-1320,"Wali, Soman and Andra",Healthcare,201–1000,SMB,East Africa,17/02/2023,Churned,158.82,20.0,WorkHub Core,Arunima Dugal,12,1
+CUST-1321,Pal Group,Media & Entertainment,5000+,SMB,East Africa,2022-06-04,At Risk,505.02,,WorkHub Core,Udant Dewan,24,1
+CUST-1322,Kohli Inc,Manufacturing,51–200,SMB,South Asia,2022-09-22,Active,506.68,14.0,WorkHub Core,Chakradev Kari,36,0
+CUST-1323,"Nagi, Raj and Comar",Retail,1001–5000,Enterprise,Middle East,2023-11-22,Churned,11814.63,42.0,WorkHub Pro,Ayushman Chander,24,1
+CUST-1324,Kunda-Zachariah,Media & Entertainment,51–200,Mid-Market,Middle East,18/10/2023,Churned,2149.22,81.0,WorkHub Core,Tripti Yadav,36,1
+CUST-1325,"Mandal, Bakshi and Varughese",Logistics,5000+,SMB,ANZ,2022-01-27,Active,206.18,,WorkHub Core,Ayushman Chander,24,0
+CUST-1326,Varkey-Trivedi,Manufacturing,5000+,Enterprise,Southeast Asia,2024-04-25,Active,11653.97,0.0,WorkHub Enterprise,Arunima Dugal,36,0
+CUST-1327,Sur-Bassi,Telecom,51–200,Mid-Market,East Africa,2022-02-12,Active,1627.3,,WorkHub Core,Gagan Sami,24,0
+CUST-1328,Hans-Nagi,Healthcare,1–50,Enterprise,Middle East,2022-03-17,At Risk,12210.97,96.0,WorkHub Enterprise,Hemangini Lalla,36,1
+CUST-1329,"Butala, Char and Ganesh",Real Estate,51–200,SMB,Southeast Asia,2024-01-02,Active,432.58,,WorkHub Core,Rushil Saini,12,0
+CUST-1330,"Walla, Amble and Bhatti",Logistics,201–1000,SMB,East Africa,08/06/2023,Active,681.04,2.0,WorkHub Core,Arunima Dugal,24,0
+CUST-1331,Kala Ltd,Logistics,1–50,SMB,East Africa,2022-04-10,Churned,711.13,89.0,WorkHub Core,Kritika Brar,24,1
+CUST-1332,Chawla-Jha,Government,1001–5000,Enterprise,South Asia,2024-03-01,Churned,12323.66,73.0,WorkHub Enterprise,Lajita Mall,36,1
+CUST-1333,"Saran, Bora and Dube",BFSI,1001–5000,Mid-Market,ANZ,2024-05-03,Active,1054.78,34.0,WorkHub Pro,Nathaniel Sami,24,0
+CUST-1334,Sharaf Ltd,Media & Entertainment,1001–5000,Mid-Market,Middle East,2023-07-14,Churned,2775.7,31.0,WorkHub Core,Lajita Mall,24,1
+CUST-1335,Barad-Chahal,Telecom,1001–5000,SMB,East Africa,2022-11-16,At Risk,329.13,,WorkHub Core,Udant Dewan,12,1
+CUST-1336,Bhagat and Sons,Retail,5000+,Mid-Market,Southeast Asia,2022-03-01,At Risk,3982.99,,WorkHub Core,Udant Dewan,24,1
+CUST-1337,Bobal-Kari,Government,1–50,Mid-Market,ANZ,2023-12-01,Active,2707.22,96.0,WorkHub Core,Saumya Mall,24,0
+CUST-1338,Reddy-Rama,Media & Entertainment,51–200,Mid-Market,South Asia,2023-06-12,Active,2718.38,48.0,WorkHub Pro,Aryan Maharaj,36,0
+CUST-1339,Ravel-Sant,Real Estate,201–1000,SMB,Southeast Asia,2022-11-02,Churned,225.25,37.0,WorkHub Core,Arunima Dugal,36,1
+CUST-1340,Badal-Ramachandran,Real Estate,1001–5000,Mid-Market,ANZ,2023-05-25,Active,2194.57,,WorkHub Core,Lajita Chatterjee,24,0
+CUST-1341,"Dani, Warrior and Ahuja",Government,1001–5000,Mid-Market,Middle East,2023-07-05,Churned,3304.05,39.0,WorkHub Pro,Saumya Mall,36,1
+CUST-1342,"Bhatnagar, Bath and Bora",BFSI,1001–5000,Mid-Market,Southeast Asia,2022-09-06,Active,3356.58,48.0,WorkHub Pro,Kritika Brar,24,0
+CUST-1343,Thakkar-Cherian,BFSI,1–50,SMB,ANZ,2023-10-10,Churned,260.23,,WorkHub Core,Rushil Saini,12,1
+CUST-1344,Mitra-Chadha,Retail,201–1000,Mid-Market,Southeast Asia,2024-09-13,Active,3885.87,,WorkHub Core,Gayathri Chaudry,24,0
+CUST-1345,Sarma-Raj,Manufacturing,5000+,SMB,South Asia,04/02/2023,Active,296.65,,WorkHub Core,Lajita Mall,36,0
+CUST-1346,Balasubramanian-Som,BFSI,1–50,Mid-Market,East Africa,16/01/2022,Churned,3942.33,61.0,WorkHub Pro,Saumya Mall,12,1
+CUST-1347,Walla and Sons,Real Estate,201–1000,SMB,ANZ,2024-08-11,Active,661.34,,WorkHub Core,Arunima Dugal,12,0
+CUST-1348,Raman PLC,Media & Entertainment,1–50,SMB,Southeast Asia,18/01/2024,Active,242.72,32.0,WorkHub Core,Lajita Chatterjee,12,0
+CUST-1349,Dhawan-Misra,Real Estate,1001–5000,Mid-Market,East Africa,2022-02-19,Active,3420.8,21.0,WorkHub Core,Fariq Kaul,12,0
+CUST-1350,"Prakash, Apte and Dhaliwal",Healthcare,5000+,Mid-Market,Southeast Asia,2023-05-31,Active,3350.13,,WorkHub Core,Arunima Dugal,24,0
+CUST-1351,Barman Inc,Logistics,1001–5000,Mid-Market,Middle East,2024-01-28,Active,3616.17,,WorkHub Pro,Viraj Tiwari,36,0
+CUST-1352,"Ramesh, Yogi and Chada",Logistics,5000+,Mid-Market,East Africa,2024-02-23,Renewed,2982.95,79.0,WorkHub Pro,Janaki Handa,24,0
+CUST-1353,Kade-Padmanabhan,Media & Entertainment,51–200,SMB,Southeast Asia,2023-11-12,Churned,619.58,62.0,WorkHub Core,Lajita Mall,36,1
+CUST-1354,Sachar Ltd,Retail,1–50,SMB,ANZ,2022-12-29,Churned,142.54,8.0,WorkHub Core,Nathaniel Sami,12,1
+CUST-1355,"Dhar, Dyal and Gour",EdTech,1–50,SMB,ANZ,2023-09-16,Renewed,327.5,69.0,WorkHub Core,Arunima Dugal,36,0
+CUST-1356,Krishnan and Sons,Manufacturing,51–200,Enterprise,Middle East,13/01/2022,Renewed,13800.07,81.0,WorkHub Enterprise,Tripti Yadav,24,0
+CUST-1357,Golla Ltd,Logistics,5000+,Mid-Market,South Asia,2024-05-12,Renewed,1692.33,32.0,WorkHub Core,Arunima Dugal,24,0
+CUST-1358,"Bhagat, Shenoy and Bora",Telecom,51–200,Mid-Market,East Africa,2024-06-19,Active,2728.86,27.0,WorkHub Pro,Aryan Maharaj,36,0
+CUST-1359,Bhavsar-Krishna,Manufacturing,51–200,SMB,East Africa,2022-05-07,Active,451.64,84.0,WorkHub Core,Kritika Brar,36,0
+CUST-1360,Hora Ltd,Retail,5000+,Mid-Market,South Asia,2022-11-10,Active,2652.08,17.0,WorkHub Pro,Arunima Dugal,24,0
+CUST-1361,"Sur, Narayanan and Parikh",Logistics,1001–5000,Enterprise,Southeast Asia,2022-02-07,At Risk,17810.94,69.0,WorkHub Pro,Arunima Dugal,12,1
+CUST-1362,Keer Inc,EdTech,5000+,SMB,Southeast Asia,2023-08-30,Active,266.79,,WorkHub Core,Lajita Mall,24,0
+CUST-1363,Boase-Hari,Retail,5000+,SMB,Southeast Asia,2022-06-26,Active,134.56,,WorkHub Core,Rushil Saini,12,0
+CUST-1364,Sunder-Seshadri,Healthcare,1–50,Mid-Market,Southeast Asia,2022-08-24,Active,1001.7,,WorkHub Core,Tripti Yadav,12,0
+CUST-1365,Mohan-Dua,BFSI,5000+,SMB,East Africa,2023-11-19,Renewed,573.71,91.0,WorkHub Core,Lajita Mall,12,0
+CUST-1366,"Patla, Mutti and Sangha",EdTech,201–1000,Mid-Market,ANZ,26/03/2024,Active,3118.42,70.0,WorkHub Core,Nathaniel Sami,36,0
+CUST-1367,Agrawal LLC,Real Estate,5000+,SMB,South Asia,2024-03-16,Active,625.75,70.0,WorkHub Core,Lajita Chatterjee,24,0
+CUST-1368,Kant Ltd,Real Estate,201–1000,Enterprise,South Asia,05/02/2022,At Risk,17924.19,58.0,WorkHub Pro,Rushil Saini,12,1
+CUST-1369,"Sarin, Malhotra and Parsa",Logistics,201–1000,Mid-Market,East Africa,2023-01-24,Active,862.54,,WorkHub Core,Tripti Yadav,24,0
+CUST-1370,Narula Group,Healthcare,1–50,SMB,ANZ,2024-07-27,At Risk,596.27,90.0,WorkHub Core,Gayathri Chaudry,12,1
+CUST-1371,Sehgal-Parmer,Telecom,201–1000,Mid-Market,South Asia,2023-02-13,Renewed,2692.74,,WorkHub Pro,Fariq Kaul,36,0
+CUST-1372,Sur-Chopra,Telecom,51–200,Mid-Market,ANZ,2023-03-06,Active,1250.65,68.0,WorkHub Core,Rushil Saini,24,0
+CUST-1373,Bumb LLC,BFSI,5000+,Mid-Market,Southeast Asia,2023-07-07,Churned,3672.66,,WorkHub Core,Gagan Sami,24,1
+CUST-1374,Yohannan and Sons,Real Estate,1001–5000,Enterprise,Southeast Asia,2023-01-07,Active,10362.59,,WorkHub Enterprise,Viraj Tiwari,12,0
+CUST-1375,Bose-Borra,Retail,1001–5000,Enterprise,Middle East,2023-04-11,Churned,12082.37,23.0,WorkHub Pro,Gagan Sami,36,1
+CUST-1376,Tripathi Ltd,Real Estate,201–1000,Mid-Market,Southeast Asia,21/08/2024,Active,1873.97,40.0,WorkHub Pro,Janaki Handa,24,0
+CUST-1377,Ravel PLC,Healthcare,51–200,Mid-Market,ANZ,2022-10-31,Active,1038.81,69.0,WorkHub Pro,Arunima Dugal,12,0
+CUST-1378,Bansal PLC,Real Estate,1001–5000,SMB,Southeast Asia,2023-03-23,Active,522.21,61.0,WorkHub Core,Janaki Handa,12,0
+CUST-1379,Zacharia-Sodhi,Logistics,201–1000,Mid-Market,Middle East,2024-07-27,At Risk,1909.16,37.0,WorkHub Pro,Lajita Chatterjee,24,1
+CUST-1380,"Dixit, Pau and Ramanathan",Retail,1–50,Enterprise,East Africa,2022-05-25,At Risk,10957.23,0.0,WorkHub Enterprise,Udant Dewan,12,1
+CUST-1381,Mannan and Sons,EdTech,201–1000,SMB,ANZ,2022-10-09,Active,247.89,17.0,WorkHub Core,Rushil Saini,36,0
+CUST-1382,Thaker-Uppal,Telecom,5000+,SMB,Middle East,2024-06-27,At Risk,103.54,11.0,WorkHub Core,Rushil Saini,36,1
+CUST-1383,Ranganathan LLC,Government,51–200,Mid-Market,South Asia,2022-05-20,Active,3813.11,,WorkHub Core,Aryan Maharaj,24,0
+CUST-1384,"Anne, Khare and Gandhi",Manufacturing,5000+,SMB,South Asia,04/04/2022,Active,100.72,22.0,WorkHub Core,Gagan Sami,24,0
+CUST-1385,"Dey, Sehgal and Dutta",Healthcare,1–50,Enterprise,Middle East,2022-08-21,At Risk,10168.24,,WorkHub Enterprise,Udant Dewan,24,1
+CUST-1386,Dhingra Ltd,Media & Entertainment,5000+,Mid-Market,Middle East,28/11/2023,Renewed,1620.56,89.0,WorkHub Pro,Fariq Kaul,36,0
+CUST-1387,"Sule, Parmer and Baria",Telecom,201–1000,SMB,Middle East,2022-08-21,Active,497.24,,WorkHub Core,Kritika Brar,24,0
+CUST-1388,Sura and Sons,Logistics,201–1000,SMB,ANZ,24/02/2024,At Risk,161.66,79.0,WorkHub Core,Chakradev Kari,12,1
+CUST-1389,Lalla LLC,Telecom,1–50,Enterprise,Southeast Asia,2024-07-12,At Risk,4497.3,,WorkHub Pro,Lajita Mall,36,1
+CUST-1390,Basak Ltd,EdTech,51–200,SMB,South Asia,2023-04-25,Active,717.15,93.0,WorkHub Core,Fariq Kaul,12,0
+CUST-1391,Vasa LLC,Retail,1001–5000,Mid-Market,East Africa,2022-03-03,Active,2546.14,4.0,WorkHub Core,Saumya Mall,36,0
+CUST-1392,Singh-Sha,Logistics,201–1000,Enterprise,East Africa,2023-05-31,Active,6476.27,29.0,WorkHub Pro,Tripti Yadav,12,0
+CUST-1393,Baral Ltd,Manufacturing,201–1000,Enterprise,South Asia,2023-04-02,Renewed,13865.63,50.0,WorkHub Pro,Hemangini Lalla,12,0
+CUST-1394,Chauhan-Verma,Media & Entertainment,51–200,Mid-Market,Southeast Asia,2023-08-02,At Risk,2701.01,69.0,WorkHub Core,Ayushman Chander,12,1
+CUST-1395,"Mahal, Lall and Ghosh",Logistics,1–50,SMB,East Africa,2022-04-15,Active,158.33,12.0,WorkHub Core,Ayushman Chander,36,0
+CUST-1396,Radhakrishnan-Pau,BFSI,51–200,Mid-Market,Middle East,2024-04-04,Renewed,2982.33,,WorkHub Pro,Rushil Saini,36,0
+CUST-1397,"Brahmbhatt, Varughese and Krishnamurthy",Real Estate,201–1000,SMB,Southeast Asia,2022-11-19,Renewed,589.04,,WorkHub Core,Gagan Sami,36,0
+CUST-1398,Kapoor-Varty,Government,201–1000,Mid-Market,East Africa,2023-01-01,Active,1305.31,,WorkHub Pro,Gagan Sami,24,0
+CUST-1399,Pandit-Pai,EdTech,51–200,Enterprise,Middle East,2024-09-16,Churned,12234.81,56.0,WorkHub Pro,Udant Dewan,24,1
+CUST-1400,Subramaniam-Ahuja,Government,1–50,Mid-Market,ANZ,2023-12-23,Active,2703.87,6.0,WorkHub Core,Aryan Maharaj,12,0
+CUST-1401,"Dewan, Sarraf and Gandhi",Healthcare,1–50,Mid-Market,South Asia,2023-02-07,Churned,1491.94,38.0,WorkHub Pro,Saumya Mall,36,1
+CUST-1402,Bose PLC,Healthcare,1–50,Enterprise,Middle East,2022-12-23,Active,7003.18,5.0,WorkHub Pro,Gagan Sami,12,0
+CUST-1403,"Mand, Kakar and Doctor",Real Estate,1–50,Mid-Market,Southeast Asia,2023-11-01,Churned,3654.1,69.0,WorkHub Pro,Hemangini Lalla,36,1
+CUST-1404,Dugar LLC,Retail,1–50,SMB,Middle East,02/02/2023,Active,774.63,72.0,WorkHub Core,Aryan Maharaj,24,0
+CUST-1405,"Dani, Karpe and Sachdeva",Telecom,1–50,Mid-Market,South Asia,2023-07-14,Active,1640.86,99.0,WorkHub Pro,Chakradev Kari,36,0
+CUST-1406,Comar-Subramaniam,Retail,51–200,Enterprise,Southeast Asia,2023-08-07,Active,13784.45,47.0,WorkHub Enterprise,Aryan Maharaj,24,0
+CUST-1407,"Srinivas, Srinivas and Kade",Media & Entertainment,51–200,SMB,Middle East,02/12/2022,Active,343.56,,WorkHub Core,Tripti Yadav,24,0
+CUST-1408,"Edwin, Roy and Bains",Media & Entertainment,51–200,Mid-Market,Middle East,2022-04-19,Active,2662.76,80.0,WorkHub Pro,Nathaniel Sami,12,0
+CUST-1409,Bassi and Sons,Healthcare,1–50,Enterprise,South Asia,2024-01-25,Churned,13004.11,,WorkHub Enterprise,Hemangini Lalla,12,1
+CUST-1410,"Dyal, Desai and Vala",Telecom,5000+,Mid-Market,ANZ,2023-06-07,Active,3636.48,,WorkHub Core,Janaki Handa,12,0
+CUST-1411,Din Inc,Real Estate,1–50,Mid-Market,Middle East,2024-07-06,Renewed,3755.29,58.0,WorkHub Core,Lajita Chatterjee,36,0
+CUST-1412,Kuruvilla and Sons,Healthcare,51–200,Enterprise,East Africa,2024-01-25,Active,6344.82,5.0,WorkHub Enterprise,Kritika Brar,36,0
+CUST-1413,"Ravi, Bahl and Mander",Retail,1–50,Mid-Market,Southeast Asia,2023-04-14,Active,1048.76,59.0,WorkHub Pro,Viraj Tiwari,12,0
+CUST-1414,Kalita Group,Healthcare,1–50,Mid-Market,Middle East,2024-05-12,Churned,2562.34,23.0,WorkHub Pro,Ayushman Chander,36,1
+CUST-1415,"Sinha, Subramaniam and Garde",Retail,1–50,Mid-Market,Middle East,2024-07-17,At Risk,2471.21,,WorkHub Core,Ayushman Chander,24,1
+CUST-1416,Roy PLC,Healthcare,5000+,Mid-Market,ANZ,2022-08-05,Active,2561.92,93.0,WorkHub Core,Janaki Handa,36,0
+CUST-1417,Gopal PLC,Retail,1–50,SMB,ANZ,2023-07-24,Churned,625.29,98.0,WorkHub Core,Chakradev Kari,36,1
+CUST-1418,"Vaidya, Lalla and Ganesh",Real Estate,51–200,Enterprise,South Asia,2023-07-15,Churned,6164.02,74.0,WorkHub Enterprise,Fariq Kaul,24,1
+CUST-1419,"Oommen, Setty and Biswas",Logistics,1–50,SMB,South Asia,2023-06-11,Churned,433.74,,WorkHub Core,Gayathri Chaudry,36,1
+CUST-1420,Radhakrishnan Group,EdTech,51–200,Enterprise,Southeast Asia,2022-03-02,Active,10821.85,,WorkHub Enterprise,Fariq Kaul,36,0
+CUST-1421,Chopra Inc,Media & Entertainment,201–1000,Mid-Market,East Africa,2023-09-09,Churned,2954.0,94.0,WorkHub Pro,Viraj Tiwari,12,1
+CUST-1422,Virk PLC,BFSI,201–1000,Mid-Market,Southeast Asia,2022-08-13,Active,2204.5,45.0,WorkHub Pro,Ayushman Chander,12,0
+CUST-1423,"Saini, Doctor and Char",EdTech,1–50,SMB,Southeast Asia,31/05/2023,Active,132.92,32.0,WorkHub Core,Udant Dewan,24,0
+CUST-1424,Soni PLC,Real Estate,51–200,Mid-Market,ANZ,2023-04-13,Active,2670.6,,WorkHub Pro,Gagan Sami,36,0
+CUST-1425,"Barad, Wali and Thakur",Retail,5000+,Mid-Market,South Asia,2023-03-02,At Risk,3930.5,9.0,WorkHub Core,Udant Dewan,12,1
+CUST-1426,Chander Group,Telecom,51–200,Mid-Market,South Asia,2024-08-24,Active,3494.87,94.0,WorkHub Core,Gagan Sami,36,0
+CUST-1427,"De, Zacharia and Agarwal",Retail,51–200,Mid-Market,East Africa,2022-03-25,Active,1179.25,,WorkHub Pro,Hemangini Lalla,24,0
+CUST-1428,"Sankar, Vig and Salvi",Manufacturing,1001–5000,SMB,ANZ,2023-04-17,Renewed,128.41,29.0,WorkHub Core,Gagan Sami,36,0
+CUST-1429,Bassi-Wagle,Media & Entertainment,201–1000,Mid-Market,Middle East,2022-03-03,Active,3241.81,32.0,WorkHub Pro,Janaki Handa,24,0
+CUST-1430,Karnik-Subramaniam,EdTech,201–1000,Enterprise,East Africa,2024-02-28,Active,9835.65,1.0,WorkHub Pro,Rushil Saini,24,0
+CUST-1431,Palla-Chaudhari,Retail,1001–5000,SMB,Southeast Asia,2023-03-21,Active,306.86,18.0,WorkHub Core,Viraj Tiwari,36,0
+CUST-1432,Desai-Kumar,Telecom,201–1000,Mid-Market,Middle East,2023-11-21,Churned,3520.48,81.0,WorkHub Pro,Lajita Mall,36,1
+CUST-1433,Kaul-Chacko,Real Estate,5000+,SMB,South Asia,2024-01-28,Active,547.63,92.0,WorkHub Core,Tripti Yadav,24,0
+CUST-1434,Rege-Kurian,Telecom,201–1000,Mid-Market,Southeast Asia,2024-06-27,Renewed,3965.84,,WorkHub Pro,Hemangini Lalla,36,0
+CUST-1435,Ahluwalia Ltd,Telecom,51–200,SMB,Southeast Asia,2022-09-09,Active,670.67,88.0,WorkHub Core,Hemangini Lalla,36,0
+CUST-1436,"Amble, Virk and Dalal",Media & Entertainment,1–50,SMB,Middle East,2024-09-30,Active,426.83,93.0,WorkHub Core,Chakradev Kari,24,0
+CUST-1437,"Amble, Prashad and Jha",Media & Entertainment,5000+,Mid-Market,Middle East,2024-01-10,Renewed,2834.33,25.0,WorkHub Pro,Kritika Brar,24,0
+CUST-1438,"Mutti, Rege and Pathak",Logistics,1001–5000,Enterprise,ANZ,2024-08-11,At Risk,9352.31,8.0,WorkHub Pro,Viraj Tiwari,12,1
+CUST-1439,Dubey Group,Logistics,201–1000,Mid-Market,South Asia,2023-07-03,Active,1862.53,79.0,WorkHub Core,Fariq Kaul,12,0
+CUST-1440,"Kulkarni, Lal and Wason",Retail,1001–5000,SMB,East Africa,2022-05-27,Renewed,503.0,50.0,WorkHub Core,Rushil Saini,12,0
+CUST-1441,Pau-Majumdar,EdTech,1–50,Enterprise,ANZ,2024-06-09,Active,9151.2,91.0,WorkHub Enterprise,Arunima Dugal,12,0
+CUST-1442,"Ranganathan, Jani and Sachdev",Logistics,1–50,SMB,Middle East,2023-10-29,Active,654.85,20.0,WorkHub Core,Gayathri Chaudry,24,0
+CUST-1443,"Subramanian, Gola and Prabhakar",EdTech,1–50,Mid-Market,ANZ,2023-08-04,Churned,2265.27,13.0,WorkHub Pro,Aryan Maharaj,36,1
+CUST-1444,"Sule, Kulkarni and Mohanty",Healthcare,1001–5000,SMB,East Africa,2024-04-21,Active,752.34,10.0,WorkHub Core,Gagan Sami,36,0
+CUST-1445,"Padmanabhan, Rao and Devi",Retail,51–200,Mid-Market,Middle East,2024-04-15,Active,3668.04,55.0,WorkHub Core,Arunima Dugal,24,0
+CUST-1446,"Dani, Karpe and Sekhon",Government,1–50,SMB,South Asia,2023-05-25,Renewed,708.79,,WorkHub Core,Lajita Chatterjee,36,0
+CUST-1447,"Edwin, Chaudhry and Kala",EdTech,1001–5000,Enterprise,ANZ,2023-04-09,Active,13547.56,52.0,WorkHub Pro,Aryan Maharaj,12,0
+CUST-1448,"Rattan, Nigam and Ben",BFSI,1–50,SMB,Middle East,2024-04-14,Active,475.91,3.0,WorkHub Core,Lajita Chatterjee,36,0
+CUST-1449,Ramachandran Ltd,BFSI,1–50,Mid-Market,South Asia,2024-07-31,At Risk,1370.18,,WorkHub Pro,Lajita Chatterjee,24,1
+CUST-1450,Chand and Sons,EdTech,1–50,Mid-Market,ANZ,2022-01-28,Active,2635.73,15.0,WorkHub Pro,Tripti Yadav,36,0
+CUST-1451,Saran-Chakrabarti,Healthcare,1001–5000,Enterprise,Southeast Asia,19/07/2024,Active,9293.17,44.0,WorkHub Enterprise,Fariq Kaul,24,0
+CUST-1452,Lall and Sons,BFSI,5000+,Enterprise,Southeast Asia,2023-08-13,At Risk,14977.3,,WorkHub Pro,Hemangini Lalla,36,1
+CUST-1453,Buch-Barad,EdTech,51–200,Enterprise,Southeast Asia,2022-06-04,At Risk,10197.72,89.0,WorkHub Enterprise,Aryan Maharaj,24,1
+CUST-1454,"Rajagopalan, Rattan and Verma",Government,51–200,SMB,Middle East,2022-08-19,Active,160.98,44.0,WorkHub Core,Tripti Yadav,12,0
+CUST-1455,Bhandari-Gill,Telecom,1001–5000,Mid-Market,South Asia,2023-06-08,Churned,3321.32,,WorkHub Pro,Saumya Mall,24,1
+CUST-1456,"Talwar, Sarna and Anne",BFSI,1001–5000,SMB,South Asia,2022-06-09,Active,691.73,70.0,WorkHub Core,Gagan Sami,24,0
+CUST-1457,Vasa LLC,Media & Entertainment,201–1000,Mid-Market,East Africa,2024-05-30,Active,1440.97,56.0,WorkHub Pro,Viraj Tiwari,12,0
+CUST-1458,Bandi PLC,EdTech,51–200,Mid-Market,Southeast Asia,2024-09-02,Churned,854.04,13.0,WorkHub Core,Arunima Dugal,12,1
+CUST-1459,"Varty, Kata and Gara",Real Estate,51–200,SMB,Southeast Asia,2022-07-02,Active,140.01,23.0,WorkHub Core,Saumya Mall,24,0
+CUST-1460,"Banik, Parsa and Khare",Media & Entertainment,51–200,Enterprise,ANZ,2024-06-04,Active,13068.56,,WorkHub Pro,Chakradev Kari,24,0
+CUST-1461,"Acharya, Dugar and Chadha",EdTech,1–50,Mid-Market,ANZ,2023-11-17,At Risk,3839.29,,WorkHub Core,Viraj Tiwari,12,1
+CUST-1462,Ratta-Pandit,Healthcare,51–200,SMB,ANZ,2022-06-28,Active,649.18,,WorkHub Core,Hemangini Lalla,24,0
+CUST-1463,"Rana, Ravi and Iyer",Logistics,1001–5000,SMB,South Asia,2023-01-06,Churned,659.5,80.0,WorkHub Core,Gagan Sami,24,1
+CUST-1464,"Aurora, Biswas and Chana",Logistics,1–50,Mid-Market,South Asia,2023-08-03,Churned,1855.83,,WorkHub Pro,Tripti Yadav,36,1
+CUST-1465,"Mane, Pall and Palan",Real Estate,201–1000,Enterprise,ANZ,2023-07-15,At Risk,4842.77,0.0,WorkHub Enterprise,Arunima Dugal,12,1
+CUST-1466,Kara-Hayer,Retail,1–50,Mid-Market,South Asia,2023-09-30,Active,1235.06,,WorkHub Core,Gagan Sami,12,0
+CUST-1467,Raval-Agrawal,Media & Entertainment,5000+,SMB,ANZ,2023-04-19,Churned,384.19,72.0,WorkHub Core,Saumya Mall,12,1
+CUST-1468,Gill-Ray,Government,1001–5000,SMB,Southeast Asia,2022-03-23,Renewed,229.76,56.0,WorkHub Core,Janaki Handa,24,0
+CUST-1469,"Chhabra, Bora and Thakur",Telecom,5000+,SMB,East Africa,2023-05-02,Active,266.06,81.0,WorkHub Core,Saumya Mall,12,0
+CUST-1470,Oak-Dada,Media & Entertainment,201–1000,Mid-Market,Middle East,12/07/2022,Active,3120.26,74.0,WorkHub Pro,Nathaniel Sami,12,0
+CUST-1471,"Kurian, Yogi and Krishna",Retail,1–50,SMB,East Africa,2022-03-12,Active,344.37,48.0,WorkHub Core,Janaki Handa,24,0
+CUST-1472,"Savant, Purohit and Sule",BFSI,1–50,Mid-Market,Southeast Asia,2023-03-07,Active,1779.75,69.0,WorkHub Core,Chakradev Kari,24,0
+CUST-1473,Nori Group,Government,5000+,Mid-Market,ANZ,2024-08-03,Renewed,2143.33,25.0,WorkHub Core,Kritika Brar,36,0
+CUST-1474,"Sharma, Bala and Subramaniam",Logistics,201–1000,SMB,South Asia,2022-01-24,Active,589.32,60.0,WorkHub Core,Arunima Dugal,36,0
+CUST-1475,Kuruvilla Inc,Retail,1001–5000,Mid-Market,ANZ,22/03/2022,Churned,2880.24,17.0,WorkHub Core,Nathaniel Sami,24,1
+CUST-1476,Kannan-Karpe,Manufacturing,5000+,SMB,ANZ,07/01/2024,Active,177.09,67.0,WorkHub Core,Saumya Mall,24,0
+CUST-1477,Sachar-Pandit,Healthcare,201–1000,SMB,East Africa,2022-10-24,Churned,491.71,72.0,WorkHub Core,Hemangini Lalla,24,1
+CUST-1478,"Wason, Andra and Lall",Media & Entertainment,51–200,Enterprise,Middle East,2024-09-22,Active,16615.77,37.0,WorkHub Pro,Arunima Dugal,12,0
+CUST-1479,Mani Inc,Logistics,5000+,Mid-Market,South Asia,2023-02-10,Churned,1582.68,77.0,WorkHub Core,Arunima Dugal,36,1
+CUST-1480,Oommen-Borra,EdTech,5000+,SMB,Middle East,2024-06-17,Active,631.35,,WorkHub Core,Viraj Tiwari,12,0
+CUST-1481,"Gokhale, Soni and Murthy",Manufacturing,5000+,Mid-Market,ANZ,2022-05-12,Active,3792.57,73.0,WorkHub Core,Ayushman Chander,12,0
+CUST-1482,Kamdar-Luthra,BFSI,5000+,Mid-Market,ANZ,13/05/2022,Active,3553.35,,WorkHub Core,Gayathri Chaudry,36,0
+CUST-1483,Gupta Group,Logistics,1001–5000,Enterprise,Middle East,2022-12-11,Churned,16028.01,,WorkHub Enterprise,Udant Dewan,24,1
+CUST-1484,"Iyengar, Keer and Khurana",Media & Entertainment,201–1000,SMB,ANZ,09/08/2024,Churned,256.41,,WorkHub Core,Hemangini Lalla,12,1
+CUST-1485,Jhaveri-Karnik,Healthcare,51–200,Mid-Market,ANZ,2022-12-08,At Risk,2492.05,76.0,WorkHub Core,Lajita Chatterjee,36,1
+CUST-1486,Krish PLC,Government,1–50,Mid-Market,East Africa,2024-08-20,At Risk,3752.63,78.0,WorkHub Pro,Arunima Dugal,36,1
+CUST-1487,Dugal-Chhabra,Logistics,51–200,Mid-Market,Middle East,2023-12-14,Active,1070.85,28.0,WorkHub Core,Udant Dewan,12,0
+CUST-1488,Brar Ltd,Retail,51–200,SMB,ANZ,2022-06-11,At Risk,123.44,31.0,WorkHub Core,Gayathri Chaudry,12,1
+CUST-1489,"Tailor, Ahuja and Basak",EdTech,1–50,Mid-Market,South Asia,2022-11-05,Active,2654.23,,WorkHub Core,Lajita Mall,12,0
+CUST-1490,Prabhu-Murty,Manufacturing,51–200,Enterprise,East Africa,2024-05-31,At Risk,17429.69,19.0,WorkHub Enterprise,Chakradev Kari,24,1
+CUST-1491,Maharaj-Swaminathan,Healthcare,1001–5000,SMB,Middle East,2022-07-12,Active,689.03,7.0,WorkHub Core,Udant Dewan,12,0
+CUST-1492,Vaidya LLC,Telecom,5000+,Mid-Market,Middle East,2023-03-09,Active,3205.14,,WorkHub Pro,Saumya Mall,12,0
+CUST-1493,Kapadia-Dave,Retail,5000+,SMB,Southeast Asia,2022-01-10,Active,380.89,13.0,WorkHub Core,Nathaniel Sami,12,0
+CUST-1494,Vora Group,Logistics,1001–5000,Mid-Market,ANZ,28/03/2023,Churned,2945.05,54.0,WorkHub Core,Aryan Maharaj,24,1
+CUST-1495,Zachariah-Bali,Retail,1001–5000,SMB,East Africa,2023-09-17,At Risk,274.39,,WorkHub Core,Hemangini Lalla,12,1
+CUST-1496,"Palan, Ramesh and Ghosh",Retail,51–200,SMB,East Africa,2023-07-24,At Risk,219.44,3.0,WorkHub Core,Udant Dewan,12,1
+CUST-1497,Dara-Vasa,Government,1–50,Enterprise,East Africa,2024-04-08,Renewed,14788.02,11.0,WorkHub Enterprise,Rushil Saini,36,0
+CUST-1498,Mutti-Anand,Logistics,1–50,Mid-Market,Middle East,2022-03-01,Renewed,2123.48,33.0,WorkHub Core,Ayushman Chander,24,0
+CUST-1499,Kade Group,Government,201–1000,Mid-Market,Middle East,28/02/2023,At Risk,2722.3,23.0,WorkHub Pro,Tripti Yadav,24,1
+CUST-1500,"Chaudhuri, Nanda and Pathak",EdTech,5000+,SMB,ANZ,2022-06-07,Active,203.84,64.0,WorkHub Core,Rushil Saini,12,0
+CUST-0083,D’Alia-Chhabra,Telecom,51–200,Mid-Market,East Africa,2022-06-20,Active,1806.66,,WorkHub Core,Aryan Maharaj,24,0
+CUST-1198,Parmer-Guha,Telecom,5000+,SMB,South Asia,2024-03-01,Active,269.01,89.0,WorkHub Core,Arunima Dugal,24,0
+CUST-1410,"Dyal, Desai and Vala",Telecom,5000+,Mid-Market,ANZ,2023-06-07,Active,3636.48,,WorkHub Core,Janaki Handa,12,0
+CUST-0703,"Mann, Kaur and Nagar",Healthcare,1–50,SMB,ANZ,2024-05-14,At Risk,373.56,62.0,WorkHub Core,Gagan Sami,24,1
+CUST-0790,Nair Group,Telecom,1–50,Mid-Market,East Africa,2023-04-29,Active,1814.21,24.0,WorkHub Core,Nathaniel Sami,24,0
+CUST-0808,"Swaminathan, Kibe and Nanda",Manufacturing,1001–5000,Mid-Market,East Africa,2023-11-04,Renewed,3490.21,37.0,WorkHub Core,Tripti Yadav,36,0
+CUST-1094,Kara-Luthra,Logistics,51–200,Enterprise,ANZ,2023-09-07,Renewed,13610.89,72.0,WorkHub Enterprise,Janaki Handa,36,0
+CUST-0578,Khurana-Shukla,Real Estate,1–50,Mid-Market,ANZ,25/06/2024,Renewed,2031.44,72.0,WorkHub Core,Arunima Dugal,36,0
+CUST-1460,"Banik, Parsa and Khare",Media & Entertainment,51–200,Enterprise,ANZ,2024-06-04,Active,13068.56,,WorkHub Pro,Chakradev Kari,24,0
+CUST-0522,Buch LLC,Healthcare,1–50,Mid-Market,South Asia,2023-05-07,Active,3351.11,42.0,WorkHub Pro,Ayushman Chander,24,0
+CUST-1039,"More, Gill and Swaminathan",Media & Entertainment,5000+,Enterprise,South Asia,2022-02-11,Active,7213.08,,WorkHub Enterprise,Hemangini Lalla,36,0
+CUST-1485,Jhaveri-Karnik,Healthcare,51–200,Mid-Market,ANZ,2022-12-08,At Risk,2492.05,76.0,WorkHub Core,Lajita Chatterjee,36,1
+CUST-0302,"Khosla, Tank and Dhar",Real Estate,5000+,Mid-Market,East Africa,2023-06-22,Churned,923.24,13.0,WorkHub Pro,Nathaniel Sami,36,1
+CUST-0507,"Shetty, Srinivas and Gopal",Telecom,1001–5000,Enterprise,South Asia,03/10/2022,Active,9699.07,,WorkHub Enterprise,Aryan Maharaj,24,0
+CUST-0995,Wason LLC,Manufacturing,201–1000,SMB,ANZ,2022-05-17,Active,251.87,24.0,WorkHub Core,Janaki Handa,36,0
+CUST-0511,Mutti LLC,Real Estate,1–50,Mid-Market,Middle East,2022-04-02,Active,1246.88,71.0,WorkHub Core,Saumya Mall,36,0
+CUST-1285,"Kalla, Iyer and Kadakia",Media & Entertainment,1–50,SMB,South Asia,26/07/2022,Renewed,265.4,,WorkHub Core,Ayushman Chander,24,0
+CUST-0385,Subramaniam and Sons,Logistics,5000+,Mid-Market,ANZ,11/10/2022,Active,2247.71,64.0,WorkHub Pro,Chakradev Kari,36,0
+CUST-0925,"Mane, Bala and Mitra",BFSI,1001–5000,Mid-Market,Southeast Asia,2022-11-10,Active,3492.56,79.0,WorkHub Pro,Lajita Chatterjee,12,0
+CUST-1175,"Raj, Wagle and Misra",Government,51–200,Enterprise,East Africa,18/05/2022,Churned,14136.87,46.0,WorkHub Pro,Kritika Brar,12,1
