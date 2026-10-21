@@ -103,13 +103,13 @@ The analysis resulted in recommendations focused on:
 
 ## Tools Used
 
-Microsoft Excel — Data preparation and analysis
-SQL / MySQL — Data querying and analysis
-Power BI — Executive dashboard visualization
-Python — Data processing and analysis
-Pandas — Data manipulation
-Streamlit — Interactive dashboard development
-Statistical Analysis — Hypothesis testing and data interpretation
+-Microsoft Excel — Data preparation and analysis
+-SQL / MySQL — Data querying and analysis
+-Power BI — Executive dashboard visualization
+-Python — Data processing and analysis
+-Pandas — Data manipulation
+-Streamlit — Interactive dashboard development
+-Statistical Analysis — Hypothesis testing and data interpretation
 
 ## Skills Demonstrated
 
